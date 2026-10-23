@@ -1,0 +1,126 @@
+{
+  "briefing_date": "2026-10-23",
+  "edition_hash": "4516cc039691f6e0c88ec192fa7131a1ae8f9f640112029ac752ef51e33efca9",
+  "voice": "am_michael",
+  "source_items": [
+    {
+      "id": "5376625528ac726",
+      "title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+      "summary": "Researchers demonstrated kinetic inductance mediated parametric amplification in a hybrid system combining a superconducting niobium nitride nanowire resonator with a yttrium iron garnet sphere. The device uses wave mixing and frequency pulling to achieve signal amplification both inside and outside the strong coupling regime. Coupling the resonator to the magnetic sphere shifted the amplification response by roughly twenty megahertz, offering a magnetic tuning mechanism for microwave devices.",
+      "why": "This integration of superconductivity and magnetism provides a new approach for magnetically tunable microwave signal processing and sensitive detection in quantum and classical architectures."
+    },
+    {
+      "id": "ead17115c120739",
+      "title": "Ride-Hailing Platform Partners for Central Asian Robotaxi Tests",
+      "summary": "Ride-hailing company inDrive plans to begin testing robotaxis in Kazakhstan by 2027. The company signed a memorandum of understanding with autonomous driving firm Pony.ai and technology provider Nvidia. Initial tests in Astana will feature safety operators using Pony.ai vehicles and Nvidia AI systems.",
+      "why": "The collaboration seeks to evaluate autonomous driving technology in harsh winter conditions while pursuing a capital-light expansion into emerging markets."
+    },
+    {
+      "id": "2086384cb4655fe",
+      "title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+      "summary": "Researchers have developed a solvent-growth method to synthesize large-area monolayer hybrid perovskite materials, overcoming previous limitations with rapid crystal growth and tiny flakes. By using specific alcohol cosolvents and amine additives, out-of-plane stacking is suppressed to yield large lateral dimensions exceeding 1000 square micrometers. Planar devices built using these large monolayers achieved exceptionally low dark currents and reduced static power consumption compared to traditional films.",
+      "why": "This synthesis strategy enables direct electrical contact fabrication without chemical degradation from conventional lithography, advancing scalable optoelectronic device development."
+    },
+    {
+      "id": "f1ada8ac17952e2",
+      "title": "US Official Visits Indian Refinery Amid Energy and Trade Talks",
+      "summary": "US Secretary of State Marco Rubio visited an oil refinery in Jamnagar, India, following meetings in Mumbai. The visit highlighted discussions on energy cooperation and the possibility of processing heavy crude oils. The diplomatic engagement coincides with broader efforts to address domestic fuel prices and advance trade negotiations.",
+      "why": "Securing access to refined fuel from large international facilities provides Washington a potential mechanism to ease short-term pressure on global energy markets."
+    },
+    {
+      "id": "24bbb6714f9f2b9",
+      "title": "First Russian Diesel Tanker Sets Sail for United States",
+      "summary": "A tanker carrying 40,000 tons of Russian diesel has departed for the United States under a new import agreement. Kremlin officials confirmed the shipment, marking the first such delivery to the U.S. since July 2023. The policy reversal follows U.S. administration moves to address fuel prices ahead of upcoming midterm elections.",
+      "why": "Although regular supplies are expected to continue, analysts note the limited shipment size will make little impact on overall domestic fuel prices."
+    },
+    {
+      "id": "fac845e99eedc85",
+      "title": "Testing Faults in Language Model Robotic Planners",
+      "summary": "Researchers introduced a framework to test how simulated faults affect language models used in robotic planning. They found that physical and kinematic challenges affected both language models and traditional scripted planners equally. The performance gap was caused by serialization and validation errors rather than basic reasoning deficits.",
+      "why": "This evaluation method helps separate physical sensor limits from software interface failures in robotic systems."
+    },
+    {
+      "id": "112a8aa7f9fd142",
+      "title": "US diplomats ordered to leave Saudi Arabia amid regional attacks",
+      "summary": "The United States State Department has ordered certain diplomats and government employee families to depart Saudi Arabia following near-daily attacks. According to reporting, the directive comes as the kingdom faces critical infrastructure strikes attributed to Iranian-backed groups in Yemen, which have resulted in multiple casualties. Similar personnel withdrawals were also reported across the United Arab Emirates, Jordan, Qatar, and Bahrain amid regional security concerns.",
+      "why": "This diplomatic drawdown highlights escalating security risks and instability across the Gulf region, impacting international diplomatic operations and regional energy infrastructure."
+    },
+    {
+      "id": "f046ba2aef64e19",
+      "title": "Entangling different solid state emitters using photons",
+      "summary": "Researchers have developed a method to entangle solid state quantum emitters that have different transition frequencies and linewidth variations. Typically, creating entangled states requires optically identical emitters, which is difficult to achieve consistently due to manufacturing variations. By using pairs of photons as inputs, the team bypassed the need for identical emitters and demonstrated high concurrence with quantum dots.",
+      "why": "This approach overcomes a major manufacturing barrier in quantum technology by removing the requirement for identical nanoscale emitters on a chip."
+    },
+    {
+      "id": "ba56e9fca7d3d79",
+      "title": "Measuring the Communication Overhead and Token Costs of Artificial Intelligence Agent Protocols",
+      "summary": "Communication between automated software assistants starts with an initial connection process where agents locate each other, learn capabilities, and set up sessions before sharing useful data. Researchers evaluated three major communication frameworks using official software development kits to measure round trips, latency, wire bytes, and token costs under various network conditions. The measurements reveal that round-trip counts dominate communication overhead, while metadata reading consumes significant context window space depending on capability inventory size.",
+      "why": "Quantifying these protocol efficiencies helps developers optimize multi-agent system performance and reduce token waste during initial network handshakes. This empirical benchmark provides concrete data on latency and overhead for emerging agent communication standards."
+    }
+  ],
+  "segments": [
+    {
+      "story_id": "5376625528ac726",
+      "title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+      "text": "Good morning. Here's your briefing, covering scientific research, artificial intelligence, United States news, world affairs. We begin with scientific research. Superconducting Magnonic Devices Enable Tunable Microwave Amplification. Researchers demonstrated kinetic inductance mediated parametric amplification in a hybrid system combining a superconducting niobium nitride nanowire resonator with a yttrium iron garnet sphere. The device uses wave mixing and frequency pulling to achieve signal amplification both inside and outside the strong coupling regime. Coupling the resonator to the magnetic sphere shifted the amplification response by roughly twenty megahertz, offering a magnetic tuning mechanism for microwave devices. Why this matters. This integration of superconductivity and magnetism provides a new approach for magnetically tunable microwave signal processing and sensitive detection in quantum and classical architectures.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/0.m4a",
+      "duration": 65.17333333333333
+    },
+    {
+      "story_id": "ead17115c120739",
+      "title": "Ride-Hailing Platform Partners for Central Asian Robotaxi Tests",
+      "text": "Turning to artificial intelligence. Ride-Hailing Platform Partners for Central Asian Robotaxi Tests. Ride-hailing company inDrive plans to begin testing robotaxis in Kazakhstan by 2027. The company signed a memorandum of understanding with autonomous driving firm Pony.ai and technology provider Nvidia. Initial tests in Astana will feature safety operators using Pony.ai vehicles and Nvidia artificial intelligence systems. Why this matters. The collaboration seeks to evaluate autonomous driving technology in harsh winter conditions while pursuing a capital-light expansion into emerging markets.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/1.m4a",
+      "duration": 44.842666666666666
+    },
+    {
+      "story_id": "2086384cb4655fe",
+      "title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+      "text": "Turning to scientific research. Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices. Researchers have developed a solvent-growth method to synthesize large-area monolayer hybrid perovskite materials, overcoming previous limitations with rapid crystal growth and tiny flakes. By using specific alcohol cosolvents and amine additives, out-of-plane stacking is suppressed to yield large lateral dimensions exceeding 1000 square micrometers. Planar devices built using these large monolayers achieved exceptionally low dark currents and reduced static power consumption compared to traditional films. Why this matters. This synthesis strategy enables direct electrical contact fabrication without chemical degradation from conventional lithography, advancing scalable optoelectronic device development.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/2.m4a",
+      "duration": 59.242666666666665
+    },
+    {
+      "story_id": "f1ada8ac17952e2",
+      "title": "US Official Visits Indian Refinery Amid Energy and Trade Talks",
+      "text": "Turning to United States news. US Official Visits Indian Refinery Amid Energy and Trade Talks. US Secretary of State Marco Rubio visited an oil refinery in Jamnagar, India, following meetings in Mumbai. The visit highlighted discussions on energy cooperation and the possibility of processing heavy crude oils. The diplomatic engagement coincides with broader efforts to address domestic fuel prices and advance trade negotiations. Why this matters. Securing access to refined fuel from large international facilities provides Washington a potential mechanism to ease short-term pressure on global energy markets.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/3.m4a",
+      "duration": 42.51733333333333
+    },
+    {
+      "story_id": "24bbb6714f9f2b9",
+      "title": "First Russian Diesel Tanker Sets Sail for United States",
+      "text": "Turning to world affairs. First Russian Diesel Tanker Sets Sail for United States. A tanker carrying 40,000 tons of Russian diesel has departed for the United States under a new import agreement. Kremlin officials confirmed the shipment, marking the first such delivery to the U.S. since July 2023. The policy reversal follows U.S. administration moves to address fuel prices ahead of upcoming midterm elections. Why this matters. Although regular supplies are expected to continue, analysts note the limited shipment size will make little impact on overall domestic fuel prices.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/4.m4a",
+      "duration": 41.23733333333333
+    },
+    {
+      "story_id": "fac845e99eedc85",
+      "title": "Testing Faults in Language Model Robotic Planners",
+      "text": "Turning to artificial intelligence. Testing Faults in Language Model Robotic Planners. Researchers introduced a framework to test how simulated faults affect language models used in robotic planning. They found that physical and kinematic challenges affected both language models and traditional scripted planners equally. The performance gap was caused by serialization and validation errors rather than basic reasoning deficits. Why this matters. This evaluation method helps separate physical sensor limits from software interface failures in robotic systems.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/5.m4a",
+      "duration": 36.394666666666666
+    },
+    {
+      "story_id": "112a8aa7f9fd142",
+      "title": "US diplomats ordered to leave Saudi Arabia amid regional attacks",
+      "text": "Turning to world affairs. US diplomats ordered to leave Saudi Arabia amid regional attacks. The United States State Department has ordered certain diplomats and government employee families to depart Saudi Arabia following near-daily attacks. According to reporting, the directive comes as the kingdom faces critical infrastructure strikes attributed to Iranian-backed groups in Yemen, which have resulted in multiple casualties. Similar personnel withdrawals were also reported across the United Arab Emirates, Jordan, Qatar, and Bahrain amid regional security concerns. Why this matters. This diplomatic drawdown highlights escalating security risks and instability across the Gulf region, impacting international diplomatic operations and regional energy infrastructure.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/6.m4a",
+      "duration": 52.352
+    },
+    {
+      "story_id": "f046ba2aef64e19",
+      "title": "Entangling different solid state emitters using photons",
+      "text": "Turning to scientific research. Entangling different solid state emitters using photons. Researchers have developed a method to entangle solid state quantum emitters that have different transition frequencies and linewidth variations. Typically, creating entangled states requires optically identical emitters, which is difficult to achieve consistently due to manufacturing variations. By using pairs of photons as inputs, the team bypassed the need for identical emitters and demonstrated high concurrence with quantum dots. Why this matters. This approach overcomes a major manufacturing barrier in quantum technology by removing the requirement for identical nanoscale emitters on a chip.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/7.m4a",
+      "duration": 46.336
+    },
+    {
+      "story_id": "ba56e9fca7d3d79",
+      "title": "Measuring the Communication Overhead and Token Costs of Artificial Intelligence Agent Protocols",
+      "text": "Turning to artificial intelligence. Measuring the Communication Overhead and Token Costs of Artificial Intelligence Agent Protocols. Communication between automated software assistants starts with an initial connection process where agents locate each other, learn capabilities, and set up sessions before sharing useful data. Researchers evaluated three major communication frameworks using official software development kits to measure round trips, latency, wire bytes, and token costs under various network conditions. The measurements reveal that round-trip counts dominate communication overhead, while metadata reading consumes significant context window space depending on capability inventory size. Why this matters. Quantifying these protocol efficiencies helps developers optimize multi-agent system performance and reduce token waste during initial network handshakes. This empirical benchmark provides concrete data on latency and overhead for emerging agent communication standards. That's your briefing. Thanks for listening.",
+      "url": "audio_samples/edition-4516cc039691f6e0-am_michael/8.m4a",
+      "duration": 68.33066666666667
+    }
+  ]
+}

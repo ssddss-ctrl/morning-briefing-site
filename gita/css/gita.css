@@ -1,0 +1,777 @@
+/* The Gita room: a palm-leaf manuscript lit by a diya at dawn.
+   Deep indigo, saffron and gold, cream text; EB Garamond and Noto Serif Devanagari.
+   A distinct room inside Morning Brief: same rounded panels and small-capital labels as
+   the briefing, its own sacred palette. Motion is slow and stops for reduced motion. */
+
+:root {
+  color-scheme: dark;
+  --night: #0f1330; /* the room before dawn */
+  --indigo: #171d42; /* panels */
+  --indigo-2: #222a5a; /* raised */
+  --line: rgba(214, 178, 94, 0.2); /* gold hairlines */
+  --cream: #f3e8cf; /* text */
+  --cream-soft: #dacfb6; /* body copy */
+  --muted: #a89f8c;
+  --saffron: #e8913a; /* the accent */
+  --gold: #d6b25e;
+  --diya: #f7c873; /* lamp glow */
+  --leaf: #2a2448; /* the palm-leaf card */
+  --serif: "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --deva: "Noto Serif Devanagari", "Kohinoor Devanagari", "Devanagari Sangam MN", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(120% 60% at 50% -10%, rgba(232, 145, 58, 0.14), transparent 60%),
+    var(--night);
+  color: var(--cream);
+  font: 400 20px/1.6 var(--serif);
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: var(--diya);
+}
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+:focus-visible {
+  outline: 2px solid var(--diya);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.room {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: calc(10px + env(safe-area-inset-top)) 18px calc(110px + env(safe-area-inset-bottom));
+}
+
+/* Labels: small capitals, as in the briefing */
+.g-eyebrow,
+.step-label,
+.stage h3,
+.thread .by,
+.set h2,
+.g-title {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--gold);
+}
+
+/* ---------- Header ---------- */
+.g-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+}
+.g-back,
+.g-icon {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 17px;
+  font-style: italic;
+  padding: 8px 0;
+}
+.g-title {
+  color: var(--muted);
+  text-align: center;
+}
+
+/* ---------- Home ---------- */
+.g-hero {
+  margin: 34px 0 26px;
+}
+.g-hero h1 {
+  font-weight: 500;
+  font-size: clamp(44px, 12vw, 64px);
+  line-height: 1;
+  margin: 6px 0 10px;
+}
+.g-hero h1 em {
+  display: block;
+  font-size: 0.55em;
+  color: var(--diya);
+  margin-top: 8px;
+}
+.g-ref {
+  color: var(--cream);
+}
+.g-meta,
+.g-lead {
+  color: var(--cream-soft);
+  font-size: 19px;
+}
+.g-meta {
+  font-style: italic;
+  margin: 0 0 22px;
+}
+.g-begin,
+.g-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 26px;
+  border-radius: 100px;
+  border: 1px solid var(--saffron);
+  background: var(--saffron);
+  color: #1b1208;
+  font-weight: 600;
+  font-size: 19px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.g-begin.quiet,
+.g-btn {
+  background: transparent;
+  color: var(--diya);
+  border-color: var(--line);
+}
+.g-btn {
+  min-height: 44px;
+  font-size: 17px;
+  margin: 4px 6px 4px 0;
+}
+.g-btn.danger {
+  color: #f0a08a;
+}
+.g-status {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 17px;
+  min-height: 1.4em;
+}
+.g-card {
+  display: block;
+  background: var(--indigo);
+  border-radius: 18px;
+  border-left: 3px solid var(--saffron);
+  padding: 16px 20px;
+  margin: 0 0 18px;
+  color: var(--cream);
+  text-decoration: none;
+}
+.g-card span {
+  display: block;
+}
+.g-links {
+  display: flex;
+  gap: 22px;
+  margin: 8px 0 30px;
+}
+.g-links a,
+.g-link {
+  color: var(--diya);
+  font-style: italic;
+  text-decoration: none;
+}
+.g-section {
+  font-weight: 500;
+  font-size: 26px;
+  margin: 10px 0 12px;
+}
+
+/* ---------- Chapter map: 18 chapters, 3 stages, a lamp for each day ---------- */
+.map {
+  display: grid;
+  gap: 14px;
+}
+.stage {
+  background: var(--indigo);
+  border-radius: 18px;
+  padding: 14px 18px 10px;
+}
+.stage h3 {
+  margin: 0 0 6px;
+}
+.map-row {
+  display: grid;
+  grid-template-columns: 26px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  border-top: 1px solid var(--line);
+}
+.map-row:first-of-type {
+  border-top: 0;
+}
+.map-ch {
+  color: var(--gold);
+  font-size: 17px;
+}
+.map-name {
+  font-size: 17px;
+  color: var(--cream-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.map-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+  max-width: 150px;
+}
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid rgba(214, 178, 94, 0.45);
+  display: inline-block;
+}
+.dot.lit {
+  background: var(--diya);
+  border-color: var(--diya);
+  box-shadow: 0 0 8px rgba(247, 200, 115, 0.8);
+}
+.dot.now {
+  border-color: var(--saffron);
+  box-shadow: 0 0 0 2px rgba(232, 145, 58, 0.35);
+  animation: breathe 3s ease-in-out infinite;
+}
+@keyframes breathe {
+  50% {
+    box-shadow: 0 0 0 5px rgba(232, 145, 58, 0.12);
+  }
+}
+
+/* ---------- Session ---------- */
+.steps {
+  display: flex;
+  gap: 5px;
+  margin: 6px 0 18px;
+}
+.steps span {
+  flex: 1;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--line);
+}
+.steps span.done {
+  background: var(--saffron);
+}
+.step {
+  scroll-margin-top: 20px;
+  animation: arrive 0.6s ease both;
+}
+@keyframes arrive {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.step-label {
+  margin: 0 0 12px;
+}
+.step-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px calc(12px + env(safe-area-inset-bottom));
+  background: linear-gradient(transparent, var(--night) 35%);
+}
+.step-nav button {
+  min-height: 52px;
+  border-radius: 100px;
+  font-size: 19px;
+  padding: 0 26px;
+}
+.nav-back {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+}
+.nav-back:disabled {
+  opacity: 0.35;
+}
+.nav-next {
+  flex: 1;
+  max-width: 420px;
+  border: 0;
+  background: var(--saffron);
+  color: #1b1208;
+  font-weight: 600;
+}
+.prose p {
+  color: var(--cream-soft);
+  font-size: 20px;
+  line-height: 1.65;
+  margin: 0 0 16px;
+}
+.listen {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--diya);
+  font-size: 17px;
+  padding: 7px 16px;
+  margin: 0 0 14px;
+}
+.listen-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--diya);
+}
+.listen[aria-pressed="true"] .listen-dot {
+  animation: breathe 1.6s ease-in-out infinite;
+  background: var(--saffron);
+}
+
+/* Scene: the painting with slow drift, dust and light */
+.scene-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  aspect-ratio: 4 / 5;
+  max-height: 62vh;
+  width: 100%;
+  background: #0b0e24;
+}
+.scene-frame.small {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 18px;
+}
+.scene-gradient {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      70% 45% at 50% 62%,
+      rgba(247, 200, 115, var(--glow, 0.35)),
+      transparent 70%
+    ),
+    linear-gradient(180deg, #1a2154 0%, #3a2d55 45%, #8a4f2f 78%, #2a1a14 100%);
+}
+.scene-frame[data-chapter="11"] .scene-gradient {
+  --glow: 0.75;
+}
+.scene-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s ease;
+  animation: drift 28s ease-in-out infinite alternate;
+}
+.scene-img.shown {
+  opacity: 1;
+}
+@keyframes drift {
+  from {
+    transform: scale(1.08) translate(-1.5%, 1%);
+  }
+  to {
+    transform: scale(1.18) translate(1.5%, -1.5%);
+  }
+}
+.cosmic {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+}
+.shafts {
+  position: absolute;
+  inset: -20%;
+  background: repeating-linear-gradient(
+    105deg,
+    transparent 0 12%,
+    rgba(255, 226, 160, 0.07) 14%,
+    transparent 18%
+  );
+  animation: shafts 14s ease-in-out infinite alternate;
+  mix-blend-mode: screen;
+}
+@keyframes shafts {
+  from {
+    opacity: 0.35;
+    transform: translateX(-3%);
+  }
+  to {
+    opacity: 0.8;
+    transform: translateX(3%);
+  }
+}
+.motes {
+  position: absolute;
+  inset: 0;
+}
+.mote {
+  position: absolute;
+  bottom: -10px;
+  border-radius: 50%;
+  background: rgba(255, 228, 170, 0.7);
+  animation: rise 11s linear infinite;
+}
+@keyframes rise {
+  to {
+    transform: translate(30px, -110vh);
+    opacity: 0;
+  }
+}
+.scene-actions {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0 4px;
+}
+.scene-actions button,
+.verse-actions button,
+.grades button,
+.star {
+  min-height: 44px;
+  border-radius: 100px;
+  border: 1px solid var(--line);
+  background: var(--indigo);
+  color: var(--cream);
+  font-size: 17px;
+  padding: 0 18px;
+}
+
+/* Recall */
+.recall-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--indigo);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 18px 20px;
+}
+.recall-card > span {
+  display: block;
+}
+.recall-ref {
+  color: var(--gold);
+  font-size: 18px;
+}
+.recall-hint {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.recall-back {
+  margin-top: 12px;
+  color: var(--cream-soft);
+  font-size: 19px;
+}
+.grades {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+.grades button {
+  flex: 1;
+  padding: 0 8px;
+}
+.recall-count {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* Chapter intro */
+.ch-title {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.1;
+  margin: 0 0 14px;
+}
+.ch-title span {
+  display: block;
+  font-size: 18px;
+  color: var(--gold);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.1em;
+}
+.ch-title em {
+  display: block;
+  font-size: 22px;
+  color: var(--diya);
+  margin-top: 6px;
+}
+
+/* The thread */
+.thread {
+  margin: 0 0 16px;
+}
+.thread p {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--cream-soft);
+  margin: 0 0 12px;
+}
+.thread.link p {
+  color: var(--cream);
+  font-style: italic;
+}
+.thread.mine {
+  border-left: 2px solid var(--line);
+  padding-left: 14px;
+}
+.thread.mine p {
+  font-size: 19px;
+}
+.thread .by {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+/* The verse, on a palm leaf */
+.sa {
+  position: relative;
+  background: linear-gradient(180deg, var(--leaf), #241f40);
+  border-radius: 999px / 70px;
+  padding: 24px 24px;
+  margin: 0 0 14px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.sa::before,
+.sa::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: 50%;
+  background: var(--night);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.sa::before {
+  left: 14px;
+}
+.sa::after {
+  right: 14px;
+}
+.sa-speaker {
+  font-family: var(--deva);
+  font-size: 17px;
+  color: var(--gold);
+  margin: 0 0 6px;
+}
+.sa-speaker span {
+  font-family: var(--serif);
+  font-style: italic;
+}
+.sa-deva {
+  font-family: var(--deva);
+  font-size: clamp(18px, 5.2vw, 25px); /* each half-verse on one line on a phone */
+  line-height: 1.9;
+  color: var(--cream);
+}
+.sa-deva > span,
+.sa-iast > span {
+  display: block;
+}
+.sa-iast {
+  font-style: italic;
+  font-size: clamp(15px, 4.2vw, 18px);
+  line-height: 1.6;
+  color: var(--diya);
+  margin-top: 10px;
+}
+.verse-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+.verse-actions .listen {
+  margin: 0;
+}
+.chant:disabled {
+  opacity: 0.5;
+}
+.translation p {
+  font-size: 22px;
+  line-height: 1.55;
+  color: var(--cream);
+  margin: 0 0 12px;
+}
+.translation.extra p {
+  font-size: 20px;
+  color: var(--cream-soft);
+}
+.tr-ref {
+  font-size: 16px !important;
+  color: var(--gold) !important;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.1em;
+}
+.fade-in {
+  animation: fade 2.4s ease 0.8s both;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+details.full {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  margin-top: 8px;
+}
+details.full summary {
+  cursor: pointer;
+  color: var(--diya);
+  font-style: italic;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+/* Close */
+.close-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 10px 0 20px;
+}
+.star.on {
+  color: var(--diya);
+  border-color: var(--saffron);
+}
+.streak {
+  color: var(--diya);
+  font-style: italic;
+  animation: fade 1.6s ease both;
+}
+
+/* Recap, my verses, memorize, gallery, settings */
+.recap-day,
+.my-verse,
+.set {
+  background: var(--indigo);
+  border-radius: 18px;
+  padding: 16px 20px;
+  margin: 0 0 14px;
+}
+.recap-day blockquote {
+  margin: 8px 0 0;
+  color: var(--cream);
+  font-size: 21px;
+}
+.mine-inline {
+  font-style: italic;
+  color: var(--cream-soft);
+}
+.memorize b {
+  font-weight: 400;
+  transition: color 0.6s ease;
+}
+.memorize b.gone {
+  color: transparent;
+  border-bottom: 1px dotted var(--muted);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.gallery figure {
+  margin: 0;
+}
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+.gallery figcaption {
+  font-size: 15px;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 2px;
+}
+.gallery button {
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 15px;
+}
+.set h2 {
+  margin: 0 0 6px;
+}
+.set p,
+.set label {
+  font-size: 18px;
+  color: var(--cream-soft);
+}
+.set label {
+  display: block;
+  margin: 8px 0;
+}
+.set label.row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.set input[type="url"],
+.set input[type="password"],
+.set select {
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--night);
+  color: var(--cream);
+  font-size: 17px;
+}
+.set input[type="range"] {
+  width: 60%;
+  vertical-align: middle;
+  accent-color: var(--saffron);
+}
+.loading {
+  text-align: center;
+  margin-top: 30vh;
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .scene-img {
+    opacity: 1;
+  }
+}

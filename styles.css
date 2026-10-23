@@ -1,0 +1,968 @@
+/* Morning Brief: "first light", evergreen edition.
+   A calm, dark morning page: soft ivory on deep evergreen, sage for the things worth
+   noticing, and one warm note in the dawn-cream sun. Libre Caslon Display for the date,
+   Source Serif 4 for everything else, with small capitals for labels. The signature is
+   a sun that rises above a fine horizon line as today's stories are read. */
+
+:root {
+  color-scheme: dark;
+  /* Palette: an evergreen morning */
+  --bg: #101612; /* evergreen, before light */
+  --paper: #18201b; /* cards and sheets */
+  --raised: #212b24; /* selected and pressed */
+  --line: #2d3830; /* hairlines */
+  --text: #ece8dd; /* soft ivory */
+  --soft: #cbd0c5; /* body copy */
+  --muted: #95a198; /* secondary */
+  --faint: #6d7a71; /* tertiary */
+  --accent: #9cc8a6; /* sage: the accent */
+  --accent-soft: #5f8c6c; /* rules and quiet accents */
+  --on-accent: #0e1a12;
+  --sun: #efe2c2; /* the one warm note: dawn light */
+  --live: #d9705a; /* microphone live */
+  /* Type */
+  --display: "Libre Caslon Display", "Iowan Old Style", Georgia, serif;
+  --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 17px/1.6 var(--serif);
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+a {
+  color: var(--accent);
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+/* Labels: small capitals in the text face, never a code font. */
+.eyebrow,
+.tag,
+.why span,
+.brand,
+.talk-line b {
+  font-family: var(--serif);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+  font-size: 18px; /* small capitals read about 12-13px */
+}
+
+.shell {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: calc(14px + env(safe-area-inset-top)) 18px 48px;
+}
+
+/* ---------- Header ---------- */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+}
+.brand {
+  color: var(--muted);
+}
+.alerts-button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 15px;
+  font-style: italic;
+  padding: 6px 0;
+}
+
+/* ---------- Hero: the date and the sunrise ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 12px;
+  margin: 30px 0 20px;
+}
+.edition-line {
+  margin: 0 0 4px;
+  color: var(--accent);
+  font-style: italic;
+  font-size: 17px;
+}
+.hero h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(46px, 13vw, 68px);
+  line-height: 0.98;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+.hero h1 em {
+  display: block;
+  font-style: italic;
+  color: var(--accent);
+}
+.sun-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.sunrise {
+  width: 104px;
+  height: 56px;
+  display: block;
+  overflow: visible;
+}
+.sun {
+  fill: var(--sun);
+}
+.sun-body {
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.horizon {
+  stroke: var(--accent-soft);
+  stroke-width: 1;
+}
+.wafer-label {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* ---------- Weather ---------- */
+.weather-line {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.weather-copy {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 0;
+  font-size: 16px;
+  color: var(--soft);
+  min-width: 0;
+}
+.weather-copy strong {
+  font-weight: 600;
+  color: var(--text);
+}
+.weather-change {
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  font-size: 15px;
+  font-style: italic;
+  white-space: nowrap;
+  padding: 4px 0;
+}
+.weather-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.weather-form input,
+.talk-form input,
+.talk-voice select,
+.notify-code {
+  flex: 1;
+  min-width: 170px;
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  color: var(--text);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  padding: 10px 18px;
+  background: var(--paper);
+  color: var(--text);
+  font-size: 16px;
+}
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+.hero-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 18px 0 26px;
+}
+.listen-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 50px;
+  border-radius: 100px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+  font-size: 18px;
+}
+.talk-button {
+  background: transparent;
+  color: var(--accent);
+}
+.btn-icon {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+}
+
+/* ---------- Sections and list header ---------- */
+.tabs {
+  display: flex;
+  gap: 22px;
+  overflow-x: auto;
+  margin: 0 -18px;
+  padding: 0 18px;
+  border-bottom: 1px solid var(--line);
+  scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+.tab {
+  white-space: nowrap;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  padding: 8px 0 10px;
+  margin-bottom: -1px;
+  font-size: 17px;
+}
+.tab.active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+.digest-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0 14px;
+}
+.digest-meta {
+  font-style: italic;
+  font-size: 15px;
+  color: var(--muted);
+}
+.view-toggle {
+  display: inline-flex;
+  gap: 2px;
+  background: var(--paper);
+  border-radius: 100px;
+  padding: 3px;
+}
+.view-toggle button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 4px 13px;
+  border-radius: 100px;
+}
+.view-toggle button.active {
+  background: var(--raised);
+  color: var(--text);
+}
+.coverage-note {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+.coverage-note:empty {
+  display: none;
+}
+
+/* ---------- Stories ---------- */
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.story {
+  background: var(--paper);
+  border-radius: var(--radius);
+  padding: 22px 22px 14px;
+}
+.story-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.tag {
+  color: var(--accent);
+}
+.date {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--faint);
+  text-align: right;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.story h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.18;
+  letter-spacing: -0.012em;
+  color: var(--text);
+  margin: 8px 0 6px;
+  text-wrap: pretty;
+}
+.continuity-label {
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--accent);
+  margin: 0 0 4px;
+}
+.publication-type {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.summary {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--soft);
+  margin: 0 0 16px;
+}
+.why {
+  border-left: 2px solid var(--accent-soft);
+  padding: 0 0 0 14px;
+  margin: 0 0 14px;
+}
+.why span {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 2px;
+}
+.why p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.ai-note {
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--faint);
+  margin: 0 0 2px;
+}
+.ai-note.pending {
+  color: var(--accent);
+}
+.source-details {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.source-details summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
+  padding: 6px 0;
+}
+.source-details p {
+  margin: 6px 0;
+}
+.source-details h4 {
+  font-size: 15px;
+  margin: 10px 0 4px;
+  color: var(--soft);
+}
+.story-footer {
+  display: flex;
+  align-items: center;
+  gap: 4px 18px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.source {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 6px 0;
+}
+.ask,
+.save {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 16px;
+  padding: 6px 0;
+}
+.save {
+  margin-left: auto;
+}
+.save.saved {
+  color: var(--accent);
+}
+.feed-end {
+  text-align: center;
+  font-style: italic;
+  color: var(--faint);
+  margin: 26px 0 0;
+}
+.empty {
+  background: var(--paper);
+  border-radius: var(--radius);
+  padding: 40px 22px;
+  color: var(--muted);
+  font-style: italic;
+  text-align: center;
+}
+
+/* Skim mode: compact rows */
+.feed.list {
+  gap: 0;
+  background: var(--paper);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.row + .row {
+  border-top: 1px solid var(--line);
+}
+.row-head {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  padding: 16px 20px;
+}
+.row-head:active,
+.row.open {
+  background: var(--raised);
+}
+.row-title {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--text);
+  margin: 4px 0 4px;
+}
+.row-lede {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.row-body {
+  padding: 0 20px 14px;
+}
+
+/* ---------- While you were away ---------- */
+.away {
+  border-radius: var(--radius);
+  background: var(--paper);
+  border-top: 3px solid var(--accent);
+  padding: 18px 22px 6px;
+  margin: 0 0 18px;
+}
+.away-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.away-head .eyebrow {
+  color: var(--accent);
+}
+.away-head h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.1;
+  margin: 2px 0 4px;
+}
+.away-sub {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--muted);
+  margin: 0;
+}
+.away-card {
+  padding: 16px 0 14px;
+}
+.away-card + .away-card,
+.away-head + .away-card {
+  border-top: 1px solid var(--line);
+}
+.away-card h3 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.22;
+  margin: 6px 0 6px;
+}
+.away-card .summary {
+  font-size: 17px;
+}
+
+/* ---------- Footer ---------- */
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 36px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+  color: var(--muted);
+}
+.foot p {
+  flex-basis: 100%;
+  margin: 4px 0;
+  line-height: 1.55;
+  font-style: italic;
+}
+.foot span {
+  font-size: 14px;
+}
+.refresh {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+  border-radius: 100px;
+  padding: 8px 16px;
+  font-size: 15px;
+}
+
+/* ---------- Browser-voice player bar ---------- */
+.player {
+  position: fixed;
+  left: 50%;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  width: min(640px, calc(100% - 24px));
+  z-index: 15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--raised);
+  border-radius: var(--radius);
+  box-shadow: 0 -8px 30px #00000080;
+}
+.player-copy {
+  min-width: 0;
+}
+.player-copy b {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+.player-copy small {
+  display: block;
+  font-size: 15px;
+  color: var(--soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.player-controls {
+  display: flex;
+  gap: 6px;
+}
+.player button {
+  border: 0;
+  border-radius: 100px;
+  min-width: 42px;
+  min-height: 42px;
+  background: var(--paper);
+  color: var(--text);
+}
+
+/* ---------- Michael audio player (below the feed) ---------- */
+#audio-prototype {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 0 18px calc(32px + env(safe-area-inset-bottom));
+}
+.audio-prototype {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+}
+.audio-prototype summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  color: var(--soft);
+  font-size: 16px;
+  font-style: italic;
+}
+.audio-prototype-body p {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+.audio-prototype-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.audio-prototype-controls select {
+  min-height: 44px;
+  max-width: 100%;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+.audio-prototype-controls .btn {
+  min-height: 44px;
+}
+.audio-current-story {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--accent);
+}
+.audio-prototype audio {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* ---------- Talk and alert sheets ---------- */
+#talk[hidden],
+#notify[hidden] {
+  display: none;
+}
+#talk,
+#notify {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  padding: 0 12px calc(12px + env(safe-area-inset-bottom));
+  pointer-events: none;
+}
+#notify {
+  z-index: 25;
+}
+.talk-sheet {
+  pointer-events: auto;
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border-top: 3px solid var(--accent);
+  border-radius: 22px;
+  box-shadow: 0 -14px 44px #000000aa;
+  padding: 16px 20px 14px;
+}
+.talk-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.talk-head .eyebrow {
+  color: var(--accent);
+}
+.talk-head h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.15;
+  margin: 2px 0 8px;
+}
+.talk-head-buttons {
+  display: flex;
+}
+.talk-close,
+.talk-icon {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 17px;
+  min-width: 38px;
+  min-height: 38px;
+}
+.talk-note,
+.talk-steps {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--soft);
+}
+.talk-steps {
+  padding-left: 20px;
+  margin: 4px 0 12px;
+}
+.talk-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.talk-voice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.talk-voice select {
+  flex: 0 1 auto;
+  min-width: 0;
+  padding: 6px 10px;
+}
+.talk-transcript {
+  height: clamp(80px, 18vh, 150px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 6px 0;
+}
+.talk-line {
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--soft);
+  margin: 6px 0;
+}
+.talk-line b {
+  display: block;
+  font-size: 16px;
+  color: var(--muted);
+}
+.talk-line.briefing {
+  color: var(--text);
+}
+.talk-line.briefing b {
+  color: var(--accent);
+}
+.talk-sources {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--muted);
+}
+.talk-status {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--muted);
+  min-height: 1.2em;
+  margin: 8px 0;
+}
+.talk-controls {
+  display: flex;
+  gap: 8px;
+}
+.talk-mic {
+  flex: 1;
+  min-height: 50px;
+  border: 0;
+  border-radius: 100px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+  font-size: 17px;
+}
+.talk-mic.on {
+  background: var(--live);
+  color: #fff4ee;
+}
+.talk-mic:disabled {
+  opacity: 0.6;
+}
+.talk-bar {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border-top-width: 0;
+  padding: 8px 10px 8px 18px;
+}
+.talk-dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--faint);
+}
+.talk-dot.on {
+  background: var(--live);
+  animation: talk-pulse 1.6s ease-in-out infinite;
+}
+@keyframes talk-pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+.talk-bar-text {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: var(--soft);
+  font-size: 16px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.talk-bar-end {
+  border: 0;
+  border-radius: 100px;
+  padding: 8px 16px;
+  background: var(--live);
+  color: #fff4ee;
+  font-weight: 600;
+  font-size: 15px;
+}
+.notify-code {
+  width: 100%;
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  resize: none;
+  margin: 4px 0 10px;
+}
+
+/* ---------- Larger screens ---------- */
+@media (min-width: 720px) {
+  .shell {
+    padding-top: 28px;
+  }
+  .hero {
+    margin-top: 48px;
+  }
+  .sunrise {
+    width: 130px;
+    height: 70px;
+  }
+  .hero-actions {
+    grid-template-columns: auto auto;
+    justify-content: start;
+  }
+  .listen-button {
+    padding: 0 30px;
+  }
+  .story {
+    padding: 28px 30px 16px;
+  }
+  .story h3 {
+    font-size: 31px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* The door to the Gita room: its own indigo and saffron, a glimpse of the room. */
+.gita-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2px 12px;
+  margin: -8px 0 26px;
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  background: #171d42;
+  border-left: 3px solid #e8913a;
+  color: #f3e8cf;
+  text-decoration: none;
+}
+.gita-label {
+  grid-column: 1;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 17px;
+  color: #d6b25e;
+}
+.gita-line {
+  grid-column: 1;
+  font-size: 17px;
+}
+.gita-go {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  color: #f7c873;
+  font-style: italic;
+  font-size: 16px;
+  white-space: nowrap;
+}

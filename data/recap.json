@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "days": [
+    {
+      "date": "2026-10-23",
+      "event_keys": [
+        "8eda7a97d2ec32037ad0",
+        "ai_agent_handshake_benchmark",
+        "alpha_embodied_fault_injection",
+        "e4ba397edb4a942094c6",
+        "kinetic_inductance_amplification",
+        "large_area_monolayer_perovskite_synthesis",
+        "quantum_emitter_entanglement",
+        "rubio_india_jamnagar_visit",
+        "russian_diesel_us_tanker"
+      ],
+      "stories": [
+        {
+          "id": "5376625528ac726",
+          "event_key": "kinetic_inductance_amplification",
+          "category": "Science",
+          "title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+          "display_title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+          "summary": "Researchers demonstrated kinetic inductance mediated parametric amplification in a hybrid system combining a superconducting niobium nitride nanowire resonator with a yttrium iron garnet sphere. The device uses wave mixing and frequency pulling to achieve signal amplification both inside and outside the strong coupling regime. Coupling the resonator to the magnetic sphere shifted the amplification response by roughly twenty megahertz, offering a magnetic tuning mechanism for microwave devices.",
+          "why": "This integration of superconductivity and magnetism provides a new approach for magnetically tunable microwave signal processing and sensitive detection in quantum and classical architectures.",
+          "url": "https://arxiv.org/abs/2610.30322",
+          "source": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "2086384cb4655fe",
+          "event_key": "large_area_monolayer_perovskite_synthesis",
+          "category": "Science",
+          "title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+          "display_title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+          "summary": "Researchers have developed a solvent-growth method to synthesize large-area monolayer hybrid perovskite materials, overcoming previous limitations with rapid crystal growth and tiny flakes. By using specific alcohol cosolvents and amine additives, out-of-plane stacking is suppressed to yield large lateral dimensions exceeding 1000 square micrometers. Planar devices built using these large monolayers achieved exceptionally low dark currents and reduced static power consumption compared to traditional films.",
+          "why": "This synthesis strategy enables direct electrical contact fabrication without chemical degradation from conventional lithography, advancing scalable optoelectronic device development.",
+          "url": "https://arxiv.org/abs/2610.30764",
+          "source": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "f046ba2aef64e19",
+          "event_key": "quantum_emitter_entanglement",
+          "category": "Science",
+          "title": "Entangling different solid state emitters using photons",
+          "display_title": "Entangling different solid state emitters using photons",
+          "summary": "Researchers have developed a method to entangle solid state quantum emitters that have different transition frequencies and linewidth variations. Typically, creating entangled states requires optically identical emitters, which is difficult to achieve consistently due to manufacturing variations. By using pairs of photons as inputs, the team bypassed the need for identical emitters and demonstrated high concurrence with quantum dots.",
+          "why": "This approach overcomes a major manufacturing barrier in quantum technology by removing the requirement for identical nanoscale emitters on a chip.",
+          "url": "https://arxiv.org/abs/2610.31283",
+          "source": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "event_keys": [
+        "4300853ffa2ba37c3286",
+        "anthropic_ai_safety_bill",
+        "china_bci_standards",
+        "ge_doped_ptse2_swir_detector",
+        "iran_us_tensions",
+        "ml_epitaxy_lasers",
+        "mwir_silicon_metalens",
+        "openevidence_healthcare_ai",
+        "recursive_flint_model",
+        "us_drone_command_taiwan"
+      ],
+      "stories": [
+        {
+          "id": "805ffc9e6e16d8e",
+          "event_key": "mwir_silicon_metalens",
+          "category": "Science",
+          "title": "Broadband infrared imaging using a simple silicon metalens and computing",
+          "display_title": "Broadband infrared imaging using a simple silicon metalens and computing",
+          "summary": "Researchers demonstrated full-band mid-wave infrared imaging using a simple silicon meta-optic paired with computational reconstruction. Traditional optical elements struggle with strong chromatic dispersion across wide wavelength bands, typically restricting such imaging to narrow ranges. By adapting a reconstruction model using only four image captures, the system successfully recovers broadband images without requiring complex dispersion-optimized designs.",
+          "why": "This approach provides a simpler route to compact, lightweight infrared imaging systems for size- and power-constrained platforms without needing intricate achromatic metalens geometries.",
+          "url": "https://arxiv.org/abs/2610.29841",
+          "source": "arXiv",
+          "published": "2026-10-22T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "948adc72c8986b8",
+          "event_key": "ml_epitaxy_lasers",
+          "category": "Science",
+          "title": "Machine learning optimizes growth and geometry in on-chip lasers",
+          "display_title": "Machine learning optimizes growth and geometry in on-chip lasers",
+          "summary": "Researchers have demonstrated a machine learning workflow that jointly optimizes growth and geometry parameters for semiconductor multi-quantum well microring lasers using multi-objective Bayesian optimization. Variational autoencoders were subsequently used to analyze residual performance dispersion and decouple geometric from material disorder. The optimized devices achieved a 100 percent lasing yield with a median lasing threshold of 16 microjoules per square centimeter per pulse and a 73 percent reduction in threshold variance.",
+          "why": "This data-driven workflow bridges fundamental epitaxial growth and manufacturing to improve device-to-device reproducibility in scalable photonic integrated circuits.",
+          "url": "https://arxiv.org/abs/2604.08390",
+          "source": "arXiv",
+          "published": "2026-10-22T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "9186ffcd1d78d27",
+          "event_key": "ge_doped_ptse2_swir_detector",
+          "category": "Science",
+          "title": "New doping technique turns layered materials into infrared photodetectors",
+          "display_title": "New doping technique turns layered materials into infrared photodetectors",
+          "summary": "Researchers have developed a conversion diffusion barrier method to incorporate germanium into a thin platinum diselenide layer grown on silicon substrates. This structural modification alters the material's electronic properties, widening its bandgap to transition it from a semimetal into a semiconductor while preventing unwanted atomic diffusion. The resulting heterojunction photodetector successfully extends silicon-based light detection capabilities into the short-wave infrared spectrum with rapid response dynamics.",
+          "why": "This silicon-compatible integration approach offers a promising pathway for building high-speed infrared optical communication and sensing devices using standard semiconductor manufacturing platforms.",
+          "url": "https://doi.org/10.1002/smll.76238",
+          "source": "Small",
+          "published": "2026-10-20T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "event_keys": [
+        "0a5408e2f379e45b1ce3",
+        "93c6163d34fe92c67350",
+        "a1935aaa17d6b9dff92c",
+        "springfield_ohio_immigration",
+        "trump_canadian_tariffs_lawsuit"
+      ],
+      "stories": [
+        {
+          "id": "725e22e84a72f94",
+          "event_key": "a1935aaa17d6b9dff92c",
+          "category": "AI",
+          "title": "Google and Amazon launch open source tools to target chip dominance",
+          "display_title": "Google and Amazon launch open source tools to target chip dominance",
+          "summary": "Google and Amazon have introduced open source software projects designed to help developers port artificial intelligence applications to their proprietary chips without rewriting code. Google released TorchTPU for its tensor processing units, while Amazon introduced TorchNeuron for its Trainium chips and submitted code to decouple features from dominant hardware. These toolkits aim to reduce reliance on standard market hardware by simplifying transitions to alternative cloud providers and accelerators.",
+          "why": "These software releases lower the barrier for developers to use alternative hardware, potentially weakening the dominant market position currently held by a single chip maker.",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "source": "TechCrunch",
+          "published": "2026-10-20T18:38:24+00:00",
+          "publication_type": "Technology journalism",
+          "continuity": "New",
+          "importance": 4.5
+        },
+        {
+          "id": "c5dee40df7e08e0",
+          "event_key": "trump_canadian_tariffs_lawsuit",
+          "category": "U.S. News",
+          "title": "US food business files new legal challenge against Canadian import levies",
+          "display_title": "US food business files new legal challenge against Canadian import levies",
+          "summary": "A US food importer has filed a lawsuit challenging the administration's imposition of sweeping tariffs on Canadian goods following the breakdown of trade talks. The legal challenge argues that the executive branch exceeded its statutory authority by relying on a nearly century-old trade statute to impose retaliatory duties without meeting required waiting periods or congressional limits. The plaintiffs are seeking a court order to find the levies unlawful and to require refunds for affected importers.",
+          "why": "This litigation tests the executive branch's authority to enact broad unilateral tariffs, potentially impacting ongoing trade policies and supply chain costs.",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-10-20T19:30:05+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "event_keys": [
+        "3d_ic_thermal_reflectance_mapping",
+        "aa7c9c092579b39001be",
+        "automated_vector_scanning_qd_characterization",
+        "nhc_molecular_doping_mos2",
+        "tiktok_child_safety_litigation",
+        "yemen_houthi_strike_shabwa"
+      ],
+      "stories": [
+        {
+          "id": "a5861787c11ab48",
+          "event_key": "3d_ic_thermal_reflectance_mapping",
+          "category": "Science",
+          "title": "Researchers map internal heat transport pathways across three-dimensional chip stacks",
+          "display_title": "Researchers map how heat moves through stacked chips",
+          "summary": "Managing heat buildup in vertically stacked microchips has remained challenging due to a lack of experimental data on how thermal properties are distributed internally. In a preprint study, researchers demonstrated a workflow to measure heat transport layer by layer within advanced three-dimensional integrated circuits. They mapped thermal properties on test samples down to 0.2-micrometer step sizes, providing an empirical baseline for chip cooling models.",
+          "why": "Precise internal thermal mapping helps designers co-optimize chip interconnects and substrates to alleviate thermal bottlenecks in dense three-dimensional electronics.",
+          "url": "https://arxiv.org/abs/2610.26647",
+          "source": "arXiv",
+          "published": "2026-10-20T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.5
+        },
+        {
+          "id": "569fa0f9d5617cd",
+          "event_key": "yemen_houthi_strike_shabwa",
+          "category": "Global Affairs",
+          "title": "Houthi ballistic missile strike on Yemen training camp kills 73",
+          "display_title": "Houthi ballistic missile strike on Yemen training camp kills 73",
+          "summary": "A Houthi ballistic missile strike killed 73 security recruits at a training camp in Yemen's central Shabwa province, local authorities reported. Pro-government forces stated three missiles targeted the al-Alam camp, while Houthi spokesmen claimed they struck Saudi enemy forces. The attack marks the deadliest single incident since pro-government troops launched an offensive this month to recapture coastal territory.",
+          "why": "The strike highlights intensifying multi-front fighting that threatens regional shipping routes near the Bab al-Mandab Strait and risks wider Saudi-Yemeni escalation.",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-10-20T14:09:42+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.5
+        }
+      ]
+    }
+  ]
+}

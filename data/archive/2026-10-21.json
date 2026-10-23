@@ -1,0 +1,344 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-21",
+  "generated_at": "2026-10-21T15:50:45.172430+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 591,
+      "unique": 551,
+      "substantive": 404,
+      "ai_reviewed": 3,
+      "qualified": 5,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 392,
+      "unique": 386,
+      "substantive": 205,
+      "ai_reviewed": 3,
+      "qualified": 11,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 210,
+      "unique": 208,
+      "substantive": 93,
+      "ai_reviewed": 3,
+      "qualified": 45,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 143,
+      "unique": 131,
+      "substantive": 60,
+      "ai_reviewed": 3,
+      "qualified": 41,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 1,
+  "ai": {
+    "status": "token_budget_reached",
+    "requests": 1,
+    "reserved_input_tokens": 8296,
+    "model_verified": true,
+    "cache_hits": 42,
+    "run_request_limit": 10,
+    "daily_request_limit": 16,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 5,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 5,
+    "live": 0,
+    "cached": 5
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "725e22e84a72f94",
+      "title": "Google and Amazon launch open source tools to target chip dominance",
+      "original_title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-20T18:38:24+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Julie Bort"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers",
+      "event_key": "a1935aaa17d6b9dff92c",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Google and Amazon have introduced open source software projects designed to help developers port artificial intelligence applications to their proprietary chips without rewriting code. Google released TorchTPU for its tensor processing units, while Amazon introduced TorchNeuron for its Trainium chips and submitted code to decouple features from dominant hardware. These toolkits aim to reduce reliance on standard market hardware by simplifying transitions to alternative cloud providers and accelerators.",
+      "why": "These software releases lower the barrier for developers to use alternative hardware, potentially weakening the dominant market position currently held by a single chip maker.",
+      "technical_details": [
+        "TorchTPU and TorchNeuron allow existing code built on the PyTorch framework to run on alternative cloud accelerators via simple configuration changes."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-20T18:38:24+00:00",
+          "content_type": "public article text",
+          "content_sha256": "6e6baee3e13e35236311e0abd7f4905e400b5de0058f1b27b4718bad2c7e50ba",
+          "retrieved_at": "2026-10-21T15:50:23.578609+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Google and Amazon launch open source tools to target chip dominance"
+    },
+    {
+      "id": "c5dee40df7e08e0",
+      "title": "US food business files new legal challenge against Canadian import levies",
+      "original_title": "Trump sued over Canadian tariffs in latest legal challenge",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "U.S. News",
+      "published": "2026-10-20T19:30:05+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+      "event_key": "trump_canadian_tariffs_lawsuit",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A US food importer has filed a lawsuit challenging the administration's imposition of sweeping tariffs on Canadian goods following the breakdown of trade talks. The legal challenge argues that the executive branch exceeded its statutory authority by relying on a nearly century-old trade statute to impose retaliatory duties without meeting required waiting periods or congressional limits. The plaintiffs are seeking a court order to find the levies unlawful and to require refunds for affected importers.",
+      "why": "This litigation tests the executive branch's authority to enact broad unilateral tariffs, potentially impacting ongoing trade policies and supply chain costs.",
+      "technical_details": [
+        "The lawsuit challenges the administration's invocation of Section 338 of the Tariff Act of 1930 to justify levies on goods ranging from dairy to wine."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-10-20T19:30:05+00:00",
+          "content_type": "public article text",
+          "content_sha256": "e2b99112d0cf3e9217bcd534970b6cfcedfb2a8bc1b7fc8ed4538245339084cd",
+          "retrieved_at": "2026-10-21T15:50:23.578609+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-10-20T19:30:05+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "A legal challenge is filed against executive tariffs on Canadian goods, highlighting ongoing trade policy disputes.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US food business files new legal challenge against Canadian import levies"
+    },
+    {
+      "id": "8fb3fca863d068a",
+      "title": "Zelenskyy discusses military satellite network and missile defense with U.S. Secretary of State",
+      "original_title": "Zelenskyy says spoke to Rubio over Starlink, Starshield issues",
+      "url": "https://www.thehindu.com/news/international/zelenskyy-says-spoke-to-rubio-over-starlink-starshield-issues/article71604158.ece",
+      "source": "The Hindu",
+      "category": "Global Affairs",
+      "published": "2026-10-20T10:52:07+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.thehindu.com/news/international/zelenskyy-says-spoke-to-rubio-over-starlink-starshield-issues/article71604158.ece",
+      "event_key": "93c6163d34fe92c67350",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ukrainian President Volodymyr Zelenskyy held discussions with U.S. Secretary of State Marco Rubio regarding critical defense matters. Zelenskyy raised concerns over reduced speeds on a military satellite communication network and pressed for additional missile interceptors to defend against attacks. The satellite system in question, managed by the U.S. government, has experienced operational friction amid tense geopolitical dynamics.",
+      "why": "Maintaining secure battlefield communications and acquiring advanced air defense interceptors remain vital for Ukraine's defense infrastructure against ongoing military strikes.",
+      "technical_details": [
+        "The communications architecture involves both the civilian Starlink network and the U.S. government-managed Starshield system developed by SpaceX."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.thehindu.com/news/international/zelenskyy-says-spoke-to-rubio-over-starlink-starshield-issues/article71604158.ece",
+          "publisher": "The Hindu",
+          "published": "2026-10-20T10:52:07+00:00",
+          "content_type": "public article text",
+          "content_sha256": "4cc150462d679d883a9c78c4f27f1ac431b7862efb2f2c6a2a6de9a796ca4329",
+          "retrieved_at": "2026-10-21T15:50:23.578609+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Zelenskyy discusses military satellite network and missile defense with U.S. Secretary of State"
+    },
+    {
+      "id": "cd61f5765e239b9",
+      "title": "Deportation enforcement reshapes an Ohio town amid shifting immigration policies",
+      "original_title": "Haitian migrants changed this US town - Trump's deportation drive is reshaping it again",
+      "url": "https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "U.S. News",
+      "published": "2026-10-21T02:37:13+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss",
+      "event_key": "springfield_ohio_immigration",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The Ohio town of Springfield has experienced sweeping demographic changes over recent years following an influx of Haitian migrants under temporary humanitarian programs. Following a Supreme Court decision upholding the administration's termination of Temporary Protected Status for thousands of individuals, federal immigration enforcement operations have ramped up locally. The community remains divided as immigration policy becomes a central issue in upcoming midterm elections.",
+      "why": "Local enforcement of large-scale deportation policies highlights deep national divisions over immigration, legal statuses, and the economic recovery of midwestern industrial towns.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-10-21T02:37:13+00:00",
+          "content_type": "public article text",
+          "content_sha256": "e6d6c640b919856bf8f877427712485a7d25965dacc3d4f233f32331b8fb9b24",
+          "retrieved_at": "2026-10-21T15:50:23.578609+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-10-21T02:37:13+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Examines the socioeconomic impacts of migration and subsequent deportation policies in Springfield, Ohio ahead of midterms.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Deportation enforcement reshapes an Ohio town amid shifting immigration policies"
+    },
+    {
+      "id": "217445ac248a390",
+      "title": "New Laser Instrument Maps Earth Terrain in Three Dimensions Without Moving Parts",
+      "original_title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+      "source": "NASA",
+      "category": "Science",
+      "published": "2026-10-21T12:17:58+00:00",
+      "publication_type": "Research organization announcement",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface",
+      "event_key": "0a5408e2f379e45b1ce3",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Space-based instruments typically measure Earth using narrow lines of light, leaving large unmapped gaps between tracks. Researchers developed a remote sensing device that steers laser pulses using wavelength changes instead of heavy motorized mirrors. During an initial flight test, the airborne prototype successfully collected high-resolution topographical data of vegetation and ground elevation.",
+      "why": "Removing moving mechanical parts reduces the size, weight, and power requirements of space-borne sensors, potentially enabling continuous three-dimensional topographical mapping of Earth's surface.",
+      "technical_details": [
+        "The instrument features a tunable laser operating at 1040 nanometers, cycling through 256 unique wavelengths routed via an optical transmission grating.",
+        "It achieves an 80 percent quantum efficiency on its detector array and demonstrated a 22-centimeter horizontal resolution during airborne testing."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+          "publisher": "NASA",
+          "published": "2026-10-21T12:17:58+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "0504319878254000f675a64a9ab071f2d2008d42825f48690290b6e70552db1d",
+          "retrieved_at": "2026-10-21T15:50:23.578609+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "New Laser Instrument Maps Earth Terrain in Three Dimensions Without Moving Parts"
+    }
+  ]
+}
