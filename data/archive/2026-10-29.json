@@ -1,0 +1,309 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-29",
+  "generated_at": "2026-10-29T15:29:33.888699+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 339,
+      "unique": 330,
+      "substantive": 194,
+      "ai_reviewed": 3,
+      "qualified": 2,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 275,
+      "unique": 275,
+      "substantive": 127,
+      "ai_reviewed": 4,
+      "qualified": 19,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 227,
+      "unique": 225,
+      "substantive": 98,
+      "ai_reviewed": 2,
+      "qualified": 52,
+      "daily_selected": 1,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 140,
+      "unique": 132,
+      "substantive": 66,
+      "ai_reviewed": 3,
+      "qualified": 40,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 2,
+  "sources_checked": 54,
+  "sources_failed": 1,
+  "ai": {
+    "status": "available",
+    "requests": 10,
+    "reserved_input_tokens": 44080,
+    "model_verified": true,
+    "cache_hits": 29,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 4,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 6,
+    "live": 4,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "f892e2dbd07d57f",
+      "title": "High-Fidelity Spin Qubit Control in Industrial Silicon Wafers",
+      "original_title": "High-fidelity qubit control in a natural Si-MOS quantum dot using a 300 mm silicon on insulator wafer",
+      "url": "https://doi.org/10.1063/5.0352438",
+      "source": "Applied Physics Letters",
+      "category": "Science",
+      "published": "2026-10-26T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Xander Peetroons",
+        "Xunyao Luo",
+        "Tsung-Yeh Yang",
+        "Normann Mertig",
+        "Sofie Beyne",
+        "Julien Jussot",
+        "Yosuke Shimura",
+        "Clement Godfrin",
+        "Bart Raes",
+        "Ruoyu Li",
+        "Roger Loo",
+        "Sylvain Baudot",
+        "Stefan Kubicek",
+        "Shuchi Kaushik",
+        "Danny Wan",
+        "Takeru Utsugi",
+        "Takuma Kuno",
+        "Noriyuki Lee",
+        "Itaru Yanagi",
+        "Toshiyuki Mine",
+        "Satoshi Muraoka",
+        "Shinichi Saito",
+        "Digh Hisamoto",
+        "Ryuta Tsuchiya",
+        "Hiroyuki Mizuno",
+        "Kristiaan De Greve",
+        "Charles Smith",
+        "Helena Knowles",
+        "Andrew Ramsay"
+      ],
+      "doi": "https://doi.org/10.1063/5.0352438",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1063/5.0352438",
+      "event_key": "si_mos_quantum_dot_qubit",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have demonstrated high-fidelity single qubit control using electron spin resonance in a natural silicon metal-oxide-semiconductor quantum dot. The device was fabricated using an industrial 300-millimeter wafer process on a silicon-on-insulator substrate. Feedback protocols and a fast Rabi frequency helped mitigate low-frequency magnetic noise from the environment.",
+      "why": "Demonstrating high gate fidelity in industrial silicon manufacturing processes supports the scalable development of silicon-based quantum processors.",
+      "technical_details": [
+        "Randomized benchmarking yielded an average single gate control fidelity of 99.5 percent, with Q-factors exceeding 50 at an optimal Rabi frequency of 5 megahertz."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1063/5.0352438",
+          "publisher": "Applied Physics Letters",
+          "published": "2026-10-26T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "bbd1c49f922cfd4a15d35f0f258ab79ee53f5616a0bfb05c58aaf576a60d5490",
+          "retrieved_at": "2026-10-29T15:18:06.948396+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7109059801"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates high-fidelity single qubit control in a natural Si-MOS quantum dot using a 300 mm industrial wafer process.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "High-Fidelity Spin Qubit Control in Industrial Silicon Wafers"
+    },
+    {
+      "id": "d324a6bed18f6ee",
+      "title": "UK Prime Minister Expected to Visit India Soon",
+      "original_title": "U.K. PM Andy Burnham’s trip to India could take place soon: British Envoy",
+      "url": "https://www.thehindu.com/news/national/uk-pm-andy-burnham-trip-to-india-could-take-place-soon-british-envoy/article71640057.ece",
+      "source": "The Hindu",
+      "category": "Global Affairs",
+      "published": "2026-10-29T11:09:16+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.thehindu.com/news/national/uk-pm-andy-burnham-trip-to-india-could-take-place-soon-british-envoy/article71640057.ece",
+      "event_key": "6c47790a2fd6c0374539",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "British Prime Minister Andy Burnham is expected to visit India soon to further strengthen bilateral relations between the two nations. Acting British High Commissioner Ben Mellor confirmed the upcoming visit and highlighted expanding economic ties following a recent free trade agreement. Bilateral trade discussions encompass technology, investment, and energy cooperation.",
+      "why": "Strengthening diplomatic and economic ties between the UK and India aims to boost bilateral trade and investment targets over the coming years.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.thehindu.com/news/national/uk-pm-andy-burnham-trip-to-india-could-take-place-soon-british-envoy/article71640057.ece",
+          "publisher": "The Hindu",
+          "published": "2026-10-29T11:09:16+00:00",
+          "content_type": "public article text",
+          "content_sha256": "5d9158ebdd632dadc34275593fff4eef9b6ad55d7a37840fac2ca57679c9bacb",
+          "retrieved_at": "2026-10-29T15:18:06.948396+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "UK Prime Minister Expected to Visit India Soon"
+    },
+    {
+      "id": "5513b50b8ad6017",
+      "title": "Mississippi Senate Race Unexpectedly Tightens",
+      "original_title": "A Mississippi Democrat is unexpectedly threatening Republicans’ grip on the state",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/mississippi-scott-colom-democrats",
+      "source": "The Guardian US",
+      "category": "U.S. News",
+      "published": "2026-10-29T13:00:44+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Adria R Walker"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/us-news/2026/oct/29/mississippi-scott-colom-democrats",
+      "event_key": "9171326bf3909c2a03d4",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "One of the nation's most reliably conservative states is seeing an unexpectedly competitive Senate race as Democrat Scott Colom challenges incumbent Republican Cindy Hyde-Smith. With the midterms just a week away, campaign activity has surged across the state, prompting high-profile visits from political figures like Donald Trump to rally support for the incumbent.",
+      "why": "A surprisingly competitive race in a safe stronghold could signal broader shifts in voter sentiment ahead of the midterms, altering national legislative strategies.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/us-news/2026/oct/29/mississippi-scott-colom-democrats",
+          "publisher": "The Guardian US",
+          "published": "2026-10-29T13:00:44+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "aeb7ad35eeba362bcc3721175915017ab905a9368ea2d3f3e4d4a627f91a0d6b",
+          "retrieved_at": "2026-10-29T15:18:06.948396+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Mississippi Senate Race Unexpectedly Tightens"
+    },
+    {
+      "id": "47543d282ff568b",
+      "title": "Anthropic introduces reporting tools to help enterprises track artificial intelligence spending",
+      "original_title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-28T19:19:58+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "event_key": "17aac6e40433c891b6eb",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Anthropic released new reporting tools designed to help enterprise customers track the return on investment from automated software tools and token spending. The software combines internal analytics and employee surveys to show managers what teams produced, how much it cost, and where workflows broke down. This release addresses growing corporate concerns over optimizing artificial intelligence expenses as enterprise adoption scales.",
+      "why": "As corporate spending on automated coding agents rapidly expands, businesses require granular analytics to justify and optimize their software budgets.",
+      "technical_details": [
+        "Data from a developer tool report indicates that spending on models built by Anthropic grew tenfold over the year, reaching roughly two percent of total engineering costs."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-28T19:19:58+00:00",
+          "content_type": "public article text",
+          "content_sha256": "70c1fc1fe570a48f028e263e1ebd39000b4ec8a014f4df6f7dbdfef99a0d1dd3",
+          "retrieved_at": "2026-10-29T15:18:06.948396+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Anthropic introduces reporting tools to help enterprises track artificial intelligence spending"
+    }
+  ]
+}

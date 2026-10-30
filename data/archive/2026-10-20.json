@@ -1,0 +1,423 @@
+{
+  "schema_version": 3,
+  "app_version": "0.5",
+  "briefing_date": "2026-10-20",
+  "generated_at": "2026-10-21T02:55:55.175573+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 450,
+      "unique": 414,
+      "substantive": 337,
+      "ai_reviewed": 0,
+      "qualified": 7,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 317,
+      "unique": 314,
+      "substantive": 163,
+      "ai_reviewed": 0,
+      "qualified": 4,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 73,
+      "unique": 72,
+      "substantive": 24,
+      "ai_reviewed": 0,
+      "qualified": 16,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 91,
+      "unique": 83,
+      "substantive": 23,
+      "ai_reviewed": 0,
+      "qualified": 21,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 34,
+  "sources_failed": 0,
+  "ai": {
+    "status": "request_budget_reached",
+    "requests": 0,
+    "reserved_input_tokens": 0,
+    "model_verified": false,
+    "cache_hits": 48,
+    "run_request_limit": 10,
+    "daily_request_limit": 16,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 6,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 4,
+    "live": 0,
+    "cached": 6
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "a5861787c11ab48",
+      "title": "Researchers map internal heat transport pathways across three-dimensional chip stacks",
+      "original_title": "Resolving the Thermal Labyrinth inside 3D-IC Stacks",
+      "url": "https://arxiv.org/abs/2610.26647",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-20T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Xufei Guo, Yiyun He, Zirou Chen, Zifeng Huang, Runsheng Wang, Zhe Cheng"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.26647",
+      "event_key": "3d_ic_thermal_reflectance_mapping",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Managing heat buildup in vertically stacked microchips has remained challenging due to a lack of experimental data on how thermal properties are distributed internally. In a preprint study, researchers demonstrated a workflow to measure heat transport layer by layer within advanced three-dimensional integrated circuits. They mapped thermal properties on test samples down to 0.2-micrometer step sizes, providing an empirical baseline for chip cooling models.",
+      "why": "Precise internal thermal mapping helps designers co-optimize chip interconnects and substrates to alleviate thermal bottlenecks in dense three-dimensional electronics.",
+      "technical_details": [
+        "Applied to a sample with 2.2-micrometer through-silicon vias and roughly 2-micrometer pitch face-to-face hybrid bonding.",
+        "Face-to-face hybrid bonding pads demonstrated a thermal conductivity of 9 W/m-K via time-domain and steady-state thermoreflectance."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.26647",
+          "publisher": "arXiv",
+          "published": "2026-10-20T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "eecf2b417d0d69a33f6cdb8dfc68d80baa7521d9342824f5498031363cb03b53",
+          "retrieved_at": "2026-10-21T02:55:54.566014+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Cached prior editorial assessment",
+      "selection_reason": "Provides spatially and layer-resolved thermal conductivity characterization (down to 0.2 um) of advanced 3D-ICs featuring 2.2 um TSVs and hybrid bonding using time-domain and steady-state thermoreflectance.",
+      "development": "experimental",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers map how heat moves through stacked chips"
+    },
+    {
+      "id": "569fa0f9d5617cd",
+      "title": "Houthi ballistic missile strike on Yemen training camp kills 73",
+      "original_title": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-10-20T14:09:42+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "event_key": "yemen_houthi_strike_shabwa",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A Houthi ballistic missile strike killed 73 security recruits at a training camp in Yemen's central Shabwa province, local authorities reported. Pro-government forces stated three missiles targeted the al-Alam camp, while Houthi spokesmen claimed they struck Saudi enemy forces. The attack marks the deadliest single incident since pro-government troops launched an offensive this month to recapture coastal territory.",
+      "why": "The strike highlights intensifying multi-front fighting that threatens regional shipping routes near the Bab al-Mandab Strait and risks wider Saudi-Yemeni escalation.",
+      "technical_details": [
+        "Shabwa's media office updated the casualty count to 73 dead with 14 missing, revising an initial report of 53 dead and 200 injured.",
+        "Houthi-run health officials reported 141 deaths from Saudi strikes over seven weeks, while the government reported 1,282 total conflict deaths since August 6."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-10-20T14:09:42+00:00",
+          "content_type": "public article text",
+          "content_sha256": "e6698301c99d898fcaafcb4499931d9494a529f15117109d6d980251daa4be78",
+          "retrieved_at": "2026-10-21T02:55:54.566014+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Cached prior editorial assessment",
+      "selection_reason": "Major geopolitical escalation with a deadly Houthi ballistic missile strike killing at least 73 security recruits at a government base in Shabwa, Yemen.",
+      "development": "news",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Houthi ballistic missile strike on Yemen training camp kills 73"
+    },
+    {
+      "id": "86490605c68c9c1",
+      "title": "OpenAI acquires biotech software startup Orchestra Bio to expand research tools",
+      "original_title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-20T20:35:10+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Julie Bort"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+      "event_key": "aa7c9c092579b39001be",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "OpenAI has acquired the four-year-old startup Orchestra Bio for an undisclosed amount to bolster its life sciences capabilities. Orchestra builds specialized autonomous software agents designed to manage drug discovery tasks such as finances and clinical trial scheduling. OpenAI plans to merge the startup's team and technology into its Rosalind biological foundation model and experiment-planning workbench.",
+      "why": "The deal illustrates major artificial intelligence developers absorbing vertical startups to directly control domain-specific software in high-value industries like pharmaceuticals.",
+      "technical_details": [
+        "Orchestra Bio had raised roughly $20 million as of 2025 from investors including Andreessen Horowitz, Atria, and 8VC.",
+        "OpenAI reports existing pharmaceutical clients for its Rosalind model include Moderna and Novo Nordisk."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-20T20:35:10+00:00",
+          "content_type": "public article text",
+          "content_sha256": "8747bc551279d5865c61334e9192a68bf7e5d77df49f44a684dcc283650ef9a0",
+          "retrieved_at": "2026-10-21T02:55:54.566014+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+          "publisher": "OpenAI",
+          "published": "2026-10-20T00:00:00+00:00"
+        }
+      ],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "OpenAI acquires biotech software startup Orchestra Bio to expand research tools"
+    },
+    {
+      "id": "b77e04dc3e8b7a9",
+      "title": "Unsealed court depositions detail internal TikTok warnings over child safety risks",
+      "original_title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+      "source": "NPR",
+      "category": "U.S. News",
+      "published": "2026-10-20T09:00:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Katie McQue"
+      ],
+      "backfill": false,
+      "story_key": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+      "event_key": "tiktok_child_safety_litigation",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Newly disclosed federal court depositions reveal TikTok employees repeatedly warned executive leadership about child safety risks, including minor sexual exploitation and suicide content. Internal staff flagged that children were monetizing sexually suggestive livestreams and evading parental monitoring controls. TikTok argued the legal citations were cherry-picked by trial attorneys to misrepresent its platform safety record.",
+      "why": "The disclosures add evidentiary pressure to ongoing multi-district litigation assessing whether major social platforms knowingly designed harmful features for underage users.",
+      "technical_details": [
+        "An internal company review found minors aged 13 to 15 appeared in 112,000 TikTok Live streams during January 2022 alone.",
+        "Court records indicate TikTok avoided user age surveys over concerns the findings would have to be shared with the Federal Trade Commission."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+          "publisher": "NPR",
+          "published": "2026-10-20T09:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "f742f496fceb8d287bdb721498fd7584fce9645b7318fcca341669efe7ae980b",
+          "retrieved_at": "2026-10-21T02:55:54.566014+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Cached prior editorial assessment",
+      "selection_reason": "Unsealed court depositions show internal warnings about child exploitation and deliberate avoidance of age verification by TikTok leadership amid multidistrict litigation.",
+      "development": "news",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Unsealed court depositions detail internal TikTok warnings over child safety risks"
+    },
+    {
+      "id": "06705b9f8968a8b",
+      "title": "Surface Deposition of N-Heterocyclic Carbenes Achieves Electron Doping in Thin MoS2 Flakes",
+      "original_title": "Molecular Doping of MoS$_2$ with N-Heterocyclic Carbenes: A Raman Study of Interfacial Charge Transfer",
+      "url": "https://arxiv.org/abs/2610.24769",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-20T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Ana Senki\\'c, Arne Nalop, Xenia Sieverding, Ariane Ufer, Sebastian Roling, Frank Glorius, Ursula Wurstbauer"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.24769",
+      "event_key": "nhc_molecular_doping_mos2",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "In a preprint study, researchers demonstrated efficient electron doping of exfoliated molybdenum disulfide (MoS2) via the surface deposition of N-heterocyclic carbene (NHC) molecules. The phonon shifts were most significant in monolayer and bilayer flakes and negligible in bulk-like MoS2, pointing to interfacial charge transfer that yields an estimated two-order-of-magnitude increase in two-dimensional electron density for the thinnest flakes.",
+      "why": "It points toward two-dimensional electronic devices where donor molecules sit outside the semiconductor lattice, functioning analogously to modulation doping.",
+      "technical_details": [
+        "Raman spectroscopy showed a pronounced softening of the optical A1g phonon mode following deposition, signaling electron transfer across the NHC/MoS2 interface."
+      ],
+      "ai_summary": true,
+      "summary_status": "cached_compacted",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v1",
+        "origin": "legacy_compacted",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "summary_refresh_pending": "daily_request_cap",
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.24769",
+          "publisher": "arXiv",
+          "published": "2026-10-20T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "943b55c65e44992b619f1c5575e495d6afe26667e027cebfcbe3ae90c01ccef6",
+          "retrieved_at": "2026-10-21T02:55:54.566014+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Cached prior editorial assessment",
+      "selection_reason": "Experimental demonstration using Raman spectroscopy to verify two-order-of-magnitude electron density increases in monolayer/bilayer MoS2 via non-destructive interfacial charge transfer from N-heterocyclic carbenes.",
+      "development": "experimental",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Surface molecules add electrons to ultra-thin semiconductor layers"
+    },
+    {
+      "id": "4a0df475c4f9e87",
+      "title": "Automated Vector-Scanning Spectroscopy Enables Chip-Scale Characterization of Epitaxial Quantum Dots",
+      "original_title": "Automated Vector-Scanning Spectroscopy for Large-Scale Characterization of Single Quantum Emitters",
+      "url": "https://doi.org/10.1364/optica.609587",
+      "source": "Optica",
+      "category": "Science",
+      "published": "2026-10-19T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "William Eshbaugh",
+        "Ashish Chanana",
+        "Edgar Perez",
+        "Junyeob Song",
+        "Craig R. Copeland",
+        "Sulaiman Al Ghadani",
+        "Daniel McBride",
+        "Prasiddha Siwakoti",
+        "Maria Carolina Volpato",
+        "Armando Rastelli",
+        "Stela Ishitani Silva",
+        "Ignacio Segovia-Domínguez",
+        "Sadhvikas Addamane",
+        "Kartik A. Srinivasan",
+        "Edward B. Flagg",
+        "Marcelo Davanço"
+      ],
+      "doi": "https://doi.org/10.1364/optica.609587",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1364/optica.609587",
+      "event_key": "automated_vector_scanning_qd_characterization",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Epitaxial quantum dots are promising solid-state quantum emitters, but their inherent spatial randomness and spectral heterogeneity complicate their integration into scalable photonic technologies. To address this, researchers developed an automated cryogenic measurement platform combining wide-field photoluminescence imaging with vector-stage-scanning confocal spectroscopy. The experimental platform demonstrated autonomous, high-throughput targeted optical measurements across thousands of individual GaAs/AlGaAs quantum dots on a single chip, capturing detailed emitter spectra and resolving broader ensemble statistical trends.",
+      "why": "The automated approach establishes a scalable foundation to guide material optimization and advance integrated photonic quantum technologies.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "cached_compacted",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v1",
+        "origin": "legacy_compacted",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "summary_refresh_pending": "daily_request_cap",
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1364/optica.609587",
+          "publisher": "Optica",
+          "published": "2026-10-19T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "251efe38d8966639dd817dfededd76295fc87fc0439e783af86058512134d3e6",
+          "retrieved_at": "2026-10-21T02:55:54.566014+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7166712703"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Cached prior editorial assessment",
+      "selection_reason": "Demonstrates an automated cryogenic confocal and wide-field spectroscopy system characterizing thousands of GaAs/AlGaAs single quantum dots on-chip, directly resolving a major bottleneck for scalable nanophotonic quantum integration.",
+      "development": "experimental",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Automated scans measure thousands of tiny light-emitting quantum dots"
+    }
+  ]
+}

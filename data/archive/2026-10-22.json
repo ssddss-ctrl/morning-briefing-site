@@ -1,0 +1,636 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-22",
+  "generated_at": "2026-10-22T18:30:53.527154+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 580,
+      "unique": 554,
+      "substantive": 403,
+      "ai_reviewed": 10,
+      "qualified": 12,
+      "daily_selected": 3,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 392,
+      "unique": 386,
+      "substantive": 203,
+      "ai_reviewed": 10,
+      "qualified": 11,
+      "daily_selected": 3,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 226,
+      "unique": 222,
+      "substantive": 102,
+      "ai_reviewed": 10,
+      "qualified": 44,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 139,
+      "unique": 125,
+      "substantive": 59,
+      "ai_reviewed": 10,
+      "qualified": 32,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 6,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 8,
+    "reserved_input_tokens": 24674,
+    "model_verified": true,
+    "cache_hits": 27,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 10,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 0,
+    "live": 6,
+    "cached": 4
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "805ffc9e6e16d8e",
+      "title": "Broadband infrared imaging using a simple silicon metalens and computing",
+      "original_title": "Broadband Mid-Wave Infrared Imaging Enabled by All-Silicon Hyperboloid Metalens",
+      "url": "https://arxiv.org/abs/2610.29841",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-22T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Rose Johnson, Debabrata Mandal, Zihao Zou, Jessie Wei, Anna Wirth-Singh, Vladimir Yarmolik, Johannes Froech, Arka Majumdar, Praneeth Chakravarthula"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.29841",
+      "event_key": "mwir_silicon_metalens",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers demonstrated full-band mid-wave infrared imaging using a simple silicon meta-optic paired with computational reconstruction. Traditional optical elements struggle with strong chromatic dispersion across wide wavelength bands, typically restricting such imaging to narrow ranges. By adapting a reconstruction model using only four image captures, the system successfully recovers broadband images without requiring complex dispersion-optimized designs.",
+      "why": "This approach provides a simpler route to compact, lightweight infrared imaging systems for size- and power-constrained platforms without needing intricate achromatic metalens geometries.",
+      "technical_details": [
+        "The system utilizes a single-layer silicon metasurface acting as a 2 cm diameter hyperboloid metalens to capture sufficient broadband intensity information across the 3 to 5 micron spectral band."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.29841",
+          "publisher": "arXiv",
+          "published": "2026-10-22T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "2117bb16034460fb878a844a058d6e3554a19b126a3d0c9adbedcc33524b22a0",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates broadband mid-wave infrared imaging using a simple hyperboloid metalens combined with computational reconstruction.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Broadband infrared imaging using a simple silicon metalens and computing"
+    },
+    {
+      "id": "948adc72c8986b8",
+      "title": "Machine learning optimizes growth and geometry in on-chip lasers",
+      "original_title": "Closing the Loop in Epitaxy with Machine Learning: Joint Optimization of Growth and Geometry in On-Chip Lasers",
+      "url": "https://arxiv.org/abs/2604.08390",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-22T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Mihir R. Athavale, Stephen A. Church, Wei Wen Wong, Andre KY Low, Hark Hoe Tan, Kedar Hippalgaonkar, Patrick Parkinson"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2604.08390",
+      "event_key": "ml_epitaxy_lasers",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have demonstrated a machine learning workflow that jointly optimizes growth and geometry parameters for semiconductor multi-quantum well microring lasers using multi-objective Bayesian optimization. Variational autoencoders were subsequently used to analyze residual performance dispersion and decouple geometric from material disorder. The optimized devices achieved a 100 percent lasing yield with a median lasing threshold of 16 microjoules per square centimeter per pulse and a 73 percent reduction in threshold variance.",
+      "why": "This data-driven workflow bridges fundamental epitaxial growth and manufacturing to improve device-to-device reproducibility in scalable photonic integrated circuits.",
+      "technical_details": [
+        "The optimized laser fields achieved a median emission wavelength of 1333 nanometers in the telecommunications O-band."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2604.08390",
+          "publisher": "arXiv",
+          "published": "2026-10-22T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "8e12cb968f4dfebeb93a1813b5512b674fd052c75b62e67d2a6b489dd42f2bd0",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Presents a machine learning workflow using Bayesian optimization and VAEs to optimize epitaxial growth and reduce device variability in III-V lasers.",
+      "development": "simulation",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Machine learning optimizes growth and geometry in on-chip lasers"
+    },
+    {
+      "id": "cb7b263abd39bcc",
+      "title": "Recursive releases Flint, a laptop-sized coding model built largely with AI",
+      "original_title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-21T20:27:41+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+      "event_key": "recursive_flint_model",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "AI startup Recursive launched Flint, a free open-source coding model small enough to run locally on ordinary laptops. The company stated that the model was built largely using its automated research system, the Eureka Machine, allowing a small team to construct it in under four months. Flint is a mixture-of-experts architecture activating a fraction of its total parameters during execution.",
+      "why": "Running locally on user hardware lets developers work offline while keeping code private and avoiding cloud service fees.",
+      "technical_details": [
+        "Flint uses 2.5 billion active parameters out of a total of 40 billion, and generated roughly 131 tokens per second on an Apple M4 Pro chip during company tests."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-21T20:27:41+00:00",
+          "content_type": "public article text",
+          "content_sha256": "1cf3e389db894e460bc24b9527d150729b3dff072f0d5f9ac3c10144ea7e8205",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Recursive launches Flint, a laptop coding model built largely using its automated research system.",
+      "development": "announcement",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Recursive releases Flint, a laptop-sized coding model built largely with AI"
+    },
+    {
+      "id": "32a67c59cf1aae3",
+      "title": "US military demonstrates long-range control of uncrewed combat aircraft",
+      "original_title": "Could US advances in drone command give it an edge over the PLA in a Taiwan conflict?",
+      "url": "https://www.scmp.com/news/china/military/article/3371799/could-us-advances-drone-command-give-it-edge-over-pla-taiwan-conflict",
+      "source": "South China Morning Post",
+      "category": "U.S. News",
+      "published": "2026-10-22T11:00:16+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Gabriel Dominguez",
+        "Gabriel Dominguez"
+      ],
+      "backfill": false,
+      "story_key": "https://www.scmp.com/news/china/military/article/3371799/could-us-advances-drone-command-give-it-edge-over-pla-taiwan-conflict",
+      "event_key": "us_drone_command_taiwan",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States military has disclosed recent flight tests showcasing new methods for commanding uncrewed aircraft across vast distances. During one of the tests, an F-22 fighter pilot successfully controlled an autonomous combat drone while in flight. These demonstrations form part of an ongoing effort to advance regional air and naval power capabilities.",
+      "why": "Demonstrating advanced remote drone command capabilities highlights shifting tactical options in potential regional conflicts. This technological competition could redefine modern air and naval power.",
+      "technical_details": [
+        "Tests involved an F-22 fighter cockpit directing an autonomous YFQ-44A combat drone during flight."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.scmp.com/news/china/military/article/3371799/could-us-advances-drone-command-give-it-edge-over-pla-taiwan-conflict",
+          "publisher": "South China Morning Post",
+          "published": "2026-10-22T11:00:16+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "a7a2a4757c1e30b7c6f76c627686fb418d29e61445ac5b1825fd3d23561fed23",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Discloses US military tests controlling autonomous combat drones over vast distances, relevant to Pacific defense.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US military demonstrates long-range control of uncrewed combat aircraft"
+    },
+    {
+      "id": "43e43656dbab575",
+      "title": "Analysts question whether Israel can achieve regime change in Iran through military strikes",
+      "original_title": "Netanyahu promises Iran regime change: Can Israel topple Tehran government?",
+      "url": "https://www.aljazeera.com/news/2026/10/22/netanyahu-promises-iran-regime-change-can-israel-topple-tehran-government?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-10-22T14:55:59+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/10/22/netanyahu-promises-iran-regime-change-can-israel-topple-tehran-government?traffic_source=rss",
+      "event_key": "iran_us_tensions",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu continues to state that overthrowing Iran's government remains a primary objective. Analysts suggest that while Israel possesses significant offensive and aerial refueling capabilities to inflict serious damage, air strikes alone lack a clear strategy for forcing a government collapse. Observers note that achieving regime change would likely demand extensive ground troops and sustained multi-year commitments rather than air campaigns alone.",
+      "why": "Understanding the limitations of military strategies helps clarify the complex geopolitical dynamics and risks of renewed regional escalation. Uncertain allied backing further complicates potential unilateral military campaigns.",
+      "technical_details": [
+        "Analysts highlighted that deep underground facilities require heavy specialized munitions, such as thirty-thousand-pound bunker-busting bombs deployed by specific strategic bombers."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/10/22/netanyahu-promises-iran-regime-change-can-israel-topple-tehran-government?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-10-22T14:55:59+00:00",
+          "content_type": "public article text",
+          "content_sha256": "c7c83da2ff16fd7eb463e1491e46e129fc55104bd653a36e7a6edf66857aed02",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Details Israeli Prime Minister Netanyahu's statements regarding regime change objectives in Iran.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Analysts question whether Israel can achieve regime change in Iran through military strikes"
+    },
+    {
+      "id": "82633655f652b2d",
+      "title": "Ad-powered medical search engine gains widespread adoption among US physicians",
+      "original_title": "The $15 billion ad-powered AI startup your doctor may already be using",
+      "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "published": "2026-10-21T15:14:07+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Rafe Rosner-Uddin, Financial Times"
+      ],
+      "backfill": false,
+      "story_key": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using",
+      "event_key": "openevidence_healthcare_ai",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A technology startup has achieved a multi-billion-dollar valuation after capturing significant usage among practicing physicians. The Miami-based company provides an artificial intelligence platform that helps doctors search medical journals and clinical guidelines to assist with diagnoses and treatments. Supported by advertising, the chatbot has grown largely through professional word-of-mouth recommendations within the healthcare sector.",
+      "why": "The rapid integration of generative tools into clinical decision-making highlights a shift in how medical professionals access patient care information. It sparks ongoing discussions regarding the future and regulation of digital healthcare tools.",
+      "technical_details": [
+        "The platform OpenEvidence was founded in 2022 and reportedly processed millions of prompts across a large base of physicians last month."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+          "publisher": "Ars Technica",
+          "published": "2026-10-21T15:14:07+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "0b6d28552c81aadc0aba9b8413282307c0730dbedfe84e1853eee0e8d37863fd",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on widespread adoption of an AI search tool by US doctors and its high valuation, representing a consequential application of AI in healthcare.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ad-powered medical search engine gains widespread adoption among US physicians"
+    },
+    {
+      "id": "c8e1b76468b81c8",
+      "title": "China leads international efforts to establish global standards for brain-computer interfaces",
+      "original_title": "China moves to set global standards for brain-computer interface technology",
+      "url": "https://www.scmp.com/business/china-business/article/3371742/china-moves-set-global-standards-brain-computer-interface-technology",
+      "source": "South China Morning Post",
+      "category": "Global Affairs",
+      "published": "2026-10-22T06:00:26+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Tim Yuen Lingk",
+        "Tim Yuen Lingk"
+      ],
+      "backfill": false,
+      "story_key": "https://www.scmp.com/business/china-business/article/3371742/china-moves-set-global-standards-brain-computer-interface-technology",
+      "event_key": "china_bci_standards",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "China has assumed a leading role in standardizing brain-computer interface technology by chairing a newly established subcommittee jointly overseen by major international organizations. The subcommittee, designated as ISO/IEC JTC 1/SC 43, aims to formulate unified global guidelines for communication and interaction between biological brains and computing systems. This initiative coincides with national development priorities that position these interface applications as a key strategic technology area.",
+      "why": "Establishing international standards could heavily influence the global commercialization, interoperability, and regulatory frameworks governing emerging neural interface technologies.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.scmp.com/business/china-business/article/3371742/china-moves-set-global-standards-brain-computer-interface-technology",
+          "publisher": "South China Morning Post",
+          "published": "2026-10-22T06:00:26+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "121d0c3ac9338c3ff4db1118ff5bab3e15b01c5ec7a922fceaa2a14d06be4a0f",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "China chairs an ISO/IEC subcommittee to spearhead global standardization of brain-computer interface technologies.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "China leads international efforts to establish global standards for brain-computer interfaces"
+    },
+    {
+      "id": "9186ffcd1d78d27",
+      "title": "New doping technique turns layered materials into infrared photodetectors",
+      "original_title": "Ge Doping of PtSe 2 for Bandgap Opening via GeSe Dynamic Diffusion Barrier Enabling High Sensitivity SOI‐Based SWIR Photodetectors",
+      "url": "https://doi.org/10.1002/smll.76238",
+      "source": "Small",
+      "category": "Science",
+      "published": "2026-10-20T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Shaoqiu Ke",
+        "Shaoqiu Ke",
+        "Mengyu Ge",
+        "Xiaojia Xu",
+        "Jinyu Kang",
+        "Shengyan Zu",
+        "Xiaohuan Wei",
+        "Jiawei Zheng",
+        "Zhiwei Huang",
+        "Guanzhou Liu",
+        "Jinrong Zhou",
+        "柯少颖 Ke Shaoying",
+        "柯少颖 Ke Shaoying"
+      ],
+      "doi": "https://doi.org/10.1002/smll.76238",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1002/smll.76238",
+      "event_key": "ge_doped_ptse2_swir_detector",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have developed a conversion diffusion barrier method to incorporate germanium into a thin platinum diselenide layer grown on silicon substrates. This structural modification alters the material's electronic properties, widening its bandgap to transition it from a semimetal into a semiconductor while preventing unwanted atomic diffusion. The resulting heterojunction photodetector successfully extends silicon-based light detection capabilities into the short-wave infrared spectrum with rapid response dynamics.",
+      "why": "This silicon-compatible integration approach offers a promising pathway for building high-speed infrared optical communication and sensing devices using standard semiconductor manufacturing platforms.",
+      "technical_details": [
+        "The device achieved a 3 dB cutoff frequency of 123 kHz and a rectification ratio of 10 to the 7th power.",
+        "Responsivity and specific detectivity reached 85.21 microamps per watt and 6.39 times 10 to the 6th Jones at 1310 nanometers."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1002/smll.76238",
+          "publisher": "Small",
+          "published": "2026-10-20T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "ccbe123282f21954f03604d187dce751fcd870ce82d508389e62410868dd779f",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7223132180"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates Ge-doped PtSe2 heterojunction photodetectors resolving Pt-Si interdiffusion for Si-compatible SWIR photodetection.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "New doping technique turns layered materials into infrared photodetectors"
+    },
+    {
+      "id": "b36e8ef147615c1",
+      "title": "Podcast discusses political transitions and foreign policy dynamics in the United States",
+      "original_title": "Decoding America: Katie Zacharia and Trump’s women problem – video",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/22/decoding-america-katie-zacharia-and-trumps-women-problem-video",
+      "source": "The Guardian US",
+      "category": "U.S. News",
+      "published": "2026-10-22T00:43:54+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Presented by Reged Ahmad and Jonathan Yerushalmy ; produced by Lu Hill ; video production by Rachel Herron ; sound and mixing by Lu Hill ; executive producer is Hannah Parkes"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/us-news/video/2026/oct/22/decoding-america-katie-zacharia-and-trumps-women-problem-video",
+      "event_key": "4300853ffa2ba37c3286",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Recent podcast coverage examines administrative transitions within the White House, highlighting the unusually brief tenure of a recent press secretary. Commentators also discussed perceived disparities in how political missteps are handled across different administrations. Additionally, the discussion explored potential shifts in United States foreign policy regarding ongoing conflicts in Europe.",
+      "why": "Tracking domestic political administration changes and shifting foreign policy stances provides context for broader governmental stability and international diplomatic relations.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/22/decoding-america-katie-zacharia-and-trumps-women-problem-video",
+          "publisher": "The Guardian US",
+          "published": "2026-10-22T00:43:54+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "26c57e992abf2099026d3177e387beece4a794e5ddd86a5c61a306ac00584a87",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Podcast discusses political transitions and foreign policy dynamics in the United States"
+    },
+    {
+      "id": "df3a04ff97516d7",
+      "title": "Anthropic proposes new artificial intelligence safety legislation",
+      "original_title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-20T23:01:23+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+      "event_key": "anthropic_ai_safety_bill",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Artificial intelligence developer Anthropic has circulated a draft bill on artificial intelligence safety for congressional consideration. The proposed legislation outlines scenarios where model distribution could be halted if it poses a foreseeable, imminent risk resulting in over 50 deaths or a billion dollars in property damage. Under the proposal, independent evaluators registered with the Commerce Department would assess models and report potential catastrophic risks within 72 hours.",
+      "why": "The proposal represents a notable industry-led effort to shape mandatory federal oversight regarding advanced artificial intelligence safety measures.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-20T23:01:23+00:00",
+          "content_type": "public article text",
+          "content_sha256": "fd25f844385919cdda9a75ccfa88a7f7b844e951aeea0e8eac7b82cf61f5d7da",
+          "retrieved_at": "2026-10-22T18:28:23.549682+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on Anthropic proposing a draft AI safety bill to Congress concerning high-consequence model deployments.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Anthropic proposes new artificial intelligence safety legislation"
+    }
+  ]
+}

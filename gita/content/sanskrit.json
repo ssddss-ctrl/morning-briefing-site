@@ -1,0 +1,1436 @@
+{
+ "note": "Sanskrit verse text (public domain). Devanagari from the IIT Kanpur Gita Supersite, cross-checked against the vedicscriptures dataset; IAST generated from the Devanagari.",
+ "verses": {
+  "1.1": {
+   "speaker": "धृतराष्ट्र उवाच",
+   "devanagari": [
+    "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।",
+    "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥"
+   ],
+   "iast": [
+    "dharmakṣetre kurukṣetre samavetā yuyutsavaḥ |",
+    "māmakāḥ pāṇḍavāścaiva kimakurvata sañjaya ||"
+   ],
+   "speakerIAST": "dhṛtarāṣṭra uvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "1.47": {
+   "speaker": "सञ्जय उवाच",
+   "devanagari": [
+    "एवमुक्त्वाऽर्जुनः संख्ये रथोपस्थ उपाविशत् ।",
+    "विसृज्य सशरं चापं शोकसंविग्नमानसः ॥"
+   ],
+   "iast": [
+    "evamuktvā'rjunaḥ saṃkhye rathopastha upāviśat |",
+    "visṛjya saśaraṃ cāpaṃ śokasaṃvignamānasaḥ ||"
+   ],
+   "speakerIAST": "sañjaya uvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.7": {
+   "speaker": "",
+   "devanagari": [
+    "कार्पण्यदोषोपहतस्वभावः ।",
+    "पृच्छामि त्वां धर्मसंमूढचेताः ।",
+    "यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे ।",
+    "शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ॥"
+   ],
+   "iast": [
+    "kārpaṇyadoṣopahatasvabhāvaḥ |",
+    "pṛcchāmi tvāṃ dharmasaṃmūḍhacetāḥ |",
+    "yacchreyaḥ syānniścitaṃ brūhi tanme |",
+    "śiṣyaste'haṃ śādhi māṃ tvāṃ prapannam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.11": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "अशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे ।",
+    "गतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ॥"
+   ],
+   "iast": [
+    "aśocyānanvaśocastvaṃ prajñāvādāṃśca bhāṣase |",
+    "gatāsūnagatāsūṃśca nānuśocanti paṇḍitāḥ ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.12": {
+   "speaker": "",
+   "devanagari": [
+    "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः ।",
+    "न चैव न भविष्यामः सर्वे वयमतः परम् ॥"
+   ],
+   "iast": [
+    "na tvevāhaṃ jātu nāsaṃ na tvaṃ neme janādhipāḥ |",
+    "na caiva na bhaviṣyāmaḥ sarve vayamataḥ param ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.13": {
+   "speaker": "",
+   "devanagari": [
+    "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा ।",
+    "तथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ॥"
+   ],
+   "iast": [
+    "dehino'sminyathā dehe kaumāraṃ yauvanaṃ jarā |",
+    "tathā dehāntaraprāptirdhīrastatra na muhyati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.14": {
+   "speaker": "",
+   "devanagari": [
+    "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।",
+    "आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥"
+   ],
+   "iast": [
+    "mātrāsparśāstu kaunteya śītoṣṇasukhaduḥkhadāḥ |",
+    "āgamāpāyino'nityāstāṃstitikṣasva bhārata ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.16": {
+   "speaker": "",
+   "devanagari": [
+    "नासतो विद्यते भावो नाभावो विद्यते सतः ।",
+    "उभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ॥"
+   ],
+   "iast": [
+    "nāsato vidyate bhāvo nābhāvo vidyate sataḥ |",
+    "ubhayorapi dṛṣṭo'ntastvanayostattvadarśibhiḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.20": {
+   "speaker": "",
+   "devanagari": [
+    "न जायते म्रियते वा कदाचि ।",
+    "न्नायं भूत्वा भविता वा न भूयः ।",
+    "अजो नित्यः शाश्वतोऽयं पुराणो ।",
+    "न हन्यते हन्यमाने शरीरे ॥"
+   ],
+   "iast": [
+    "na jāyate mriyate vā kadāci |",
+    "nnāyaṃ bhūtvā bhavitā vā na bhūyaḥ |",
+    "ajo nityaḥ śāśvato'yaṃ purāṇo |",
+    "na hanyate hanyamāne śarīre ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite",
+   "needsVerification": true
+  },
+  "2.22": {
+   "speaker": "",
+   "devanagari": [
+    "वासांसि जीर्णानि यथा विहाय ।",
+    "नवानि गृह्णाति नरोऽपराणि ।",
+    "तथा शरीराणि विहाय जीर्णा- ।",
+    "न्यन्यानि संयाति नवानि देही ॥"
+   ],
+   "iast": [
+    "vāsāṃsi jīrṇāni yathā vihāya |",
+    "navāni gṛhṇāti naro'parāṇi |",
+    "tathā śarīrāṇi vihāya jīrṇā- |",
+    "nyanyāni saṃyāti navāni dehī ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.23": {
+   "speaker": "",
+   "devanagari": [
+    "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।",
+    "न चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥"
+   ],
+   "iast": [
+    "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ |",
+    "na cainaṃ kledayantyāpo na śoṣayati mārutaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.47": {
+   "speaker": "",
+   "devanagari": [
+    "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।",
+    "मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥"
+   ],
+   "iast": [
+    "karmaṇyevādhikāraste mā phaleṣu kadācana |",
+    "mā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.48": {
+   "speaker": "",
+   "devanagari": [
+    "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।",
+    "सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥"
+   ],
+   "iast": [
+    "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya |",
+    "siddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.50": {
+   "speaker": "",
+   "devanagari": [
+    "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।",
+    "तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥"
+   ],
+   "iast": [
+    "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte |",
+    "tasmādyogāya yujyasva yogaḥ karmasu kauśalam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.55": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान् ।",
+    "आत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥"
+   ],
+   "iast": [
+    "prajahāti yadā kāmān sarvān pārtha manogatān |",
+    "ātmanyevātmanā tuṣṭaḥ sthitaprajñastadocyate ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.58": {
+   "speaker": "",
+   "devanagari": [
+    "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।",
+    "इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥"
+   ],
+   "iast": [
+    "yadā saṃharate cāyaṃ kūrmo'ṅgānīva sarvaśaḥ |",
+    "indriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.62": {
+   "speaker": "",
+   "devanagari": [
+    "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।",
+    "सङ्गात् संजायते कामः कामात्क्रोधोऽभिजायते ॥"
+   ],
+   "iast": [
+    "dhyāyato viṣayānpuṃsaḥ saṅgasteṣūpajāyate |",
+    "saṅgāt saṃjāyate kāmaḥ kāmātkrodho'bhijāyate ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.63": {
+   "speaker": "",
+   "devanagari": [
+    "क्रोधाद्भवति संमोहः संमोहात्स्मृतिविभ्रमः ।",
+    "स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥"
+   ],
+   "iast": [
+    "krodhādbhavati saṃmohaḥ saṃmohātsmṛtivibhramaḥ |",
+    "smṛtibhraṃśād buddhināśo buddhināśātpraṇaśyati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.70": {
+   "speaker": "",
+   "devanagari": [
+    "आपूर्यमाणमचलप्रतिष्ठं ।",
+    "समुद्रमापः प्रविशन्ति यद्वत् ।",
+    "तद्वत्कामा यं प्रविशन्ति सर्वे ।",
+    "स शान्तिमाप्नोति न कामकामी ॥"
+   ],
+   "iast": [
+    "āpūryamāṇamacalapratiṣṭhaṃ |",
+    "samudramāpaḥ praviśanti yadvat |",
+    "tadvatkāmā yaṃ praviśanti sarve |",
+    "sa śāntimāpnoti na kāmakāmī ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "2.72": {
+   "speaker": "",
+   "devanagari": [
+    "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति ।",
+    "स्थित्वाऽस्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ॥"
+   ],
+   "iast": [
+    "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati |",
+    "sthitvā'syāmantakāle'pi brahmanirvāṇamṛcchati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.1": {
+   "speaker": "अर्जुन उवाच",
+   "devanagari": [
+    "ज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन ।",
+    "तत्किं कर्मणि घोरे मां नियोजयसि केशव ॥"
+   ],
+   "iast": [
+    "jyāyasī cetkarmaṇaste matā buddhirjanārdana |",
+    "tatkiṃ karmaṇi ghore māṃ niyojayasi keśava ||"
+   ],
+   "speakerIAST": "arjuna uvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.2": {
+   "speaker": "",
+   "devanagari": [
+    "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे ।",
+    "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ॥"
+   ],
+   "iast": [
+    "vyāmiśreṇeva vākyena buddhiṃ mohayasīva me |",
+    "tadekaṃ vada niścitya yena śreyo'hamāpnuyām ||"
+   ],
+   "speakerIAST": "",
+   "source": "vedicscriptures/bhagavad-gita-data",
+   "needsVerification": true
+  },
+  "3.9": {
+   "speaker": "",
+   "devanagari": [
+    "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः ।",
+    "तदर्थं कर्म कौन्तेय मुक्तसंगः समाचर ॥"
+   ],
+   "iast": [
+    "yajñārthātkarmaṇo'nyatra loko'yaṃ karmabandhanaḥ |",
+    "tadarthaṃ karma kaunteya muktasaṃgaḥ samācara ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.19": {
+   "speaker": "",
+   "devanagari": [
+    "तस्मादसक्तः सततं कार्यं कर्म समाचर ।",
+    "असक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ॥"
+   ],
+   "iast": [
+    "tasmādasaktaḥ satataṃ kāryaṃ karma samācara |",
+    "asakto hyācarankarma paramāpnoti pūruṣaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.21": {
+   "speaker": "",
+   "devanagari": [
+    "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः ।",
+    "स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ॥"
+   ],
+   "iast": [
+    "yadyadācarati śreṣṭhastattadevetaro janaḥ |",
+    "sa yatpramāṇaṃ kurute lokastadanuvartate ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.27": {
+   "speaker": "",
+   "devanagari": [
+    "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः ।",
+    "अहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते ॥"
+   ],
+   "iast": [
+    "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ |",
+    "ahaṅkāravimūḍhātmā kartā'hamiti manyate ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.35": {
+   "speaker": "",
+   "devanagari": [
+    "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् ।",
+    "स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ॥"
+   ],
+   "iast": [
+    "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt |",
+    "svadharme nidhanaṃ śreyaḥ paradharmo bhayāvahaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "3.37": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "काम एष क्रोध एष रजोगुणसमुद्भवः ।",
+    "महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ॥"
+   ],
+   "iast": [
+    "kāma eṣa krodha eṣa rajoguṇasamudbhavaḥ |",
+    "mahāśano mahāpāpmā viddhyenamiha vairiṇam ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "4.7": {
+   "speaker": "",
+   "devanagari": [
+    "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।",
+    "अभ्युत्थानमधर्मस्य तदाऽऽत्मानं सृजाम्यहम् ॥"
+   ],
+   "iast": [
+    "yadā yadā hi dharmasya glānirbhavati bhārata |",
+    "abhyutthānamadharmasya tadā''tmānaṃ sṛjāmyaham ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "4.8": {
+   "speaker": "",
+   "devanagari": [
+    "परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।",
+    "धर्मसंस्थापनार्थाय संभवामि युगे युगे ॥"
+   ],
+   "iast": [
+    "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām |",
+    "dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "4.18": {
+   "speaker": "",
+   "devanagari": [
+    "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः ।",
+    "स बुद्धिमान् मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥"
+   ],
+   "iast": [
+    "karmaṇyakarma yaḥ paśyedakarmaṇi ca karma yaḥ |",
+    "sa buddhimān manuṣyeṣu sa yuktaḥ kṛtsnakarmakṛt ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "4.24": {
+   "speaker": "",
+   "devanagari": [
+    "ब्रह्मार्पणं ब्रह्महविर्ब्रह्माग्नौ ब्रह्मणा हुतम् ।",
+    "ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥"
+   ],
+   "iast": [
+    "brahmārpaṇaṃ brahmahavirbrahmāgnau brahmaṇā hutam |",
+    "brahmaiva tena gantavyaṃ brahmakarmasamādhinā ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "4.34": {
+   "speaker": "",
+   "devanagari": [
+    "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया ।",
+    "उपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥"
+   ],
+   "iast": [
+    "tadviddhi praṇipātena paripraśnena sevayā |",
+    "upadekṣyanti te jñānaṃ jñāninastattvadarśinaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "4.38": {
+   "speaker": "",
+   "devanagari": [
+    "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते ।",
+    "तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ॥"
+   ],
+   "iast": [
+    "na hi jñānena sadṛśaṃ pavitramiha vidyate |",
+    "tatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "5.2": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "संन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ ।",
+    "तयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते ॥"
+   ],
+   "iast": [
+    "saṃnyāsaḥ karmayogaśca niḥśreyasakarāvubhau |",
+    "tayostu karmasaṃnyāsātkarmayogo viśiṣyate ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "5.10": {
+   "speaker": "",
+   "devanagari": [
+    "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः ।",
+    "लिप्यते न स पापेन पद्मपत्रमिवाम्भसा ॥"
+   ],
+   "iast": [
+    "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ |",
+    "lipyate na sa pāpena padmapatramivāmbhasā ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "5.18": {
+   "speaker": "",
+   "devanagari": [
+    "विद्याविनयसंपन्ने ब्राह्मणे गवि हस्तिनि ।",
+    "शुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥"
+   ],
+   "iast": [
+    "vidyāvinayasaṃpanne brāhmaṇe gavi hastini |",
+    "śuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "5.29": {
+   "speaker": "",
+   "devanagari": [
+    "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् ।",
+    "सुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ॥"
+   ],
+   "iast": [
+    "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram |",
+    "suhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "6.1": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "अनाश्रितः कर्मफलं कार्यं कर्म करोति यः ।",
+    "स संन्यासी च योगी च न निरग्निर्न चाक्रियः ॥"
+   ],
+   "iast": [
+    "anāśritaḥ karmaphalaṃ kāryaṃ karma karoti yaḥ |",
+    "sa saṃnyāsī ca yogī ca na niragnirna cākriyaḥ ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "6.5": {
+   "speaker": "",
+   "devanagari": [
+    "उद्धरेदात्मनाऽऽत्मानं नात्मानमवसादयेत् ।",
+    "आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥"
+   ],
+   "iast": [
+    "uddharedātmanā''tmānaṃ nātmānamavasādayet |",
+    "ātmaiva hyātmano bandhurātmaiva ripurātmanaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "6.17": {
+   "speaker": "",
+   "devanagari": [
+    "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु ।",
+    "युक्तस्वप्नावबोधस्य योगो भवति दुःखहा ॥"
+   ],
+   "iast": [
+    "yuktāhāravihārasya yuktaceṣṭasya karmasu |",
+    "yuktasvapnāvabodhasya yogo bhavati duḥkhahā ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "6.19": {
+   "speaker": "",
+   "devanagari": [
+    "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।",
+    "योगिनो यतचित्तस्य युञ्जतो योगमात्मनः ॥"
+   ],
+   "iast": [
+    "yathā dīpo nivātastho neṅgate sopamā smṛtā |",
+    "yogino yatacittasya yuñjato yogamātmanaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "6.29": {
+   "speaker": "",
+   "devanagari": [
+    "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि ।",
+    "ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ॥"
+   ],
+   "iast": [
+    "sarvabhūtasthamātmānaṃ sarvabhūtāni cātmani |",
+    "īkṣate yogayuktātmā sarvatra samadarśanaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "6.35": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "असंशयं महाबाहो मनो दुर्निग्रहं चलं ।",
+    "अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥"
+   ],
+   "iast": [
+    "asaṃśayaṃ mahābāho mano durnigrahaṃ calaṃ |",
+    "abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite",
+   "needsVerification": true
+  },
+  "6.47": {
+   "speaker": "",
+   "devanagari": [
+    "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना ।",
+    "श्रद्धावान्भजते यो मां स मे युक्ततमो मतः ॥"
+   ],
+   "iast": [
+    "yogināmapi sarveṣāṃ madgatenāntarātmanā |",
+    "śraddhāvānbhajate yo māṃ sa me yuktatamo mataḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "7.3": {
+   "speaker": "",
+   "devanagari": [
+    "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये ।",
+    "यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ॥"
+   ],
+   "iast": [
+    "manuṣyāṇāṃ sahasreṣu kaścidyatati siddhaye |",
+    "yatatāmapi siddhānāṃ kaścinmāṃ vetti tattvataḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "7.7": {
+   "speaker": "",
+   "devanagari": [
+    "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय ।",
+    "मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ॥"
+   ],
+   "iast": [
+    "mattaḥ parataraṃ nānyatkiñcidasti dhanañjaya |",
+    "mayi sarvamidaṃ protaṃ sūtre maṇigaṇā iva ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "7.14": {
+   "speaker": "",
+   "devanagari": [
+    "दैवी ह्येषा गुणमयी मम माया दुरत्यया ।",
+    "मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥"
+   ],
+   "iast": [
+    "daivī hyeṣā guṇamayī mama māyā duratyayā |",
+    "māmeva ye prapadyante māyāmetāṃ taranti te ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "7.19": {
+   "speaker": "",
+   "devanagari": [
+    "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते ।",
+    "वासुदेवः सर्वमिति स महात्मा सुदुर्लभः ॥"
+   ],
+   "iast": [
+    "bahūnāṃ janmanāmante jñānavānmāṃ prapadyate |",
+    "vāsudevaḥ sarvamiti sa mahātmā sudurlabhaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "8.5": {
+   "speaker": "",
+   "devanagari": [
+    "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् ।",
+    "यः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ॥"
+   ],
+   "iast": [
+    "antakāle ca māmeva smaranmuktvā kalevaram |",
+    "yaḥ prayāti sa madbhāvaṃ yāti nāstyatra saṃśayaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "8.7": {
+   "speaker": "",
+   "devanagari": [
+    "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च ।",
+    "मय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयम् ॥"
+   ],
+   "iast": [
+    "tasmātsarveṣu kāleṣu māmanusmara yudhya ca |",
+    "mayyarpitamanobuddhirmāmevaiṣyasyasaṃśayam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite",
+   "needsVerification": true
+  },
+  "8.14": {
+   "speaker": "",
+   "devanagari": [
+    "अनन्यचेताः सततं यो मां स्मरति नित्यशः ।",
+    "तस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः ॥"
+   ],
+   "iast": [
+    "ananyacetāḥ satataṃ yo māṃ smarati nityaśaḥ |",
+    "tasyāhaṃ sulabhaḥ pārtha nityayuktasya yoginaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "9.4": {
+   "speaker": "",
+   "devanagari": [
+    "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना ।",
+    "मत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ॥"
+   ],
+   "iast": [
+    "mayā tatamidaṃ sarvaṃ jagadavyaktamūrtinā |",
+    "matsthāni sarvabhūtāni na cāhaṃ teṣvavasthitaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "9.22": {
+   "speaker": "",
+   "devanagari": [
+    "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते ।",
+    "तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥"
+   ],
+   "iast": [
+    "ananyāścintayanto māṃ ye janāḥ paryupāsate |",
+    "teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "9.26": {
+   "speaker": "",
+   "devanagari": [
+    "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति ।",
+    "तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ॥"
+   ],
+   "iast": [
+    "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati |",
+    "tadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "9.27": {
+   "speaker": "",
+   "devanagari": [
+    "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् ।",
+    "यत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥"
+   ],
+   "iast": [
+    "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat |",
+    "yattapasyasi kaunteya tatkuruṣva madarpaṇam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "9.29": {
+   "speaker": "",
+   "devanagari": [
+    "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः ।",
+    "ये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ॥"
+   ],
+   "iast": [
+    "samo'haṃ sarvabhūteṣu na me dveṣyo'sti na priyaḥ |",
+    "ye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "9.34": {
+   "speaker": "",
+   "devanagari": [
+    "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु ।",
+    "मामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ॥"
+   ],
+   "iast": [
+    "manmanā bhava madbhakto madyājī māṃ namaskuru |",
+    "māmevaiṣyasi yuktvaivamātmānaṃ matparāyaṇaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "10.8": {
+   "speaker": "",
+   "devanagari": [
+    "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते ।",
+    "इति मत्वा भजन्ते मां बुधा भावसमन्विताः ॥"
+   ],
+   "iast": [
+    "ahaṃ sarvasya prabhavo mattaḥ sarvaṃ pravartate |",
+    "iti matvā bhajante māṃ budhā bhāvasamanvitāḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "10.20": {
+   "speaker": "",
+   "devanagari": [
+    "अहमात्मा गुडाकेश सर्वभूताशयस्थितः ।",
+    "अहमादिश्च मध्यं च भूतानामन्त एव च ॥"
+   ],
+   "iast": [
+    "ahamātmā guḍākeśa sarvabhūtāśayasthitaḥ |",
+    "ahamādiśca madhyaṃ ca bhūtānāmanta eva ca ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "10.41": {
+   "speaker": "",
+   "devanagari": [
+    "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा ।",
+    "तत्तदेवावगच्छ त्वं मम तेजोंऽशसंभवम् ॥"
+   ],
+   "iast": [
+    "yadyadvibhūtimatsattvaṃ śrīmadūrjitameva vā |",
+    "tattadevāvagaccha tvaṃ mama tejoṃ'śasaṃbhavam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "11.4": {
+   "speaker": "",
+   "devanagari": [
+    "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो ।",
+    "योगेश्वर ततो मे त्वं दर्शयाऽत्मानमव्ययम् ॥"
+   ],
+   "iast": [
+    "manyase yadi tacchakyaṃ mayā draṣṭumiti prabho |",
+    "yogeśvara tato me tvaṃ darśayā'tmānamavyayam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "11.12": {
+   "speaker": "",
+   "devanagari": [
+    "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता ।",
+    "यदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ॥"
+   ],
+   "iast": [
+    "divi sūryasahasrasya bhavedyugapadutthitā |",
+    "yadi bhāḥ sadṛśī sā syādbhāsastasya mahātmanaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "11.32": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "कालोऽस्मि लोकक्षयकृत्प्रवृद्धो ।",
+    "लोकान्समाहर्तुमिह प्रवृत्तः ।",
+    "ऋतेऽपि त्वां न भविष्यन्ति सर्वे ।",
+    "येऽवस्थिताः प्रत्यनीकेषु योधाः ॥"
+   ],
+   "iast": [
+    "kālo'smi lokakṣayakṛtpravṛddho |",
+    "lokānsamāhartumiha pravṛttaḥ |",
+    "ṛte'pi tvāṃ na bhaviṣyanti sarve |",
+    "ye'vasthitāḥ pratyanīkeṣu yodhāḥ ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "11.33": {
+   "speaker": "",
+   "devanagari": [
+    "तस्मात्त्वमुत्तिष्ठ यशो लभस्व ।",
+    "जित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् ।",
+    "मयैवैते निहताः पूर्वमेव ।",
+    "निमित्तमात्रं भव सव्यसाचिन् ॥"
+   ],
+   "iast": [
+    "tasmāttvamuttiṣṭha yaśo labhasva |",
+    "jitvā śatrūn bhuṅkṣva rājyaṃ samṛddham |",
+    "mayaivaite nihatāḥ pūrvameva |",
+    "nimittamātraṃ bhava savyasācin ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "11.34": {
+   "speaker": "",
+   "devanagari": [
+    "द्रोणं च भीष्मं च जयद्रथं च ।",
+    "कर्णं तथाऽन्यानपि योधवीरान् ।",
+    "मया हतांस्त्वं जहि मा व्यथिष्ठा ।",
+    "युध्यस्व जेतासि रणे सपत्नान् ॥"
+   ],
+   "iast": [
+    "droṇaṃ ca bhīṣmaṃ ca jayadrathaṃ ca |",
+    "karṇaṃ tathā'nyānapi yodhavīrān |",
+    "mayā hatāṃstvaṃ jahi mā vyathiṣṭhā |",
+    "yudhyasva jetāsi raṇe sapatnān ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "11.54": {
+   "speaker": "",
+   "devanagari": [
+    "भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन ।",
+    "ज्ञातुं दृष्टुं च तत्त्वेन प्रवेष्टुं च परंतप ॥"
+   ],
+   "iast": [
+    "bhaktyā tvananyayā śakya ahamevaṃvidho'rjuna |",
+    "jñātuṃ dṛṣṭuṃ ca tattvena praveṣṭuṃ ca paraṃtapa ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite",
+   "needsVerification": true
+  },
+  "11.55": {
+   "speaker": "",
+   "devanagari": [
+    "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः ।",
+    "निर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ॥"
+   ],
+   "iast": [
+    "matkarmakṛnmatparamo madbhaktaḥ saṅgavarjitaḥ |",
+    "nirvairaḥ sarvabhūteṣu yaḥ sa māmeti pāṇḍava ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "12.2": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "मय्यावेश्य मनो ये मां नित्ययुक्ता उपासते ।",
+    "श्रद्धया परयोपेतास्ते मे युक्ततमा मताः ॥"
+   ],
+   "iast": [
+    "mayyāveśya mano ye māṃ nityayuktā upāsate |",
+    "śraddhayā parayopetāste me yuktatamā matāḥ ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite",
+   "needsVerification": true
+  },
+  "12.8": {
+   "speaker": "",
+   "devanagari": [
+    "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय ।",
+    "निवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ॥"
+   ],
+   "iast": [
+    "mayyeva mana ādhatsva mayi buddhiṃ niveśaya |",
+    "nivasiṣyasi mayyeva ata ūrdhvaṃ na saṃśayaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "12.12": {
+   "speaker": "",
+   "devanagari": [
+    "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते ।",
+    "ध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥"
+   ],
+   "iast": [
+    "śreyo hi jñānamabhyāsājjñānāddhyānaṃ viśiṣyate |",
+    "dhyānātkarmaphalatyāgastyāgācchāntiranantaram ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "12.13": {
+   "speaker": "",
+   "devanagari": [
+    "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।",
+    "निर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥"
+   ],
+   "iast": [
+    "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca |",
+    "nirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "12.14": {
+   "speaker": "",
+   "devanagari": [
+    "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः ।",
+    "मय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥"
+   ],
+   "iast": [
+    "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ |",
+    "mayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "12.20": {
+   "speaker": "",
+   "devanagari": [
+    "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते ।",
+    "श्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ॥"
+   ],
+   "iast": [
+    "ye tu dharmyāmṛtamidaṃ yathoktaṃ paryupāsate |",
+    "śraddadhānā matparamā bhaktāste'tīva me priyāḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "13.2": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते ।",
+    "एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः ॥"
+   ],
+   "iast": [
+    "idaṃ śarīraṃ kaunteya kṣetramityabhidhīyate |",
+    "etadyo vetti taṃ prāhuḥ kṣetrajña iti tadvidaḥ ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "13.8": {
+   "speaker": "",
+   "devanagari": [
+    "अमानित्वमदम्भित्वमहिंसा क्षान्तिरार्जवम् ।",
+    "आचार्योपासनं शौचं स्थैर्यमात्मविनिग्रहः ॥"
+   ],
+   "iast": [
+    "amānitvamadambhitvamahiṃsā kṣāntirārjavam |",
+    "ācāryopāsanaṃ śaucaṃ sthairyamātmavinigrahaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "13.13": {
+   "speaker": "",
+   "devanagari": [
+    "ज्ञेयं यत्तत्प्रवक्ष्यामि यज्ज्ञात्वाऽमृतमश्नुते ।",
+    "अनादिमत्परं ब्रह्म न सत्तन्नासदुच्यते ॥"
+   ],
+   "iast": [
+    "jñeyaṃ yattatpravakṣyāmi yajjñātvā'mṛtamaśnute |",
+    "anādimatparaṃ brahma na sattannāsaducyate ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "13.23": {
+   "speaker": "",
+   "devanagari": [
+    "उपद्रष्टाऽनुमन्ता च भर्ता भोक्ता महेश्वरः ।",
+    "परमात्मेति चाप्युक्तो देहेऽस्मिन्पुरुषः परः ॥"
+   ],
+   "iast": [
+    "upadraṣṭā'numantā ca bhartā bhoktā maheśvaraḥ |",
+    "paramātmeti cāpyukto dehe'sminpuruṣaḥ paraḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "13.28": {
+   "speaker": "",
+   "devanagari": [
+    "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम् ।",
+    "विनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति ॥"
+   ],
+   "iast": [
+    "samaṃ sarveṣu bhūteṣu tiṣṭhantaṃ parameśvaram |",
+    "vinaśyatsvavinaśyantaṃ yaḥ paśyati sa paśyati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "14.5": {
+   "speaker": "",
+   "devanagari": [
+    "सत्त्वं रजस्तम इति गुणाः प्रकृतिसंभवाः ।",
+    "निबध्नन्ति महाबाहो देहे देहिनमव्ययम् ॥"
+   ],
+   "iast": [
+    "sattvaṃ rajastama iti guṇāḥ prakṛtisaṃbhavāḥ |",
+    "nibadhnanti mahābāho dehe dehinamavyayam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "14.19": {
+   "speaker": "",
+   "devanagari": [
+    "नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति ।",
+    "गुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति ॥"
+   ],
+   "iast": [
+    "nānyaṃ guṇebhyaḥ kartāraṃ yadā draṣṭānupaśyati |",
+    "guṇebhyaśca paraṃ vetti madbhāvaṃ so'dhigacchati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "14.26": {
+   "speaker": "",
+   "devanagari": [
+    "मां च योऽव्यभिचारेण भक्तियोगेन सेवते ।",
+    "स गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते ॥"
+   ],
+   "iast": [
+    "māṃ ca yo'vyabhicāreṇa bhaktiyogena sevate |",
+    "sa guṇānsamatītyaitānbrahmabhūyāya kalpate ||"
+   ],
+   "speakerIAST": "",
+   "source": "vedicscriptures/bhagavad-gita-data",
+   "needsVerification": true
+  },
+  "14.27": {
+   "speaker": "",
+   "devanagari": [
+    "ब्रह्मणो हि प्रतिष्ठाऽहममृतस्याव्ययस्य च ।",
+    "शाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च ॥"
+   ],
+   "iast": [
+    "brahmaṇo hi pratiṣṭhā'hamamṛtasyāvyayasya ca |",
+    "śāśvatasya ca dharmasya sukhasyaikāntikasya ca ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "15.1": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम् ।",
+    "छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित् ॥"
+   ],
+   "iast": [
+    "ūrdhvamūlamadhaḥśākhamaśvatthaṃ prāhuravyayam |",
+    "chandāṃsi yasya parṇāni yastaṃ veda sa vedavit ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "15.7": {
+   "speaker": "",
+   "devanagari": [
+    "ममैवांशो जीवलोके जीवभूतः सनातनः ।",
+    "मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ॥"
+   ],
+   "iast": [
+    "mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ |",
+    "manaḥṣaṣṭhānīndriyāṇi prakṛtisthāni karṣati ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "15.15": {
+   "speaker": "",
+   "devanagari": [
+    "सर्वस्य चाहं हृदि सन्निविष्टो ।",
+    "मत्तः स्मृतिर्ज्ञानमपोहनं च ।",
+    "वेदैश्च सर्वैरहमेव वेद्यो ।",
+    "वेदान्तकृद्वेदविदेव चाहम् ॥"
+   ],
+   "iast": [
+    "sarvasya cāhaṃ hṛdi sanniviṣṭo |",
+    "mattaḥ smṛtirjñānamapohanaṃ ca |",
+    "vedaiśca sarvairahameva vedyo |",
+    "vedāntakṛdvedavideva cāham ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "15.19": {
+   "speaker": "",
+   "devanagari": [
+    "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम् ।",
+    "स सर्वविद्भजति मां सर्वभावेन भारत ॥"
+   ],
+   "iast": [
+    "yo māmevamasammūḍho jānāti puruṣottamam |",
+    "sa sarvavidbhajati māṃ sarvabhāvena bhārata ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "16.1": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "अभयं सत्त्वसंशुद्धिः ज्ञानयोगव्यवस्थितिः ।",
+    "दानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम् ॥"
+   ],
+   "iast": [
+    "abhayaṃ sattvasaṃśuddhiḥ jñānayogavyavasthitiḥ |",
+    "dānaṃ damaśca yajñaśca svādhyāyastapa ārjavam ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite",
+   "needsVerification": true
+  },
+  "16.2": {
+   "speaker": "",
+   "devanagari": [
+    "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम् ।",
+    "दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम् ॥"
+   ],
+   "iast": [
+    "ahiṃsā satyamakrodhastyāgaḥ śāntirapaiśunam |",
+    "dayā bhūteṣvaloluptvaṃ mārdavaṃ hrīracāpalam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "16.3": {
+   "speaker": "",
+   "devanagari": [
+    "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता ।",
+    "भवन्ति सम्पदं दैवीमभिजातस्य भारत ॥"
+   ],
+   "iast": [
+    "tejaḥ kṣamā dhṛtiḥ śaucamadroho nātimānitā |",
+    "bhavanti sampadaṃ daivīmabhijātasya bhārata ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "16.21": {
+   "speaker": "",
+   "devanagari": [
+    "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः ।",
+    "कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ॥"
+   ],
+   "iast": [
+    "trividhaṃ narakasyedaṃ dvāraṃ nāśanamātmanaḥ |",
+    "kāmaḥ krodhastathā lobhastasmādetattrayaṃ tyajet ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "16.24": {
+   "speaker": "",
+   "devanagari": [
+    "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ ।",
+    "ज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि ॥"
+   ],
+   "iast": [
+    "tasmācchāstraṃ pramāṇaṃ te kāryākāryavyavasthitau |",
+    "jñātvā śāstravidhānoktaṃ karma kartumihārhasi ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "17.3": {
+   "speaker": "",
+   "devanagari": [
+    "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत ।",
+    "श्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः ॥"
+   ],
+   "iast": [
+    "sattvānurūpā sarvasya śraddhā bhavati bhārata |",
+    "śraddhāmayo'yaṃ puruṣo yo yacchraddhaḥ sa eva saḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "17.15": {
+   "speaker": "",
+   "devanagari": [
+    "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् ।",
+    "स्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ॥"
+   ],
+   "iast": [
+    "anudvegakaraṃ vākyaṃ satyaṃ priyahitaṃ ca yat |",
+    "svādhyāyābhyasanaṃ caiva vāṅmayaṃ tapa ucyate ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "17.23": {
+   "speaker": "",
+   "devanagari": [
+    "ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः ।",
+    "ब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा ॥"
+   ],
+   "iast": [
+    "ॐ tatsaditi nirdeśo brahmaṇastrividhaḥ smṛtaḥ |",
+    "brāhmaṇāstena vedāśca yajñāśca vihitāḥ purā ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.2": {
+   "speaker": "श्री भगवानुवाच",
+   "devanagari": [
+    "काम्यानां कर्मणां न्यासं संन्यासं कवयो विदुः ।",
+    "सर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणाः ॥"
+   ],
+   "iast": [
+    "kāmyānāṃ karmaṇāṃ nyāsaṃ saṃnyāsaṃ kavayo viduḥ |",
+    "sarvakarmaphalatyāgaṃ prāhustyāgaṃ vicakṣaṇāḥ ||"
+   ],
+   "speakerIAST": "śrī bhagavānuvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.14": {
+   "speaker": "",
+   "devanagari": [
+    "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम् ।",
+    "विविधाश्च पृथक्चेष्टा दैवं चैवात्र पञ्चमम् ॥"
+   ],
+   "iast": [
+    "adhiṣṭhānaṃ tathā kartā karaṇaṃ ca pṛthagvidham |",
+    "vividhāśca pṛthakceṣṭā daivaṃ caivātra pañcamam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.45": {
+   "speaker": "",
+   "devanagari": [
+    "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः ।",
+    "स्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु ॥"
+   ],
+   "iast": [
+    "sve sve karmaṇyabhirataḥ saṃsiddhiṃ labhate naraḥ |",
+    "svakarmanirataḥ siddhiṃ yathā vindati tacchṛṇu ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.46": {
+   "speaker": "",
+   "devanagari": [
+    "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम् ।",
+    "स्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः ॥"
+   ],
+   "iast": [
+    "yataḥ pravṛttirbhūtānāṃ yena sarvamidaṃ tatam |",
+    "svakarmaṇā tamabhyarcya siddhiṃ vindati mānavaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.47": {
+   "speaker": "",
+   "devanagari": [
+    "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् ।",
+    "स्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥"
+   ],
+   "iast": [
+    "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt |",
+    "svabhāvaniyataṃ karma kurvannāpnoti kilbiṣam ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.54": {
+   "speaker": "",
+   "devanagari": [
+    "ब्रह्मभूतः प्रसन्नात्मा न शोचति न काङ्क्षति ।",
+    "समः सर्वेषु भूतेषु मद्भक्तिं लभते पराम् ॥"
+   ],
+   "iast": [
+    "brahmabhūtaḥ prasannātmā na śocati na kāṅkṣati |",
+    "samaḥ sarveṣu bhūteṣu madbhaktiṃ labhate parām ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.61": {
+   "speaker": "",
+   "devanagari": [
+    "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति ।",
+    "भ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया ॥"
+   ],
+   "iast": [
+    "īśvaraḥ sarvabhūtānāṃ hṛddeśe'rjuna tiṣṭhati |",
+    "bhrāmayansarvabhūtāni yantrārūḍhāni māyayā ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.63": {
+   "speaker": "",
+   "devanagari": [
+    "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया ।",
+    "विमृश्यैतदशेषेण यथेच्छसि तथा कुरु ॥"
+   ],
+   "iast": [
+    "iti te jñānamākhyātaṃ guhyādguhyataraṃ mayā |",
+    "vimṛśyaitadaśeṣeṇa yathecchasi tathā kuru ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.65": {
+   "speaker": "",
+   "devanagari": [
+    "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु ।",
+    "मामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे ॥"
+   ],
+   "iast": [
+    "manmanā bhava madbhakto madyājī māṃ namaskuru |",
+    "māmevaiṣyasi satyaṃ te pratijāne priyo'si me ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.66": {
+   "speaker": "",
+   "devanagari": [
+    "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।",
+    "अहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥"
+   ],
+   "iast": [
+    "sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja |",
+    "ahaṃ tvā sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.73": {
+   "speaker": "अर्जुन उवाच",
+   "devanagari": [
+    "नष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत ।",
+    "स्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ॥"
+   ],
+   "iast": [
+    "naṣṭo mohaḥ smṛtirlabdhā tvatprasādānmayācyuta |",
+    "sthito'smi gatasandehaḥ kariṣye vacanaṃ tava ||"
+   ],
+   "speakerIAST": "arjuna uvāca",
+   "source": "IIT Kanpur Gita Supersite"
+  },
+  "18.78": {
+   "speaker": "",
+   "devanagari": [
+    "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः ।",
+    "तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ॥"
+   ],
+   "iast": [
+    "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ |",
+    "tatra śrīrvijayo bhūtirdhruvā nītirmatirmama ||"
+   ],
+   "speakerIAST": "",
+   "source": "IIT Kanpur Gita Supersite"
+  }
+ }
+}

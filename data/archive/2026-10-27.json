@@ -1,0 +1,391 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-27",
+  "generated_at": "2026-10-27T14:58:01.375093+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 588,
+      "unique": 562,
+      "substantive": 433,
+      "ai_reviewed": 10,
+      "qualified": 6,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 391,
+      "unique": 387,
+      "substantive": 203,
+      "ai_reviewed": 11,
+      "qualified": 12,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 228,
+      "unique": 227,
+      "substantive": 94,
+      "ai_reviewed": 10,
+      "qualified": 51,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 144,
+      "unique": 138,
+      "substantive": 62,
+      "ai_reviewed": 10,
+      "qualified": 33,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 9,
+    "reserved_input_tokens": 32894,
+    "model_verified": true,
+    "cache_hits": 21,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 6,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 4,
+    "live": 6,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "a6b6cc12592accd",
+      "title": "Van der Waals floating-gate device combines memory and optoelectronic learning",
+      "original_title": "A van der Waals Floating-Gate Platform for Broadband Optoelectronic Neuromorphic Computing",
+      "url": "https://arxiv.org/abs/2610.34738",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-27T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Thi Phuong Anh Bach, Sangeun Cho"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.34738",
+      "event_key": "vdw_floating_gate_neuromorphic",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have built an artificial synapse using layered atomic crystals that combines nonvolatile charge storage with broadband optoelectronic learning in a single device. The heterostructure uses one atomic layer for stable charge storage, an insulating tunneling dielectric, and a photoresponsive channel that responds to both electrical and optical stimulation. The transistor demonstrates stable multilevel conductance states, reliable retention, and synaptic weight modulation across visible and near-infrared light.",
+      "why": "This platform integrates memory and adaptive information processing within a single transistor, offering a promising strategy for compact, energy-efficient neuromorphic hardware.",
+      "technical_details": [
+        "The device incorporates InSe as a floating-gate layer, hexagonal boron nitride as a tunneling dielectric, and ReS2 as a photoresponsive channel, achieving an on/off current ratio exceeding 10^6 and retention over 10^4 seconds."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.34738",
+          "publisher": "arXiv",
+          "published": "2026-10-27T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "2c88f52237924602693b332b78afcc2932e3f41610b8e6583e19dc891b02e97e",
+          "retrieved_at": "2026-10-27T14:55:17.149169+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports a van der Waals ReS2/hBN/InSe floating-gate synaptic transistor combining nonvolatile memory and broadband optoelectronic learning for neuromorphic hardware.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Van der Waals floating-gate device combines memory and optoelectronic learning"
+    },
+    {
+      "id": "ab8c2d532b7b34c",
+      "title": "Judge rules US Justice Department illegally fired federal prosecutor Maurene Comey",
+      "original_title": "Trump administration illegally fired James Comey's daughter, judge rules",
+      "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC US & Canada",
+      "category": "U.S. News",
+      "published": "2026-10-27T12:28:35+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+      "event_key": "comey_legal_proceedings",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A federal judge has ruled that the US Justice Department unlawfully fired federal prosecutor Maurene Comey due to her perceived political affiliations and her relation to former FBI Director James Comey. The court ordered the administration to reinstate her and provide back pay from July to December 2025, when she accepted a new job. A Justice Department spokesperson stated that the agency disagrees with the ruling and intends to appeal the decision.",
+      "why": "This ruling directly addresses federal employment protections and executive authority regarding the dismissal of civil servants and career prosecutors.",
+      "technical_details": [
+        "Judge Jesse Furman ruled that the dismissal violated the US Constitution and the legal requirement that federal prosecutors can only be fired in a specific manner for certain reasons."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-10-27T12:28:35+00:00",
+          "content_type": "public article text",
+          "content_sha256": "30e7efdb841e30a969afa7a2ef07169a4814c14e91db58e12839da9d2fe300c6",
+          "retrieved_at": "2026-10-27T14:55:17.149169+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "A federal judge ruled that the Trump administration illegally fired Maurene Comey, while her father faces separate federal charges.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Judge rules US Justice Department illegally fired federal prosecutor Maurene Comey"
+    },
+    {
+      "id": "267b80f185aeb3e",
+      "title": "Record Turnout in Tight Israeli Election as Netanyahu and Eisenkot Face Off",
+      "original_title": "Turnout so far highest on record as Israelis vote in pivotal election",
+      "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-10-27T11:11:33+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+      "event_key": "israel_pivotal_election",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Israelis are voting in a pivotal election with record turnout, featuring a tight race between incumbent Prime Minister Benjamin Netanyahu and former military chief Gadi Eisenkot. Neither candidate's political bloc is projected to win the necessary 61 seats for a majority, pointing toward potential coalition negotiations. The campaign has been heavily shaped by national security concerns, domestic debates over democracy, and ongoing regional conflicts.",
+      "why": "The election outcome could significantly alter Israel's domestic governance and its foreign policy approach regarding ongoing regional conflicts.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-10-27T11:11:33+00:00",
+          "content_type": "public article text",
+          "content_sha256": "87aff0517e921f255cb53c244036a7d41fc557fa4bf3751f3edb271d992e2769",
+          "retrieved_at": "2026-10-27T14:55:17.149169+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Israelis vote in a pivotal election with record turnout, with Netanyahu and Eisenkot nearly neck-and-neck.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Record Turnout in Tight Israeli Election as Netanyahu and Eisenkot Face Off"
+    },
+    {
+      "id": "3de513a23d5a09e",
+      "title": "Nvidia Backs Indian Startup Optimizing AI Inference Workloads",
+      "original_title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-27T11:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+      "event_key": "nvidia_simplismart_funding",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia has invested in Indian startup Simplismart as part of a fourteen million dollar funding round valuing the company at approximately one hundred million dollars. Simplismart develops software that acts as an intermediary between artificial intelligence models and computing infrastructure, helping companies deploy models more efficiently. The startup's platform automates configuration adjustments to help businesses run workloads with fewer graphics processing units and lower operating costs.",
+      "why": "Improving artificial intelligence inference efficiency helps companies manage high computing costs and strict performance requirements, potentially driving broader hardware adoption.",
+      "technical_details": [
+        "The software optimizes metrics like response time, request throughput, and power consumption across cloud and on-premises GPU stacks."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-27T11:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "2a7ba60dd44e7a58192d009f31e239e3a3144fdb7a6c6dd5b9e426431ca67ce9",
+          "retrieved_at": "2026-10-27T14:55:17.149169+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Nvidia backed Indian startup Simplismart in a Series B funding round for efficient AI model deployment software.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Nvidia Backs Indian Startup Optimizing AI Inference Workloads"
+    },
+    {
+      "id": "ece3f97e5a4a33c",
+      "title": "Qatari Emir and Iranian President Meet in Moscow",
+      "original_title": "Qatar’s Emir meets Iran’s Pezeshkian in Moscow",
+      "url": "https://www.aljazeera.com/news/2026/10/27/qatars-emir-meets-irans-pezeshkian-in-moscow?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-10-27T13:26:32+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/10/27/qatars-emir-meets-irans-pezeshkian-in-moscow?traffic_source=rss",
+      "event_key": "qatar_iran_moscow_meeting",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Qatar's Emir Sheikh Tamim bin Hamad Al Thani met with Iran's President Masoud Pezeshkian on the sidelines of an energy forum in Moscow. The leaders discussed expanding political, economic, and energy cooperation between Tehran and Doha. Doha has simultaneously been engaged in diplomatic mediation efforts aimed at resolving ongoing regional conflicts involving the United States and Iran.",
+      "why": "High-level diplomatic talks highlight ongoing regional mediation efforts and energy cooperation amidst heightened geopolitical tensions.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/10/27/qatars-emir-meets-irans-pezeshkian-in-moscow?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-10-27T13:26:32+00:00",
+          "content_type": "public article text",
+          "content_sha256": "8637bda6238cb70991df29efd2d776f4e32b56e9b8a06ccd2cd04ae92ff6e850",
+          "retrieved_at": "2026-10-27T14:55:17.149169+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Qatar's Emir and Iran's President met in Moscow to discuss bilateral relations and regional mediation.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Qatari Emir and Iranian President Meet in Moscow"
+    },
+    {
+      "id": "0d033b37697142d",
+      "title": "OpenAI reports new science discoveries using external expert guides",
+      "original_title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source": "The Verge",
+      "category": "AI",
+      "published": "2026-10-26T23:34:58+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Richard Lawler"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "event_key": "3f68a7cd72d07485d916",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Following a previous release of mathematical manuscripts, an artificial intelligence organization announced three new developments in mathematics, computer science, and physics. This latest announcement involves the use of external experts, referred to as shepherds, to help guide the research results. The approach marks a shift in how the organization collaborates with academics to evaluate machine-generated findings.",
+      "why": "Involving external academic experts helps validate computer-generated research claims in complex scientific fields. This collaboration could change how artificial intelligence tools contribute to academic literature.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+          "publisher": "The Verge",
+          "published": "2026-10-26T23:34:58+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "96f75f83cfc4fc184f2d2a63aebf965b5e09ba0afdcab83001f67ad87b06b8db",
+          "retrieved_at": "2026-10-27T14:55:17.149169+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "OpenAI reports new science discoveries using external expert guides"
+    }
+  ]
+}
