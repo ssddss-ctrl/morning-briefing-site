@@ -1,0 +1,113 @@
+{
+  "briefing_date": "2026-11-04",
+  "edition_hash": "3622a2fc7af00783c89f3bdeb4eef9eeeb6ad05535dd508b80bf23961aaaee43",
+  "voice": "am_michael",
+  "source_items": [
+    {
+      "id": "82b0e0e94dbb4d9",
+      "title": "Adaptive protocol stabilizes bistable qubits using single-shot measurement",
+      "summary": "Defects in solid-state quantum processors can interact with qubits, causing discrete frequency shifts that make them unstable and bistable. Researchers experimentally demonstrated an adaptive control protocol powered by a field-programmable gate array to correct these shifts using a single measurement. The approach successfully suppressed instabilities in a superconducting qubit, achieving significant error reduction and stabilizing gate fidelities over time.",
+      "why": "Mitigating dephasing errors from defects is crucial for improving the performance and stability of large quantum processor arrays."
+    },
+    {
+      "id": "13573e5e11d83ab",
+      "title": "Democrats win control of both congressional chambers in US midterms",
+      "summary": "Democratic candidates secured control of both chambers of Congress in the United States midterm elections, achieving several surprising victories. The results present a significant challenge to President Donald Trump's legislative agenda for the remainder of his term. Voters also elected several historic figures, including the country's first Muslim senator.",
+      "why": "The shift in congressional control will directly impact federal spending, foreign policy decisions regarding Ukraine and Iran, and potential administrative investigations."
+    },
+    {
+      "id": "4ce61c84c4e59cf",
+      "title": "Clashes and Blockades Near Taiz Leave Residents in Fear",
+      "summary": "Four months into renewed fighting in Yemen, clashes have concentrated around the southwestern city of Taiz. Houthi forces have largely blocked vital goods and medical supplies from entering the city, displacing tens of thousands in the surrounding governorate and causing severe hardships for residents. International aid organizations warn that ongoing insecurity prevents them from safely reaching civilians and delivering emergency supplies.",
+      "why": "Control of Taiz remains a major strategic objective that could alter territorial power dynamics and negotiations in the ongoing conflict."
+    },
+    {
+      "id": "342b4ecfe166944",
+      "title": "Meta acquires artificial intelligence coding startup Conductor",
+      "summary": "Meta has acquired Conductor, an artificial intelligence startup that deploys multiple agents into parallel workspaces to build software projects. The startup's team will join Meta's Superintelligence Labs following the deal. Conductor announced that its core features will remain operational temporarily while its cloud service shuts down.",
+      "why": "Major technology companies continue to consolidate artificial intelligence talent and agentic coding capabilities to strengthen their software offerings."
+    },
+    {
+      "id": "6cd7193786cb544",
+      "title": "Previously Unseen Family Archive Offers Insight Into Rabindranath Tagore",
+      "summary": "A newly revealed family archive provides a look into the artistic process and personal relationships of Indian Nobel laureate Rabindranath Tagore during his final years. Tagore was a multi-talented figure who left a lasting legacy in literature, music, and art, including penning the national anthems of India and Bangladesh.",
+      "why": "This archive sheds new light on the private creative world of a historic literary figure who became the first non-European to win the Nobel prize in literature."
+    },
+    {
+      "id": "9b23d2947fb3226",
+      "title": "Training AI Agents to Automate Model Post-Training",
+      "summary": "Researchers introduced an automated pipeline and collection of training environments designed to teach artificial intelligence agents how to conduct model post-training. The approach converts human research artifacts into executable environments, filtering tasks by execution reliability and data size to build a seed collection. Fine-tuning models on these collected trajectories improved their performance on standardized post-training benchmarks, matching the results of several frontier models.",
+      "why": "Automating recursive self-improvement and post-training capabilities allows AI systems to more independently select data, diagnose failures, and enhance future model versions."
+    },
+    {
+      "id": "28e09b7fd3ded5d",
+      "title": "Vance Attributes Midterm Losses to Unpopular Conflict with Iran",
+      "summary": "Following deep losses for the Republican Party in the midterm elections, Vice President JD Vance publicly attributed the outcome to voter dissatisfaction with the conflict with Iran. Polling indicated that a majority of voters viewed the military action against Iran as the wrong decision, heavily backing opposition candidates. While President Trump defended the military intervention, the public division highlights internal political fallout from the foreign policy decision.",
+      "why": "Voter backlash over foreign military actions and cost-of-living pressures can directly reshape congressional power balances and influence future administration policy decisions."
+    },
+    {
+      "id": "b23b8032e531541",
+      "title": "Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging",
+      "summary": "Researchers mapped the three-dimensional distribution of invisible matter, known as dark matter, across a specific sky region using deep space telescope imaging. By combining a physical lensing model with advanced generative computer models trained on cosmological simulations, the team reconstructed matter distributions across twenty distinct depth planes. This approach successfully separates overlapping cosmic structures and extends mapping capabilities to higher redshifts, reaching closer to a major epoch of rapid galaxy growth.",
+      "why": "This technique extends three-dimensional weak lensing mapping into the high-redshift regime, enabling probabilistic visualization of the evolving cosmic web. It provides a robust route for tracing the growth of cosmic structure with current wide-field surveys."
+    }
+  ],
+  "segments": [
+    {
+      "story_id": "82b0e0e94dbb4d9",
+      "title": "Adaptive protocol stabilizes bistable qubits using single-shot measurement",
+      "text": "Good morning. Here's your briefing, covering scientific research, United States news, world affairs, artificial intelligence. We begin with scientific research. Adaptive protocol stabilizes bistable qubits using single-shot measurement. Defects in solid-state quantum processors can interact with qubits, causing discrete frequency shifts that make them unstable and bistable. Researchers experimentally demonstrated an adaptive control protocol powered by a field-programmable gate array to correct these shifts using a single measurement. The approach successfully suppressed instabilities in a superconducting qubit, achieving significant error reduction and stabilizing gate fidelities over time. Why this matters. Mitigating dephasing errors from defects is crucial for improving the performance and stability of large quantum processor arrays.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/0.m4a",
+      "duration": 55.616
+    },
+    {
+      "story_id": "13573e5e11d83ab",
+      "title": "Democrats win control of both congressional chambers in US midterms",
+      "text": "Turning to United States news. Democrats win control of both congressional chambers in US midterms. Democratic candidates secured control of both chambers of Congress in the United States midterm elections, achieving several surprising victories. The results present a significant challenge to President Donald Trump's legislative agenda for the remainder of his term. Voters also elected several historic figures, including the country's first Muslim senator. Why this matters. The shift in congressional control will directly impact federal spending, foreign policy decisions regarding Ukraine and Iran, and potential administrative investigations.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/1.m4a",
+      "duration": 42.77333333333333
+    },
+    {
+      "story_id": "4ce61c84c4e59cf",
+      "title": "Clashes and Blockades Near Taiz Leave Residents in Fear",
+      "text": "Turning to world affairs. Clashes and Blockades Near Taiz Leave Residents in Fear. Four months into renewed fighting in Yemen, clashes have concentrated around the southwestern city of Taiz. Houthi forces have largely blocked vital goods and medical supplies from entering the city, displacing tens of thousands in the surrounding governorate and causing severe hardships for residents. International aid organizations warn that ongoing insecurity prevents them from safely reaching civilians and delivering emergency supplies. Why this matters. Control of Taiz remains a major strategic objective that could alter territorial power dynamics and negotiations in the ongoing conflict.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/2.m4a",
+      "duration": 46.61333333333334
+    },
+    {
+      "story_id": "342b4ecfe166944",
+      "title": "Meta acquires artificial intelligence coding startup Conductor",
+      "text": "Turning to artificial intelligence. Meta acquires artificial intelligence coding startup Conductor. Meta has acquired Conductor, an artificial intelligence startup that deploys multiple agents into parallel workspaces to build software projects. The startup's team will join Meta's Superintelligence Labs following the deal. Conductor announced that its core features will remain operational temporarily while its cloud service shuts down. Why this matters. Major technology companies continue to consolidate artificial intelligence talent and agentic coding capabilities to strengthen their software offerings.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/3.m4a",
+      "duration": 39.91466666666667
+    },
+    {
+      "story_id": "6cd7193786cb544",
+      "title": "Previously Unseen Family Archive Offers Insight Into Rabindranath Tagore",
+      "text": "Turning to United States news. Previously Unseen Family Archive Offers Insight Into Rabindranath Tagore. A newly revealed family archive provides a look into the artistic process and personal relationships of Indian Nobel laureate Rabindranath Tagore during his final years. Tagore was a multi-talented figure who left a lasting legacy in literature, music, and art, including penning the national anthems of India and Bangladesh. Why this matters. This archive sheds new light on the private creative world of a historic literary figure who became the first non-European to win the Nobel prize in literature.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/4.m4a",
+      "duration": 40.98133333333333
+    },
+    {
+      "story_id": "9b23d2947fb3226",
+      "title": "Training AI Agents to Automate Model Post-Training",
+      "text": "Turning to artificial intelligence. Training artificial intelligence Agents to Automate Model Post-Training. Researchers introduced an automated pipeline and collection of training environments designed to teach artificial intelligence agents how to conduct model post-training. The approach converts human research artifacts into executable environments, filtering tasks by execution reliability and data size to build a seed collection. Fine-tuning models on these collected trajectories improved their performance on standardized post-training benchmarks, matching the results of several frontier models. Why this matters. Automating recursive self-improvement and post-training capabilities allows artificial intelligence systems to more independently select data, diagnose failures, and enhance future model versions.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/5.m4a",
+      "duration": 54.272
+    },
+    {
+      "story_id": "28e09b7fd3ded5d",
+      "title": "Vance Attributes Midterm Losses to Unpopular Conflict with Iran",
+      "text": "Turning to world affairs. Vance Attributes Midterm Losses to Unpopular Conflict with Iran. Following deep losses for the Republican Party in the midterm elections, Vice President JD Vance publicly attributed the outcome to voter dissatisfaction with the conflict with Iran. Polling indicated that a majority of voters viewed the military action against Iran as the wrong decision, heavily backing opposition candidates. While President Trump defended the military intervention, the public division highlights internal political fallout from the foreign policy decision. Why this matters. Voter backlash over foreign military actions and cost-of-living pressures can directly reshape congressional power balances and influence future administration policy decisions.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/6.m4a",
+      "duration": 49.10933333333333
+    },
+    {
+      "story_id": "b23b8032e531541",
+      "title": "Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging",
+      "text": "Turning to scientific research. Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging. Researchers mapped the three-dimensional distribution of invisible matter, known as dark matter, across a specific sky region using deep space telescope imaging. By combining a physical lensing model with advanced generative computer models trained on cosmological simulations, the team reconstructed matter distributions across twenty distinct depth planes. This approach successfully separates overlapping cosmic structures and extends mapping capabilities to higher redshifts, reaching closer to a major epoch of rapid galaxy growth. Why this matters. This technique extends three-dimensional weak lensing mapping into the high-redshift regime, enabling probabilistic visualization of the evolving cosmic web. It provides a robust route for tracing the growth of cosmic structure with current wide-field surveys. That's your briefing. Thanks for listening.",
+      "url": "audio_samples/edition-3622a2fc7af00783-am_michael/7.m4a",
+      "duration": 64.10666666666667
+    }
+  ]
+}
