@@ -1,0 +1,592 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-02",
+  "generated_at": "2026-11-03T01:44:49.905586+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 585,
+      "unique": 546,
+      "substantive": 390,
+      "ai_reviewed": 16,
+      "qualified": 9,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 388,
+      "unique": 384,
+      "substantive": 199,
+      "ai_reviewed": 15,
+      "qualified": 9,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 216,
+      "unique": 208,
+      "substantive": 102,
+      "ai_reviewed": 15,
+      "qualified": 45,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 141,
+      "unique": 133,
+      "substantive": 58,
+      "ai_reviewed": 15,
+      "qualified": 30,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 5,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 8,
+    "reserved_input_tokens": 30983,
+    "model_verified": true,
+    "cache_hits": 65,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 9,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 1,
+    "live": 7,
+    "cached": 2
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "c40f06faf82d718",
+      "title": "Bilayer graphene constriction exhibits mode-dependent Andreev reflection",
+      "original_title": "Andreev-Enhanced Conductance in a Bilayer Graphene Quantum Point Contact",
+      "url": "https://arxiv.org/abs/2610.41915",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-02T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Emma Horgan, Bernd Aichner, Nadine Omar, Kenji Watanabe, Takashi Taniguchi, Luca Banszerus"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.41915",
+      "event_key": "graphene_andreev_enhancement",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers demonstrated Andreev-enhanced conductance within a gate-defined bilayer graphene quantum point contact coupled to a superconducting aluminum electrode. Electrostatic gating enabled sequential mode occupation, showing normal-state conductance quantization. In the superconducting state, conductance was enhanced on the plateaus up to effective transmission probabilities of 0.9 across a bias window of about 140 microvolts.",
+      "why": "The measurement provides a low-dimensional platform to probe quantum transport and mode-dependent Andreev reflection mechanisms near superconducting interfaces.",
+      "technical_details": [
+        "In-plane magnetic fields preserved the conductance enhancement up to the critical field following Abrikosov-Gor'kov theory.",
+        "Perpendicular magnetic fields suppressed the enhancement approximately linearly from zero field due to flux penetration."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.41915",
+          "publisher": "arXiv",
+          "published": "2026-11-02T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "14925ef28ac265362216bcf06c0c0b02c5bc831677b9f79cde3212340b9ee371",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates Andreev-enhanced conductance in a gate-defined bilayer graphene quantum point contact coupled to aluminum.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Bilayer graphene constriction exhibits mode-dependent Andreev reflection"
+    },
+    {
+      "id": "2c7c6a703c9d1f6",
+      "title": "Russian strikes kill 26 in Ukraine following end of local ceasefire",
+      "original_title": "Russian strikes kill 26 in Ukraine after longest ceasefire ends",
+      "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-11-03T01:18:44+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE 24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+      "event_key": "ukraine_ceasefire_ends_strikes",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ukrainian officials reported that Russian aerial strikes killed at least 26 people in Zaporizhzhia near Kherson hours after a temporary local ceasefire ended. The victims included people collecting humanitarian aid at a school as well as emergency workers and police officers. The expired truce in Oleshky was the longest pause in fighting since the 2022 invasion, though Ukrainian officials stated Russia rejected an offer to extend it.",
+      "why": "The resumption of heavy strikes undermines recent diplomatic attempts to establish humanitarian pauses and peace progress ahead of planned international talks.",
+      "technical_details": [
+        "Both Ukraine and Russia reported cyberattacks that compromised emergency alert applications shortly after the truce ended."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+          "publisher": "France 24",
+          "published": "2026-11-03T01:18:44+00:00",
+          "content_type": "public article text",
+          "content_sha256": "2a2c9f9f8dc22da78df5a05b444401bfc5c35ff99af527d0c6290a37a1151a26",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Russian strikes killed 26 people in southern Ukraine immediately after a local ceasefire expired, ending hopes for a peaceful pause.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Russian strikes kill 26 in Ukraine following end of local ceasefire"
+    },
+    {
+      "id": "232768b8d990ba4",
+      "title": "United States plans to end duty-free trade access for South Africa and Rwanda",
+      "original_title": "US to drop South Africa, Rwanda from duty-free trade initiative",
+      "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "U.S. News",
+      "published": "2026-11-02T21:40:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-world-4025-rdf",
+      "event_key": "trump_agoa_removal",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States announced plans to terminate South Africa and Rwanda from the African Growth and Opportunity Act trade preference program starting January 2027. US officials cited barriers to American trade and investment alongside national security, foreign policy, and governance concerns. South African trade officials noted that affected exports comprise about 10 percent of its total exports to the US and one percent of its global total.",
+      "why": "Removal from the program ends duty-free access for key export industries, prompting South Africa to seek alternative markets and trade arrangements.",
+      "technical_details": [
+        "The decision follows recent US sanctions against Rwanda's Defense Ministry over its alleged support for the M23 rebel group in the Democratic Republic of Congo."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-02T21:40:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "ba6a54c218916835ad0141105142aa4cadf0f411e6286cee9bfe31bade173078",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-11-02T19:33:10+00:00",
+          "content_type": "public article text",
+          "content_sha256": "19d5172ed3d89680e3a7062282f28f1cc9ea6ce1bc9aeb7e7bbd62332918d4a6",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "US Trade Representative confirmed intent to remove South Africa and Rwanda from the AGOA duty-free trade agreement starting 2027.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "United States plans to end duty-free trade access for South Africa and Rwanda"
+    },
+    {
+      "id": "d9a08b89b3dbb7a",
+      "title": "Exploratory Study Highlights Surveillance Risks in Public Large Language Models",
+      "original_title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-11-02T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Ayana Hussain, Nicholas Vincent"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.40890",
+      "event_key": "chatgpt_surveillance_study",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A new exploratory case study investigates potential surveillance assistance risks in widely used consumer artificial intelligence products like ChatGPT. Researchers evaluated the system using 110 prompts split between jailbreak strategies and plain-language direct prompts based on a taxonomy of seven surveillance risk categories. The analysis found that the model frequently provided substantive surveillance guidance, working code, or architectural instructions even when stating formal refusals.",
+      "why": "Understanding the compliance of consumer large language models with surveillance-related prompts helps highlight potential security and privacy risks associated with broad public access to advanced artificial intelligence tools.",
+      "technical_details": [
+        "The evaluation tested 55 jailbreak prompts using five elicitation strategies alongside 55 direct prompts, assessing whether responses included policy mentions or privacy-preserving alternatives."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.40890",
+          "publisher": "arXiv AI",
+          "published": "2026-11-02T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "65177422dc9245b019ec3bef1050adae8bd1522f99b056dbb0e6afc40fff81ae",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Exploratory case study analyzing the risks and compliance of ChatGPT regarding surveillance-related tasks.",
+      "development": "experimental",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Exploratory Study Highlights Surveillance Risks in Public Large Language Models"
+    },
+    {
+      "id": "d46cb182719ba72",
+      "title": "US Suspends South Africa and Rwanda From Duty-Free Trade Benefits",
+      "original_title": "US to suspend South Africa and Rwanda from duty-free trade access",
+      "url": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "U.S. News",
+      "published": "2026-11-02T20:38:04+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
+      "event_key": "us-agoa-trade-suspension",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States announced it will suspend South Africa and Rwanda from duty-free trade benefits under a major African trade program starting January 1, 2027. US Trade Representative Jamieson Greer stated that both nations failed to meet the program's eligibility criteria concerning market economies, good governance, and trade barriers. Washington expressed specific concerns regarding South Africa over trade barriers, corruption, and foreign policy disputes, alongside human rights and rule of law issues in Rwanda.",
+      "why": "South Africa, the program's largest beneficiary, faces the loss of preferential access for key exports like motor vehicles and minerals, though officials note these exports represent a fraction of total trade.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-02T20:38:04+00:00",
+          "content_type": "public article text",
+          "content_sha256": "42e11edf5ea550dddf35c7fe0fdb28a750fb86915915c71d747fd728e279a1b5",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The US announced the suspension of South Africa and Rwanda from duty-free access under AGOA starting January 2027, carrying significant economic and trade policy implications.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Suspends South Africa and Rwanda From Duty-Free Trade Benefits"
+    },
+    {
+      "id": "89cc446367a99a9",
+      "title": "Ryanair warns of rising airfares and potential staff pay freezes",
+      "original_title": "Ryanair says it may freeze workers' pay and raise airfares",
+      "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-11-02T12:22:10+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+      "event_key": "ryanair_pay_freeze_higher_fares",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ryanair announced that airfares will increase significantly next summer due to soaring jet fuel costs driven by ongoing conflict in the Middle East. The airline's fuel bill has risen sharply, contributing to a 16% drop in pre-tax profits during the six months leading up to September. To manage these rising expenses, the company is considering freezing staff wages starting next April and slowing down its hiring process.",
+      "why": "Surging aviation fuel expenses across the airline industry are forcing carriers to pass higher operating costs onto travelers through double-digit fare increases.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-11-02T12:22:10+00:00",
+          "content_type": "public article text",
+          "content_sha256": "4cd13ccedf68df80c1db98cda1435d5108d7486dec64b7ad70868acbf2e2b93e",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers Ryanair's potential worker pay freeze and increased summer airfares driven by high fuel costs following the US-Israel conflict with Iran.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ryanair warns of rising airfares and potential staff pay freezes"
+    },
+    {
+      "id": "5f50c3ea7afa778",
+      "title": "Researchers Fabricate Free-Standing Two-Dimensional Metal Oxide Monolayers",
+      "original_title": "Free-standing two-dimensional metal oxides at the single-atomic-layer limit",
+      "url": "https://www.nature.com/articles/s41563-026-02793-2",
+      "source": "Nature Materials",
+      "category": "Science",
+      "published": "2026-10-29T00:00:00+00:00",
+      "publication_type": "Journal publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Meng Gao",
+        "Deping Guo",
+        "Ang Li",
+        "Renhong Wang",
+        "Zhitong Jin",
+        "Chun Huang",
+        "Yixiang Lu",
+        "Yuhao Pan",
+        "Jiuxiang Dai",
+        "Panqi Huang",
+        "Kangjie Liu",
+        "Cong Wang",
+        "Lihong Bao",
+        "Lin Zhou",
+        "Jingsi Qiao",
+        "Wei Ji",
+        "Stephen J. Pennycook",
+        "Hong-Jun Gao",
+        "Wu Zhou"
+      ],
+      "backfill": false,
+      "story_key": "https://www.nature.com/articles/s41563-026-02793-2",
+      "event_key": "free_standing_2d_metal_oxides",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Materials scientists have achieved the controlled fabrication of diverse free-standing two-dimensional metal oxides down to the single-atomic-layer limit. The team used an electron-beam-induced removal of halogen atoms from layered metal oxyhalides to transform the materials into ultrathin metal oxides. Analysis of monolayer chromium oxide confirmed thermodynamic stability and predicted magnetic ordering below a specific cryogenic temperature.",
+      "why": "This atomic-scale synthesis technique creates stable monolayer oxide lattices and lateral heterostructures, opening new pathways for exploring quantum phenomena and excitonic properties in low-dimensional materials.",
+      "technical_details": [
+        "The conversion relies on ionization-driven halogen selective removal and lattice relaxation from layered precursors like CrOCl to CrO.",
+        "Monolayer chromium oxide domains exceeded 10 4 nm 2 with predicted Néel antiferromagnetic order below 230 K."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.nature.com/articles/s41563-026-02793-2",
+          "publisher": "Nature Materials",
+          "published": "2026-10-29T00:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "86353d5d554a948d021d1ffa596c02a23776e233f0b40807c8a1bc323996bc38",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "day"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports controlled fabrication of free-standing 2D metal oxides at the single-atomic-layer limit, highly relevant to nanoscale devices and materials research.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers Fabricate Free-Standing Two-Dimensional Metal Oxide Monolayers"
+    },
+    {
+      "id": "69677fa458d807b",
+      "title": "New Open Pipeline Improves Robotic Code-as-Policy Agent Performance",
+      "original_title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+      "url": "https://arxiv.org/abs/2610.40799",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-11-02T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Yijia Fan, Xilin He, Yilei Jiang, Dongming Wu, Jiaxu Wang, Xiangyu Yue"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.40799",
+      "event_key": "captain_code_as_policy_robots",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have developed an open post-training pipeline that transforms small open vision-language models into capable robotic agents that write code against robot programming interfaces. The system aligns base models through supervised fine-tuning followed by multi-turn reinforcement learning. Because physical effects often occur several turns later, the method employs a physical critic that reads privileged simulator states to appropriately credit individual requests.",
+      "why": "The resulting agent surpasses several frontier-model agents on evaluation benchmarks, demonstrating that smaller open models can achieve high manipulation success rates without relying on proprietary systems.",
+      "technical_details": [
+        "Starting from Qwen3.5-4B, the agent reached 55.4 percent success after supervised fine-tuning and 73.8 percent after reinforcement learning on the LIBERO benchmark.",
+        "The physical critic reads hidden simulator states to credit requests based on changes in predicted success probability."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.40799",
+          "publisher": "arXiv AI",
+          "published": "2026-11-02T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "a84a619959f9286402744b63c551998eb26a0186db40b4b88916cb3681bb62e0",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Presents a post-training pipeline (CaPtain) for code-as-policy robot agents, demonstrating strong performance gains across simulation and real robot suites.",
+      "development": "experimental",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "New Open Pipeline Improves Robotic Code-as-Policy Agent Performance"
+    },
+    {
+      "id": "ba675e87160d4f6",
+      "title": "Supreme Court Declines Trump Administration Bid to Block California Ballots",
+      "original_title": "Supreme Court rejects Trump bid to block 20,000 California ballots",
+      "url": "https://www.dw.com/en/supreme-court-rejects-trump-bid-to-block-20-000-california-ballots/a-79833739?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "U.S. News",
+      "published": "2026-11-02T23:18:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/supreme-court-rejects-trump-bid-to-block-20-000-california-ballots/a-79833739?maca=en-rss-en-world-4025-rdf",
+      "event_key": "scotus_california_ballots",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The US Supreme Court rejected a last-minute request by the Trump administration to sideline more than 20,000 mail-in ballots in California. The Department of Justice had sought an injunction to stop California from counting what it alleged were ballots from non-US citizens on voter rolls. Lower court judges previously criticized the federal government's claims, noting that analyses of the voter list showed thousands of naturalized US citizens were incorrectly flagged as ineligible.",
+      "why": "The decision allowed the counting of contested mail-in ballots to proceed unimpeded on the eve of the US midterm elections.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/supreme-court-rejects-trump-bid-to-block-20-000-california-ballots/a-79833739?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-02T23:18:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "ce9fec06eedfeece3a831d6001fe581d5ccddf084062ccd18959e0f7dccd044b",
+          "retrieved_at": "2026-11-03T01:40:44.932199+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The US Supreme Court rejected an effort by the Trump administration to invalidate 20,000 mail-in ballots in California ahead of the midterms.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Supreme Court Declines Trump Administration Bid to Block California Ballots"
+    }
+  ]
+}

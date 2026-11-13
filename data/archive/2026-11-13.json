@@ -1,0 +1,505 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-13",
+  "generated_at": "2026-11-13T16:38:29.349163+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 594,
+      "unique": 576,
+      "substantive": 425,
+      "ai_reviewed": 7,
+      "qualified": 5,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 389,
+      "unique": 383,
+      "substantive": 204,
+      "ai_reviewed": 7,
+      "qualified": 12,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 222,
+      "unique": 220,
+      "substantive": 112,
+      "ai_reviewed": 9,
+      "qualified": 43,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 134,
+      "unique": 121,
+      "substantive": 57,
+      "ai_reviewed": 7,
+      "qualified": 32,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 10,
+    "reserved_input_tokens": 38622,
+    "model_verified": true,
+    "cache_hits": 18,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 7,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 3,
+    "live": 7,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "966c884e31e1c03",
+      "title": "Nvidia chief executive resigns following extramarital affair and national security probe",
+      "original_title": "Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+      "url": "https://www.pbs.org/newshour/economy/nvidia-ceo-jensen-huang-resigns-after-his-affair-raises-national-security-concerns",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-11-12T14:10:01+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Kelvin Chan, Associated Press",
+        "Matt Sedensky, Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/economy/nvidia-ceo-jensen-huang-resigns-after-his-affair-raises-national-security-concerns",
+      "event_key": "jensen-huang-resignation",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia Chief Executive Officer Jensen Huang has resigned following revelations of extramarital relationships, including an affair with a former foreign tech executive suspected by U.S. officials of being a Chinese spy. The board appointed Chief Financial Officer Colette Kress as interim chief executive while launching a search for a permanent successor. U.S. lawmakers are preparing to subpoena Huang to examine whether the company's security protocols failed or if national security was compromised.",
+      "why": "The sudden leadership void at the dominant producer of artificial intelligence chips creates corporate uncertainty and opens market opportunities for competing semiconductor manufacturers.",
+      "technical_details": [
+        "Singaporean authorities previously questioned the suspected foreign executive and seized her passport in an investigation into Megaspeed International over alleged illicit exports of advanced Nvidia graphics processing units to China."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/economy/nvidia-ceo-jensen-huang-resigns-after-his-affair-raises-national-security-concerns",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-12T14:10:01+00:00",
+          "content_type": "public article text",
+          "content_sha256": "aab256878a755fa08ad1f79270ed33edd41b808e479ac5a9b99872c0584730d7",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-13T12:52:19+00:00",
+          "content_type": "public article text",
+          "content_sha256": "baac8b0f345a97ae8af81a04e11973e700bc200ddacd8ddc5cabd260d453bfeb",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa250SFhvdGZyZXFTcU1Qa1RoVVFjay1DRmRVeXZDeG5FMmgyMWNKc2E4Q2dPZ0RlWU1Pem5GZ0JPZWo5Z2tKRWxmVXBvaTczdWxrR3J5ZFdCemhkMWhHZ0d2ZTdZQTRtRk5uOE0ycVhpU0xMMjFucGhHYTVNR0YxbWFrcTY1RF9MR3V0T1lIRjljRTc4alh4WmkwSUU4d2IxUTBoMTJWT1NIclk2SWV2eXpmV2hBU1pXR3Fr0gHAAUFVX3lxTE95TDd1SGhCcVpjMFRUbkMxZ0tyWFlaWUdjeWJETzREWTctSlVhYzVwanhUNTU3SFI1Q0lzSlZnT3MtUVdKQUlJUWFUWWNwWFhzMzZ1LW0xTEQtQVFOZlVma1VUZmFIMktIRWc5dzFGT1l3TmN3blpMMTBwWFdPT0lDR3gxN1lnZ2g5YnYtLThJTDdnZ0ZFN1Z5bWE3QXctZnVDLUpYV2xyS2Z2TVBhcnF1QWo3SXBPUU5DZy1zQUVGWA?oc=5",
+          "publisher": "PBS",
+          "published": "2026-11-12T14:10:01+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Nvidia CEO Jensen Huang resigns following reports of extramarital affairs and security concerns, creating uncertainty for the AI hardware sector.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Nvidia chief executive resigns following extramarital affair and national security probe"
+    },
+    {
+      "id": "4a4b512f034d943",
+      "title": "United States negotiators agree to include European Union in Russia-Ukraine talks",
+      "original_title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-11-13T02:01:35+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "event_key": "ukraine-russia-war-nov2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "U.S. envoys announced that European Union representatives will join the next round of peace talks aiming to end the war between Russia and Ukraine. Ukrainian President Volodymyr Zelensky welcomed the move, asserting it gives European nations a direct voice in shaping regional security agreements. The diplomatic announcement coincided with agreements between Kyiv and Moscow to conduct their largest prisoner exchange since the full-scale Russian invasion began in 2022.",
+      "why": "Including European nations addresses long-standing concerns in Kyiv and Brussels regarding future continental security arrangements and post-war stability.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-11-13T02:01:35+00:00",
+          "content_type": "public article text",
+          "content_sha256": "c3a71dc344018273ecc0815734b63c8e709a84152ee9d8aa0fedea1b937d2847",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-13T14:15:52+00:00",
+          "content_type": "public article text",
+          "content_sha256": "aa8346745a693f6cd96a86f21925e8cce7681858ea3f0dcc9e8de583da92c198",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Diplomatic updates on EU inclusion in peace talks alongside reports of Starshield service restrictions.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "United States negotiators agree to include European Union in Russia-Ukraine talks"
+    },
+    {
+      "id": "32e139842464c43",
+      "title": "Jensen Huang resigns as Nvidia chief executive officer following misconduct investigation",
+      "original_title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-12T16:32:33+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Julie Bort"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "event_key": "nvidia_ceo_ouster",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia Chief Executive Officer Jensen Huang resigned on Thursday after admitting to an affair with an executive of a Singapore-based neocloud firm. The executive is suspected by the U.S. government of being a Chinese spy, while her firm is suspected of renting Nvidia chips to Chinese companies to evade restrictions. Republican lawmakers have summoned Huang to testify in closed-door sessions in December regarding the national security ramifications of the affair.",
+      "why": "Huang's departure removes a leading industry voice against restricting open-weight AI models and chip exports, while raising questions about Nvidia's $12.9 billion acquisition of Hugging Face.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-12T16:32:33+00:00",
+          "content_type": "public article text",
+          "content_sha256": "48b9aee64bc1aad1664e5e8a3933187cb7123ceabd2642e241a9838a96d014c2",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.france24.com/en/video/20261113-nvidia-scandal-how-close-was-ex-ceo-to-trump",
+          "publisher": "France 24",
+          "published": "2026-11-13T15:50:41+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "330aa1d0f99e40db1f2c1c63143b3cf9a55eb6b7923bd40c9643dc62ed1cee59",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Analyzes the implications of Jensen Huang's ouster from Nvidia for the broader artificial intelligence industry.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Jensen Huang resigns as Nvidia chief executive officer following misconduct investigation"
+    },
+    {
+      "id": "ed62aebbab5c493",
+      "title": "Turkey and Qatar sign mutual defense pact following Istanbul meeting",
+      "original_title": "Turkiye and Qatar sign mutual defence agreement",
+      "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-11-13T15:49:51+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
+      "event_key": "turkiye-qatar-defense",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Turkish President Tayyip Erdogan and Qatari Emir Sheikh Tamim bin Hamad al-Thani signed a mutual defense agreement in Istanbul on Friday evening. The Turkish presidency stated the accord aims to prevent the resurgence of war in the Gulf region and foster dialogue. Details of the defense agreement were not publicly disclosed by the Turkish presidency.",
+      "why": "Regional security analysts note Gulf nations are seeking military partnerships and potential Turkish air defense deployments as doubts grow over U.S. security guarantees.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-13T15:49:51+00:00",
+          "content_type": "public article text",
+          "content_sha256": "5895ac77521602efcc0b0e519f764bc04951e0e61b2d75f73e75d6268491a31c",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "New mutual defense agreement between Turkiye and Qatar amid regional security concerns.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Turkey and Qatar sign mutual defense pact following Istanbul meeting"
+    },
+    {
+      "id": "a43c11e2595e185",
+      "title": "Researchers confirm atomic-scale depth for arsenic dopant layers in silicon",
+      "original_title": "Element-specific, non-destructive profiling of two-dimensional dopant layers in silicon",
+      "url": "https://doi.org/10.1038/s41534-026-01393-x",
+      "source": "npj Quantum Information",
+      "category": "Science",
+      "published": "2026-11-11T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Nicolò D'Anna",
+        "Jamie Bragg",
+        "Elizabeth Skoropata",
+        "Nazaret Ortiz Hernández",
+        "Anne McConnell",
+        "Maël Clémence",
+        "Hiroki Ueda",
+        "Procopios Constantinou",
+        "Kieran Spruce",
+        "Taylor J. Z. Stock",
+        "Sarah Fearn",
+        "Steven R. Schofield",
+        "Neil J. Curson",
+        "Darío Ferreira Sánchez",
+        "Daniel Grolimund",
+        "U. Staub",
+        "Guy Matmon",
+        "Simon Gerber",
+        "G. Aeppli"
+      ],
+      "doi": "https://doi.org/10.1038/s41534-026-01393-x",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1038/s41534-026-01393-x",
+      "event_key": "dopant_profiling_silicon",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers used X-ray reflectometry and fluorescence imaging to measure the physical thickness of arsenic dopant layers inside silicon non-destructively. The measurements confirmed that the physical dopant layers are under one nanometer thick, matching the narrow spatial spread of the conduction electrons. Previous mass spectrometry techniques were limited to a depth resolution of two nanometers, leaving chemical thickness uncertain.",
+      "why": "Establishing sub-nanometer dopant layer profiles provides a verified non-destructive technique to inspect nanoscale components in silicon-based quantum computing devices.",
+      "technical_details": [
+        "Resonant-contrast X-ray reflectometry uses energy tuning across atomic core level resonances to change atomic scattering factors."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1038/s41534-026-01393-x",
+          "publisher": "npj Quantum Information",
+          "published": "2026-11-11T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "bc1dfc7de2f8c9eb7607dad203275264c3dc5bc9820c75e6ef02282d93faacab",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W4403883103"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates resonant-contrast X-ray reflectometry for element-specific non-destructive 3D characterization of sub-nm dopant delta-layers in silicon, directly relevant to solid-state quantum devices.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers confirm atomic-scale depth for arsenic dopant layers in silicon"
+    },
+    {
+      "id": "dbc687154e15e6a",
+      "title": "Interim Nvidia leadership faces questions over future open-source artificial intelligence support",
+      "original_title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-12T18:39:23+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+      "event_key": "Jensen-Huang-exit",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Following Jensen Huang's resignation, Nvidia appointed Chief Financial Officer Colette Kress as interim chief executive officer. Huang was a primary industry advocate for open-weight artificial intelligence models and soft chip export controls to China. While inside sources expect internal model development to continue, community members question whether upcoming acquisitions like Hugging Face will proceed under interim leadership.",
+      "why": "Changes in Nvidia leadership could reduce support for open-source AI, giving major proprietary artificial intelligence labs stronger leverage to push for model restrictions.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-12T18:39:23+00:00",
+          "content_type": "public article text",
+          "content_sha256": "e62e965435706b11c7c9cf82589a2227a6c2f40faeff532dfea7eec5e0e86f72",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Discusses how Jensen Huang's resignation from Nvidia places the company's support for open-source AI and export controls in question.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Interim Nvidia leadership faces questions over future open-source artificial intelligence support"
+    },
+    {
+      "id": "60c9e0bae2737a0",
+      "title": "US Commerce Secretary to testify before Congress following Nvidia chief executive resignation",
+      "original_title": "U.S. Commerce Secretary Lutnick to testify before Congress on Nvidia: US media",
+      "url": "https://www.thehindu.com/news/international/us-commerce-secretary-lutnick-to-testify-before-congress-on-nvidia-us-media/article71696546.ece",
+      "source": "The Hindu",
+      "category": "U.S. News",
+      "published": "2026-11-13T09:39:12+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.thehindu.com/news/international/us-commerce-secretary-lutnick-to-testify-before-congress-on-nvidia-us-media/article71696546.ece",
+      "event_key": "dc2df2247b2d55990ed3",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "United States Commerce Secretary Howard Lutnick has agreed to appear voluntarily before the Senate Banking Committee. The testimony follows the resignation of Nvidia chief executive Jensen Huang over extramarital affairs, including one with a woman suspected by U.S. intelligence of spying for China. Lutnick faces congressional scrutiny because the Commerce Department was mandated to review companies for national security risks before the Trump administration allowed Nvidia chip sales to China.",
+      "why": "The hearing addresses national security concerns surrounding advanced artificial intelligence chip exports to China, where the United States maintains export restrictions to preserve technology dominance.",
+      "technical_details": [
+        "Nvidia's chief financial officer Colette Kress has taken over as interim CEO while maintaining her finance responsibilities.",
+        "Nvidia produces chips essential for training and operating artificial intelligence models."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.thehindu.com/news/international/us-commerce-secretary-lutnick-to-testify-before-congress-on-nvidia-us-media/article71696546.ece",
+          "publisher": "The Hindu",
+          "published": "2026-11-13T09:39:12+00:00",
+          "content_type": "public article text",
+          "content_sha256": "0766b2c57954e6c16897c628c6719e67f661f8f4d8802dfd7eee1375ff141bcb",
+          "retrieved_at": "2026-11-13T16:32:41.220115+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Commerce Secretary to testify before Congress following Nvidia chief executive resignation"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-08",
+  "generated_at": "2026-11-08T20:41:54.046423+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 335,
+      "unique": 327,
+      "substantive": 185,
+      "ai_reviewed": 14,
+      "qualified": 1,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 264,
+      "unique": 256,
+      "substantive": 91,
+      "ai_reviewed": 13,
+      "qualified": 13,
+      "daily_selected": 1,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 222,
+      "unique": 220,
+      "substantive": 99,
+      "ai_reviewed": 12,
+      "qualified": 48,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 141,
+      "unique": 133,
+      "substantive": 59,
+      "ai_reviewed": 13,
+      "qualified": 27,
+      "daily_selected": 2,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "request_budget_reached",
+    "requests": 10,
+    "reserved_input_tokens": 23340,
+    "model_verified": true,
+    "cache_hits": 69,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 5,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 5,
+    "live": 4,
+    "cached": 1
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "ca070672670beb9",
+      "title": "Researchers build compact superconducting circuits using standard silicon manufacturing",
+      "original_title": "A new superinductor created within a silicon integrated circuit",
+      "url": "https://phys.org/news/2026-11-superinductor-silicon-circuit.html",
+      "source": "Phys.org",
+      "category": "Science",
+      "published": "2026-11-04T22:40:08+00:00",
+      "publication_type": "Research news / press release",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://phys.org/news/2026-11-superinductor-silicon-circuit.html",
+      "event_key": "nonlinear_superinductor_silicon",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have fabricated a nonlinear electrical component known as a superinductor within a silicon chip using standard commercial manufacturing techniques. Electrical inductors store energy in a magnetic field, but superinductors are engineered to have extremely large inductance and high impedance. By utilizing titanium nitride, the team created compact circuit elements that maintain robust superconducting properties for quantum technologies and sensing applications.",
+      "why": "This development allows complex superconducting circuits and sensitive quantum sensors to be built using standard semiconductor manufacturing processes. Such components can dramatically alter circuit quantum behavior for advanced computing and low-power electronics.",
+      "technical_details": [
+        "Titanium nitride was chosen for its high kinetic inductance, enabling compact geometries.",
+        "The system can form a radiofrequency single-electron transistor for semiconductor spin qubit readout."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://phys.org/news/2026-11-superinductor-silicon-circuit.html",
+          "publisher": "Phys.org",
+          "published": "2026-11-04T22:40:08+00:00",
+          "content_type": "public article text",
+          "content_sha256": "772f71db811c60247d233e234def060458ddf2ca82f0b41d0586e877b091dde2",
+          "retrieved_at": "2026-11-08T20:35:38.671912+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zREZOa2tZcVpkY2JMdDN0YmV1ZlJVallpRWdyajZnWW95dmNvY0FoT1RYNHh5NzlnVzB5eVo4aXZSUWg4U1NOa2FIQWE0WkdHbEtTOVhabS1KbGptYXUydkhVNnJqQm1qWm1HYldqeUVYUQ?oc=5",
+          "publisher": "Phys.org",
+          "published": "2026-11-04T22:40:08+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports the creation of a nonlinear superinductor within a silicon integrated circuit published in Nature Electronics.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers build compact superconducting circuits using standard silicon manufacturing"
+    },
+    {
+      "id": "dce0c1a685019c1",
+      "title": "European officials to join US-mediated Ukraine talks in Abu Dhabi",
+      "original_title": "Europe will take part in US-mediated Ukraine talks in Abu Dhabi, French FM says",
+      "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-11-08T14:16:31+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE 24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
+      "event_key": "abu_dhabi_ukraine_talks",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "France announced that European representatives will participate in upcoming US-mediated peace talks in Abu Dhabi aimed at ending the war in Ukraine. The meetings follow discussions between American, European, Ukrainian, and NATO officials in Brussels. While previous formats were framed primarily around trilateral discussions, French Foreign Minister Jean-Noël Barrot confirmed Europe will have a seat at the table.",
+      "why": "European participation ensures regional security interests are directly represented in diplomatic efforts concerning the continent's architecture. The diplomatic engagement addresses ongoing tensions regarding how a sustainable end to the conflict will be negotiated.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
+          "publisher": "France 24",
+          "published": "2026-11-08T14:16:31+00:00",
+          "content_type": "public article text",
+          "content_sha256": "84da7bd955f33040c98c35e8adf9af4a02fbae748501cef9b8d19275ba130b84",
+          "retrieved_at": "2026-11-08T20:35:38.671912+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Announces European and French participation in US-mediated peace talks regarding the Ukraine war in Abu Dhabi.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "European officials to join US-mediated Ukraine talks in Abu Dhabi"
+    },
+    {
+      "id": "6a844ddf21dcfde",
+      "title": "Top House Democrat backs impeachment resolution against Defense Secretary",
+      "original_title": "Top House Democrat 'a hard yes' on impeaching Hegseth",
+      "url": "https://www.bbc.co.uk/news/articles/cj4g1nwx39wno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC US & Canada",
+      "category": "U.S. News",
+      "published": "2026-11-08T19:36:41+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/cj4g1nwx39wno?at_medium=RSS&at_campaign=rss",
+      "event_key": "us_house_hegseth_impeachment",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The leading Democrat poised to become House speaker stated he fully supports impeaching Defense Secretary Pete Hegseth. Congressman Hakeem Jeffries cited alleged abuses of power and unauthorized military actions involving Iran. An outgoing Republican congressman plans to introduce a resolution containing multiple articles of impeachment as Congress returns to session.",
+      "why": "This signals an aggressive oversight stance by incoming congressional leadership against executive branch officials. The move highlights escalating domestic political battles over military authorization and oversight.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/cj4g1nwx39wno?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-11-08T19:36:41+00:00",
+          "content_type": "public article text",
+          "content_sha256": "427b5383b310bf1a72152ee257848f1e0dbc8dde3c58dd3b93d03c7a86e1e852",
+          "retrieved_at": "2026-11-08T20:35:38.671912+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Prospective House Speaker Hakeem Jeffries publicly backed an impeachment resolution against Defense Secretary Pete Hegseth concerning the war in Iran.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Top House Democrat backs impeachment resolution against Defense Secretary"
+    },
+    {
+      "id": "afe2389ca30b11a",
+      "title": "Intelligence memo alleges technology executive was recruited to spy on Nvidia CEO",
+      "original_title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-07T21:17:08+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
+      "event_key": "nvidia_ceo_espionage_memo",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A U.S. intelligence memo reportedly claims that a technology executive at a Singapore-based firm was recruited by Chinese intelligence to target Nvidia's chief executive. Media reports detailed that the executive had professional and personal interactions with the CEO. An Nvidia spokesperson stated that the interactions were not unusual and that the company does not share classified information with customers.",
+      "why": "This report highlights ongoing security concerns regarding foreign intelligence targeting of key semiconductor industry executives. It underscores intense geopolitical scrutiny surrounding supply chains and leadership in advanced computing.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-07T21:17:08+00:00",
+          "content_type": "public article text",
+          "content_sha256": "64f59543eb3db843fb9e8e9078d2babbdde8f1dfc8385f74e5198646af86a3be",
+          "retrieved_at": "2026-11-08T20:35:38.671912+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "US intelligence reports allege China's Ministry of State Security recruited a tech executive to conduct intelligence operations targeting Nvidia's CEO.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Intelligence memo alleges technology executive was recruited to spy on Nvidia CEO"
+    },
+    {
+      "id": "20f12b2cbcd25ce",
+      "title": "White House denies reports of imminent departures for Hegseth and Rubio",
+      "original_title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC US & Canada",
+      "category": "U.S. News",
+      "published": "2026-11-06T02:08:57+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+      "event_key": "us_post_midterm_cabinet_rumors",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The White House denied rumors that Defence Secretary Pete Hegseth and Secretary of State Marco Rubio would leave their positions following recent Republican election losses. US media reports had suggested potential replacements due to criticism over the handling of the ongoing conflict in Iran. Both officials and President Donald Trump have publicly rejected the claims and defended their ongoing work.",
+      "why": "Administration officials faced intense scrutiny after midterm election losses tied to foreign policy decisions, though leadership changes have been dismissed by the White House.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-11-06T02:08:57+00:00",
+          "content_type": "public article text",
+          "content_sha256": "00c453f0d62d1747a6bc0adec8054c770b2d9759ff8e9fb2d2020e90a1095737",
+          "retrieved_at": "2026-11-08T20:35:38.671912+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "White House refutes rumors that Hegseth and Rubio may be removed following Republican midterm election losses linked to the Iran war.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "White House denies reports of imminent departures for Hegseth and Rubio"
+    }
+  ]
+}

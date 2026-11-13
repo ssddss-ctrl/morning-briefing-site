@@ -1,0 +1,444 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-09",
+  "generated_at": "2026-11-09T18:59:29.769009+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 559,
+      "unique": 522,
+      "substantive": 378,
+      "ai_reviewed": 9,
+      "qualified": 2,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 384,
+      "unique": 377,
+      "substantive": 203,
+      "ai_reviewed": 7,
+      "qualified": 13,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 219,
+      "unique": 213,
+      "substantive": 110,
+      "ai_reviewed": 6,
+      "qualified": 56,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 126,
+      "unique": 113,
+      "substantive": 55,
+      "ai_reviewed": 6,
+      "qualified": 31,
+      "daily_selected": 1,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "request_budget_reached",
+    "requests": 10,
+    "reserved_input_tokens": 30034,
+    "model_verified": true,
+    "cache_hits": 25,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 6,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 4,
+    "live": 6,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "14adcb1aee5649b",
+      "title": "Integrating ferroelectric material onto silicon chips enables tunable light frequency conversion",
+      "original_title": "Dynamic electrical control of on-chip second-harmonic generation with ferroelectric NbOBr 2",
+      "url": "https://www.nature.com/articles/s41565-026-02331-w",
+      "source": "Nature Nanotechnology",
+      "category": "Science",
+      "published": "2026-11-09T00:00:00+00:00",
+      "publication_type": "Journal publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Xiangxin Gong",
+        "Ruihuan Duan",
+        "Wenjie Ming",
+        "Yuhui Yang",
+        "Jinpeng Huo",
+        "Sung-Gyu Lee",
+        "Shi Guo",
+        "Xin Guo",
+        "Jeremy Leong",
+        "Lalit Singh",
+        "Wenduo Chen",
+        "Qi Jie Wang",
+        "Wonkeun Chang",
+        "Yue Gong",
+        "Beng Kang Tay",
+        "Huijun Liu",
+        "Xiaoxu Zhao",
+        "Qingyun Wu",
+        "Lay Kee Ang",
+        "Chuanlai Ren",
+        "Hongseok Kim",
+        "Yunseok Kim",
+        "Han Yan",
+        "Hong Wang",
+        "Jia Xu Brian Sia",
+        "Nanxi Li",
+        "Cheng-Wei Qiu",
+        "Jiangyu Li",
+        "Zheng Liu",
+        "Sang Hoon Chae"
+      ],
+      "backfill": false,
+      "story_key": "https://www.nature.com/articles/s41565-026-02331-w",
+      "event_key": "nbo2br2-second-harmonic-generation",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have integrated a material known as niobium oxide dihalide onto a silicon-based ring structure to build an electrically controllable optical frequency converter on a chip. By applying voltage, the device alters internal electrical polarization and modulates the interface resistance, which controls how light interacts within the microscopic cavity. This configuration achieves a second-harmonic generation conversion efficiency of 158 percent per watt and supports multi-level optical programming for non-volatile operation.",
+      "why": "This development provides a robust way to dynamically tune nonlinear optical signals on integrated photonic circuits, which is useful for future optical communication and quantum photonic systems.",
+      "technical_details": [
+        "The device uses ferroelectric NbOBr2 films ranging from 20 nm to 40 nm integrated with a silicon nitride microring resonator.",
+        "It achieves an electrical modulation depth of 53 percent under continuous-wave excitation."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.nature.com/articles/s41565-026-02331-w",
+          "publisher": "Nature Nanotechnology",
+          "published": "2026-11-09T00:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "083a84d2fbcf671692294d62068dc13c40bcbbc69f31be8ab6a378d4f471bb53",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "day"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates electrical reconfigurability of on-chip second-harmonic generation by integrating 20-40 nm ferroelectric NbOBr2 with a silicon nitride microring resonator.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Integrating ferroelectric material onto silicon chips enables tunable light frequency conversion"
+    },
+    {
+      "id": "5b8caf57d8c7254",
+      "title": "Nvidia investigates CEO Jensen Huang amid scrutiny over foreign relationships",
+      "original_title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge",
+      "category": "AI",
+      "published": "2026-11-08T22:54:50+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Terrence O’Brien"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "event_key": "jensen_huang_investigation",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia has launched an independent board investigation into CEO Jensen Huang following revelations of a personal relationship with an executive whom U.S. intelligence officials suspect of being recruited by Chinese intelligence. The controversy arrives at a delicate juncture as Nvidia continues to navigate strict U.S. export controls and lobbies for expanded access to the Chinese semiconductor market. Huang acknowledged and apologized for the relationship in an internal employee memo.",
+      "why": "The investigation complicates Nvidia's ongoing efforts to persuade Washington regulators to maintain and expand chip exports to major markets in China without triggering national security concerns.",
+      "technical_details": [
+        "China accounted for $7.9 billion in revenue for Nvidia, or approximately 8 percent of total revenue, in the three months leading up to July 26."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "publisher": "The Verge",
+          "published": "2026-11-08T22:54:50+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "6012dad7d8447bf6e8aabe67257f714aeba0792ec309ee222d272072378561fe",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-09T18:09:52+00:00",
+          "content_type": "public article text",
+          "content_sha256": "1844246dc1230102dace403789a18741bdcba124844afeeb3e538f2900c0ca29",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Details the full text of Nvidia CEO Jensen Huang's internal memo acknowledging his relationship with Alice Huang amid a board investigation.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Nvidia investigates CEO Jensen Huang amid scrutiny over foreign relationships"
+    },
+    {
+      "id": "191e230f80a9485",
+      "title": "South Africa's ANC suffers worst electoral defeat in municipal polls",
+      "original_title": "South Africa elections: ANC marks its worst-ever performance",
+      "url": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "Global Affairs",
+      "published": "2026-11-08T17:35:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-world-4025-rdf",
+      "event_key": "south-africa-municipal-elections",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "South Africa's governing African National Congress secured less than 31 percent of the vote in municipal elections, marking the worst electoral performance in the party's history. The ANC lost its majority in six out of eight major metropolitan regions amid public dissatisfaction over utility shortages, high unemployment, and corruption. Political parties are now entering complex coalition talks to form local governments in major cities where no outright winner emerged.",
+      "why": "This historic decline tests the governing coalition's stability and offers a clear indicator of voter sentiment leading up to the 2029 general elections.",
+      "technical_details": [
+        "The Democratic Alliance finished as the closest rival with just under 25 percent of the national vote share."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-08T17:35:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "720e82e34fbf5d46a85b561c4515f8ddf7ef73d180c5fc29c24e324ca127026b",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "ANC scores its worst-ever municipal election result (below 31%), losing majorities in major metropolitan regions.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "South Africa's ANC suffers worst electoral defeat in municipal polls"
+    },
+    {
+      "id": "3eaed8bf5292823",
+      "title": "US House and Senate Republicans Prepare for Leadership Elections",
+      "original_title": "Which Republicans are running for minority leadership roles in US Congress?",
+      "url": "https://www.aljazeera.com/news/2026/11/9/which-republicans-are-running-for-minority-leadership-roles-in-congress?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "U.S. News",
+      "published": "2026-11-09T13:14:57+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/9/which-republicans-are-running-for-minority-leadership-roles-in-congress?traffic_source=rss",
+      "event_key": "us_midterm_gop_leadership",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Following midterm elections where Democrats secured majorities in both chambers of Congress, Republican lawmakers are holding internal party elections to choose their congressional leadership. Positions such as minority leader, minority whip, and conference chair are contested as the party prepares to transition to minority status in January. In the House, long-serving members are competing for the top post, while Senate leaders face debates over whether to delay their votes for deeper reflection.",
+      "why": "These internal leadership selections will determine the political strategy and legislative direction of the Republican Party as it prepares to oppose the Democratic majority over the next two years.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/9/which-republicans-are-running-for-minority-leadership-roles-in-congress?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-09T13:14:57+00:00",
+          "content_type": "public article text",
+          "content_sha256": "f92cab94c191768558891af54f4d74ac2276ee8faeb39bd52ce604b4bfd834d3",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Following the US midterm elections that lost Republicans control of Congress, internal elections are taking place to select minority leadership roles.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US House and Senate Republicans Prepare for Leadership Elections"
+    },
+    {
+      "id": "b2a141c7a3461f4",
+      "title": "Nvidia Investigates CEO Over Suspected Intelligence Concerns",
+      "original_title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-11-09T15:46:20+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "event_key": "jensen-huang-investigation",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia has launched an independent investigation following reports that co-founder and CEO Jensen Huang had a personal relationship with a businesswoman suspected by intelligence officials of spying for Beijing. Huang admitted to being unfaithful and apologized, while Nvidia stated it does not believe national security has been compromised. The situation draws intense scrutiny given the critical role advanced semiconductor chips and artificial intelligence technology play in geopolitical competition.",
+      "why": "The investigation into a leading microelectronics executive highlights intense geopolitical tensions surrounding semiconductor supply chains and export controls between the United States and China.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-11-09T15:46:20+00:00",
+          "content_type": "public article text",
+          "content_sha256": "5f41a15a967e98881f3e9059a8afbe89320388df06929173e060584a10d56c09",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-11-09T15:46:20+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on intelligence investigations and public fallout surrounding Nvidia CEO Jensen Huang's admitted relationship with a suspected Chinese businesswoman.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Nvidia Investigates CEO Over Suspected Intelligence Concerns"
+    },
+    {
+      "id": "14e807dae30b0c4",
+      "title": "Meta Launches Lightweight Artificial Intelligence Model for Agents",
+      "original_title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-09T18:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution",
+      "event_key": "14e807dae30b0c4",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Meta has released a lightweight artificial intelligence model called Muse Ember, aimed at handling routine agent execution tasks like tool calls, routing, and parsing. Designed for high cost-efficiency, the model processes text, images, and audio, and is intended to pair with larger foundational models to handle high-volume workloads. The model is priced competitively against comparable open-source and proprietary offerings.",
+      "why": "Affordable, lightweight models enable more scalable deployment of automated digital agents for repetitive enterprise tasks.",
+      "technical_details": [
+        "Priced at 10 cents per million input tokens.",
+        "Multimodal capability handles text, images, and audio natively."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-09T18:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "46ce4190ef44368b3d2d8cf24b05a899f5f6122104575511850548ca90160e8c",
+          "retrieved_at": "2026-11-09T18:55:26.027471+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Meta released Muse Ember, a lightweight AI model targeted at cost-efficient agent task execution such as tool calling and subtask coding.",
+      "development": "announcement",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Meta Launches Lightweight Artificial Intelligence Model for Agents"
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-07",
+  "generated_at": "2026-11-07T19:31:56.213693+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 309,
+      "unique": 302,
+      "substantive": 185,
+      "ai_reviewed": 16,
+      "qualified": 3,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 233,
+      "unique": 227,
+      "substantive": 90,
+      "ai_reviewed": 16,
+      "qualified": 12,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 185,
+      "unique": 181,
+      "substantive": 92,
+      "ai_reviewed": 16,
+      "qualified": 42,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 109,
+      "unique": 99,
+      "substantive": 58,
+      "ai_reviewed": 16,
+      "qualified": 25,
+      "daily_selected": 3,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 5,
+  "sources_checked": 54,
+  "sources_failed": 6,
+  "ai": {
+    "status": "available",
+    "requests": 8,
+    "reserved_input_tokens": 31679,
+    "model_verified": true,
+    "cache_hits": 63,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 9,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 1,
+    "live": 7,
+    "cached": 2
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "5c104b595f23c83",
+      "title": "Stephen Miller appointed as White House chief of staff",
+      "original_title": "In his words: Stephen Miller is an immigration hardliner and a bombastic critic of Democrats",
+      "url": "https://www.pbs.org/newshour/politics/in-his-words-stephen-miller-is-an-immigration-hardliner-and-a-bombastic-critic-of-democrats",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-11-07T17:39:49+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Will Weissert, Associated Press",
+        "Moriah Balingit, Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/politics/in-his-words-stephen-miller-is-an-immigration-hardliner-and-a-bombastic-critic-of-democrats",
+      "event_key": "stephen_miller_white_house_chief",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "President Donald Trump has chosen immigration hardliner Stephen Miller to serve as his new White House chief of staff. Miller steps into the powerful role as the administration navigates a difficult lame-duck period following the Republican loss of both houses of Congress. Throughout his career, Miller has been a prominent and controversial architect of hardline immigration policies and domestic initiatives.",
+      "why": "As chief of staff, Miller's prominent policy influence shapes the administration's ongoing domestic agenda and political strategy.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/politics/in-his-words-stephen-miller-is-an-immigration-hardliner-and-a-bombastic-critic-of-democrats",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-07T17:39:49+00:00",
+          "content_type": "public article text",
+          "content_sha256": "6873e45a8adbe82931de85bebc0c72324613f22b0940bbdee0e80f58fc1f4441",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Profiles Stephen Miller as White House chief of staff and details his policy stances.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Stephen Miller appointed as White House chief of staff"
+    },
+    {
+      "id": "cce7ddcb9d66ba4",
+      "title": "China prepares to host lame-duck US President Donald Trump",
+      "original_title": "History repeats in Shenzhen? China hosts another lame-duck US president",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373654/history-repeats-shenzhen-china-hosts-another-lame-duck-us-president",
+      "source": "South China Morning Post",
+      "category": "Global Affairs",
+      "published": "2026-11-07T14:00:08+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Orange Wang",
+        "Orange Wang"
+      ],
+      "backfill": false,
+      "story_key": "https://www.scmp.com/news/china/diplomacy/article/3373654/history-repeats-shenzhen-china-hosts-another-lame-duck-us-president",
+      "event_key": "us_china_diplomacy_trump_xi",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "China is preparing to host US President Donald Trump for a multilateral gathering following recent congressional midterm elections. Trump is expected to meet with Chinese President Xi Jinping on the sidelines of the Asia-Pacific Economic Cooperation gathering. The visit occurs a decade after China previously hosted a politically hobbled US president at a major international summit.",
+      "why": "High-level diplomatic meetings between the US and China during political transitions carry significant implications for international trade and global affairs.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373654/history-repeats-shenzhen-china-hosts-another-lame-duck-us-president",
+          "publisher": "South China Morning Post",
+          "published": "2026-11-07T14:00:08+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "1e2a37a4e3fc2730fa7d7b6d6976fe4cfa43abb6ca612ccccadccd5f37bfe05f",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Discusses upcoming meetings between US and Chinese leadership in the wake of US midterm election results.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "China prepares to host lame-duck US President Donald Trump"
+    },
+    {
+      "id": "0fa4fd71f1ab8e5",
+      "title": "OpenAI reaches $1.25 trillion valuation in new funding round",
+      "original_title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge",
+      "category": "AI",
+      "published": "2026-11-06T23:46:18+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Stevie Bonifield"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "event_key": "bd4191a34b395357eb2c",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Artificial intelligence developer OpenAI has achieved a valuation of $1.25 trillion following a fresh funding round. The company secured an additional $11 billion in investment, according to reporting by Bloomberg. This massive valuation places OpenAI among the most valuable companies globally as competitors also advance toward public offerings.",
+      "why": "Rapid capital concentration in leading artificial intelligence firms highlights the staggering economic scale and competitive intensity of the current technology landscape.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+          "publisher": "The Verge",
+          "published": "2026-11-06T23:46:18+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "3158985ca2110b94939ff78ffb4bb0000114c083028fddc05d37c7718d8f32cd",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "OpenAI reaches $1.25 trillion valuation in new funding round"
+    },
+    {
+      "id": "de17167b3dd1bc8",
+      "title": "Ousted Paraguayan President Appears Before Prosecutors After Bank Collapse",
+      "original_title": "Ousted Paraguayan president appears before prosecutors",
+      "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+      "source": "NPR",
+      "category": "U.S. News",
+      "published": "2026-11-07T17:14:36+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Ava Berger"
+      ],
+      "backfill": false,
+      "story_key": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+      "event_key": "paraguay_impeachment_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Paraguayan President Santiago Peña was impeached and placed under house arrest following the collapse of a major U.S.-owned digital lender. The financial crisis left millions without access to their money and triggered widespread protests. Legislators unanimously found Peña guilty of malfeasance, and Vice President Pedro Alliana was sworn in to finish the term.",
+      "why": "The abrupt political transition and banking crisis in Paraguay disrupt regional governance and highlight vulnerabilities in digital financial systems serving a large portion of the adult population.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+          "publisher": "NPR",
+          "published": "2026-11-07T17:14:36+00:00",
+          "content_type": "public article text",
+          "content_sha256": "4de92c8e2409ecffa1b5a41ec1c2479355d8a162d674151dc306a0db05739ade",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers the impeachment and house arrest of Paraguay's president following a major bank collapse.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ousted Paraguayan President Appears Before Prosecutors After Bank Collapse"
+    },
+    {
+      "id": "c51d08d28a5f578",
+      "title": "Gadi Eisenkot expresses confidence in forming Israeli coalition government",
+      "original_title": "Israel coalition talks gain momentum",
+      "url": "https://www.france24.com/en/israel-coalition-talks-gain-momentum",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-11-07T12:12:06+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/israel-coalition-talks-gain-momentum",
+      "event_key": "israel-coalition-talks-2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Following inconclusive national elections in Israel, opposition candidate Gadi Eisenkot stated he is confident about securing a mandate to form a government. President Isaac Herzog is preparing to nominate the first candidate for the role. Eisenkot claims progress in his effort to replace long-serving Prime Minister Benjamin Netanyahu.",
+      "why": "A successful coalition agreement would end the prolonged tenure of Prime Minister Netanyahu and determine the direction of Israel's executive leadership.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/israel-coalition-talks-gain-momentum",
+          "publisher": "France 24",
+          "published": "2026-11-07T12:12:06+00:00",
+          "content_type": "public article text",
+          "content_sha256": "690509d4b409a086b2ba0ed2ad5b4b684d1df731daa9d36bfa7d748858c14ded",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers post-election political negotiations in Israel as opposition candidate Gadi Eisenkot attempts to build a coalition to replace Netanyahu.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Gadi Eisenkot expresses confidence in forming Israeli coalition government"
+    },
+    {
+      "id": "c997c10d9a57f02",
+      "title": "NASA's Swift space observatory re-enters atmosphere after 22-year mission",
+      "original_title": "APOD: 2026 November 6 – A Farewell to Swift",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+      "source": "NASA",
+      "category": "Science",
+      "published": "2026-11-06T05:05:00+00:00",
+      "publication_type": "Research organization announcement",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift",
+      "event_key": "105f52c76ec50e86542d",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "NASA's Neil Gehrels Swift Observatory re-entered Earth's atmosphere on November 4 over North Sumatra, Indonesia, ending nearly 22 years of service. The satellite observed the universe's fastest and most energetic explosions using coordinated ultraviolet, optical, X-ray, and gamma-ray detectors. Decay of the spacecraft's orbit was accelerated by the recent solar maximum, and a planned orbital boost mission was unsuccessful.",
+      "why": "Although the spacecraft has burned up, its collected multi-wavelength survey data will continue to serve astrophysical research on energetic transient events.",
+      "technical_details": [
+        "The satellite operated Ultraviolet/Optical, X-ray, and gamma-ray telescopes together to study high-energy cosmic explosions."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+          "publisher": "NASA",
+          "published": "2026-11-06T05:05:00+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "dc86924ec95a40440644d57109e1b162081c710e0cddcdb8ff8a439bed699e0b",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+          "publisher": "NASA",
+          "published": "2026-11-05T05:05:00+00:00"
+        }
+      ],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "NASA's Swift space observatory re-enters atmosphere after 22-year mission"
+    },
+    {
+      "id": "2362781351ad9fa",
+      "title": "Testing Humanoid Cleaning Robots Reveals Current Technological Limits",
+      "original_title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Technology Review",
+      "category": "AI",
+      "published": "2026-11-06T10:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Grace Huckins"
+      ],
+      "backfill": false,
+      "story_key": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+      "event_key": "fe45deb5d9d1d10f8af7",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A journalist tested a commercial cleaning service using remotely piloted humanoid robots in San Francisco. While capable of performing physical tasks like vacuuming and mopping, the robots frequently stalled due to connectivity issues and required significant human oversight. Startups are using data collected from these supervised tasks to train future autonomous models.",
+      "why": "Commercializing humanoid robots for everyday domestic chores remains challenging, and widespread deployment could eventually impact the livelihoods of human cleaners.",
+      "technical_details": [
+        "Many tasks require kinematic guidance where human pilots perform motions that are transmitted to the robot."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+          "publisher": "MIT Technology Review",
+          "published": "2026-11-06T10:00:00+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "9b4c85ae4fe95f5bc07985ed15b817dc8e2ab60a38ea6f927a2c24e7d42a817c",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Testing Humanoid Cleaning Robots Reveals Current Technological Limits"
+    },
+    {
+      "id": "7eef3d96562cf6a",
+      "title": "US Democrats Weigh Priorities After Winning Control of Congress",
+      "original_title": "After victory in the midterms, what next for US Democrats?",
+      "url": "https://www.dw.com/en/after-victory-in-the-midterms-what-next-for-us-democrats/a-79884957?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "U.S. News",
+      "published": "2026-11-07T14:15:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/after-victory-in-the-midterms-what-next-for-us-democrats/a-79884957?maca=en-rss-en-world-4025-rdf",
+      "event_key": "us_midterm_elections_2026",
+      "continuity": "Follow-up",
+      "continuity_note": "Newly reported evidence differs from the previous edition; check the linked reports for context.",
+      "previous_report": {
+        "title": "The biggest winners and losers of the 2026 US midterms",
+        "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+        "published": "2026-11-04T18:52:25+00:00"
+      },
+      "summary": "Following decisive victories in the midterm elections, Democrats secured majorities in both the House of Representatives and the Senate. While the party enjoys a temporary legislative advantage, President Donald Trump retains veto power over proposed bills. Lawmakers face internal divisions among progressive, mainstream, and moderate factions as they determine their upcoming agenda.",
+      "why": "Congressional control enables Democrats to initiate investigations and leverage government funding negotiations, shaping the balance of federal power for the remainder of the presidential term.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/after-victory-in-the-midterms-what-next-for-us-democrats/a-79884957?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-07T14:15:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "bff7c5d33e0024725258066087d0d6d55bf37c13307345bea2236117c3c1a10e",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "P1",
+          "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-04T18:52:25+00:00",
+          "content_type": "previous briefing source evidence",
+          "content_sha256": "9df50edf0a617230e3a2811a0903aaf5152279d49816b7b85a9303f0c22eb14d",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on the outcome of the US midterm elections where Democrats won majorities in both the House and Senate.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Democrats Weigh Priorities After Winning Control of Congress"
+    },
+    {
+      "id": "cbf0e83faf90d5b",
+      "title": "Iran Reports Building Underground Facilities for Weapons Production",
+      "original_title": "Iran’s IRGC says building underground sites for weapons production, storage",
+      "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-11-07T15:34:58+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
+      "event_key": "iran_underground_weapons_and_us_sanctions",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Iran's Islamic Revolutionary Guards Corps announced the construction of underground military complexes designed to withstand heavy bombardment. Officials stated that missile and drone production lines have been successfully transferred to these secure subterranean facilities. The announcement coincides with ongoing regional tensions, international sanctions, and US efforts to interdict land and naval supply routes.",
+      "why": "Reinforcing military infrastructure underground complicates foreign deterrence strategies and sustains regional conflict capabilities despite external military strikes and economic pressure.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-07T15:34:58+00:00",
+          "content_type": "public article text",
+          "content_sha256": "8389fef3e9b032f67b8f26d7f5c85aab2925f9d19b7d6ca6ca7a76dfb95f0954",
+          "retrieved_at": "2026-11-07T19:29:31.432140+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on Iran building underground weapons sites and US responses regarding blockades and sanctions.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Iran Reports Building Underground Facilities for Weapons Production"
+    }
+  ]
+}

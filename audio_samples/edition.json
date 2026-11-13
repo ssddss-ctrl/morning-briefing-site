@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-13",
+  "edition_hash": "29607698bb059a2f5f578102496b55dbaded40656e5844375e83f1368e9ec59a",
+  "voice": "am_michael",
+  "source_items": [
+    {
+      "id": "966c884e31e1c03",
+      "title": "Nvidia chief executive resigns following extramarital affair and national security probe",
+      "summary": "Nvidia Chief Executive Officer Jensen Huang has resigned following revelations of extramarital relationships, including an affair with a former foreign tech executive suspected by U.S. officials of being a Chinese spy. The board appointed Chief Financial Officer Colette Kress as interim chief executive while launching a search for a permanent successor. U.S. lawmakers are preparing to subpoena Huang to examine whether the company's security protocols failed or if national security was compromised.",
+      "why": "The sudden leadership void at the dominant producer of artificial intelligence chips creates corporate uncertainty and opens market opportunities for competing semiconductor manufacturers."
+    },
+    {
+      "id": "4a4b512f034d943",
+      "title": "United States negotiators agree to include European Union in Russia-Ukraine talks",
+      "summary": "U.S. envoys announced that European Union representatives will join the next round of peace talks aiming to end the war between Russia and Ukraine. Ukrainian President Volodymyr Zelensky welcomed the move, asserting it gives European nations a direct voice in shaping regional security agreements. The diplomatic announcement coincided with agreements between Kyiv and Moscow to conduct their largest prisoner exchange since the full-scale Russian invasion began in 2022.",
+      "why": "Including European nations addresses long-standing concerns in Kyiv and Brussels regarding future continental security arrangements and post-war stability."
+    },
+    {
+      "id": "32e139842464c43",
+      "title": "Jensen Huang resigns as Nvidia chief executive officer following misconduct investigation",
+      "summary": "Nvidia Chief Executive Officer Jensen Huang resigned on Thursday after admitting to an affair with an executive of a Singapore-based neocloud firm. The executive is suspected by the U.S. government of being a Chinese spy, while her firm is suspected of renting Nvidia chips to Chinese companies to evade restrictions. Republican lawmakers have summoned Huang to testify in closed-door sessions in December regarding the national security ramifications of the affair.",
+      "why": "Huang's departure removes a leading industry voice against restricting open-weight AI models and chip exports, while raising questions about Nvidia's $12.9 billion acquisition of Hugging Face."
+    },
+    {
+      "id": "ed62aebbab5c493",
+      "title": "Turkey and Qatar sign mutual defense pact following Istanbul meeting",
+      "summary": "Turkish President Tayyip Erdogan and Qatari Emir Sheikh Tamim bin Hamad al-Thani signed a mutual defense agreement in Istanbul on Friday evening. The Turkish presidency stated the accord aims to prevent the resurgence of war in the Gulf region and foster dialogue. Details of the defense agreement were not publicly disclosed by the Turkish presidency.",
+      "why": "Regional security analysts note Gulf nations are seeking military partnerships and potential Turkish air defense deployments as doubts grow over U.S. security guarantees."
+    },
+    {
+      "id": "a43c11e2595e185",
+      "title": "Researchers confirm atomic-scale depth for arsenic dopant layers in silicon",
+      "summary": "Researchers used X-ray reflectometry and fluorescence imaging to measure the physical thickness of arsenic dopant layers inside silicon non-destructively. The measurements confirmed that the physical dopant layers are under one nanometer thick, matching the narrow spatial spread of the conduction electrons. Previous mass spectrometry techniques were limited to a depth resolution of two nanometers, leaving chemical thickness uncertain.",
+      "why": "Establishing sub-nanometer dopant layer profiles provides a verified non-destructive technique to inspect nanoscale components in silicon-based quantum computing devices."
+    },
+    {
+      "id": "dbc687154e15e6a",
+      "title": "Interim Nvidia leadership faces questions over future open-source artificial intelligence support",
+      "summary": "Following Jensen Huang's resignation, Nvidia appointed Chief Financial Officer Colette Kress as interim chief executive officer. Huang was a primary industry advocate for open-weight artificial intelligence models and soft chip export controls to China. While inside sources expect internal model development to continue, community members question whether upcoming acquisitions like Hugging Face will proceed under interim leadership.",
+      "why": "Changes in Nvidia leadership could reduce support for open-source AI, giving major proprietary artificial intelligence labs stronger leverage to push for model restrictions."
+    },
+    {
+      "id": "60c9e0bae2737a0",
+      "title": "US Commerce Secretary to testify before Congress following Nvidia chief executive resignation",
+      "summary": "United States Commerce Secretary Howard Lutnick has agreed to appear voluntarily before the Senate Banking Committee. The testimony follows the resignation of Nvidia chief executive Jensen Huang over extramarital affairs, including one with a woman suspected by U.S. intelligence of spying for China. Lutnick faces congressional scrutiny because the Commerce Department was mandated to review companies for national security risks before the Trump administration allowed Nvidia chip sales to China.",
+      "why": "The hearing addresses national security concerns surrounding advanced artificial intelligence chip exports to China, where the United States maintains export restrictions to preserve technology dominance."
+    }
+  ],
+  "segments": [
+    {
+      "story_id": "966c884e31e1c03",
+      "title": "Nvidia chief executive resigns following extramarital affair and national security probe",
+      "text": "Good morning. Here's your briefing, covering United States news, world affairs, artificial intelligence, scientific research. We begin with United States news. Nvidia chief executive resigns following extramarital affair and national security probe. Nvidia Chief Executive Officer Jensen Huang has resigned following revelations of extramarital relationships, including an affair with a former foreign tech executive suspected by U.S. officials of being a Chinese spy. The board appointed Chief Financial Officer Colette Kress as interim chief executive while launching a search for a permanent successor. U.S. lawmakers are preparing to subpoena Huang to examine whether the company's security protocols failed or if national security was compromised. Why this matters. The sudden leadership void at the dominant producer of artificial intelligence chips creates corporate uncertainty and opens market opportunities for competing semiconductor manufacturers.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/0.m4a",
+      "duration": 65.30133333333333
+    },
+    {
+      "story_id": "4a4b512f034d943",
+      "title": "United States negotiators agree to include European Union in Russia-Ukraine talks",
+      "text": "Turning to world affairs. United States negotiators agree to include European Union in Russia-Ukraine talks. U.S. envoys announced that European Union representatives will join the next round of peace talks aiming to end the war between Russia and Ukraine. Ukrainian President Volodymyr Zelensky welcomed the move, asserting it gives European nations a direct voice in shaping regional security agreements. The diplomatic announcement coincided with agreements between Kyiv and Moscow to conduct their largest prisoner exchange since the full-scale Russian invasion began in 2022. Why this matters. Including European nations addresses long-standing concerns in Kyiv and Brussels regarding future continental security arrangements and post-war stability.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/1.m4a",
+      "duration": 51.861333333333334
+    },
+    {
+      "story_id": "32e139842464c43",
+      "title": "Jensen Huang resigns as Nvidia chief executive officer following misconduct investigation",
+      "text": "Turning to artificial intelligence. Jensen Huang resigns as Nvidia chief executive officer following misconduct investigation. Nvidia Chief Executive Officer Jensen Huang resigned on Thursday after admitting to an affair with an executive of a Singapore-based neocloud firm. The executive is suspected by the U.S. government of being a Chinese spy, while her firm is suspected of renting Nvidia chips to Chinese companies to evade restrictions. Republican lawmakers have summoned Huang to testify in closed-door sessions in December regarding the national security ramifications of the affair. Why this matters. Huang's departure removes a leading industry voice against restricting open-weight artificial intelligence models and chip exports, while raising questions about Nvidia's $12.9 billion acquisition of Hugging Face.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/2.m4a",
+      "duration": 56.68266666666667
+    },
+    {
+      "story_id": "ed62aebbab5c493",
+      "title": "Turkey and Qatar sign mutual defense pact following Istanbul meeting",
+      "text": "Turning to world affairs. Turkey and Qatar sign mutual defense pact following Istanbul meeting. Turkish President Tayyip Erdogan and Qatari Emir Sheikh Tamim bin Hamad al-Thani signed a mutual defense agreement in Istanbul on Friday evening. The Turkish presidency stated the accord aims to prevent the resurgence of war in the Gulf region and foster dialogue. Details of the defense agreement were not publicly disclosed by the Turkish presidency. Why this matters. Regional security analysts note Gulf nations are seeking military partnerships and potential Turkish air defense deployments as doubts grow over U.S. security guarantees.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/3.m4a",
+      "duration": 42.090666666666664
+    },
+    {
+      "story_id": "a43c11e2595e185",
+      "title": "Researchers confirm atomic-scale depth for arsenic dopant layers in silicon",
+      "text": "Turning to scientific research. Researchers confirm atomic-scale depth for arsenic dopant layers in silicon. Researchers used X-ray reflectometry and fluorescence imaging to measure the physical thickness of arsenic dopant layers inside silicon non-destructively. The measurements confirmed that the physical dopant layers are under one nanometer thick, matching the narrow spatial spread of the conduction electrons. Previous mass spectrometry techniques were limited to a depth resolution of two nanometers, leaving chemical thickness uncertain. Why this matters. Establishing sub-nanometer dopant layer profiles provides a verified non-destructive technique to inspect nanoscale components in silicon-based quantum computing devices.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/4.m4a",
+      "duration": 49.42933333333333
+    },
+    {
+      "story_id": "dbc687154e15e6a",
+      "title": "Interim Nvidia leadership faces questions over future open-source artificial intelligence support",
+      "text": "Turning to artificial intelligence. Interim Nvidia leadership faces questions over future open-source artificial intelligence support. Following Jensen Huang's resignation, Nvidia appointed Chief Financial Officer Colette Kress as interim chief executive officer. Huang was a primary industry advocate for open-weight artificial intelligence models and soft chip export controls to China. While inside sources expect internal model development to continue, community members question whether upcoming acquisitions like Hugging Face will proceed under interim leadership. Why this matters. Changes in Nvidia leadership could reduce support for open-source artificial intelligence, giving major proprietary artificial intelligence labs stronger leverage to push for model restrictions.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/5.m4a",
+      "duration": 53.12
+    },
+    {
+      "story_id": "60c9e0bae2737a0",
+      "title": "US Commerce Secretary to testify before Congress following Nvidia chief executive resignation",
+      "text": "Turning to United States news. US Commerce Secretary to testify before Congress following Nvidia chief executive resignation. United States Commerce Secretary Howard Lutnick has agreed to appear voluntarily before the Senate Banking Committee. The testimony follows the resignation of Nvidia chief executive Jensen Huang over extramarital affairs, including one with a woman suspected by U.S. intelligence of spying for China. Lutnick faces congressional scrutiny because the Commerce Department was mandated to review companies for national security risks before the Trump administration allowed Nvidia chip sales to China. Why this matters. The hearing addresses national security concerns surrounding advanced artificial intelligence chip exports to China, where the United States maintains export restrictions to preserve technology dominance. That's your briefing. Thanks for listening.",
+      "url": "audio_samples/edition-29607698bb059a2f-am_michael/6.m4a",
+      "duration": 58.56
+    }
+  ]
+}

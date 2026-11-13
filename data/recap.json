@@ -1,0 +1,1016 @@
+{
+  "schema_version": 1,
+  "days": [
+    {
+      "date": "2026-11-13",
+      "event_keys": [
+        "Jensen-Huang-exit",
+        "dc2df2247b2d55990ed3",
+        "dopant_profiling_silicon",
+        "jensen-huang-resignation",
+        "nvidia_ceo_ouster",
+        "turkiye-qatar-defense",
+        "ukraine-russia-war-nov2026"
+      ],
+      "stories": [
+        {
+          "id": "966c884e31e1c03",
+          "event_key": "jensen-huang-resignation",
+          "category": "U.S. News",
+          "title": "Nvidia chief executive resigns following extramarital affair and national security probe",
+          "display_title": "Nvidia chief executive resigns following extramarital affair and national security probe",
+          "summary": "Nvidia Chief Executive Officer Jensen Huang has resigned following revelations of extramarital relationships, including an affair with a former foreign tech executive suspected by U.S. officials of being a Chinese spy. The board appointed Chief Financial Officer Colette Kress as interim chief executive while launching a search for a permanent successor. U.S. lawmakers are preparing to subpoena Huang to examine whether the company's security protocols failed or if national security was compromised.",
+          "why": "The sudden leadership void at the dominant producer of artificial intelligence chips creates corporate uncertainty and opens market opportunities for competing semiconductor manufacturers.",
+          "url": "https://www.pbs.org/newshour/economy/nvidia-ceo-jensen-huang-resigns-after-his-affair-raises-national-security-concerns",
+          "source": "PBS NewsHour",
+          "published": "2026-11-12T14:10:01+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "a43c11e2595e185",
+          "event_key": "dopant_profiling_silicon",
+          "category": "Science",
+          "title": "Researchers confirm atomic-scale depth for arsenic dopant layers in silicon",
+          "display_title": "Researchers confirm atomic-scale depth for arsenic dopant layers in silicon",
+          "summary": "Researchers used X-ray reflectometry and fluorescence imaging to measure the physical thickness of arsenic dopant layers inside silicon non-destructively. The measurements confirmed that the physical dopant layers are under one nanometer thick, matching the narrow spatial spread of the conduction electrons. Previous mass spectrometry techniques were limited to a depth resolution of two nanometers, leaving chemical thickness uncertain.",
+          "why": "Establishing sub-nanometer dopant layer profiles provides a verified non-destructive technique to inspect nanoscale components in silicon-based quantum computing devices.",
+          "url": "https://doi.org/10.1038/s41534-026-01393-x",
+          "source": "npj Quantum Information",
+          "published": "2026-11-11T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "4a4b512f034d943",
+          "event_key": "ukraine-russia-war-nov2026",
+          "category": "Global Affairs",
+          "title": "United States negotiators agree to include European Union in Russia-Ukraine talks",
+          "display_title": "United States negotiators agree to include European Union in Russia-Ukraine talks",
+          "summary": "U.S. envoys announced that European Union representatives will join the next round of peace talks aiming to end the war between Russia and Ukraine. Ukrainian President Volodymyr Zelensky welcomed the move, asserting it gives European nations a direct voice in shaping regional security agreements. The diplomatic announcement coincided with agreements between Kyiv and Moscow to conduct their largest prisoner exchange since the full-scale Russian invasion began in 2022.",
+          "why": "Including European nations addresses long-standing concerns in Kyiv and Brussels regarding future continental security arrangements and post-war stability.",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-11-13T02:01:35+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "event_keys": [
+        "19274f077ca46f56acaa",
+        "5b90050865fb0fb3ad09",
+        "5df02148ad6a07649f16",
+        "7acdbb71b9059d13cbf9",
+        "ce9f0710cef441a28ec9",
+        "mid-ir-spad-camera",
+        "us-senate-energy-infrastructure-bill"
+      ],
+      "stories": [
+        {
+          "id": "a42e4218d65d845",
+          "event_key": "mid-ir-spad-camera",
+          "category": "Science",
+          "title": "First Room-Temperature Mid-Infrared Imaging System Using Silicon Detectors",
+          "display_title": "First Room-Temperature Mid-Infrared Imaging System Using Silicon Detectors",
+          "summary": "Researchers have developed a mid-infrared imaging system by combining frequency conversion with a standard silicon pixel array. While light detection is typically restricted to visible and near-infrared wavelengths, this approach converts longer wavelengths so they can be read by silicon sensors at room temperature. The system achieves high-speed photon-counting imaging at rates up to 60,000 frames per second.",
+          "why": "This platform enables high-speed, low-light thermal and chemical analysis in a spectral range previously constrained by limited detector performance. It provides a new way to capture rapid thermal dynamics.",
+          "url": "https://arxiv.org/abs/2605.04276",
+          "source": "arXiv",
+          "published": "2026-11-10T05:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "1844f848fd600ea",
+          "event_key": "us-senate-energy-infrastructure-bill",
+          "category": "U.S. News",
+          "title": "US Senate Advances Bipartisan Bill to Speed Up Energy Infrastructure Permitting",
+          "display_title": "US Senate Advances Bipartisan Bill to Speed Up Energy Infrastructure Permitting",
+          "summary": "The United States Senate voted to advance a bipartisan bill aimed at accelerating the construction of energy infrastructure and data centers. The legislation overhauls the permitting process for both clean and fossil fuel energy projects and restricts environmental review timelines. Supporters argue the law is necessary to meet growing electricity demand, while environmental groups criticize it for locking in fossil fuel developments.",
+          "why": "The legislation attempts to address rising electricity costs and power demands driven by data centers, though future passage remains uncertain amid political shifts.",
+          "url": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-11-10T19:09:12+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "event_keys": [
+        "14e807dae30b0c4",
+        "jensen-huang-investigation",
+        "jensen_huang_investigation",
+        "nbo2br2-second-harmonic-generation",
+        "south-africa-municipal-elections",
+        "us_midterm_gop_leadership"
+      ],
+      "stories": [
+        {
+          "id": "14adcb1aee5649b",
+          "event_key": "nbo2br2-second-harmonic-generation",
+          "category": "Science",
+          "title": "Integrating ferroelectric material onto silicon chips enables tunable light frequency conversion",
+          "display_title": "Integrating ferroelectric material onto silicon chips enables tunable light frequency conversion",
+          "summary": "Researchers have integrated a material known as niobium oxide dihalide onto a silicon-based ring structure to build an electrically controllable optical frequency converter on a chip. By applying voltage, the device alters internal electrical polarization and modulates the interface resistance, which controls how light interacts within the microscopic cavity. This configuration achieves a second-harmonic generation conversion efficiency of 158 percent per watt and supports multi-level optical programming for non-volatile operation.",
+          "why": "This development provides a robust way to dynamically tune nonlinear optical signals on integrated photonic circuits, which is useful for future optical communication and quantum photonic systems.",
+          "url": "https://www.nature.com/articles/s41565-026-02331-w",
+          "source": "Nature Nanotechnology",
+          "published": "2026-11-09T00:00:00+00:00",
+          "publication_type": "Journal publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "5b8caf57d8c7254",
+          "event_key": "jensen_huang_investigation",
+          "category": "AI",
+          "title": "Nvidia investigates CEO Jensen Huang amid scrutiny over foreign relationships",
+          "display_title": "Nvidia investigates CEO Jensen Huang amid scrutiny over foreign relationships",
+          "summary": "Nvidia has launched an independent board investigation into CEO Jensen Huang following revelations of a personal relationship with an executive whom U.S. intelligence officials suspect of being recruited by Chinese intelligence. The controversy arrives at a delicate juncture as Nvidia continues to navigate strict U.S. export controls and lobbies for expanded access to the Chinese semiconductor market. Huang acknowledged and apologized for the relationship in an internal employee memo.",
+          "why": "The investigation complicates Nvidia's ongoing efforts to persuade Washington regulators to maintain and expand chip exports to major markets in China without triggering national security concerns.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "source": "The Verge",
+          "published": "2026-11-08T22:54:50+00:00",
+          "publication_type": "Technology journalism",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "event_keys": [
+        "abu_dhabi_ukraine_talks",
+        "nonlinear_superinductor_silicon",
+        "nvidia_ceo_espionage_memo",
+        "us_house_hegseth_impeachment",
+        "us_post_midterm_cabinet_rumors"
+      ],
+      "stories": [
+        {
+          "id": "ca070672670beb9",
+          "event_key": "nonlinear_superinductor_silicon",
+          "category": "Science",
+          "title": "Researchers build compact superconducting circuits using standard silicon manufacturing",
+          "display_title": "Researchers build compact superconducting circuits using standard silicon manufacturing",
+          "summary": "Researchers have fabricated a nonlinear electrical component known as a superinductor within a silicon chip using standard commercial manufacturing techniques. Electrical inductors store energy in a magnetic field, but superinductors are engineered to have extremely large inductance and high impedance. By utilizing titanium nitride, the team created compact circuit elements that maintain robust superconducting properties for quantum technologies and sensing applications.",
+          "why": "This development allows complex superconducting circuits and sensitive quantum sensors to be built using standard semiconductor manufacturing processes. Such components can dramatically alter circuit quantum behavior for advanced computing and low-power electronics.",
+          "url": "https://phys.org/news/2026-11-superinductor-silicon-circuit.html",
+          "source": "Phys.org",
+          "published": "2026-11-04T22:40:08+00:00",
+          "publication_type": "Research news / press release",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "dce0c1a685019c1",
+          "event_key": "abu_dhabi_ukraine_talks",
+          "category": "Global Affairs",
+          "title": "European officials to join US-mediated Ukraine talks in Abu Dhabi",
+          "display_title": "European officials to join US-mediated Ukraine talks in Abu Dhabi",
+          "summary": "France announced that European representatives will participate in upcoming US-mediated peace talks in Abu Dhabi aimed at ending the war in Ukraine. The meetings follow discussions between American, European, Ukrainian, and NATO officials in Brussels. While previous formats were framed primarily around trilateral discussions, French Foreign Minister Jean-Noël Barrot confirmed Europe will have a seat at the table.",
+          "why": "European participation ensures regional security interests are directly represented in diplomatic efforts concerning the continent's architecture. The diplomatic engagement addresses ongoing tensions regarding how a sustainable end to the conflict will be negotiated.",
+          "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
+          "source": "France 24",
+          "published": "2026-11-08T14:16:31+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "event_keys": [
+        "105f52c76ec50e86542d",
+        "bd4191a34b395357eb2c",
+        "fe45deb5d9d1d10f8af7",
+        "iran_underground_weapons_and_us_sanctions",
+        "israel-coalition-talks-2026",
+        "paraguay_impeachment_2026",
+        "stephen_miller_white_house_chief",
+        "us_china_diplomacy_trump_xi",
+        "us_midterm_elections_2026"
+      ],
+      "stories": [
+        {
+          "id": "5c104b595f23c83",
+          "event_key": "stephen_miller_white_house_chief",
+          "category": "U.S. News",
+          "title": "Stephen Miller appointed as White House chief of staff",
+          "display_title": "Stephen Miller appointed as White House chief of staff",
+          "summary": "President Donald Trump has chosen immigration hardliner Stephen Miller to serve as his new White House chief of staff. Miller steps into the powerful role as the administration navigates a difficult lame-duck period following the Republican loss of both houses of Congress. Throughout his career, Miller has been a prominent and controversial architect of hardline immigration policies and domestic initiatives.",
+          "why": "As chief of staff, Miller's prominent policy influence shapes the administration's ongoing domestic agenda and political strategy.",
+          "url": "https://www.pbs.org/newshour/politics/in-his-words-stephen-miller-is-an-immigration-hardliner-and-a-bombastic-critic-of-democrats",
+          "source": "PBS NewsHour",
+          "published": "2026-11-07T17:39:49+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        },
+        {
+          "id": "cce7ddcb9d66ba4",
+          "event_key": "us_china_diplomacy_trump_xi",
+          "category": "Global Affairs",
+          "title": "China prepares to host lame-duck US President Donald Trump",
+          "display_title": "China prepares to host lame-duck US President Donald Trump",
+          "summary": "China is preparing to host US President Donald Trump for a multilateral gathering following recent congressional midterm elections. Trump is expected to meet with Chinese President Xi Jinping on the sidelines of the Asia-Pacific Economic Cooperation gathering. The visit occurs a decade after China previously hosted a politically hobbled US president at a major international summit.",
+          "why": "High-level diplomatic meetings between the US and China during political transitions carry significant implications for international trade and global affairs.",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373654/history-repeats-shenzhen-china-hosts-another-lame-duck-us-president",
+          "source": "South China Morning Post",
+          "published": "2026-11-07T14:00:08+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "event_keys": [
+        "128c75e6ebb539edb49a",
+        "bistable_qubit_fpga_control",
+        "jwst_dark_matter_mapping",
+        "meta_acquires_conductor",
+        "rsi-dojo-llm",
+        "us-midterms-2026",
+        "us_midterm_elections_2026",
+        "yemen_taiz_clashes"
+      ],
+      "stories": [
+        {
+          "id": "82b0e0e94dbb4d9",
+          "event_key": "bistable_qubit_fpga_control",
+          "category": "Science",
+          "title": "Adaptive protocol stabilizes bistable qubits using single-shot measurement",
+          "display_title": "Adaptive protocol stabilizes bistable qubits using single-shot measurement",
+          "summary": "Defects in solid-state quantum processors can interact with qubits, causing discrete frequency shifts that make them unstable and bistable. Researchers experimentally demonstrated an adaptive control protocol powered by a field-programmable gate array to correct these shifts using a single measurement. The approach successfully suppressed instabilities in a superconducting qubit, achieving significant error reduction and stabilizing gate fidelities over time.",
+          "why": "Mitigating dephasing errors from defects is crucial for improving the performance and stability of large quantum processor arrays.",
+          "url": "https://arxiv.org/abs/2605.03187",
+          "source": "arXiv",
+          "published": "2026-11-04T05:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "13573e5e11d83ab",
+          "event_key": "us_midterm_elections_2026",
+          "category": "U.S. News",
+          "title": "Democrats win control of both congressional chambers in US midterms",
+          "display_title": "Democrats win control of both congressional chambers in US midterms",
+          "summary": "Democratic candidates secured control of both chambers of Congress in the United States midterm elections, achieving several surprising victories. The results present a significant challenge to President Donald Trump's legislative agenda for the remainder of his term. Voters also elected several historic figures, including the country's first Muslim senator.",
+          "why": "The shift in congressional control will directly impact federal spending, foreign policy decisions regarding Ukraine and Iran, and potential administrative investigations.",
+          "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-11-04T18:52:25+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "b23b8032e531541",
+          "event_key": "jwst_dark_matter_mapping",
+          "category": "Science",
+          "title": "Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging",
+          "display_title": "Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging",
+          "summary": "Researchers mapped the three-dimensional distribution of invisible matter, known as dark matter, across a specific sky region using deep space telescope imaging. By combining a physical lensing model with advanced generative computer models trained on cosmological simulations, the team reconstructed matter distributions across twenty distinct depth planes. This approach successfully separates overlapping cosmic structures and extends mapping capabilities to higher redshifts, reaching closer to a major epoch of rapid galaxy growth.",
+          "why": "This technique extends three-dimensional weak lensing mapping into the high-redshift regime, enabling probabilistic visualization of the evolving cosmic web. It provides a robust route for tracing the growth of cosmic structure with current wide-field surveys.",
+          "url": "https://arxiv.org/abs/2611.03786",
+          "source": "arXiv",
+          "published": "2026-11-04T05:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "event_keys": [
+        "captain_code_as_policy_robots",
+        "chatgpt_surveillance_study",
+        "free_standing_2d_metal_oxides",
+        "graphene_andreev_enhancement",
+        "ryanair_pay_freeze_higher_fares",
+        "scotus_california_ballots",
+        "trump_agoa_removal",
+        "ukraine_ceasefire_ends_strikes",
+        "us-agoa-trade-suspension"
+      ],
+      "stories": [
+        {
+          "id": "c40f06faf82d718",
+          "event_key": "graphene_andreev_enhancement",
+          "category": "Science",
+          "title": "Bilayer graphene constriction exhibits mode-dependent Andreev reflection",
+          "display_title": "Bilayer graphene constriction exhibits mode-dependent Andreev reflection",
+          "summary": "Researchers demonstrated Andreev-enhanced conductance within a gate-defined bilayer graphene quantum point contact coupled to a superconducting aluminum electrode. Electrostatic gating enabled sequential mode occupation, showing normal-state conductance quantization. In the superconducting state, conductance was enhanced on the plateaus up to effective transmission probabilities of 0.9 across a bias window of about 140 microvolts.",
+          "why": "The measurement provides a low-dimensional platform to probe quantum transport and mode-dependent Andreev reflection mechanisms near superconducting interfaces.",
+          "url": "https://arxiv.org/abs/2610.41915",
+          "source": "arXiv",
+          "published": "2026-11-02T05:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "2c7c6a703c9d1f6",
+          "event_key": "ukraine_ceasefire_ends_strikes",
+          "category": "Global Affairs",
+          "title": "Russian strikes kill 26 in Ukraine following end of local ceasefire",
+          "display_title": "Russian strikes kill 26 in Ukraine following end of local ceasefire",
+          "summary": "Ukrainian officials reported that Russian aerial strikes killed at least 26 people in Zaporizhzhia near Kherson hours after a temporary local ceasefire ended. The victims included people collecting humanitarian aid at a school as well as emergency workers and police officers. The expired truce in Oleshky was the longest pause in fighting since the 2022 invasion, though Ukrainian officials stated Russia rejected an offer to extend it.",
+          "why": "The resumption of heavy strikes undermines recent diplomatic attempts to establish humanitarian pauses and peace progress ahead of planned international talks.",
+          "url": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+          "source": "France 24",
+          "published": "2026-11-03T01:18:44+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "5f50c3ea7afa778",
+          "event_key": "free_standing_2d_metal_oxides",
+          "category": "Science",
+          "title": "Researchers Fabricate Free-Standing Two-Dimensional Metal Oxide Monolayers",
+          "display_title": "Researchers Fabricate Free-Standing Two-Dimensional Metal Oxide Monolayers",
+          "summary": "Materials scientists have achieved the controlled fabrication of diverse free-standing two-dimensional metal oxides down to the single-atomic-layer limit. The team used an electron-beam-induced removal of halogen atoms from layered metal oxyhalides to transform the materials into ultrathin metal oxides. Analysis of monolayer chromium oxide confirmed thermodynamic stability and predicted magnetic ordering below a specific cryogenic temperature.",
+          "why": "This atomic-scale synthesis technique creates stable monolayer oxide lattices and lateral heterostructures, opening new pathways for exploring quantum phenomena and excitonic properties in low-dimensional materials.",
+          "url": "https://www.nature.com/articles/s41563-026-02793-2",
+          "source": "Nature Materials",
+          "published": "2026-10-29T00:00:00+00:00",
+          "publication_type": "Journal publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "event_keys": [
+        "93c0957edc40d4763f56",
+        "chris-murphy-stroke-midterms-2026",
+        "judge_bars_trump_doj_threats_election_workers",
+        "kherson-truce-ends-2026",
+        "mip_odt_imaging"
+      ],
+      "stories": [
+        {
+          "id": "59f37ad78df33c8",
+          "event_key": "mip_odt_imaging",
+          "category": "Science",
+          "title": "Mid-infrared photothermal tomography achieves video-rate volumetric chemical imaging of living cells",
+          "display_title": "Mid-infrared photothermal tomography achieves video-rate volumetric chemical imaging of living cells",
+          "summary": "Researchers demonstrated a label-free optical technique that captures three-dimensional chemical images of living cells at video speed. By pairing high photothermal sensitivity with rapid angle scanning, the method generates 19.2 volumes per second without temporal averaging. The authors tracked lipid droplets to measure anomalous intracellular transport in three dimensions, capturing motions obscured in two-dimensional images.",
+          "why": "This volumetric microscopy platform operates nearly 400 times faster than prior photothermal tomography, providing dynamic single-cell chemical tracking on subsecond timescales.",
+          "url": "https://doi.org/10.1038/s41467-026-78699-z",
+          "source": "Nature Communications",
+          "published": "2026-10-30T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "9ed66c3f548fe88",
+          "event_key": "kherson-truce-ends-2026",
+          "category": "Global Affairs",
+          "title": "Ukraine truce in Kherson region ends as Russia declines extension",
+          "display_title": "Ukraine truce in Kherson region ends as Russia declines extension",
+          "summary": "A six-day localized truce in Ukraine's southern Kherson region expired on Sunday evening after Russia declined to extend the agreement. The ceasefire, brokered by US First Lady Melania Trump and supported by Pope Leo XIV, enabled the humanitarian evacuation of 167 civilians from the frontline area around Oleshky. Kyiv officials warned residents to prepare for renewed attacks as fighting resumed across the region.",
+          "why": "The expiration of the longest temporary truce of the conflict halts humanitarian evacuations and opens the area to renewed military engagement.",
+          "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
+          "source": "France 24",
+          "published": "2026-11-01T12:41:48+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        },
+        {
+          "id": "4373844bd31ce94",
+          "event_key": "chris-murphy-stroke-midterms-2026",
+          "category": "U.S. News",
+          "title": "US Democratic Senator Chris Murphy hospitalised following a stroke",
+          "display_title": "US Democratic Senator Chris Murphy hospitalised following a stroke",
+          "summary": "US Senator Chris Murphy of Connecticut remains hospitalised at Johns Hopkins after suffering a stroke. His chief of staff reported that he sought medical care following arm numbness and is currently awake, alert, and responding well to treatment. Murphy serves as a top Democrat on the Senate Foreign Relations and Appropriations committees.",
+          "why": "Murphy holds key Senate leadership roles overseeing foreign policy and federal spending ahead of the US congressional midterms.",
+          "url": "https://www.aljazeera.com/news/2026/11/1/high-ranking-us-democratic-senator-suffers-stroke?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-11-01T22:32:54+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "event_keys": [
+        "18f0a200dfe0efc951f8",
+        "ai_smart_contract_synthesis",
+        "fiber_integrated_snspd",
+        "ghost_students_ai_fraud",
+        "nvidia_nscale_data_center_financing",
+        "perovskite_lasing_diode_sam",
+        "us_china_fcc_testing_ban",
+        "us_midterms_2026"
+      ],
+      "stories": [
+        {
+          "id": "d7071fddfb26952",
+          "event_key": "perovskite_lasing_diode_sam",
+          "category": "Science",
+          "title": "Molecular contact layer advances electrically assisted room-temperature perovskite lasers",
+          "display_title": "Molecular contact layer advances electrically assisted room-temperature perovskite lasers",
+          "summary": "Integrating electrical injection and optical gain in perovskite thin films is typically limited by non-radiative recombination and optical losses from standard charge-transport layers. Researchers developed an ultrathin self-assembled molecular contact called RS-3 to serve as a multifunctional hole-transport layer. The layer reduced buried-interface losses and preserved cavity structure, enabling room-temperature, current-assisted lasing under synchronized optical-electrical co-injection.",
+          "why": "The design helps bridge the gap toward electrically driven perovskite laser diodes by lowering lasing thresholds under co-injection.",
+          "url": "https://doi.org/10.21203/rs.3.rs-11400196/v1",
+          "source": "Research Square",
+          "published": "2026-10-30T00:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "049c645175c244a",
+          "event_key": "fiber_integrated_snspd",
+          "category": "Science",
+          "title": "Fiber-tip stacked superconducting nanowires enable polarization-resolved photon detection",
+          "display_title": "Fiber-tip stacked superconducting nanowires enable polarization-resolved photon detection",
+          "summary": "Optical fibers generally present challenges for scaling on-chip quantum detectors across multiple dimensions. Researchers addressed this by transferring two superconducting nanowire single-photon detector membranes directly onto a fiber facet in orthogonal orientations. The stacked configuration allows simultaneous polarization sensitivity and coincidence detection directly within the fiber without needing bulky external optics.",
+          "why": "The compact architecture expands multi-dimensional quantum photon detection directly inside fiber-optic networks, aiding integrated quantum circuits.",
+          "url": "https://doi.org/10.1002/lpor.72137",
+          "source": "Laser & Photonics Review",
+          "published": "2026-10-30T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "event_keys": [
+        "black_sea_shipping_threats",
+        "fpexao_nanolithography",
+        "mistral_ml4_weights",
+        "nvidia_ceo_spy_investigation",
+        "nvidia_intelligence_report",
+        "superconducting_interfaces_graphene",
+        "us_iran_tensions_strikes",
+        "us_midterm_elections"
+      ],
+      "stories": [
+        {
+          "id": "97766da0307d7cf",
+          "event_key": "superconducting_interfaces_graphene",
+          "category": "Science",
+          "title": "Microscopic origin of exceptional superconducting interfaces in molybdenum-rhenium contacts",
+          "display_title": "Microscopic origin of exceptional superconducting interfaces in molybdenum-rhenium contacts",
+          "summary": "Molybdenum-rhenium alloys provide ballistic, highly transparent contacts to two-dimensional materials, but the microscopic origin of this behavior has remained unclear. By combining low-temperature transport, X-ray diffraction, and electron microscopy, researchers discovered that as-deposited contacts spontaneously form a classical A15 superconducting phase. The one-dimensional transition-metal atomic chains within this phase exhibit a near-perfect lattice match with graphene edges.",
+          "why": "Understanding this interface structure establishes A15-phase superconductors as a geometrically ideal platform for developing robust quantum electronics.",
+          "url": "https://arxiv.org/abs/2610.39694",
+          "source": "arXiv",
+          "published": "2026-10-30T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "d036ce39e19f096",
+          "event_key": "fpexao_nanolithography",
+          "category": "Science",
+          "title": "New Adaptive Optics Method Improves Deep Tissue Nanoscale Imaging and Fabrication",
+          "display_title": "New Adaptive Optics Method Improves Deep Tissue Nanoscale Imaging and Fabrication",
+          "summary": "Researchers have introduced a technique called focal-plane extreme adaptive optics to overcome optical aberrations in heterogeneous media at significant depths. The approach directly controls the terminal focal-plane complex field using cascaded deformable mirrors and closed-form control. In testing, the method maintained high localization precision at deep tissue levels and reduced minimum written linewidths in photoresist during nanolithography.",
+          "why": "This optical advancement significantly extends the depth and speed limits for high-resolution biological imaging and nanoscale optical writing.",
+          "url": "https://arxiv.org/abs/2610.39340",
+          "source": "arXiv",
+          "published": "2026-10-30T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "6b1039460ea8dc6",
+          "event_key": "nvidia_ceo_spy_investigation",
+          "category": "AI",
+          "title": "US investigated executive over ties to Nvidia CEO amid export scrutiny",
+          "display_title": "US investigated executive over ties to Nvidia CEO amid export scrutiny",
+          "summary": "U.S. intelligence agencies investigated a top executive at a Singapore cloud firm over concerns she might have been acting as a Chinese spy. The executive, Alice Huang, had reportedly grown close to Nvidia CEO Jensen Huang while her firm faced allegations of helping bypass chip export regulations. An Nvidia spokesperson denied that the CEO shared any sensitive trade secrets or national security information during routine customer interactions.",
+          "why": "This investigation highlights ongoing U.S. security scrutiny regarding artificial intelligence hardware supply chains and potential intelligence risks surrounding high-level industry access.",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "source": "TechCrunch",
+          "published": "2026-10-29T16:42:32+00:00",
+          "publication_type": "Technology journalism",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "event_keys": [
+        "17aac6e40433c891b6eb",
+        "6c47790a2fd6c0374539",
+        "9171326bf3909c2a03d4",
+        "si_mos_quantum_dot_qubit"
+      ],
+      "stories": [
+        {
+          "id": "f892e2dbd07d57f",
+          "event_key": "si_mos_quantum_dot_qubit",
+          "category": "Science",
+          "title": "High-Fidelity Spin Qubit Control in Industrial Silicon Wafers",
+          "display_title": "High-Fidelity Spin Qubit Control in Industrial Silicon Wafers",
+          "summary": "Researchers have demonstrated high-fidelity single qubit control using electron spin resonance in a natural silicon metal-oxide-semiconductor quantum dot. The device was fabricated using an industrial 300-millimeter wafer process on a silicon-on-insulator substrate. Feedback protocols and a fast Rabi frequency helped mitigate low-frequency magnetic noise from the environment.",
+          "why": "Demonstrating high gate fidelity in industrial silicon manufacturing processes supports the scalable development of silicon-based quantum processors.",
+          "url": "https://doi.org/10.1063/5.0352438",
+          "source": "Applied Physics Letters",
+          "published": "2026-10-26T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "d324a6bed18f6ee",
+          "event_key": "6c47790a2fd6c0374539",
+          "category": "Global Affairs",
+          "title": "UK Prime Minister Expected to Visit India Soon",
+          "display_title": "UK Prime Minister Expected to Visit India Soon",
+          "summary": "British Prime Minister Andy Burnham is expected to visit India soon to further strengthen bilateral relations between the two nations. Acting British High Commissioner Ben Mellor confirmed the upcoming visit and highlighted expanding economic ties following a recent free trade agreement. Bilateral trade discussions encompass technology, investment, and energy cooperation.",
+          "why": "Strengthening diplomatic and economic ties between the UK and India aims to boost bilateral trade and investment targets over the coming years.",
+          "url": "https://www.thehindu.com/news/national/uk-pm-andy-burnham-trip-to-india-could-take-place-soon-british-envoy/article71640057.ece",
+          "source": "The Hindu",
+          "published": "2026-10-29T11:09:16+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.5
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "event_keys": [
+        "eu_auto_supply_chains",
+        "fed_rate_decision_oct_2026",
+        "israel_election_2026",
+        "opera-web-standard-local-ai",
+        "quantum-light-wigner-negativity-qd",
+        "us_myanmar_diplomacy"
+      ],
+      "stories": [
+        {
+          "id": "7c6b1f0dc611099",
+          "event_key": "quantum-light-wigner-negativity-qd",
+          "category": "Science",
+          "title": "Generating tunable quantum light states using a semiconductor quantum dot",
+          "display_title": "Generating tunable quantum light states using a semiconductor quantum dot",
+          "summary": "Researchers generated states of light with tunable quantum characteristics using a single semiconductor quantum dot placed inside a cavity. By applying optical coherent control to the quantum dot transition, they created a quantum superposition of zero and one photon. Measurements showed high fidelities and purities exceeding 95 percent after accounting for system losses.",
+          "why": "This capability using mature semiconductor technology offers promising opportunities for advancing continuous-variable optical quantum computing and related technologies.",
+          "url": "https://arxiv.org/abs/2610.36233",
+          "source": "arXiv",
+          "published": "2026-10-28T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "0c9580ebbef9a99",
+          "event_key": "us_myanmar_diplomacy",
+          "category": "U.S. News",
+          "title": "US diplomatic engagement with Myanmar prompts questions for European policy",
+          "display_title": "US diplomatic engagement with Myanmar prompts questions for European policy",
+          "summary": "The United States government has held two rounds of talks with Myanmar's military-backed government since September. American diplomats are discussing issues including online scam centers, detained citizens, and rare-earth resources. Meanwhile, the European Union maintains its diplomatic blockade and non-recognition policy toward the military regime.",
+          "why": "Shifting engagement strategies by major international actors risk marginalizing the European Union and complicating regional diplomatic alignment.",
+          "url": "https://www.dw.com/en/myanmar-is-the-us-undermining-the-eu-s-diplomatic-blockade/a-79778863?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "published": "2026-10-27T15:16:00+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "event_keys": [
+        "3f68a7cd72d07485d916",
+        "comey_legal_proceedings",
+        "israel_pivotal_election",
+        "nvidia_simplismart_funding",
+        "qatar_iran_moscow_meeting",
+        "vdw_floating_gate_neuromorphic"
+      ],
+      "stories": [
+        {
+          "id": "a6b6cc12592accd",
+          "event_key": "vdw_floating_gate_neuromorphic",
+          "category": "Science",
+          "title": "Van der Waals floating-gate device combines memory and optoelectronic learning",
+          "display_title": "Van der Waals floating-gate device combines memory and optoelectronic learning",
+          "summary": "Researchers have built an artificial synapse using layered atomic crystals that combines nonvolatile charge storage with broadband optoelectronic learning in a single device. The heterostructure uses one atomic layer for stable charge storage, an insulating tunneling dielectric, and a photoresponsive channel that responds to both electrical and optical stimulation. The transistor demonstrates stable multilevel conductance states, reliable retention, and synaptic weight modulation across visible and near-infrared light.",
+          "why": "This platform integrates memory and adaptive information processing within a single transistor, offering a promising strategy for compact, energy-efficient neuromorphic hardware.",
+          "url": "https://arxiv.org/abs/2610.34738",
+          "source": "arXiv",
+          "published": "2026-10-27T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "ab8c2d532b7b34c",
+          "event_key": "comey_legal_proceedings",
+          "category": "U.S. News",
+          "title": "Judge rules US Justice Department illegally fired federal prosecutor Maurene Comey",
+          "display_title": "Judge rules US Justice Department illegally fired federal prosecutor Maurene Comey",
+          "summary": "A federal judge has ruled that the US Justice Department unlawfully fired federal prosecutor Maurene Comey due to her perceived political affiliations and her relation to former FBI Director James Comey. The court ordered the administration to reinstate her and provide back pay from July to December 2025, when she accepted a new job. A Justice Department spokesperson stated that the agency disagrees with the ruling and intends to appeal the decision.",
+          "why": "This ruling directly addresses federal employment protections and executive authority regarding the dismissal of civil servants and career prosecutors.",
+          "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC US & Canada",
+          "published": "2026-10-27T12:28:35+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "event_keys": [
+        "1password-ai-agents-login",
+        "518ede4c0806ac93258c",
+        "bulgaria_election",
+        "electron_wavefront_hypersound",
+        "iii_v_nanopillar_arrays"
+      ],
+      "stories": [
+        {
+          "id": "0865bd6f6de5129",
+          "event_key": "iii_v_nanopillar_arrays",
+          "category": "Science",
+          "title": "Integrating nanopillar arrays on silicon for dual photodetection and emission",
+          "display_title": "Integrating nanopillar arrays on silicon for dual photodetection and emission",
+          "summary": "Researchers have demonstrated elliptical nanopillar arrays built on silicon platforms that combine broadband photodetection and light emission in a single nanoscale device. The components exhibit photoresponses across visible and near-infrared wavelengths, dynamic neuron-like graded responses under modulated light, and electroluminescence under forward bias. The nanostructured geometry enhances optical absorption and carrier dynamics within an active area significantly smaller than commercial detectors.",
+          "why": "This development advances miniaturized active nanophotonic devices suitable for integrated sensing, emitting, and communication circuits on silicon substrates.",
+          "url": "https://arxiv.org/abs/2610.32744",
+          "source": "arXiv",
+          "published": "2026-10-26T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "12d4c4fce58f615",
+          "event_key": "electron_wavefront_hypersound",
+          "category": "Science",
+          "title": "Researchers Image Nanoscale Surface Hypersound Using Electrons",
+          "display_title": "Researchers Image Nanoscale Surface Hypersound Using Electrons",
+          "summary": "Acoustic waves traveling at gigahertz frequencies have wavelengths comparable to nanoscale device dimensions, playing a crucial role in high-frequency signal processing. Researchers demonstrated full-field imaging of laser-induced high-frequency sound waves at surfaces using reflected low-energy electron wavefronts. By utilizing the surface sensitivity of electron pulses, the team recorded the thermoelastic generation and propagation of waves in a thin material.",
+          "why": "This microscopy technique enables the direct observation of ultrafast energy transport and mechanical interactions at buried interfaces, aiding the development of nanoscale acoustic devices.",
+          "url": "https://arxiv.org/abs/2610.32419",
+          "source": "arXiv",
+          "published": "2026-10-26T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "9821da331a5ed3a",
+          "event_key": "1password-ai-agents-login",
+          "category": "AI",
+          "title": "1Password launches tool allowing AI agents to log in without credentials",
+          "display_title": "1Password launches tool allowing AI agents to log in without credentials",
+          "summary": "Password manager 1Password has launched a new tool enabling automated digital assistants to log into personal accounts on behalf of users without exposing the actual credentials. The platform communicates between the user, agent, and password manager by sending a unique digital key to confirm identity during login attempts. Users receive an alert to personally authorize the request before the password manager fills in the necessary credentials for the assistant.",
+          "why": "This service provides a secure method for consumers to delegate automated tasks to personal AI assistants while preventing credential exposure and maintaining account control.",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+          "source": "TechCrunch",
+          "published": "2026-10-22T19:07:09+00:00",
+          "publication_type": "Technology journalism",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "event_keys": [
+        "0a847ddc04a73dfeb091",
+        "51525a98afaccb2d17d4",
+        "946919b6fce2f533d3f9",
+        "brazil_presidential_election_2026",
+        "eb45ee5bdce97177c6c6",
+        "israel_election_protests",
+        "minnesota_shootings_evidence_sharing"
+      ],
+      "stories": [
+        {
+          "id": "1113c3762e0a8fa",
+          "event_key": "51525a98afaccb2d17d4",
+          "category": "AI",
+          "title": "Corporate and startup artificial intelligence projects face rising abandonments and shutdowns",
+          "display_title": "Corporate and startup artificial intelligence projects face rising abandonments and shutdowns",
+          "summary": "A growing number of standalone artificial intelligence startups and products are shutting down or filing for bankruptcy. Market data indicates that approximately 42 percent of corporate artificial intelligence initiatives are ultimately abandoned by parent organizations. Major technology platforms are increasingly incorporating specialized capabilities directly into their main products, reducing demand for independent tools.",
+          "why": "High operational costs, strong competition, and feature integration by major tech platforms make sustaining standalone hardware and software tools difficult.",
+          "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "source": "TechCrunch",
+          "published": "2026-10-24T19:00:00+00:00",
+          "publication_type": "Technology journalism",
+          "continuity": "New",
+          "importance": 3.5
+        },
+        {
+          "id": "e7950a7e038ecf6",
+          "event_key": "israel_election_protests",
+          "category": "Global Affairs",
+          "title": "Protesters rally in Tel Aviv against Israeli government ahead of general election",
+          "display_title": "Protesters rally in Tel Aviv against Israeli government ahead of general election",
+          "summary": "Thousands of demonstrators gathered in Tel Aviv on Friday to protest against the Israeli government ahead of an upcoming vote. The demonstration took place just three days before a national general election. The anti-government mobilization comes as the election is widely regarded as a referendum on Prime Minister Benjamin Netanyahu.",
+          "why": "The large-scale public demonstrations signal heightened political tension as citizens cast ballots in a vote focused on top leadership.",
+          "url": "https://www.france24.com/en/israel-demonstrators-rally-against-government-ahead-of-election",
+          "source": "France 24",
+          "published": "2026-10-25T11:38:01+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "event_keys": [
+        "2a7ce526fb906603c27b",
+        "alaska-senate-election-lawsuit",
+        "photonic_integrated_blue_laser",
+        "superconducting_photon_detection",
+        "us-canada-trade-tariffs",
+        "us-iran-conflict-escalation"
+      ],
+      "stories": [
+        {
+          "id": "ec542cd0091a0c5",
+          "event_key": "superconducting_photon_detection",
+          "category": "Science",
+          "title": "Counting magnetic flux quanta offers new way to measure photon numbers",
+          "display_title": "Counting magnetic flux quanta offers new way to measure photon numbers",
+          "summary": "Researchers directly observed magnetic flux quanta generated in a superconductor by photon absorption, demonstrating a new detection principle. This approach identifies individual photon numbers based on the quantity of generated flux quanta rather than measuring thermal equilibrium. The technique bypasses the cooling delays of traditional thermal sensors while providing the precision needed for quantum computing and communication applications.",
+          "why": "This method addresses a major technical challenge by combining high photon-number resolution with high-speed operation, which is critical for scalable optical quantum computing and secure quantum communication.",
+          "url": "https://phys.org/news/2026-10-magnetic-flux-quanta-photon.html",
+          "source": "Phys.org",
+          "published": "2026-10-23T21:20:02+00:00",
+          "publication_type": "Research news / press release",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "e98e21f625aea84",
+          "event_key": "us-iran-conflict-escalation",
+          "category": "Global Affairs",
+          "title": "Iran threatens US warships as regional conflict drives oil prices higher",
+          "display_title": "Iran threatens US warships as regional conflict drives oil prices higher",
+          "summary": "Iran's armed forces stated they are prepared to fire on United States warships as President Donald Trump deliberates on potential new military attacks. Tehran officials asserted that the US Navy cannot re-enter Iranian territorial waters, while ongoing tanker attacks and rising tensions pushed Brent crude oil prices to about $117. Regional and European powers gathered in Istanbul to coordinate and warn that a new attack on Iran would widen the conflict across the Middle East.",
+          "why": "Escalating military threats and commercial shipping disruptions in the Middle East directly threaten regional stability and drive up global energy prices.",
+          "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-10-24T13:06:03+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "4ded4e53d03ad4c",
+          "event_key": "photonic_integrated_blue_laser",
+          "category": "Science",
+          "title": "Integrated blue laser achieves narrow linewidth and high-speed tuning",
+          "display_title": "Integrated blue laser achieves narrow linewidth and high-speed tuning",
+          "summary": "Researchers have developed a hybrid photonic integrated blue laser operating at 461 nanometers that combines frequency agility with low phase noise. The system uses a laser diode self-injection locked to a high-quality microresonator on a silicon nitride platform. Monolithically integrated aluminum nitride piezoelectric actuators allow for high-speed refractive index modulation and frequency tuning.",
+          "why": "Compact and frequency-agile blue lasers are critical components for applications such as optical atomic clocks, quantum computing, and underwater communications.",
+          "url": "https://doi.org/10.1038/s41566-026-02040-9",
+          "source": "Nature Photonics",
+          "published": "2026-10-22T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "event_keys": [
+        "8eda7a97d2ec32037ad0",
+        "ai_agent_handshake_benchmark",
+        "alpha_embodied_fault_injection",
+        "e4ba397edb4a942094c6",
+        "kinetic_inductance_amplification",
+        "large_area_monolayer_perovskite_synthesis",
+        "quantum_emitter_entanglement",
+        "rubio_india_jamnagar_visit",
+        "russian_diesel_us_tanker"
+      ],
+      "stories": [
+        {
+          "id": "5376625528ac726",
+          "event_key": "kinetic_inductance_amplification",
+          "category": "Science",
+          "title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+          "display_title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+          "summary": "Researchers demonstrated kinetic inductance mediated parametric amplification in a hybrid system combining a superconducting niobium nitride nanowire resonator with a yttrium iron garnet sphere. The device uses wave mixing and frequency pulling to achieve signal amplification both inside and outside the strong coupling regime. Coupling the resonator to the magnetic sphere shifted the amplification response by roughly twenty megahertz, offering a magnetic tuning mechanism for microwave devices.",
+          "why": "This integration of superconductivity and magnetism provides a new approach for magnetically tunable microwave signal processing and sensitive detection in quantum and classical architectures.",
+          "url": "https://arxiv.org/abs/2610.30322",
+          "source": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "2086384cb4655fe",
+          "event_key": "large_area_monolayer_perovskite_synthesis",
+          "category": "Science",
+          "title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+          "display_title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+          "summary": "Researchers have developed a solvent-growth method to synthesize large-area monolayer hybrid perovskite materials, overcoming previous limitations with rapid crystal growth and tiny flakes. By using specific alcohol cosolvents and amine additives, out-of-plane stacking is suppressed to yield large lateral dimensions exceeding 1000 square micrometers. Planar devices built using these large monolayers achieved exceptionally low dark currents and reduced static power consumption compared to traditional films.",
+          "why": "This synthesis strategy enables direct electrical contact fabrication without chemical degradation from conventional lithography, advancing scalable optoelectronic device development.",
+          "url": "https://arxiv.org/abs/2610.30764",
+          "source": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "f046ba2aef64e19",
+          "event_key": "quantum_emitter_entanglement",
+          "category": "Science",
+          "title": "Entangling different solid state emitters using photons",
+          "display_title": "Entangling different solid state emitters using photons",
+          "summary": "Researchers have developed a method to entangle solid state quantum emitters that have different transition frequencies and linewidth variations. Typically, creating entangled states requires optically identical emitters, which is difficult to achieve consistently due to manufacturing variations. By using pairs of photons as inputs, the team bypassed the need for identical emitters and demonstrated high concurrence with quantum dots.",
+          "why": "This approach overcomes a major manufacturing barrier in quantum technology by removing the requirement for identical nanoscale emitters on a chip.",
+          "url": "https://arxiv.org/abs/2610.31283",
+          "source": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "event_keys": [
+        "4300853ffa2ba37c3286",
+        "anthropic_ai_safety_bill",
+        "china_bci_standards",
+        "ge_doped_ptse2_swir_detector",
+        "iran_us_tensions",
+        "ml_epitaxy_lasers",
+        "mwir_silicon_metalens",
+        "openevidence_healthcare_ai",
+        "recursive_flint_model",
+        "us_drone_command_taiwan"
+      ],
+      "stories": [
+        {
+          "id": "805ffc9e6e16d8e",
+          "event_key": "mwir_silicon_metalens",
+          "category": "Science",
+          "title": "Broadband infrared imaging using a simple silicon metalens and computing",
+          "display_title": "Broadband infrared imaging using a simple silicon metalens and computing",
+          "summary": "Researchers demonstrated full-band mid-wave infrared imaging using a simple silicon meta-optic paired with computational reconstruction. Traditional optical elements struggle with strong chromatic dispersion across wide wavelength bands, typically restricting such imaging to narrow ranges. By adapting a reconstruction model using only four image captures, the system successfully recovers broadband images without requiring complex dispersion-optimized designs.",
+          "why": "This approach provides a simpler route to compact, lightweight infrared imaging systems for size- and power-constrained platforms without needing intricate achromatic metalens geometries.",
+          "url": "https://arxiv.org/abs/2610.29841",
+          "source": "arXiv",
+          "published": "2026-10-22T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "948adc72c8986b8",
+          "event_key": "ml_epitaxy_lasers",
+          "category": "Science",
+          "title": "Machine learning optimizes growth and geometry in on-chip lasers",
+          "display_title": "Machine learning optimizes growth and geometry in on-chip lasers",
+          "summary": "Researchers have demonstrated a machine learning workflow that jointly optimizes growth and geometry parameters for semiconductor multi-quantum well microring lasers using multi-objective Bayesian optimization. Variational autoencoders were subsequently used to analyze residual performance dispersion and decouple geometric from material disorder. The optimized devices achieved a 100 percent lasing yield with a median lasing threshold of 16 microjoules per square centimeter per pulse and a 73 percent reduction in threshold variance.",
+          "why": "This data-driven workflow bridges fundamental epitaxial growth and manufacturing to improve device-to-device reproducibility in scalable photonic integrated circuits.",
+          "url": "https://arxiv.org/abs/2604.08390",
+          "source": "arXiv",
+          "published": "2026-10-22T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.0
+        },
+        {
+          "id": "9186ffcd1d78d27",
+          "event_key": "ge_doped_ptse2_swir_detector",
+          "category": "Science",
+          "title": "New doping technique turns layered materials into infrared photodetectors",
+          "display_title": "New doping technique turns layered materials into infrared photodetectors",
+          "summary": "Researchers have developed a conversion diffusion barrier method to incorporate germanium into a thin platinum diselenide layer grown on silicon substrates. This structural modification alters the material's electronic properties, widening its bandgap to transition it from a semimetal into a semiconductor while preventing unwanted atomic diffusion. The resulting heterojunction photodetector successfully extends silicon-based light detection capabilities into the short-wave infrared spectrum with rapid response dynamics.",
+          "why": "This silicon-compatible integration approach offers a promising pathway for building high-speed infrared optical communication and sensing devices using standard semiconductor manufacturing platforms.",
+          "url": "https://doi.org/10.1002/smll.76238",
+          "source": "Small",
+          "published": "2026-10-20T00:00:00+00:00",
+          "publication_type": "Research publication · review status unverified",
+          "continuity": "New",
+          "importance": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "event_keys": [
+        "0a5408e2f379e45b1ce3",
+        "93c6163d34fe92c67350",
+        "a1935aaa17d6b9dff92c",
+        "springfield_ohio_immigration",
+        "trump_canadian_tariffs_lawsuit"
+      ],
+      "stories": [
+        {
+          "id": "725e22e84a72f94",
+          "event_key": "a1935aaa17d6b9dff92c",
+          "category": "AI",
+          "title": "Google and Amazon launch open source tools to target chip dominance",
+          "display_title": "Google and Amazon launch open source tools to target chip dominance",
+          "summary": "Google and Amazon have introduced open source software projects designed to help developers port artificial intelligence applications to their proprietary chips without rewriting code. Google released TorchTPU for its tensor processing units, while Amazon introduced TorchNeuron for its Trainium chips and submitted code to decouple features from dominant hardware. These toolkits aim to reduce reliance on standard market hardware by simplifying transitions to alternative cloud providers and accelerators.",
+          "why": "These software releases lower the barrier for developers to use alternative hardware, potentially weakening the dominant market position currently held by a single chip maker.",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "source": "TechCrunch",
+          "published": "2026-10-20T18:38:24+00:00",
+          "publication_type": "Technology journalism",
+          "continuity": "New",
+          "importance": 4.5
+        },
+        {
+          "id": "c5dee40df7e08e0",
+          "event_key": "trump_canadian_tariffs_lawsuit",
+          "category": "U.S. News",
+          "title": "US food business files new legal challenge against Canadian import levies",
+          "display_title": "US food business files new legal challenge against Canadian import levies",
+          "summary": "A US food importer has filed a lawsuit challenging the administration's imposition of sweeping tariffs on Canadian goods following the breakdown of trade talks. The legal challenge argues that the executive branch exceeded its statutory authority by relying on a nearly century-old trade statute to impose retaliatory duties without meeting required waiting periods or congressional limits. The plaintiffs are seeking a court order to find the levies unlawful and to require refunds for affected importers.",
+          "why": "This litigation tests the executive branch's authority to enact broad unilateral tariffs, potentially impacting ongoing trade policies and supply chain costs.",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-10-20T19:30:05+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "event_keys": [
+        "3d_ic_thermal_reflectance_mapping",
+        "aa7c9c092579b39001be",
+        "automated_vector_scanning_qd_characterization",
+        "nhc_molecular_doping_mos2",
+        "tiktok_child_safety_litigation",
+        "yemen_houthi_strike_shabwa"
+      ],
+      "stories": [
+        {
+          "id": "a5861787c11ab48",
+          "event_key": "3d_ic_thermal_reflectance_mapping",
+          "category": "Science",
+          "title": "Researchers map internal heat transport pathways across three-dimensional chip stacks",
+          "display_title": "Researchers map how heat moves through stacked chips",
+          "summary": "Managing heat buildup in vertically stacked microchips has remained challenging due to a lack of experimental data on how thermal properties are distributed internally. In a preprint study, researchers demonstrated a workflow to measure heat transport layer by layer within advanced three-dimensional integrated circuits. They mapped thermal properties on test samples down to 0.2-micrometer step sizes, providing an empirical baseline for chip cooling models.",
+          "why": "Precise internal thermal mapping helps designers co-optimize chip interconnects and substrates to alleviate thermal bottlenecks in dense three-dimensional electronics.",
+          "url": "https://arxiv.org/abs/2610.26647",
+          "source": "arXiv",
+          "published": "2026-10-20T04:00:00+00:00",
+          "publication_type": "Preprint · not peer reviewed",
+          "continuity": "New",
+          "importance": 4.5
+        },
+        {
+          "id": "569fa0f9d5617cd",
+          "event_key": "yemen_houthi_strike_shabwa",
+          "category": "Global Affairs",
+          "title": "Houthi ballistic missile strike on Yemen training camp kills 73",
+          "display_title": "Houthi ballistic missile strike on Yemen training camp kills 73",
+          "summary": "A Houthi ballistic missile strike killed 73 security recruits at a training camp in Yemen's central Shabwa province, local authorities reported. Pro-government forces stated three missiles targeted the al-Alam camp, while Houthi spokesmen claimed they struck Saudi enemy forces. The attack marks the deadliest single incident since pro-government troops launched an offensive this month to recapture coastal territory.",
+          "why": "The strike highlights intensifying multi-front fighting that threatens regional shipping routes near the Bab al-Mandab Strait and risks wider Saudi-Yemeni escalation.",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-10-20T14:09:42+00:00",
+          "publication_type": "News reporting",
+          "continuity": "New",
+          "importance": 3.5
+        }
+      ]
+    }
+  ]
+}

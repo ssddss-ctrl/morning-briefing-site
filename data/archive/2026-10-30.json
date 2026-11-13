@@ -1,0 +1,506 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-30",
+  "generated_at": "2026-10-30T15:10:44.785480+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 596,
+      "unique": 564,
+      "substantive": 428,
+      "ai_reviewed": 9,
+      "qualified": 8,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 381,
+      "unique": 377,
+      "substantive": 206,
+      "ai_reviewed": 9,
+      "qualified": 12,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 241,
+      "unique": 238,
+      "substantive": 100,
+      "ai_reviewed": 9,
+      "qualified": 42,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 146,
+      "unique": 137,
+      "substantive": 59,
+      "ai_reviewed": 9,
+      "qualified": 33,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 9,
+    "reserved_input_tokens": 35554,
+    "model_verified": true,
+    "cache_hits": 6,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 8,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 2,
+    "live": 8,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "97766da0307d7cf",
+      "title": "Microscopic origin of exceptional superconducting interfaces in molybdenum-rhenium contacts",
+      "original_title": "Exceptional Superconducting Interfaces between Graphene and Atomic Chains in A15-MoRe",
+      "url": "https://arxiv.org/abs/2610.39694",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-30T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Hiroto Ogura, Yuto Tsukidate, Shun Kondo, Zhuoqun Li, Natsuki Sasaki, Tsunenobu Sato, Azusa Utsumi, Tomohiro Otsuka, Mitsuhiro Saito, Kazutoshi Inoue, Takashi Taniguchi, Kenji Watanabe, Yuichi Ikuhara, Toshiaki Kato"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.39694",
+      "event_key": "superconducting_interfaces_graphene",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Molybdenum-rhenium alloys provide ballistic, highly transparent contacts to two-dimensional materials, but the microscopic origin of this behavior has remained unclear. By combining low-temperature transport, X-ray diffraction, and electron microscopy, researchers discovered that as-deposited contacts spontaneously form a classical A15 superconducting phase. The one-dimensional transition-metal atomic chains within this phase exhibit a near-perfect lattice match with graphene edges.",
+      "why": "Understanding this interface structure establishes A15-phase superconductors as a geometrically ideal platform for developing robust quantum electronics.",
+      "technical_details": [
+        "Thermal annealing triggers a phase transition to a hexagonal close-packed structure that degrades Josephson transparency, while A15 d-orbitals may hybridize with graphene's Dirac cone."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.39694",
+          "publisher": "arXiv",
+          "published": "2026-10-30T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "4a4e372a65d267455316e3d7af79755fd79466a1e802d50b4e974441c5c87096",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Resolves the mechanism behind transparent superconducting contacts between MoRe and graphene via 1D atomic chains.",
+      "development": "theoretical",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Microscopic origin of exceptional superconducting interfaces in molybdenum-rhenium contacts"
+    },
+    {
+      "id": "6b1039460ea8dc6",
+      "title": "US investigated executive over ties to Nvidia CEO amid export scrutiny",
+      "original_title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-29T16:42:32+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Julie Bort"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+      "event_key": "nvidia_ceo_spy_investigation",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "U.S. intelligence agencies investigated a top executive at a Singapore cloud firm over concerns she might have been acting as a Chinese spy. The executive, Alice Huang, had reportedly grown close to Nvidia CEO Jensen Huang while her firm faced allegations of helping bypass chip export regulations. An Nvidia spokesperson denied that the CEO shared any sensitive trade secrets or national security information during routine customer interactions.",
+      "why": "This investigation highlights ongoing U.S. security scrutiny regarding artificial intelligence hardware supply chains and potential intelligence risks surrounding high-level industry access.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-29T16:42:32+00:00",
+          "content_type": "public article text",
+          "content_sha256": "bbcba888dc5c584be19eb9c6d8fcd52a64fff1a15c3a09bfe297ce1d1cea8a38",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers a US investigation into an AI firm executive allegedly connected to a spy plot targeting Nvidia's CEO, significant for geopolitics and semiconductor supply chain security.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US investigated executive over ties to Nvidia CEO amid export scrutiny"
+    },
+    {
+      "id": "c86f1f0d2a0ab96",
+      "title": "Greek container ship sinks after drone strikes in the Black Sea",
+      "original_title": "Black Sea shipping under growing threats as drones hit container ships",
+      "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-10-30T14:27:51+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
+      "event_key": "black_sea_shipping_threats",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A Greek container ship sank in the Black Sea off the Bulgarian coast after being struck by three drones. Reporting indicates the drones were potentially of Russian origin. This incident raises growing concerns regarding the safety of commercial shipping amid the ongoing conflict between Ukraine and Russia.",
+      "why": "Escalating attacks on commercial vessels in the Black Sea threaten regional maritime trade routes and amplify shipping security risks.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
+          "publisher": "France 24",
+          "published": "2026-10-30T14:27:51+00:00",
+          "content_type": "public article text",
+          "content_sha256": "d9367941c47cfa3e149a91dc21cf7c332a6aaf47a3580894ea99c96c247eb729",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "A Greek container ship sinks after drone strikes in the Black Sea, escalating concerns for commercial maritime security.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Greek container ship sinks after drone strikes in the Black Sea"
+    },
+    {
+      "id": "976117e7b38c519",
+      "title": "United States Midterm Elections Approach Amid High Stakes for Congress",
+      "original_title": "US midterms: What you need to know",
+      "url": "https://www.dw.com/en/us-midterms-what-you-need-to-know/a-79789932?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "U.S. News",
+      "published": "2026-10-28T19:02:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/us-midterms-what-you-need-to-know/a-79789932?maca=en-rss-en-world-4025-rdf",
+      "event_key": "us_midterm_elections",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "United States citizens will vote in the midterm elections on November 3 to decide control of the House of Representatives and the Senate. All 435 seats in the House and roughly one-third of the Senate seats are up for election, alongside 36 gubernatorial races. While Republicans currently hold narrow majorities in both chambers, observers suggest Democrats have a strong chance of seizing the House.",
+      "why": "The outcome will decisively influence federal policymaking and determine how easily the president can govern for the remainder of the term.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/us-midterms-what-you-need-to-know/a-79789932?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-10-28T19:02:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "896487609a2dd35127f76773bd2529a0335570960278f1613b1fa2a38c89a051",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Overview of upcoming US midterm elections and key congressional/governor races.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "United States Midterm Elections Approach Amid High Stakes for Congress"
+    },
+    {
+      "id": "3cf3097f26e2885",
+      "title": "Report Alleges Ignored Intelligence Regarding Foreign Surveillance on Tech Leadership",
+      "original_title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "published": "2026-10-29T18:29:12+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Ashley Belanger"
+      ],
+      "backfill": false,
+      "story_key": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo",
+      "event_key": "nvidia_intelligence_report",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Intelligence reports indicated that a foreign citizen linked to a cloud company had direct access to a prominent semiconductor chief executive. Investigators suspected the individual of helping evade export controls and feeding intelligence back to Beijing. According to a report, leadership was briefed on the matter but chose to take no action to protect company stock and political alignment.",
+      "why": "The incident highlights security vulnerabilities surrounding critical technology supply chains and high-level artificial intelligence policy advisors.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+          "publisher": "Ars Technica",
+          "published": "2026-10-29T18:29:12+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "cf3f9e57c797a19a053f91d0396c613a1a01bf36625f5b961f134c9a9e1e27be",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Media report details intelligence findings regarding Nvidia leadership and geopolitical/export control intersections.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Report Alleges Ignored Intelligence Regarding Foreign Surveillance on Tech Leadership"
+    },
+    {
+      "id": "d036ce39e19f096",
+      "title": "New Adaptive Optics Method Improves Deep Tissue Nanoscale Imaging and Fabrication",
+      "original_title": "Focal-Plane Extreme Adaptive Optics for Deep Super Resolution Imaging and Nanolithography",
+      "url": "https://arxiv.org/abs/2610.39340",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-30T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jinxin Liu, Jiahao Niu, Runxin Zeng, Kaining Yang, Ziyu Li, Xiaodong Guan, Jing Ren, Kebin Shi, Yue Wang, Shan Zhao, Yujie Sun, He Sun"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.39340",
+      "event_key": "fpexao_nanolithography",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have introduced a technique called focal-plane extreme adaptive optics to overcome optical aberrations in heterogeneous media at significant depths. The approach directly controls the terminal focal-plane complex field using cascaded deformable mirrors and closed-form control. In testing, the method maintained high localization precision at deep tissue levels and reduced minimum written linewidths in photoresist during nanolithography.",
+      "why": "This optical advancement significantly extends the depth and speed limits for high-resolution biological imaging and nanoscale optical writing.",
+      "technical_details": [
+        "Achieved imaging to 160 um depth in brain tissue with approximately 18 nm localization precision.",
+        "Reduced minimum written linewidth to 88.8 nm at 160 um depth in photoresist during STED nanolithography."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.39340",
+          "publisher": "arXiv",
+          "published": "2026-10-30T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "897d35caaa3847e27cb729a33b3e89e810a86f3615f5839c118e25f9bd7b237e",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Introduces focal-plane extreme adaptive optics (FP-ExAO) to drastically improve super-resolution imaging and nanolithography depth performance and linewidth reduction.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "New Adaptive Optics Method Improves Deep Tissue Nanoscale Imaging and Fabrication"
+    },
+    {
+      "id": "42eb7467a2e5ff9",
+      "title": "United States Weighs Military Strikes and Diplomatic Outreach Regarding Iran",
+      "original_title": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
+      "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-10-30T10:40:52+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss",
+      "event_key": "us_iran_tensions_strikes",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Washington has sent mixed signals as military commanders brief leadership on renewed attack options while diplomatic channels remain open. Regional military reinforcements and cargo flights have been deployed, reflecting preparations for potential escalation. Simultaneously, diplomatic overtures have been delivered through mediators to explore negotiations regarding the ongoing conflict and nuclear program.",
+      "why": "The dual track of military preparation and diplomatic outreach leaves the immediate trajectory of the regional conflict highly uncertain.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-10-30T10:40:52+00:00",
+          "content_type": "public article text",
+          "content_sha256": "2b261dd7e78736ad37082b44a298eab118ee19ca7b71c62053c375e0e30606e9",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers US planning for potential renewed strikes on Iran and geopolitical developments.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "United States Weighs Military Strikes and Diplomatic Outreach Regarding Iran"
+    },
+    {
+      "id": "847c3712347cd1a",
+      "title": "Mistral releases open weights for trillion-parameter cybersecurity artificial intelligence model",
+      "original_title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-29T17:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "event_key": "mistral_ml4_weights",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "French artificial intelligence company Mistral has released the numerical training parameters for its large-scale open-weight model, Mistral Large 4, allowing organizations to download and run the system locally. Nicknamed \"Le Chonk,\" the trillion-parameter model is designed to give enterprises and government agencies direct control over advanced cyber defense infrastructure without relying on outside providers. The developers report that the system achieves high-level performance while using fewer computational tokens per task than certain competing open-weight models.",
+      "why": "Releasing these model weights gives enterprises and government agencies sovereign control over advanced cybersecurity tools, preventing external providers from cutting off access during critical security incidents.",
+      "technical_details": [
+        "The model uses 47 percent fewer tokens per task compared to the competing open-weight model GLM-5.3.",
+        "Mistral states the model leads open models on Artificial Analysis' Coding Agent Index for agentic coding tasks."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-29T17:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "7281e0e1b2eda249179eb196fb8f9cc8006fdfcc3d48a306504f8adac1b934d0",
+          "retrieved_at": "2026-10-30T15:07:46.833627+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Mistral releases weights for its trillion-parameter open-weight model, marking a significant development in open-source AI infrastructure.",
+      "development": "announcement",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Mistral releases open weights for trillion-parameter cybersecurity artificial intelligence model"
+    }
+  ]
+}

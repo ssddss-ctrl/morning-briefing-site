@@ -1,0 +1,399 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-28",
+  "generated_at": "2026-10-28T20:26:01.733802+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 589,
+      "unique": 552,
+      "substantive": 416,
+      "ai_reviewed": 13,
+      "qualified": 10,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 383,
+      "unique": 379,
+      "substantive": 204,
+      "ai_reviewed": 12,
+      "qualified": 14,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 203,
+      "unique": 199,
+      "substantive": 92,
+      "ai_reviewed": 12,
+      "qualified": 41,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 155,
+      "unique": 150,
+      "substantive": 70,
+      "ai_reviewed": 14,
+      "qualified": 35,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 7,
+    "reserved_input_tokens": 26443,
+    "model_verified": true,
+    "cache_hits": 61,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 6,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 4,
+    "live": 2,
+    "cached": 4
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "7c6b1f0dc611099",
+      "title": "Generating tunable quantum light states using a semiconductor quantum dot",
+      "original_title": "Generation of quantum light with tunable Wigner negativity with a semiconductor quantum dot",
+      "url": "https://arxiv.org/abs/2610.36233",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-28T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Hubert Lam, Petr Steindl, Yann Portella, Kiarn T. Laverick, Kian Hwee Lim, Juan R. Alvarez, Aristide Lemaitre, Maria Maffei, Alexia Auffeves, Dario A. Fioretto, Pascale Senellart"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.36233",
+      "event_key": "quantum-light-wigner-negativity-qd",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers generated states of light with tunable quantum characteristics using a single semiconductor quantum dot placed inside a cavity. By applying optical coherent control to the quantum dot transition, they created a quantum superposition of zero and one photon. Measurements showed high fidelities and purities exceeding 95 percent after accounting for system losses.",
+      "why": "This capability using mature semiconductor technology offers promising opportunities for advancing continuous-variable optical quantum computing and related technologies.",
+      "technical_details": [
+        "Point-by-point phase space characterization was performed using homodyne measurement.",
+        "The emergence of Wigner-function negativity was observed as the excitation power increased."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.36233",
+          "publisher": "arXiv",
+          "published": "2026-10-28T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "9eb78ec56f82d9dd78e5980dbc124794a95845b9ff7a03f9f0a5ff85bab79d53",
+          "retrieved_at": "2026-10-28T20:22:27.822617+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://arxiv.org/abs/2610.36233",
+          "publisher": "arXiv",
+          "published": "2026-10-28T04:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Deterministic generation of tunable Wigner-negative states of light using a semiconductor quantum dot in a cavity with high fidelity.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Generating tunable quantum light states using a semiconductor quantum dot"
+    },
+    {
+      "id": "0c9580ebbef9a99",
+      "title": "US diplomatic engagement with Myanmar prompts questions for European policy",
+      "original_title": "Myanmar: Is the US undermining the EU's diplomatic blockade?",
+      "url": "https://www.dw.com/en/myanmar-is-the-us-undermining-the-eu-s-diplomatic-blockade/a-79778863?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "U.S. News",
+      "published": "2026-10-27T15:16:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/myanmar-is-the-us-undermining-the-eu-s-diplomatic-blockade/a-79778863?maca=en-rss-en-world-4025-rdf",
+      "event_key": "us_myanmar_diplomacy",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States government has held two rounds of talks with Myanmar's military-backed government since September. American diplomats are discussing issues including online scam centers, detained citizens, and rare-earth resources. Meanwhile, the European Union maintains its diplomatic blockade and non-recognition policy toward the military regime.",
+      "why": "Shifting engagement strategies by major international actors risk marginalizing the European Union and complicating regional diplomatic alignment.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/myanmar-is-the-us-undermining-the-eu-s-diplomatic-blockade/a-79778863?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-10-27T15:16:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "2187ceb92640561ec00dcd800bce4a445714fed1eb7fc4ea9413b1a6ffa35cd4",
+          "retrieved_at": "2026-10-28T20:22:27.822617+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Details US diplomatic engagement with Myanmar's military-backed government concerning rare-earth resources and regional security.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US diplomatic engagement with Myanmar prompts questions for European policy"
+    },
+    {
+      "id": "f84c0615bfcb4bf",
+      "title": "Israel faces political deadlock following high-turnout election",
+      "original_title": "Israel's election result is messy - here's why",
+      "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-10-28T14:26:24+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+      "event_key": "israel_election_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Voter turnout in Israel reached over 77 percent amid a widely forecasted dramatic deadlock. Despite the high participation, no clear winner emerged from the election. Prime Minister Benjamin Netanyahu's Likud party is set to be the largest in the Knesset while rival Gadi Eisenkot insists voters sought a change in leadership.",
+      "why": "The lack of a clear majority leaves the future direction of Israel's government uncertain as rival factions negotiate potential coalitions.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-10-28T14:26:24+00:00",
+          "content_type": "public article text",
+          "content_sha256": "7c2596db0c19c3be315e59d7f76e7a51b53388069fa19483ece028016670ff8e",
+          "retrieved_at": "2026-10-28T20:22:27.822617+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers the deadlock and political results of the Israeli general election involving Netanyahu and Eisenkot.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Israel faces political deadlock following high-turnout election"
+    },
+    {
+      "id": "5f0b883bf86f4b5",
+      "title": "US Federal Reserve leaves interest rates unchanged amid inflation",
+      "original_title": "Fed leaves interest rates unchanged despite inflation in the US",
+      "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "U.S. News",
+      "published": "2026-10-28T19:05:44+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
+      "event_key": "fed_rate_decision_oct_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States Federal Reserve has decided to keep benchmark interest rates steady at 3.75 to 4 percent. The central bank noted that economic activity continues to expand at a strong pace despite elevated uncertainty. Recent consumer data showed annual inflation ticking upward, largely driven by energy prices.",
+      "why": "Maintaining interest rates influences borrowing costs across the economy as monetary policymakers balance growth against persistent inflation.",
+      "technical_details": [
+        "The decision was approved following a 10-2 vote ahead of upcoming inflation reports."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-10-28T19:05:44+00:00",
+          "content_type": "public article text",
+          "content_sha256": "507a48c5b3c81ffbeb317e9f30a16bce2cc1a245551021c00e7424b844f33bf1",
+          "retrieved_at": "2026-10-28T20:22:27.822617+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The Federal Reserve holds benchmark interest rates at 3.75-4 percent ahead of the US midterm elections.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Federal Reserve leaves interest rates unchanged amid inflation"
+    },
+    {
+      "id": "e675ac743d90d06",
+      "title": "Opera introduces a web standard for running artificial intelligence models locally",
+      "original_title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-27T13:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+      "event_key": "opera-web-standard-local-ai",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Browser developer Opera has introduced a new web standard called WebAI designed to let users run artificial intelligence models directly on their computers rather than through cloud servers. The standard is compatible with various open-weight models, such as Google's Gemma and Apple's on-device foundation models on Macs. While local processing helps keep user information on device and avoids cloud subscription fees, it increases hardware demands and performance depends heavily on the user's computer.",
+      "why": "Running artificial intelligence locally offers improved privacy by keeping user data on the device, though it shifts processing demands directly onto local hardware performance.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-27T13:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "edc48646fb252509e704cc8424eb5587457053d7ed8e3a27e2d736c5f5b8b97b",
+          "retrieved_at": "2026-10-28T20:22:27.822617+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Opera introduces WebAI standard to run local AI models in browsers, representing notable software AI development.",
+      "development": "announcement",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Opera introduces a web standard for running artificial intelligence models locally"
+    },
+    {
+      "id": "23e3bdaaf8e3c40",
+      "title": "European Union industrial accelerator proposal creates concern among global auto suppliers",
+      "original_title": "EU's 'Made in Europe' push unnerves global auto suppliers",
+      "url": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "Global Affairs",
+      "published": "2026-10-28T10:24:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-world-4025-rdf",
+      "event_key": "eu_auto_supply_chains",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The European Union's proposed Industrial Accelerator Act aims to subsidize vehicles produced locally to counter competitive pressures, causing deep anxiety among allied carmaking nations. While a Franco-German compromise allows non-EU suppliers from countries like the UK and Norway to qualify, nations like Turkey face potential exclusion due to supply chain rules and emerging regional investments. Automotive supply associations and manufacturers remain divided on whether stricter local content rules protect regional jobs or increase costs.",
+      "why": "The policy threatens billions in automotive trade and supply chain integration for major manufacturing partners outside the bloc, while European parts suppliers argue it is necessary to prevent severe domestic job losses.",
+      "technical_details": [
+        "The proposal requires that 70 percent of a vehicle's total component value, excluding the battery, be made in Europe."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-10-28T10:24:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "b715dcd1f40b6f39e3652bf6f55d477970367b84a782fc61870a58df86b96575",
+          "retrieved_at": "2026-10-28T20:22:27.822617+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covers the EU's Industrial Accelerator Act and its impact on global automotive supply chains and allied trade partners.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "European Union industrial accelerator proposal creates concern among global auto suppliers"
+    }
+  ]
+}
