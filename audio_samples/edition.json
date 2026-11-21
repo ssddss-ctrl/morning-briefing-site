@@ -1,0 +1,74 @@
+{
+  "briefing_date": "2026-11-21",
+  "edition_hash": "c20f2ea508a97d230482f3e8d15915aade09747cc15f520fb5dcb819ea275160",
+  "voice": "am_michael",
+  "source_items": [
+    {
+      "id": "099f0112b0fa5c1",
+      "title": "X-ray laser sets record with wavelengths shorter than atomic distances",
+      "summary": "Researchers at DESY and the European X-ray Free-Electron Laser have reliably produced light pulses with ultra-short wavelengths of about 0.04 nanometers. This corresponds to a high photon energy of 30,000 electronvolts. The light flashes achieved set a new world record for the facility. Because this wavelength is significantly smaller than the typical spacing between neighboring atoms, it provides a tool to examine solid structures with improved precision.",
+      "why": "Shorter wavelengths allow researchers to image and probe solid-state materials at spatial resolutions below the physical distance separating adjacent atoms."
+    },
+    {
+      "id": "adb985a8dcc379b",
+      "title": "Russia targets Ukrainian bridges and railway stations in nationwide missile strikes",
+      "summary": "Russian forces carried out major overnight missile strikes across Ukraine, striking railway stations and key bridges in Kyiv. Ukrainian officials reported at least nine deaths from what was described as one of the largest attacks of the war. The assault followed a recent strike that severely damaged the Russian-built Crimean Bridge. Moscow also rejected a United States claim that Russia might consider Western-backed security guarantees for Ukraine.",
+      "why": "The escalation marks a direct retaliation damaging critical Ukrainian infrastructure while diplomatic discussions surrounding war resolution and security guarantees remain contested."
+    },
+    {
+      "id": "c0ec0c8d4f913f7",
+      "title": "European Commission chief condemns alleged Russian plot in Denmark",
+      "summary": "European Commission President Ursula von der Leyen strongly condemned an alleged Russian intelligence plot targeting a dual American and Ukrainian citizen in Denmark. She declared full backing for Copenhagen following what she categorized as an attack on European Union soil. The Russian embassy in Copenhagen stated the claims lacked supporting evidence. In response, Denmark is urging member nations to tighten restrictions on Russian travel, while the European Union plans a new security strategy.",
+      "why": "The incident has prompted calls for bloc-wide security policy updates and stricter Schengen visa restrictions against Russian citizens."
+    },
+    {
+      "id": "a92b27bf5f223a7",
+      "title": "Nvidia reports financial growth and halts H200 chip sales in China",
+      "summary": "Nvidia delivered its latest quarterly earnings report showing strong revenue growth despite recent leadership changes following the departure of former chief executive Jensen Huang. Company leadership projected continued financial momentum. Alongside its financial results, the semiconductor manufacturer announced it will cease sales of its H200 graphics processing units in China.",
+      "why": "Stopping H200 shipments shifts Nvidia's strategy in China amid ongoing geopolitical technology restrictions and internal corporate restructuring."
+    },
+    {
+      "id": "ae469e2eab3fef2",
+      "title": "Signal restricts screen capture to block artificial intelligence tools from reading messages",
+      "summary": "Encrypted messaging app Signal is restricting screen capture functionality on mobile operating systems to protect user privacy. The measure aims to prevent system-level artificial intelligence tools from analyzing on-screen information to gather data about users. Signal's leadership stated that operating system features designed to read screen content undermine the app's ability to independently guarantee privacy.",
+      "why": "The change highlights growing privacy tensions between encrypted messaging applications and operating systems that integrate screen-analyzing artificial intelligence features."
+    }
+  ],
+  "segments": [
+    {
+      "story_id": "099f0112b0fa5c1",
+      "title": "X-ray laser sets record with wavelengths shorter than atomic distances",
+      "text": "Good morning. Here's your briefing, covering scientific research, world affairs, United States news, artificial intelligence. We begin with scientific research. X-ray laser sets record with wavelengths shorter than atomic distances. Researchers at DESY and the European X-ray Free-Electron Laser have reliably produced light pulses with ultra-short wavelengths of about 0.04 nanometers. This corresponds to a high photon energy of 30,000 electronvolts. The light flashes achieved set a new world record for the facility. Because this wavelength is significantly smaller than the typical spacing between neighboring atoms, it provides a tool to examine solid structures with improved precision. Why this matters. Shorter wavelengths allow researchers to image and probe solid-state materials at spatial resolutions below the physical distance separating adjacent atoms.",
+      "url": "audio_samples/edition-c20f2ea508a97d23-am_michael/0.m4a",
+      "duration": 59.370666666666665
+    },
+    {
+      "story_id": "adb985a8dcc379b",
+      "title": "Russia targets Ukrainian bridges and railway stations in nationwide missile strikes",
+      "text": "Turning to world affairs. Russia targets Ukrainian bridges and railway stations in nationwide missile strikes. Russian forces carried out major overnight missile strikes across Ukraine, striking railway stations and key bridges in Kyiv. Ukrainian officials reported at least nine deaths from what was described as one of the largest attacks of the war. The assault followed a recent strike that severely damaged the Russian-built Crimean Bridge. Moscow also rejected a United States claim that Russia might consider Western-backed security guarantees for Ukraine. Why this matters. The escalation marks a direct retaliation damaging critical Ukrainian infrastructure while diplomatic discussions surrounding war resolution and security guarantees remain contested.",
+      "url": "audio_samples/edition-c20f2ea508a97d23-am_michael/1.m4a",
+      "duration": 50.090666666666664
+    },
+    {
+      "story_id": "c0ec0c8d4f913f7",
+      "title": "European Commission chief condemns alleged Russian plot in Denmark",
+      "text": "Turning to United States news. European Commission chief condemns alleged Russian plot in Denmark. European Commission President Ursula von der Leyen strongly condemned an alleged Russian intelligence plot targeting a dual American and Ukrainian citizen in Denmark. She declared full backing for Copenhagen following what she categorized as an attack on European Union soil. The Russian embassy in Copenhagen stated the claims lacked supporting evidence. In response, Denmark is urging member nations to tighten restrictions on Russian travel, while the European Union plans a new security strategy. Why this matters. The incident has prompted calls for bloc-wide security policy updates and stricter Schengen visa restrictions against Russian citizens.",
+      "url": "audio_samples/edition-c20f2ea508a97d23-am_michael/2.m4a",
+      "duration": 50.346666666666664
+    },
+    {
+      "story_id": "a92b27bf5f223a7",
+      "title": "Nvidia reports financial growth and halts H200 chip sales in China",
+      "text": "Turning to artificial intelligence. Nvidia reports financial growth and halts H200 chip sales in China. Nvidia delivered its latest quarterly earnings report showing strong revenue growth despite recent leadership changes following the departure of former chief executive Jensen Huang. Company leadership projected continued financial momentum. Alongside its financial results, the semiconductor manufacturer announced it will cease sales of its H200 graphics processing units in China. Why this matters. Stopping H200 shipments shifts Nvidia's strategy in China amid ongoing geopolitical technology restrictions and internal corporate restructuring.",
+      "url": "audio_samples/edition-c20f2ea508a97d23-am_michael/3.m4a",
+      "duration": 47.168
+    },
+    {
+      "story_id": "ae469e2eab3fef2",
+      "title": "Signal restricts screen capture to block artificial intelligence tools from reading messages",
+      "text": "Turning to artificial intelligence. Signal restricts screen capture to block artificial intelligence tools from reading messages. Encrypted messaging app Signal is restricting screen capture functionality on mobile operating systems to protect user privacy. The measure aims to prevent system-level artificial intelligence tools from analyzing on-screen information to gather data about users. Signal's leadership stated that operating system features designed to read screen content undermine the app's ability to independently guarantee privacy. Why this matters. The change highlights growing privacy tensions between encrypted messaging applications and operating systems that integrate screen-analyzing artificial intelligence features. That's your briefing. Thanks for listening.",
+      "url": "audio_samples/edition-c20f2ea508a97d23-am_michael/4.m4a",
+      "duration": 52.074666666666666
+    }
+  ]
+}

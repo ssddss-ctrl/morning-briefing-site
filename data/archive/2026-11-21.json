@@ -1,0 +1,335 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-21",
+  "generated_at": "2026-11-21T16:22:24.854913+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 315,
+      "unique": 310,
+      "substantive": 171,
+      "ai_reviewed": 5,
+      "qualified": 1,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 310,
+      "unique": 305,
+      "substantive": 126,
+      "ai_reviewed": 11,
+      "qualified": 20,
+      "daily_selected": 2,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 205,
+      "unique": 203,
+      "substantive": 97,
+      "ai_reviewed": 5,
+      "qualified": 52,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 147,
+      "unique": 133,
+      "substantive": 63,
+      "ai_reviewed": 7,
+      "qualified": 31,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 8,
+    "reserved_input_tokens": 28557,
+    "model_verified": true,
+    "cache_hits": 42,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 5,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 5,
+    "live": 5,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "099f0112b0fa5c1",
+      "title": "X-ray laser sets record with wavelengths shorter than atomic distances",
+      "original_title": "Record-setting X-ray laser reliably generates flashes with wavelengths shorter than distances between atoms",
+      "url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
+      "source": "Phys.org",
+      "category": "Science",
+      "published": "2026-11-20T21:00:01+00:00",
+      "publication_type": "Research news / press release",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
+      "event_key": "european-xfel-sub-atomic-wavelength-record",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers at DESY and the European X-ray Free-Electron Laser have reliably produced light pulses with ultra-short wavelengths of about 0.04 nanometers. This corresponds to a high photon energy of 30,000 electronvolts. The light flashes achieved set a new world record for the facility. Because this wavelength is significantly smaller than the typical spacing between neighboring atoms, it provides a tool to examine solid structures with improved precision.",
+      "why": "Shorter wavelengths allow researchers to image and probe solid-state materials at spatial resolutions below the physical distance separating adjacent atoms.",
+      "technical_details": [
+        "The generated X-ray flashes reached a photon energy of 30,000 electronvolts, corresponding to a wavelength of approximately 0.04 nanometers."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
+          "publisher": "Phys.org",
+          "published": "2026-11-20T21:00:01+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "555b82edf435bc3dec5e139e880df82483d4f9bcea93da0a6acdc4447409b16f",
+          "retrieved_at": "2026-11-21T16:14:17.879798+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "DESY and European XFEL demonstrated reliable generation of X-ray laser flashes at 0.04 nm (30 keV photon energy), enabling sub-atomic distance spatial resolution imaging for solid-state and materials research.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "X-ray laser sets record with wavelengths shorter than atomic distances"
+    },
+    {
+      "id": "adb985a8dcc379b",
+      "title": "Russia targets Ukrainian bridges and railway stations in nationwide missile strikes",
+      "original_title": "What we know about the latest Russian missile strikes on Ukraine",
+      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-11-20T15:14:01+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+      "event_key": "ukraine_russia_conflict_nov2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Russian forces carried out major overnight missile strikes across Ukraine, striking railway stations and key bridges in Kyiv. Ukrainian officials reported at least nine deaths from what was described as one of the largest attacks of the war. The assault followed a recent strike that severely damaged the Russian-built Crimean Bridge. Moscow also rejected a United States claim that Russia might consider Western-backed security guarantees for Ukraine.",
+      "why": "The escalation marks a direct retaliation damaging critical Ukrainian infrastructure while diplomatic discussions surrounding war resolution and security guarantees remain contested.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-11-20T15:14:01+00:00",
+          "content_type": "public article text",
+          "content_sha256": "84c05f671bcde301fc9bd7612da0cf8afaaa4f7673584d974d41bb3760c04ca5",
+          "retrieved_at": "2026-11-21T16:14:17.879798+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on major Russian missile strikes targeting bridges and transport infrastructure in Kyiv following damage to the Crimean Bridge.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Russia targets Ukrainian bridges and railway stations in nationwide missile strikes"
+    },
+    {
+      "id": "c0ec0c8d4f913f7",
+      "title": "European Commission chief condemns alleged Russian plot in Denmark",
+      "original_title": "'Unacceptable': EU chief condemns alleged Russian plot to kill US-Ukrainian citizen",
+      "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
+      "source": "France 24",
+      "category": "U.S. News",
+      "published": "2026-11-21T10:32:36+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE 24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
+      "event_key": "alleged-russian-plot-denmark",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "European Commission President Ursula von der Leyen strongly condemned an alleged Russian intelligence plot targeting a dual American and Ukrainian citizen in Denmark. She declared full backing for Copenhagen following what she categorized as an attack on European Union soil. The Russian embassy in Copenhagen stated the claims lacked supporting evidence. In response, Denmark is urging member nations to tighten restrictions on Russian travel, while the European Union plans a new security strategy.",
+      "why": "The incident has prompted calls for bloc-wide security policy updates and stricter Schengen visa restrictions against Russian citizens.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen",
+          "publisher": "France 24",
+          "published": "2026-11-21T10:32:36+00:00",
+          "content_type": "public article text",
+          "content_sha256": "f6302101eba42ec0a7239b427e13cbe0975c9555413f346e92cc86f631ea67d1",
+          "retrieved_at": "2026-11-21T16:14:17.879798+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "EU leadership strongly condemned an alleged Russian intelligence plot targeting a US-Ukrainian citizen in Denmark, prompting calls for stricter Schengen visa restrictions on Russian nationals.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "European Commission chief condemns alleged Russian plot in Denmark"
+    },
+    {
+      "id": "a92b27bf5f223a7",
+      "title": "Nvidia reports financial growth and halts H200 chip sales in China",
+      "original_title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-20T14:55:44+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Tim De Chant"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
+      "event_key": "nvidia_ceo_ouster_fallout",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia delivered its latest quarterly earnings report showing strong revenue growth despite recent leadership changes following the departure of former chief executive Jensen Huang. Company leadership projected continued financial momentum. Alongside its financial results, the semiconductor manufacturer announced it will cease sales of its H200 graphics processing units in China.",
+      "why": "Stopping H200 shipments shifts Nvidia's strategy in China amid ongoing geopolitical technology restrictions and internal corporate restructuring.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-20T14:55:44+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "88590814e26ffaee55a867be4220fda48d96c1ab79782199f72916a2791be16b",
+          "retrieved_at": "2026-11-21T16:14:17.879798+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Covering the aftermath of Nvidia CEO departure, earnings report, and decision to halt H200 sales to China. Directly impacts AI chip business and semiconductor trade.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Nvidia reports financial growth and halts H200 chip sales in China"
+    },
+    {
+      "id": "ae469e2eab3fef2",
+      "title": "Signal restricts screen capture to block artificial intelligence tools from reading messages",
+      "original_title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge",
+      "category": "AI",
+      "published": "2026-11-20T12:30:47+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jess Weatherbed"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "event_key": "a72019d927a1959b96b4",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Encrypted messaging app Signal is restricting screen capture functionality on mobile operating systems to protect user privacy. The measure aims to prevent system-level artificial intelligence tools from analyzing on-screen information to gather data about users. Signal's leadership stated that operating system features designed to read screen content undermine the app's ability to independently guarantee privacy.",
+      "why": "The change highlights growing privacy tensions between encrypted messaging applications and operating systems that integrate screen-analyzing artificial intelligence features.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "publisher": "The Verge",
+          "published": "2026-11-20T12:30:47+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "7b723d52023f60bc8ad1ae494166b7643feef29fbe7640b300eb0fb73dd1a484",
+          "retrieved_at": "2026-11-21T16:14:17.879798+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Signal restricts screen capture to block artificial intelligence tools from reading messages"
+    }
+  ]
+}

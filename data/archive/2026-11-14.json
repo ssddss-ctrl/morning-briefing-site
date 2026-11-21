@@ -1,0 +1,581 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-14",
+  "generated_at": "2026-11-15T00:02:51.121825+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 336,
+      "unique": 329,
+      "substantive": 177,
+      "ai_reviewed": 16,
+      "qualified": 3,
+      "daily_selected": 1,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 270,
+      "unique": 265,
+      "substantive": 90,
+      "ai_reviewed": 15,
+      "qualified": 16,
+      "daily_selected": 3,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 213,
+      "unique": 209,
+      "substantive": 92,
+      "ai_reviewed": 15,
+      "qualified": 40,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 141,
+      "unique": 131,
+      "substantive": 58,
+      "ai_reviewed": 14,
+      "qualified": 31,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 5,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 7,
+    "reserved_input_tokens": 33900,
+    "model_verified": true,
+    "cache_hits": 84,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 9,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 1,
+    "live": 7,
+    "cached": 2
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "ed68510e74c8c5d",
+      "title": "White House announces trilateral summit with China and Russia at APEC",
+      "original_title": "White House confirms US-China-Russia trilateral talks on Apec sidelines",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+      "source": "South China Morning Post",
+      "category": "Global Affairs",
+      "published": "2026-11-14T00:30:57+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Nayan Seth",
+        "Nayan Seth"
+      ],
+      "backfill": false,
+      "story_key": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+      "event_key": "trilateral_apec_summit_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The White House confirmed an unprecedented trilateral meeting between the leaders of the United States, China, and Russia. Assistant Press Secretary Olivia Wales stated that President Donald Trump will conclude his trip to China with the three-way meeting. The talks will take place next week on the sidelines of the Asia-Pacific Economic Cooperation summit in Shenzhen.",
+      "why": "The meeting marks a rare direct diplomatic engagement bringing together the leaders of all three major world powers.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+          "publisher": "South China Morning Post",
+          "published": "2026-11-14T00:30:57+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "411c0ab01f56409d2afc7bba28ca6d26aae033fbb96f6936fb8c5ddc4b56fa16",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The White House officially confirmed a trilateral meeting between the leaders of the US, China, and Russia on the sidelines of the APEC summit in Shenzhen.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "White House announces trilateral summit with China and Russia at APEC"
+    },
+    {
+      "id": "a1b2439d413c409",
+      "title": "US grounds all domestic flights following air traffic communications failure",
+      "original_title": "WATCH: Homeland Security Secretary Mullin says FAA flight stoppage 'isn't another 9/11'",
+      "url": "https://www.pbs.org/newshour/nation/watch-homeland-security-secretary-mullin-says-faa-flight-stoppage-isnt-another-9-11",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-11-13T23:00:52+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/nation/watch-homeland-security-secretary-mullin-says-faa-flight-stoppage-isnt-another-9-11",
+      "event_key": "faa_nationwide_ground_stop",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The Federal Aviation Administration issued a nationwide ground stop for all domestic flights on Friday afternoon. Transportation Secretary Sean Duffy stated a communications problem affected regional air traffic control centers that direct planes between airports. Homeland Security Secretary Markwayne Mullin reported all airborne flights were accounted for and there were no indications of an attack against the nation.",
+      "why": "This event represents the first nationwide FAA ground stop since January 2023, causing widespread disruption to US air transit.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/nation/watch-homeland-security-secretary-mullin-says-faa-flight-stoppage-isnt-another-9-11",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-13T23:00:52+00:00",
+          "content_type": "public article text",
+          "content_sha256": "c0740b494bef609ee63d201f27cfccb18bdb0d12c8e9928d8cba680eb4bb35d7",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The FAA ordered a nationwide ground stop due to air traffic control communication failures, marking a major US infrastructure disruption.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US grounds all domestic flights following air traffic communications failure"
+    },
+    {
+      "id": "1e20e078783c695",
+      "title": "Solution-processed molybdenum disulfide thin films demonstrate room-temperature laser emission",
+      "original_title": "Room-temperature continuous-wave lasing-like emission from solution-processed bulk monolayer MoS2 thin films",
+      "url": "https://doi.org/10.1038/s41467-026-79012-8",
+      "source": "Nature Communications",
+      "category": "Science",
+      "published": "2026-11-13T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Boxuan Zhou",
+        "Haoyang Li",
+        "Bangyao Hu",
+        "Jingxuan Zhou",
+        "Chen Li",
+        "Jingyuan Zhou",
+        "Yu Huang",
+        "Xiangfeng Duan"
+      ],
+      "doi": "https://doi.org/10.1038/s41467-026-79012-8",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1038/s41467-026-79012-8",
+      "event_key": "mos2_bulk_monolayer_lasing",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers achieved room-temperature continuous-wave lasing-like emission using solution-processed bulk monolayer molybdenum disulfide thin films in whispering-gallery-mode cavities. Monolayer transition metal dichalcogenides have direct bandgaps and strong excitonic properties, but traditional mechanical exfoliation or high-temperature chemical vapor deposition limits gain volume. The spray-coated architecture uses organic spacers to separate electronically decoupled monolayers, preserving excitonic behavior while allowing a scalable optical gain volume.",
+      "why": "The scalable thin-film approach offers a practical gain medium for integrating atomically thin materials into macroscopic thin-film laser photonics.",
+      "technical_details": [
+        "Measurements showed a threshold-like input-output crossover with linewidth narrowing at roughly 1.4 nW pump power.",
+        "The scalable thin films enabled a balance between optical confinement and quality factors."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1038/s41467-026-79012-8",
+          "publisher": "Nature Communications",
+          "published": "2026-11-13T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "e7439de8273d2429ca1cd06c985406d81af084d4420a98d9708f12355a6290a8",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7225886688"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates room-temperature continuous-wave lasing-like emission from solution-processed bulk monolayer MoS2 thin films, solving gain volume limitations in 2D materials.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Solution-processed molybdenum disulfide thin films demonstrate room-temperature laser emission"
+    },
+    {
+      "id": "8a3b332cc4a18d1",
+      "title": "Nvidia CEO resignation sparks Asian market reactions and cabinet friction",
+      "original_title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-14T16:34:15+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Kate Park"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "event_key": "nvidia_ai_chip_scandal",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia chief executive Jensen Huang resigned following an affair with an executive of chip firm Megaspeed, who was allegedly linked to a Chinese intelligence operation. US Treasury Secretary Scott Bessent publicly criticized the Commerce Department for delays in placing Megaspeed on the export control list amid concerns over processor leakage to China. Meanwhile, Asian partners including South Korea, Taiwan, and Japan are acting to confirm existing GPU delivery commitments and maintain supply stability.",
+      "why": "The executive shift and export control scrutiny affect multi-billion-dollar computing projects and global supply chains for advanced artificial intelligence chips.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-14T16:34:15+00:00",
+          "content_type": "public article text",
+          "content_sha256": "07237ebfdb7bad94ed75cb96dea79af0e93a73c1ecb77bd12b6870ff1249bbf0",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-11-13T19:53:57+00:00",
+          "content_type": "public article text",
+          "content_sha256": "9efbe5e4f4b235acc3d900e56f90f89a2f33c4bf1865331db8100f82dee8db60",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Asian governments and technology leaders react to Jensen Huang's exit from Nvidia and assess potential impacts on local AI chip supply chains.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Nvidia CEO resignation sparks Asian market reactions and cabinet friction"
+    },
+    {
+      "id": "9b2ce8a5b6e15ac",
+      "title": "Ukraine considers referendum option if NATO peace package is offered",
+      "original_title": "Ukraine: Zelenskyy says security deal could go to referendum",
+      "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "Global Affairs",
+      "published": "2026-11-14T11:40:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
+      "event_key": "ukraine_peace_talks",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ukrainian President Volodymyr Zelenskyy revealed that US envoys in Abu Dhabi raised the possibility of Ukraine joining NATO if it withdrew from the eastern Donbas region. Zelenskyy reaffirmed that Kyiv will not cede territory, but noted that a comprehensive deal including security guarantees and reconstruction funding could be put to a public referendum. European Union diplomats are scheduled to join future peace negotiations to help address European security.",
+      "why": "The proposal marks the first time US negotiators have explicitly tied NATO accession to territorial concessions in peace discussions.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-14T11:40:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "d300b8516fbd082d1d320327e34dfa92f4ded48e7c1f84d6b62fa4db4ae6e5c2",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Zelenskyy revealed US envoys floated questions about Donbas territorial status relative to NATO accession during peace talks in Abu Dhabi.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ukraine considers referendum option if NATO peace package is offered"
+    },
+    {
+      "id": "eae6a263f728aa3",
+      "title": "Nvidia privately confirmed feasibility of chip-tracking anti-smuggling tools",
+      "original_title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Technology Review",
+      "category": "AI",
+      "published": "2026-11-12T20:16:24+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "backfill": false,
+      "story_key": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking",
+      "event_key": "gpu_geotracking_compliance",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia representatives privately told a US lawmaker that implementing anti-smuggling geotracking measures for advanced AI chips is technically possible. The acknowledgment contrasts with public opposition from the Semiconductor Industry Association, which previously called similar legislative mandates potentially infeasible. The discussions surround proposed legislation aiming to prevent the unauthorized diversion of high-end processors to restricted markets.",
+      "why": "Private confirmation from chipmakers increases political pressure for mandatory geotracking requirements in defense authorization legislation. This impacts the regulatory oversight of advanced semiconductor supply chains.",
+      "technical_details": [
+        "Proposed tracking options include facility inspections, company attestations, and ping-based location mechanisms.",
+        "Nvidia previously announced a Fleet Intelligence tool capable of monitoring chip locations across data centers."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "publisher": "MIT Technology Review",
+          "published": "2026-11-12T20:16:24+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "c39141498517850b49af9196ce07545204c290944d435a25678f9432716d091b",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reporting shows Nvidia privately confirmed the technical feasibility of GPU geotracking to counter smuggling, despite industry pushback regarding legislation.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Nvidia privately confirmed feasibility of chip-tracking anti-smuggling tools"
+    },
+    {
+      "id": "3c7eca5091a5d44",
+      "title": "United States proposed Ukraine cede Donbas for NATO membership, President Zelensky says",
+      "original_title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+      "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-11-14T10:30:04+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE 24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+      "event_key": "ukraine_peace_talks_donbas_proposal",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ukrainian President Volodymyr Zelensky stated that US negotiators proposed Ukraine cede the eastern Donbas region to Russia in exchange for NATO membership. The proposal was reportedly raised during recent peace talks held in Abu Dhabi. Zelensky reiterated that Kyiv will not retreat from its territory and warned that altering European security architecture risks future conflicts.",
+      "why": "The proposal represents a potential diplomatic trade-off involving territorial concessions to end the war, though Ukraine publicly rejects surrendering any territory.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "publisher": "France 24",
+          "published": "2026-11-14T10:30:04+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "8e3cd7e0d7c7105a7ce386eb9b7ee4c6efe189d6e4b3368c3c64f029a927de67",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Zelensky discloses a US peace proposal offering NATO membership in exchange for ceding Donbas, which Kyiv rejected.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "United States proposed Ukraine cede Donbas for NATO membership, President Zelensky says"
+    },
+    {
+      "id": "3a56815e24d3859",
+      "title": "Democrat Eileen Laubacher defeats Republican incumbent Lauren Boebert in Colorado Congressional race",
+      "original_title": "Lauren Boebert, once a MAGA star, loses her Colorado seat",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9mlldgpgjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC US & Canada",
+      "category": "U.S. News",
+      "published": "2026-11-13T20:06:46+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/c6j9mlldgpgjo?at_medium=RSS&at_campaign=rss",
+      "event_key": "us_election_boebert_loss",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Democrat Eileen Laubacher, a retired Navy rear admiral, defeated three-term Republican Representative Lauren Boebert in Colorado after final vote counting. Boebert, a prominent conservative figure associated with the MAGA movement, had switched to a more reliably Republican district following a narrow re-election victory in 2022 and personal controversies. Despite a late endorsement from Donald Trump, Boebert lost to Laubacher, a former Republican who appealed to moderate voters.",
+      "why": "The result shifts a House seat to Democrats and removes one of the most visible pro-Trump conservatives from Congress after six years in office.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9mlldgpgjo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-11-13T20:06:46+00:00",
+          "content_type": "public article text",
+          "content_sha256": "89ddb1631494f4e0a5facf5828efb548edd46a4469d441232935c2c37da69895",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The Associated Press declared Democrat Eileen Laubacher the winner over three-term Republican incumbent Representative Lauren Boebert in Colorado.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Democrat Eileen Laubacher defeats Republican incumbent Lauren Boebert in Colorado Congressional race"
+    },
+    {
+      "id": "1d3c6f56f12f1d3",
+      "title": "Analysis indicates Chinese AI models were trained using restricted computer chips",
+      "original_title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-13T18:40:30+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "event_key": "nvidia_china_export_control_breach",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Analysis of open-weight large language models from Chinese firms including DeepSeek and Moonshot AI reveals structural evidence of training on restricted Nvidia Blackwell hardware. Nvidia chief executive Jensen Huang resigned following personal ties to an executive at Megaspeed, a firm implicated in smuggling banned hardware into China. Nonprofit research group Epoch AI estimates that roughly two million advanced processing chips entered China during 2024 and 2025 through offshore data centers and smuggling routes.",
+      "why": "The findings highlight enforcement challenges facing U.S. export controls intended to limit rival foreign capabilities in advanced artificial intelligence computing.",
+      "technical_details": [
+        "Model weight configurations retain specific architectural fingerprints from the underlying hardware clusters used during the training phase."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-13T18:40:30+00:00",
+          "content_type": "public article text",
+          "content_sha256": "3937a6f1c7dc51b96518d6d0296b689aa7788df0ff2b58d55e6cba080bafaf73",
+          "retrieved_at": "2026-11-14T23:59:17.319343+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports show Chinese labs used export-restricted Nvidia Blackwell GPUs to train frontier AI models.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Analysis indicates Chinese AI models were trained using restricted computer chips"
+    }
+  ]
+}

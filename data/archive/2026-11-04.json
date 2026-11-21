@@ -1,0 +1,526 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-04",
+  "generated_at": "2026-11-04T22:44:30.883735+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 577,
+      "unique": 545,
+      "substantive": 396,
+      "ai_reviewed": 16,
+      "qualified": 6,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 378,
+      "unique": 370,
+      "substantive": 200,
+      "ai_reviewed": 14,
+      "qualified": 9,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 178,
+      "unique": 178,
+      "substantive": 88,
+      "ai_reviewed": 14,
+      "qualified": 47,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 171,
+      "unique": 159,
+      "substantive": 60,
+      "ai_reviewed": 14,
+      "qualified": 42,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 9,
+    "reserved_input_tokens": 35776,
+    "model_verified": true,
+    "cache_hits": 50,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 8,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 2,
+    "live": 6,
+    "cached": 2
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "82b0e0e94dbb4d9",
+      "title": "Adaptive protocol stabilizes bistable qubits using single-shot measurement",
+      "original_title": "Operating a bistable qubit",
+      "url": "https://arxiv.org/abs/2605.03187",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-04T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Fabrizio Berritta, Jan A. Krzywda, Tom Dvir, Paul Buttles, Stanislav Eilhart, Jeroen Danon, Ferdinand Kuemmeth"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2605.03187",
+      "event_key": "bistable_qubit_fpga_control",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Defects in solid-state quantum processors can interact with qubits, causing discrete frequency shifts that make them unstable and bistable. Researchers experimentally demonstrated an adaptive control protocol powered by a field-programmable gate array to correct these shifts using a single measurement. The approach successfully suppressed instabilities in a superconducting qubit, achieving significant error reduction and stabilizing gate fidelities over time.",
+      "why": "Mitigating dephasing errors from defects is crucial for improving the performance and stability of large quantum processor arrays.",
+      "technical_details": [
+        "The 1-bit feedback protocol reaches the information limit set by the qubit's intrinsic entropy.",
+        "Researchers deployed the protocol to achieve an estimation bandwidth of approximately 136 kHz and a 77% error reduction."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2605.03187",
+          "publisher": "arXiv",
+          "published": "2026-11-04T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "9bb34d80f577eab57db00e19447574caf2e4bd7dee0102d144ce68bae8ca709a",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates an adaptive FPGA-based feedback protocol to operate a bistable superconducting qubit suffering from TLS defects.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Adaptive protocol stabilizes bistable qubits using single-shot measurement"
+    },
+    {
+      "id": "13573e5e11d83ab",
+      "title": "Democrats win control of both congressional chambers in US midterms",
+      "original_title": "The biggest winners and losers of the 2026 US midterms",
+      "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "U.S. News",
+      "published": "2026-11-04T18:52:25+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+      "event_key": "us_midterm_elections_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Democratic candidates secured control of both chambers of Congress in the United States midterm elections, achieving several surprising victories. The results present a significant challenge to President Donald Trump's legislative agenda for the remainder of his term. Voters also elected several historic figures, including the country's first Muslim senator.",
+      "why": "The shift in congressional control will directly impact federal spending, foreign policy decisions regarding Ukraine and Iran, and potential administrative investigations.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-04T18:52:25+00:00",
+          "content_type": "public article text",
+          "content_sha256": "0d0f1eb8102bf56796b96d40f7373613f10a6399f4809af488e161532c684195",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.dw.com/en/what-us-midterm-elections-mean-for-ukraine-iran-and-elsewhere/a-79836423?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-04T08:52:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "2f4f7f706fee4ba8ed6f49fd562fff55055364b08e86fe85a9dc8467cb4f57f4",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Democrats win control of both chambers of Congress in the 2026 US midterms, significantly altering the political power balance for the remainder of Trump's term.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Democrats win control of both congressional chambers in US midterms"
+    },
+    {
+      "id": "4ce61c84c4e59cf",
+      "title": "Clashes and Blockades Near Taiz Leave Residents in Fear",
+      "original_title": "Yemen: Houthi clashes near Taiz leave residents in a 'state of panic'",
+      "url": "https://www.dw.com/en/yemen-houthi-clashes-near-taiz-leave-residents-in-a-state-of-panic/a-79836913?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "Global Affairs",
+      "published": "2026-11-03T14:18:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/yemen-houthi-clashes-near-taiz-leave-residents-in-a-state-of-panic/a-79836913?maca=en-rss-en-world-4025-rdf",
+      "event_key": "yemen_taiz_clashes",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Four months into renewed fighting in Yemen, clashes have concentrated around the southwestern city of Taiz. Houthi forces have largely blocked vital goods and medical supplies from entering the city, displacing tens of thousands in the surrounding governorate and causing severe hardships for residents. International aid organizations warn that ongoing insecurity prevents them from safely reaching civilians and delivering emergency supplies.",
+      "why": "Control of Taiz remains a major strategic objective that could alter territorial power dynamics and negotiations in the ongoing conflict.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/yemen-houthi-clashes-near-taiz-leave-residents-in-a-state-of-panic/a-79836913?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-11-03T14:18:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "1b787da32b1e52aa828a90bc3c13026e019eadeeecae97d6019f0894288e8891",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on escalating clashes between Houthi and Yemeni government forces around the city of Taiz.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Clashes and Blockades Near Taiz Leave Residents in Fear"
+    },
+    {
+      "id": "342b4ecfe166944",
+      "title": "Meta acquires artificial intelligence coding startup Conductor",
+      "original_title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-04T21:10:56+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+      "event_key": "meta_acquires_conductor",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Meta has acquired Conductor, an artificial intelligence startup that deploys multiple agents into parallel workspaces to build software projects. The startup's team will join Meta's Superintelligence Labs following the deal. Conductor announced that its core features will remain operational temporarily while its cloud service shuts down.",
+      "why": "Major technology companies continue to consolidate artificial intelligence talent and agentic coding capabilities to strengthen their software offerings.",
+      "technical_details": [
+        "Conductor's platform deploys agents sourced from major labs like Anthropic and OpenAI."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-04T21:10:56+00:00",
+          "content_type": "public article text",
+          "content_sha256": "c511df3bbd65667097dac4b519362d65602401158412527ef20200d27d1c307b",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Meta acquires AI coding startup Conductor, which deploys parallel agents for software projects.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Meta acquires artificial intelligence coding startup Conductor"
+    },
+    {
+      "id": "6cd7193786cb544",
+      "title": "Previously Unseen Family Archive Offers Insight Into Rabindranath Tagore",
+      "original_title": "The private creative world of Rabindranath Tagore, the man Yeats called ‘greater than any of us’",
+      "url": "https://www.theguardian.com/world/2026/nov/03/rabindranath-tagore-yeats-nobel-prize-india",
+      "source": "The Guardian",
+      "category": "U.S. News",
+      "published": "2026-11-03T15:24:53+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Niha Masih"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/world/2026/nov/03/rabindranath-tagore-yeats-nobel-prize-india",
+      "event_key": "128c75e6ebb539edb49a",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A newly revealed family archive provides a look into the artistic process and personal relationships of Indian Nobel laureate Rabindranath Tagore during his final years. Tagore was a multi-talented figure who left a lasting legacy in literature, music, and art, including penning the national anthems of India and Bangladesh.",
+      "why": "This archive sheds new light on the private creative world of a historic literary figure who became the first non-European to win the Nobel prize in literature.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/world/2026/nov/03/rabindranath-tagore-yeats-nobel-prize-india",
+          "publisher": "The Guardian",
+          "published": "2026-11-03T15:24:53+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "9f1b8457855917fc37213981bff16f243a32577508644629adc5563a001349c6",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Previously Unseen Family Archive Offers Insight Into Rabindranath Tagore"
+    },
+    {
+      "id": "9b23d2947fb3226",
+      "title": "Training AI Agents to Automate Model Post-Training",
+      "original_title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "url": "https://arxiv.org/abs/2611.03698",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-11-04T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Shuzheng Gao, Zhaojian Yu, Penghao Yin, Yuling Shi, Kai Cai, Shilin He, Michael R. Lyu"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.03698",
+      "event_key": "rsi-dojo-llm",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers introduced an automated pipeline and collection of training environments designed to teach artificial intelligence agents how to conduct model post-training. The approach converts human research artifacts into executable environments, filtering tasks by execution reliability and data size to build a seed collection. Fine-tuning models on these collected trajectories improved their performance on standardized post-training benchmarks, matching the results of several frontier models.",
+      "why": "Automating recursive self-improvement and post-training capabilities allows AI systems to more independently select data, diagnose failures, and enhance future model versions.",
+      "technical_details": [
+        "The resulting models, RSI-Dojo-9B and RSI-Dojo-35B-A3B, improved over their base models by 8.74 and 16.87 PostTrainBench points respectively."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.03698",
+          "publisher": "arXiv AI",
+          "published": "2026-11-04T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "ab8d7084a551abc413441944631b2d6027173803366b28e66756bc51bc3b71ca",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates recursive self-improvement fine-tuning on Qwen models, improving post-training benchmark scores.",
+      "development": "experimental",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Training AI Agents to Automate Model Post-Training"
+    },
+    {
+      "id": "28e09b7fd3ded5d",
+      "title": "Vance Attributes Midterm Losses to Unpopular Conflict with Iran",
+      "original_title": "Vance blames Iran war for GOP midterm losses",
+      "url": "https://www.pbs.org/newshour/politics/vance-blames-iran-war-for-gop-midterm-losses",
+      "source": "PBS NewsHour",
+      "category": "Global Affairs",
+      "published": "2026-11-04T16:56:43+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Michelle L. Price, Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/politics/vance-blames-iran-war-for-gop-midterm-losses",
+      "event_key": "us-midterms-2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Following deep losses for the Republican Party in the midterm elections, Vice President JD Vance publicly attributed the outcome to voter dissatisfaction with the conflict with Iran. Polling indicated that a majority of voters viewed the military action against Iran as the wrong decision, heavily backing opposition candidates. While President Trump defended the military intervention, the public division highlights internal political fallout from the foreign policy decision.",
+      "why": "Voter backlash over foreign military actions and cost-of-living pressures can directly reshape congressional power balances and influence future administration policy decisions.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/politics/vance-blames-iran-war-for-gop-midterm-losses",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-04T16:56:43+00:00",
+          "content_type": "public article text",
+          "content_sha256": "29a2f9ce450d8537c1704d56596f0e531a200d3af46a1b25734f3b020b48f7db",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.france24.com/en/us-midterm-elections-maybe-the-best-colour-for-texas-is-purple",
+          "publisher": "France 24",
+          "published": "2026-11-04T15:45:00+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "6e9faab1e8b3c7a6c670eaaef8cd4457262d48d15ee527c3c522758b5919f8f4",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "JD Vance publicly comments on GOP midterm losses and policy direction.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Vance Attributes Midterm Losses to Unpopular Conflict with Iran"
+    },
+    {
+      "id": "b23b8032e531541",
+      "title": "Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging",
+      "original_title": "3D dark matter map of the JWST COSMOS-Web field using diffusion-based generative priors",
+      "url": "https://arxiv.org/abs/2611.03786",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-04T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Diana Scognamiglio, Brandon Zhao, Katherine L. Bouman, Olivier Dor\\'e, Caitlin M. Casey, Maximilien Franco, Ghassem Gozaliasl, David Harvey, Olivier Ilbert, Jeffrey B. Jewell, Jeyhan S. Kartaltepe, Anton M. Koekemoer, Gavin Leroy, Richard Massey, Jason Rhodes, Brant E. Robertson, Marko Shuntov, Sune Toft, Greta Toni, Michael A. Troxel"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.03786",
+      "event_key": "jwst_dark_matter_mapping",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers mapped the three-dimensional distribution of invisible matter, known as dark matter, across a specific sky region using deep space telescope imaging. By combining a physical lensing model with advanced generative computer models trained on cosmological simulations, the team reconstructed matter distributions across twenty distinct depth planes. This approach successfully separates overlapping cosmic structures and extends mapping capabilities to higher redshifts, reaching closer to a major epoch of rapid galaxy growth.",
+      "why": "This technique extends three-dimensional weak lensing mapping into the high-redshift regime, enabling probabilistic visualization of the evolving cosmic web. It provides a robust route for tracing the growth of cosmic structure with current wide-field surveys.",
+      "technical_details": [
+        "The reconstruction achieves an effective source density of 121 galaxies per square arcminute across the COSMOS-Web field.",
+        "It utilizes a diffusion-based Bayesian generative prior to yield a posterior distribution of the matter field to z approximately 2."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.03786",
+          "publisher": "arXiv",
+          "published": "2026-11-04T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "89e6af7f28b57df9221731014c182791d601ffa4c90c126009ee0698ebd2619d",
+          "retrieved_at": "2026-11-04T22:41:47.014369+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reconstructs 3D dark matter distributions from JWST imaging using diffusion-based generative priors and weak lensing.",
+      "development": "simulation",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Mapping Three-Dimensional Dark Matter Distribution Using Space Telescope Imaging"
+    }
+  ]
+}

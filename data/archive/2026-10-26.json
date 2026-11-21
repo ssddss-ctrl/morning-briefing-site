@@ -1,0 +1,355 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-26",
+  "generated_at": "2026-10-26T15:20:54.204845+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 564,
+      "unique": 514,
+      "substantive": 382,
+      "ai_reviewed": 10,
+      "qualified": 7,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 391,
+      "unique": 385,
+      "substantive": 203,
+      "ai_reviewed": 9,
+      "qualified": 12,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 233,
+      "unique": 232,
+      "substantive": 102,
+      "ai_reviewed": 9,
+      "qualified": 52,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 141,
+      "unique": 137,
+      "substantive": 64,
+      "ai_reviewed": 9,
+      "qualified": 27,
+      "daily_selected": 1,
+      "withheld_repeats": 2,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 9,
+    "reserved_input_tokens": 34993,
+    "model_verified": true,
+    "cache_hits": 21,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 5,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 5,
+    "live": 5,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "0865bd6f6de5129",
+      "title": "Integrating nanopillar arrays on silicon for dual photodetection and emission",
+      "original_title": "Integrated elliptical III-V nanopillar arrays on silicon for dual photodetection and light emission",
+      "url": "https://arxiv.org/abs/2610.32744",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-26T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jo\\~ao D. G. Azevedo (INL - International Iberian Nanotechnology Laboratory, Av. Mestre Jos\\'e Veiga, Braga, Portugal), Rafael Ramos U\\~na (Group of Displays and Photonic Applications, Carlos III University of Madrid), \\'Angela Barreda (Group of Displays and Photonic Applications, Carlos III University of Madrid), Stuart Edwards (IQE plc, Cardiff, United Kingdom), J. Iwan Davies (IQE plc, Cardiff, United Kingdom), J\\'er\\^ome Borme (INL - International Iberian Nanotechnology Laboratory, Av. Mestre Jos\\'e Veiga, Braga, Portugal), Braulio Garcia-C\\'amara (Group of Displays and Photonic Applications, Carlos III University of Madrid), Jana B. Nieder (INL - International Iberian Nanotechnology Laboratory, Av. Mestre Jos\\'e Veiga, Braga, Portugal), Bruno Romeira (INL - International Iberian Nanotechnology Laboratory, Av. Mestre Jos\\'e Veiga, Braga, Portugal)"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.32744",
+      "event_key": "iii_v_nanopillar_arrays",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have demonstrated elliptical nanopillar arrays built on silicon platforms that combine broadband photodetection and light emission in a single nanoscale device. The components exhibit photoresponses across visible and near-infrared wavelengths, dynamic neuron-like graded responses under modulated light, and electroluminescence under forward bias. The nanostructured geometry enhances optical absorption and carrier dynamics within an active area significantly smaller than commercial detectors.",
+      "why": "This development advances miniaturized active nanophotonic devices suitable for integrated sensing, emitting, and communication circuits on silicon substrates.",
+      "technical_details": [
+        "The nanoarrays achieved responsivities up to 0.55 A/W at 830 nm.",
+        "Pronounced electroluminescence was observed at around 865 nm under forward bias."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.32744",
+          "publisher": "arXiv",
+          "published": "2026-10-26T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "a52c357df2d8e152b68c111d737c987929fb96eb5fac2257d8c1b8c3ca7e5c87",
+          "retrieved_at": "2026-10-26T15:17:25.133774+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://arxiv.org/abs/2610.32744",
+          "publisher": "arXiv",
+          "published": "2026-10-26T04:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates monolithic integration of elliptical III-V nanopillar arrays on silicon, achieving dual photodetection and light emission at the nanoscale.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Integrating nanopillar arrays on silicon for dual photodetection and emission"
+    },
+    {
+      "id": "9821da331a5ed3a",
+      "title": "1Password launches tool allowing AI agents to log in without credentials",
+      "original_title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-22T19:07:09+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "event_key": "1password-ai-agents-login",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Password manager 1Password has launched a new tool enabling automated digital assistants to log into personal accounts on behalf of users without exposing the actual credentials. The platform communicates between the user, agent, and password manager by sending a unique digital key to confirm identity during login attempts. Users receive an alert to personally authorize the request before the password manager fills in the necessary credentials for the assistant.",
+      "why": "This service provides a secure method for consumers to delegate automated tasks to personal AI assistants while preventing credential exposure and maintaining account control.",
+      "technical_details": [
+        "The platform supports multiple assistant integrations including Anthropic, OpenAI, Grok, Meta, and startup tools.",
+        "A unique digital key is transmitted to confirm the digital identity of the agent."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-22T19:07:09+00:00",
+          "content_type": "public article text",
+          "content_sha256": "faad7335c7ce96b96650154707e84d29d80f070988ab50c8213284ea9358c13e",
+          "retrieved_at": "2026-10-26T15:17:25.133774+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Announces a credential-less login mechanism for AI agents via 1Password, representing a consequential security development for autonomous AI tools.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "1Password launches tool allowing AI agents to log in without credentials"
+    },
+    {
+      "id": "42681e9740fb7ee",
+      "title": "Audi Chief Criticized for Trump Rally Appearance",
+      "original_title": "Audi boss under fire in Germany for Trump rally appearance",
+      "url": "https://www.theguardian.com/world/2026/oct/26/audi-boss-under-fire-in-germany-for-trump-rally-appearance",
+      "source": "The Guardian",
+      "category": "U.S. News",
+      "published": "2026-10-26T14:42:27+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Deborah Cole in Berlin"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/world/2026/oct/26/audi-boss-under-fire-in-germany-for-trump-rally-appearance",
+      "event_key": "518ede4c0806ac93258c",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The head of luxury carmaker Audi faced criticism in Germany after appearing at a political rally with Donald Trump. Gernot Döllner joined the US president on stage to announce a major investment in Georgia just days before the midterm elections. The appearance drew backlash from an employee representative at Audi's parent company Volkswagen, who criticized the event.",
+      "why": "Corporate leadership involvement in politically charged events can strain labor relations and draw sharp public criticism from employee representatives.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/world/2026/oct/26/audi-boss-under-fire-in-germany-for-trump-rally-appearance",
+          "publisher": "The Guardian",
+          "published": "2026-10-26T14:42:27+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "86b1260a0eb75f1c3c2c87bea55cdf2525114ebcd8fbcf861c22f19d8ab3ab0f",
+          "retrieved_at": "2026-10-26T15:17:25.133774+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Audi Chief Criticized for Trump Rally Appearance"
+    },
+    {
+      "id": "513e84c1a899888",
+      "title": "Bulgaria Heads to Presidential Run-off After Low Turnout",
+      "original_title": "In Bulgaria, record low voter turnout triggers a November 1 presidential run-off in a poll colored by divisions over Ukraine war",
+      "url": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-world-4025-rdf",
+      "source": "DW",
+      "category": "Global Affairs",
+      "published": "2026-10-25T07:19:00+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-world-4025-rdf",
+      "event_key": "bulgaria_election",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Low voter turnout in Bulgaria's presidential election triggered a scheduled November 1 run-off between the top two candidates. Turnout fell significantly short of the required threshold, reflecting divisions over the war in Ukraine and economic concerns. Incumbent President Iliana Yotova faces former caretaker prime minister Andrey Gyurov in the upcoming vote.",
+      "why": "The outcome of the election could influence the nation's foreign policy orientation regarding Russia and Western alliances during a period of regional tension.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-world-4025-rdf",
+          "publisher": "DW",
+          "published": "2026-10-25T07:19:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "9a216fee1557edeba08ee605de4dcf7e646b540b3f64fa23e784d00817943839",
+          "retrieved_at": "2026-10-26T15:17:25.133774+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Details the record low turnout and upcoming presidential run-off in Bulgaria amid geopolitical divisions.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Bulgaria Heads to Presidential Run-off After Low Turnout"
+    },
+    {
+      "id": "12d4c4fce58f615",
+      "title": "Researchers Image Nanoscale Surface Hypersound Using Electrons",
+      "original_title": "Electron Wavefronts Capture Nanoscale Movies of Hypersound at Surfaces",
+      "url": "https://arxiv.org/abs/2610.32419",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-26T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Johannes Otto, Leon Brauns, Benjamin Schroeder, Claus Ropers"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.32419",
+      "event_key": "electron_wavefront_hypersound",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Acoustic waves traveling at gigahertz frequencies have wavelengths comparable to nanoscale device dimensions, playing a crucial role in high-frequency signal processing. Researchers demonstrated full-field imaging of laser-induced high-frequency sound waves at surfaces using reflected low-energy electron wavefronts. By utilizing the surface sensitivity of electron pulses, the team recorded the thermoelastic generation and propagation of waves in a thin material.",
+      "why": "This microscopy technique enables the direct observation of ultrafast energy transport and mechanical interactions at buried interfaces, aiding the development of nanoscale acoustic devices.",
+      "technical_details": [
+        "Ultrafast low-energy electron microscopy uses coherent electron pulses down to femtosecond durations to convert phase variations into image contrast."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.32419",
+          "publisher": "arXiv",
+          "published": "2026-10-26T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "63042fd43d1683ee19cf93929ca092839bbc79c2c773fae3d53e7efdbd680a10",
+          "retrieved_at": "2026-10-26T15:17:25.133774+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://arxiv.org/abs/2610.32419",
+          "publisher": "arXiv",
+          "published": "2026-10-26T04:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates electron-wavefront imaging to capture nanoscale movies of hypersound and thermoelastic surface dynamics.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers Image Nanoscale Surface Hypersound Using Electrons"
+    }
+  ]
+}

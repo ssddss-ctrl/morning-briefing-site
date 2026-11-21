@@ -1,0 +1,436 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-10",
+  "generated_at": "2026-11-10T22:29:11.576795+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 604,
+      "unique": 576,
+      "substantive": 431,
+      "ai_reviewed": 4,
+      "qualified": 3,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 388,
+      "unique": 382,
+      "substantive": 205,
+      "ai_reviewed": 4,
+      "qualified": 15,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 212,
+      "unique": 212,
+      "substantive": 101,
+      "ai_reviewed": 3,
+      "qualified": 52,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 143,
+      "unique": 136,
+      "substantive": 59,
+      "ai_reviewed": 3,
+      "qualified": 41,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 10,
+    "reserved_input_tokens": 19805,
+    "model_verified": true,
+    "cache_hits": 13,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 7,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 3,
+    "live": 7,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "a42e4218d65d845",
+      "title": "First Room-Temperature Mid-Infrared Imaging System Using Silicon Detectors",
+      "original_title": "High Frame-Rate Mid-Infrared SPAD Camera",
+      "url": "https://arxiv.org/abs/2605.04276",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-10T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Ziv Abelson, Daniel Beitner, Ziv Livne, Eyal Hollander, Moshe Cohen Erner, Edoardo Charbon, Haim Suchowski"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2605.04276",
+      "event_key": "mid-ir-spad-camera",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have developed a mid-infrared imaging system by combining frequency conversion with a standard silicon pixel array. While light detection is typically restricted to visible and near-infrared wavelengths, this approach converts longer wavelengths so they can be read by silicon sensors at room temperature. The system achieves high-speed photon-counting imaging at rates up to 60,000 frames per second.",
+      "why": "This platform enables high-speed, low-light thermal and chemical analysis in a spectral range previously constrained by limited detector performance. It provides a new way to capture rapid thermal dynamics.",
+      "technical_details": [
+        "The architecture integrates broadband adiabatic frequency upconversion with a 512 by 512 silicon single-photon avalanche diode array.",
+        "Researchers captured nanosecond-scale laser-induced thermal dynamics via weak mid-infrared blackbody emission."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2605.04276",
+          "publisher": "arXiv",
+          "published": "2026-11-10T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "0eebe2c7d14d940e26dc2e12700ab9648857ce13c6588f35bb48632b95450b64",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates the first mid-infrared single-photon avalanche diode imaging platform, achieving high frame-rate spectrally resolved imaging at room temperature.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "First Room-Temperature Mid-Infrared Imaging System Using Silicon Detectors"
+    },
+    {
+      "id": "1844f848fd600ea",
+      "title": "US Senate Advances Bipartisan Bill to Speed Up Energy Infrastructure Permitting",
+      "original_title": "US Senate advances major bill boosting energy infrastructure",
+      "url": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "U.S. News",
+      "published": "2026-11-10T19:09:12+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure?traffic_source=rss",
+      "event_key": "us-senate-energy-infrastructure-bill",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States Senate voted to advance a bipartisan bill aimed at accelerating the construction of energy infrastructure and data centers. The legislation overhauls the permitting process for both clean and fossil fuel energy projects and restricts environmental review timelines. Supporters argue the law is necessary to meet growing electricity demand, while environmental groups criticize it for locking in fossil fuel developments.",
+      "why": "The legislation attempts to address rising electricity costs and power demands driven by data centers, though future passage remains uncertain amid political shifts.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-10T19:09:12+00:00",
+          "content_type": "public article text",
+          "content_sha256": "a9bd85932fd91e41e96e36bcf48ff23ce713a18196ee6db264314d224902ef74",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "US Senate advances a bipartisan bill to speed up the construction of data centers and energy infrastructure.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Senate Advances Bipartisan Bill to Speed Up Energy Infrastructure Permitting"
+    },
+    {
+      "id": "af62eb41d49d737",
+      "title": "U.S.-Mediated Peace Talks Between Russia and Ukraine Open in Abu Dhabi",
+      "original_title": "U.S.-mediated talks on ending war between Russia, Ukraine begin in Abu Dhabi",
+      "url": "https://www.thehindu.com/news/international/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal/article71685183.ece",
+      "source": "The Hindu",
+      "category": "Global Affairs",
+      "published": "2026-11-10T10:05:16+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.thehindu.com/news/international/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal/article71685183.ece",
+      "event_key": "ce9f0710cef441a28ec9",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Trilateral negotiations involving Ukraine, the United States, and Russia have opened in the United Arab Emirates to discuss security guarantees. The meetings follow initial discussions between Ukrainian officials and representatives from European nations and NATO. Moscow and Kyiv remain far apart on core demands, with Russia insisting on territorial concessions and military limits while Ukraine demands an immediate ceasefire and a direct meeting between leaders.",
+      "why": "These diplomatic efforts represent a renewed push to address Europe's largest conflict since World War II, though fundamental disagreements on sovereignty and security continue to challenge the path to a lasting peace deal.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.thehindu.com/news/international/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal/article71685183.ece",
+          "publisher": "The Hindu",
+          "published": "2026-11-10T10:05:16+00:00",
+          "content_type": "public article text",
+          "content_sha256": "a0093f986e7179f2d5aea034432732a56e007d786daa2f6d8d4418e350168045",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "U.S.-Mediated Peace Talks Between Russia and Ukraine Open in Abu Dhabi"
+    },
+    {
+      "id": "729aade2d984d75",
+      "title": "Ring Launches New Home Security Drone and Enterprise Robot",
+      "original_title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-10T13:30:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot",
+      "event_key": "7acdbb71b9059d13cbf9",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Amazon-owned security company Ring is launching a robotics division featuring a flying indoor camera drone and a roving enterprise security robot. The newly announced devices use proprietary artificial intelligence software to autonomously explore spaces, build detailed schematics, and stream video footage. The business security robot is scheduled for release in December at one thousand dollars, while the indoor drone will follow next year at two hundred seventy dollars.",
+      "why": "The introduction of autonomous roving robots and flying cameras into homes and businesses revives ongoing consumer privacy debates regarding continuous indoor surveillance and data storage practices.",
+      "technical_details": [
+        "The devices utilize an artificial intelligence system called AI Pilot, leveraging specialized vision models and cloud processing for navigation."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-10T13:30:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "8a95778a3c59beba4066d68f994cccda7a5635b2d64c1da36470b99ff38efa68",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ring Launches New Home Security Drone and Enterprise Robot"
+    },
+    {
+      "id": "49a06492f6bbbbf",
+      "title": "Emmanuel and Brigitte Macron File Defamation Lawsuit Against Candace Owens",
+      "original_title": "Emmanuel and Brigitte Macron file new defamation lawsuit against Candace Owens",
+      "url": "https://www.theguardian.com/world/2026/nov/10/emmanuel-brigitte-macron-defamation-lawsuit-candace-owens",
+      "source": "The Guardian US",
+      "category": "U.S. News",
+      "published": "2026-11-10T20:28:47+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lucy Campbell"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/world/2026/nov/10/emmanuel-brigitte-macron-defamation-lawsuit-candace-owens",
+      "event_key": "5df02148ad6a07649f16",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "French President Emmanuel Macron and First Lady Brigitte Macron have filed a fresh defamation lawsuit against right-wing podcaster Candace Owens in Tennessee. The legal action escalates a previous lawsuit filed in Delaware regarding repeated false claims made on social media and podcasts about the French first lady's background.",
+      "why": "This transatlantic legal battle highlights the growing challenges public figures face regarding the cross-border spread of disinformation on digital and social media platforms.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/world/2026/nov/10/emmanuel-brigitte-macron-defamation-lawsuit-candace-owens",
+          "publisher": "The Guardian US",
+          "published": "2026-11-10T20:28:47+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "22bca3cf4f8525416b452d6573be046a22d5bfd568c3cd92eb7f55789f79e587",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Emmanuel and Brigitte Macron File Defamation Lawsuit Against Candace Owens"
+    },
+    {
+      "id": "2885bc677101053",
+      "title": "Oura acquires AI health startup Counsel Health for $625M",
+      "original_title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-10T19:23:34+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+      "event_key": "19274f077ca46f56acaa",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Smart ring maker Oura is acquiring AI-powered primary care startup Counsel Health for $625 million following a previous product integration. Counsel Health combines a chat-based medical experience with access to licensed physicians inside the Oura application. The acquisition aims to expand Oura's services into preventative, acute, and chronic care as competition in the wearable device market intensifies.",
+      "why": "This acquisition allows Oura to integrate continuous biometric monitoring directly with clinical care pathways, potentially improving user health management. It reflects the growing convergence of consumer wearable hardware and AI-driven telehealth services.",
+      "technical_details": [
+        "Counsel CEO Muthu Alagappan will join Oura as chief clinical AI officer alongside 70 employees."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-10T19:23:34+00:00",
+          "content_type": "public article text",
+          "content_sha256": "4c6a10b8547c06076f57eaee58bd7d55a1321cd1bc381292466661a55360708e",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Oura acquires AI health startup Counsel Health for $625M"
+    },
+    {
+      "id": "55fb98f6bdeda78",
+      "title": "Perovskite system extends room-temperature spin polarization",
+      "original_title": "New perovskite system extends room-temperature spin polarization via successive quantum wells",
+      "url": "https://phys.org/news/2026-11-perovskite-room-temperature-polarization-successive.html",
+      "source": "Phys.org",
+      "category": "Science",
+      "published": "2026-11-09T22:20:10+00:00",
+      "publication_type": "Research news / press release",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://phys.org/news/2026-11-perovskite-room-temperature-polarization-successive.html",
+      "event_key": "5b90050865fb0fb3ad09",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers developed a crystal-based semiconductor architecture using successive quantum wells that preserves electron spin information much longer at room temperature. Controlling the spin of electrons rather than just their charge is a key pillar for developing advanced computing and quantum technologies. The new material system maintains spin polarization approximately 300 times longer than conventional setups at ambient temperatures.",
+      "why": "Extending spin polarization lifetimes at room temperature removes a major hurdle for practical spin-based electronics and quantum information systems. This advance could enable more stable optoelectronic and spintronic devices operating without cryogenic cooling.",
+      "technical_details": [
+        "The team created a perovskite chiral multiple quantum-well system published in Nature Photonics."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://phys.org/news/2026-11-perovskite-room-temperature-polarization-successive.html",
+          "publisher": "Phys.org",
+          "published": "2026-11-09T22:20:10+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "f1a0935eb52aeb9ec62d86f6c1f072efbd2aeae3f0a82780762e7843f5da2491",
+          "retrieved_at": "2026-11-10T22:25:26.577421+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Perovskite system extends room-temperature spin polarization"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-20",
+  "generated_at": "2026-11-20T23:15:18.885631+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 559,
+      "unique": 529,
+      "substantive": 400,
+      "ai_reviewed": 11,
+      "qualified": 4,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 349,
+      "unique": 346,
+      "substantive": 200,
+      "ai_reviewed": 11,
+      "qualified": 16,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 202,
+      "unique": 199,
+      "substantive": 89,
+      "ai_reviewed": 7,
+      "qualified": 47,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 148,
+      "unique": 132,
+      "substantive": 63,
+      "ai_reviewed": 8,
+      "qualified": 32,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 2,
+  "ai": {
+    "status": "available",
+    "requests": 7,
+    "reserved_input_tokens": 26857,
+    "model_verified": true,
+    "cache_hits": 63,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 5,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 5,
+    "live": 2,
+    "cached": 3
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "e24905300653dc5",
+      "title": "Researchers integrate semiconductor exciton emitters directly into silicon nitride nanophotonic waveguides",
+      "original_title": "Interfacing Silicon Nitride Nanophotonics with Cuprous Oxide Rydberg Excitons",
+      "url": "https://arxiv.org/abs/2611.25431",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-20T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Artem Kryvobok, Hamza Ather, Julio Herreros Garc\\'ia, Ziqi Niu, Abhishek Bharatbhai Solanki, Vahagn Mkhitaryan, Benjamin Cerjan, Alexandra Boltasseva, Vladimir M. Shalaev, Hadiseh Alaeian"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.25431",
+      "event_key": "cu2o_rydberg_silicon_nitride_nanophotonics",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers demonstrated a silicon nitride nanophotonic interface combined with cuprous oxide to route highly bound electron-hole pairs called Rydberg excitons. Under non-resonant light excitation, emission from the cuprous oxide microcrystal was guided along the nanoscale waveguide and captured at an output grating. The measured light spectra confirmed both low-lying excitation states and the single transverse-electric optical mode of the channel.",
+      "why": "Integrating solid-state Rydberg excitons directly onto microchips offers a scalable platform for quantum nanophotonics without requiring vacuum systems or laser cooling.",
+      "technical_details": [
+        "The monolithic interface couples cuprous oxide (Cu2O) Rydberg excitons to a silicon nitride (SiNx) nanophotonic waveguide compatible with industrial manufacturing processes.",
+        "Spatially selective excitation excluded background substrate signals, isolating the 1s orthoexciton along with the 2p and 3p yellow Rydberg series lines."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.25431",
+          "publisher": "arXiv",
+          "published": "2026-11-20T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "48c9953c2063a2b00909747c52dfde1e3dbdc187d37365c35e972d32b9583953",
+          "retrieved_at": "2026-11-20T23:10:23.900137+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://arxiv.org/abs/2611.25431",
+          "publisher": "arXiv",
+          "published": "2026-11-20T05:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates coupling between Cu2O Rydberg excitons and silicon nitride nanophotonic waveguides, establishing an integrated solid-state nanophotonics platform for non-linear quantum optics.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers integrate semiconductor exciton emitters directly into silicon nitride nanophotonic waveguides"
+    },
+    {
+      "id": "92ad032612162be",
+      "title": "SpaceX lenders seek restrictions on launching chip collateral into orbit",
+      "original_title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
+      "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "published": "2026-11-20T14:15:21+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Michelle Chan, Financial Times"
+      ],
+      "backfill": false,
+      "story_key": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space",
+      "event_key": "spacex_ai_chip_debt_collateral",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Lenders providing a $43 billion debt package to SpaceX want to prohibit the company from launching the underlying microchips into space. The advanced artificial intelligence processors serve as collateral for the financing deal. Elon Musk has proposed building orbital data centers cooled by space, but lenders worry that putting the hardware into orbit would prevent them from recovering assets in a default.",
+      "why": "Financing rules for AI hardware deployment may restrict novel off-planet data center architectures that rely on physical collateral.",
+      "technical_details": [
+        "The proposal aims to cool data centers using the thermal vacuum environment of space."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+          "publisher": "Ars Technica",
+          "published": "2026-11-20T14:15:21+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "b61c55d7210725022d129cbabcb2a490b0a3248217c7764fa3e33224b7324004",
+          "retrieved_at": "2026-11-20T23:10:23.900137+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Lenders for SpaceX's debt package backed by advanced AI hardware raised concerns over plans to put collateral chips into orbital data centers. Relevant to AI hardware and infrastructure.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "SpaceX lenders seek restrictions on launching chip collateral into orbit"
+    },
+    {
+      "id": "2649225e3c0920f",
+      "title": "Anthropic prepares public stock offering valuing founding team stakes in billions",
+      "original_title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC US & Canada",
+      "category": "U.S. News",
+      "published": "2026-11-18T23:42:07+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "event_key": "anthropic_ipo_nov2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Artificial intelligence firm Anthropic is listing its shares on the US stock exchange at $83 per share. The initial public offering values the company at over one trillion dollars, five years after its founding. Seven former OpenAI employees established the startup in 2021, and each founder's stake is projected to be worth at least $19.3 billion at the listing price.",
+      "why": "The transaction represents a massive commercial milestone for major commercial artificial intelligence developers and their original technical founders.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC US & Canada",
+          "published": "2026-11-18T23:42:07+00:00",
+          "content_type": "public article text",
+          "content_sha256": "7f1c3324d370fe226a60c1bd8ba5256c779a4c9493af46b60581e574f8de9712",
+          "retrieved_at": "2026-11-20T23:10:23.900137+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Details the valuation and founder equity stakes ahead of Anthropic's initial public offering at $83 per share.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Anthropic prepares public stock offering valuing founding team stakes in billions"
+    },
+    {
+      "id": "3edfa5181f302e3",
+      "title": "Turning Standard Photodiodes Into Spectrometers Using Electrical Bias",
+      "original_title": "From power to spectrum: an off-the-shelf photodiode turned into a spectrometer by its bias alone",
+      "url": "https://arxiv.org/abs/2611.26532",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-20T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Roi Yozevitch, Shmuel Sternklar, Ziv Glasser"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.26532",
+      "event_key": "bias_tuned_photodiode_spectrometer",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers show that standard commercial light-detecting components can function as spectrometers using only their electrical drive, avoiding the need for custom manufacturing or optical filters. By applying a varying electrical voltage, the device alters how light-generated charges are collected at different absorption depths. A neural network then decodes the resulting electrical current waveform to reconstruct incoming light spectra.",
+      "why": "This fabrication-free approach allows ordinary commercial light sensors to double as low-cost spectral monitors, simplifying system design across telecommunications and sensing applications.",
+      "technical_details": [
+        "The method uses bias-modulated optoelectronic chromatic dispersion in an unmodified indium gallium arsenide photodiode at room temperature.",
+        "A ten-microsecond waveform successfully resolved laser lines across an eighty-nanometer telecom band."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.26532",
+          "publisher": "arXiv",
+          "published": "2026-11-20T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "cc825d808bad267b93d490eec0084c7715483f07b17efa50e1e750e13fea441e",
+          "retrieved_at": "2026-11-20T23:10:23.900137+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates turning a standard off-the-shelf InGaAs PIN photodiode into a computational spectrometer using voltage bias variation and neural network decoding without fabrication modifications.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Turning Standard Photodiodes Into Spectrometers Using Electrical Bias"
+    },
+    {
+      "id": "a32a1aed236fbd0",
+      "title": "United Kingdom and European Union reach broad agreements on trade and emissions",
+      "original_title": "Burnham hails 'landmark' EU-UK deal as 'good day' for Britain, Europe",
+      "url": "https://www.france24.com/en/video/20261120-burnham-hails-landmark-eu-uk-deal-as-good-day-for-britain-europe",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-11-20T14:37:29+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/video/20261120-burnham-hails-landmark-eu-uk-deal-as-good-day-for-britain-europe",
+      "event_key": "uk-eu-post-brexit-agreement",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Britain and the European Union have agreed on series of bilateral deals spanning trade, carbon emissions, and youth travel. The post-Brexit accord removes inspection requirements on plant and animal trade, links their respective emissions trading markets, and allows up to 100,000 young adults from each side to live and work in the opposing region for up to three years.",
+      "why": "The agreement represents a major effort to rebuild economic and regulatory ties between the UK and EU following Brexit.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/video/20261120-burnham-hails-landmark-eu-uk-deal-as-good-day-for-britain-europe",
+          "publisher": "France 24",
+          "published": "2026-11-20T14:37:29+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "30354cde8ab4d4d1479027b8c748c425aada8e3619281560d64b9e09f07d943f",
+          "retrieved_at": "2026-11-20T23:10:23.900137+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "UK and EU reach landmark agreements covering trade checks, emissions trading scheme linking, and youth movement.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "United Kingdom and European Union reach broad agreements on trade and emissions"
+    }
+  ]
+}

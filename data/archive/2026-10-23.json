@@ -1,0 +1,584 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-23",
+  "generated_at": "2026-10-23T18:33:13.223412+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 584,
+      "unique": 548,
+      "substantive": 405,
+      "ai_reviewed": 16,
+      "qualified": 13,
+      "daily_selected": 3,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 391,
+      "unique": 385,
+      "substantive": 204,
+      "ai_reviewed": 13,
+      "qualified": 19,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 237,
+      "unique": 230,
+      "substantive": 95,
+      "ai_reviewed": 11,
+      "qualified": 42,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 138,
+      "unique": 128,
+      "substantive": 59,
+      "ai_reviewed": 12,
+      "qualified": 29,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 5,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 10,
+    "reserved_input_tokens": 32479,
+    "model_verified": true,
+    "cache_hits": 70,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 9,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 1,
+    "live": 5,
+    "cached": 4
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "5376625528ac726",
+      "title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification",
+      "original_title": "Kinetic-inductance Parametric Amplification in Superconducting Hybrid Magnonics",
+      "url": "https://arxiv.org/abs/2610.30322",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-23T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Pratap Kumar Pal, Moojune Song, Jinho Lim, Juliang Li, Serhii Kruhlov, Ralu Divan, Ulrich Welp, Clarence Chang, Kab-Jin Kim, Valentine Novosad, Axel Hoffmann, Yi Li"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.30322",
+      "event_key": "kinetic_inductance_amplification",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers demonstrated kinetic inductance mediated parametric amplification in a hybrid system combining a superconducting niobium nitride nanowire resonator with a yttrium iron garnet sphere. The device uses wave mixing and frequency pulling to achieve signal amplification both inside and outside the strong coupling regime. Coupling the resonator to the magnetic sphere shifted the amplification response by roughly twenty megahertz, offering a magnetic tuning mechanism for microwave devices.",
+      "why": "This integration of superconductivity and magnetism provides a new approach for magnetically tunable microwave signal processing and sensitive detection in quantum and classical architectures.",
+      "technical_details": [
+        "The system exhibited seven decibels of gain in the magnon detuned regime and three point four decibels of gain within the hybrid mode.",
+        "Higher pump powers transitioned the system into a self-oscillatory regime featuring comb-like sidebands."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.30322",
+          "publisher": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "d5ee516728a536f118e6ebd9ed7e11f8541b05430936c348ccea78be552d1e64",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates kinetic inductance mediated parametric amplification in a superconducting hybrid magnonic system.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Superconducting Magnonic Devices Enable Tunable Microwave Amplification"
+    },
+    {
+      "id": "ead17115c120739",
+      "title": "Ride-Hailing Platform Partners for Central Asian Robotaxi Tests",
+      "original_title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-23T04:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+      "event_key": "e4ba397edb4a942094c6",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ride-hailing company inDrive plans to begin testing robotaxis in Kazakhstan by 2027. The company signed a memorandum of understanding with autonomous driving firm Pony.ai and technology provider Nvidia. Initial tests in Astana will feature safety operators using Pony.ai vehicles and Nvidia AI systems.",
+      "why": "The collaboration seeks to evaluate autonomous driving technology in harsh winter conditions while pursuing a capital-light expansion into emerging markets.",
+      "technical_details": [
+        "Nvidia will supply its Hyperion platform and Halos safety system to provide ready-made sensors and computing infrastructure."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-23T04:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "d9711b396516c9a114a4d21df2f06e51eea1d7ac330bad2ec1d4213c73a3bbbe",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ride-Hailing Platform Partners for Central Asian Robotaxi Tests"
+    },
+    {
+      "id": "2086384cb4655fe",
+      "title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices",
+      "original_title": "Universal Synthesis of Large-Area Hybrid Perovskite Monolayers Enabling Lithography-Free, Low-Static-Power Optoelectronics",
+      "url": "https://arxiv.org/abs/2610.30764",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-23T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Shankeerthan Kalyanasundaram, Swarit Dwivedi, Sanje Mahasivam, Christopher R. McNeill, Sudha Mokkapati"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.30764",
+      "event_key": "large_area_monolayer_perovskite_synthesis",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have developed a solvent-growth method to synthesize large-area monolayer hybrid perovskite materials, overcoming previous limitations with rapid crystal growth and tiny flakes. By using specific alcohol cosolvents and amine additives, out-of-plane stacking is suppressed to yield large lateral dimensions exceeding 1000 square micrometers. Planar devices built using these large monolayers achieved exceptionally low dark currents and reduced static power consumption compared to traditional films.",
+      "why": "This synthesis strategy enables direct electrical contact fabrication without chemical degradation from conventional lithography, advancing scalable optoelectronic device development.",
+      "technical_details": [
+        "The steric-engineering ternary-solvent strategy was demonstrated across various organic cations, metal centers, and halides.",
+        "Planar devices from ultrathin channels exhibited ultra-low dark currents down to the 10^-15 to 10^-13 ampere range."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.30764",
+          "publisher": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "87d23f3053b17c31795904aec3a35ba33bd1f63872172e8793880af51b302f80",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Introduces a steric-engineering ternary-solvent strategy to grow large-area monolayer 2D hybrid perovskites, achieving ultra-low dark currents down to femtowatt static power levels without lithography.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Large-Area Two-Dimensional Perovskite Monolayers Enable Low-Power Optoelectronic Devices"
+    },
+    {
+      "id": "f1ada8ac17952e2",
+      "title": "US Official Visits Indian Refinery Amid Energy and Trade Talks",
+      "original_title": "Rubio turns to small Indian town as US faces high oil prices",
+      "url": "https://www.bbc.co.uk/news/articles/c3x2wnk8ejq5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "U.S. News",
+      "published": "2026-10-23T08:39:42+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/articles/c3x2wnk8ejq5o?at_medium=RSS&at_campaign=rss",
+      "event_key": "rubio_india_jamnagar_visit",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "US Secretary of State Marco Rubio visited an oil refinery in Jamnagar, India, following meetings in Mumbai. The visit highlighted discussions on energy cooperation and the possibility of processing heavy crude oils. The diplomatic engagement coincides with broader efforts to address domestic fuel prices and advance trade negotiations.",
+      "why": "Securing access to refined fuel from large international facilities provides Washington a potential mechanism to ease short-term pressure on global energy markets.",
+      "technical_details": [
+        "The Jamnagar complex can process approximately 1.4 million barrels of crude oil daily."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/articles/c3x2wnk8ejq5o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-10-23T08:39:42+00:00",
+          "content_type": "public article text",
+          "content_sha256": "167ce08aecfd238d0ec8f25e8ce0743dece5b96d9655337b1906fef28e8f7046",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "US Secretary of State Marco Rubio visited Jamnagar, India, focusing on domestic energy and oil needs amidst broader US-India trade dynamics.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Official Visits Indian Refinery Amid Energy and Trade Talks"
+    },
+    {
+      "id": "24bbb6714f9f2b9",
+      "title": "First Russian Diesel Tanker Sets Sail for United States",
+      "original_title": "The Kremlin says a first tanker of Russian diesel sets sail for the U.S. despite Ukraine's protests",
+      "url": "https://www.pbs.org/newshour/world/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-u-s-despite-ukraines-protests",
+      "source": "PBS NewsHour",
+      "category": "Global Affairs",
+      "published": "2026-10-23T13:52:53+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/world/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-u-s-despite-ukraines-protests",
+      "event_key": "russian_diesel_us_tanker",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A tanker carrying 40,000 tons of Russian diesel has departed for the United States under a new import agreement. Kremlin officials confirmed the shipment, marking the first such delivery to the U.S. since July 2023. The policy reversal follows U.S. administration moves to address fuel prices ahead of upcoming midterm elections.",
+      "why": "Although regular supplies are expected to continue, analysts note the limited shipment size will make little impact on overall domestic fuel prices.",
+      "technical_details": [
+        "The 40,000-ton cargo equates to approximately 300,000 barrels, representing about seven percent of daily U.S. diesel consumption."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/world/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-u-s-despite-ukraines-protests",
+          "publisher": "PBS NewsHour",
+          "published": "2026-10-23T13:52:53+00:00",
+          "content_type": "public article text",
+          "content_sha256": "59ae045bc11a9a471b157ffcb9dd54a44f8b0b040d892b9d295d63d73ec84030",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.thehindu.com/news/international/kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-us-despite-ukraines-protests/article71617208.ece",
+          "publisher": "The Hindu",
+          "published": "2026-10-23T16:50:01+00:00",
+          "content_type": "public article text",
+          "content_sha256": "ee4f3c44e5ac41c4be5efba4d4504543a7238aff6f06770d8a978f8bbbda9ee6",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://www.thehindu.com/news/international/kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-us-despite-ukraines-protests/article71617208.ece",
+          "publisher": "The Hindu",
+          "published": "2026-10-23T16:50:01+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Global trade development regarding the first tanker of Russian diesel sailing to the US following a new agreement.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "First Russian Diesel Tanker Sets Sail for United States"
+    },
+    {
+      "id": "fac845e99eedc85",
+      "title": "Testing Faults in Language Model Robotic Planners",
+      "original_title": "Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation",
+      "url": "https://arxiv.org/abs/2610.30197",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-10-23T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jona Joy"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.30197",
+      "event_key": "alpha_embodied_fault_injection",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers introduced a framework to test how simulated faults affect language models used in robotic planning. They found that physical and kinematic challenges affected both language models and traditional scripted planners equally. The performance gap was caused by serialization and validation errors rather than basic reasoning deficits.",
+      "why": "This evaluation method helps separate physical sensor limits from software interface failures in robotic systems.",
+      "technical_details": [
+        "The matrix compared Llama-3 against a deterministic Scripted Oracle planner across 150 simulation episodes."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.30197",
+          "publisher": "arXiv AI",
+          "published": "2026-10-23T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "bc794eebe76abe1a49f73b5be3cac8e5e9ed9ceb85a13186ce891040c1892f46",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Introduces Alpha, a systematic fault-injection and robustness-evaluation framework for LLM-driven embodied manipulation.",
+      "development": "simulation",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Testing Faults in Language Model Robotic Planners"
+    },
+    {
+      "id": "112a8aa7f9fd142",
+      "title": "US diplomats ordered to leave Saudi Arabia amid regional attacks",
+      "original_title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "source": "The Guardian",
+      "category": "Global Affairs",
+      "published": "2026-10-22T13:05:30+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Jonathan Yerushalmy and agencies"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+      "event_key": "8eda7a97d2ec32037ad0",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States State Department has ordered certain diplomats and government employee families to depart Saudi Arabia following near-daily attacks. According to reporting, the directive comes as the kingdom faces critical infrastructure strikes attributed to Iranian-backed groups in Yemen, which have resulted in multiple casualties. Similar personnel withdrawals were also reported across the United Arab Emirates, Jordan, Qatar, and Bahrain amid regional security concerns.",
+      "why": "This diplomatic drawdown highlights escalating security risks and instability across the Gulf region, impacting international diplomatic operations and regional energy infrastructure.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+          "publisher": "The Guardian",
+          "published": "2026-10-22T13:05:30+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "fbbb94394f0e2c1bf79257b86c1b99adfd2daa54b347a5ea2e5a178228cef7f9",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US diplomats ordered to leave Saudi Arabia amid regional attacks"
+    },
+    {
+      "id": "f046ba2aef64e19",
+      "title": "Entangling different solid state emitters using photons",
+      "original_title": "High-fidelity entanglement of two spectrally-distinct solid state emitters",
+      "url": "https://arxiv.org/abs/2610.31283",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-10-23T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Daniel R. E. Hodgson, Pieter Kok"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.31283",
+      "event_key": "quantum_emitter_entanglement",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers have developed a method to entangle solid state quantum emitters that have different transition frequencies and linewidth variations. Typically, creating entangled states requires optically identical emitters, which is difficult to achieve consistently due to manufacturing variations. By using pairs of photons as inputs, the team bypassed the need for identical emitters and demonstrated high concurrence with quantum dots.",
+      "why": "This approach overcomes a major manufacturing barrier in quantum technology by removing the requirement for identical nanoscale emitters on a chip.",
+      "technical_details": [
+        "The technique relies on readily available pairs of entangled photons to achieve entanglement despite frequency separations.",
+        "Researchers demonstrated a concurrence of C = 0.95 for typical quantum dots using narrowband photon inputs."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.31283",
+          "publisher": "arXiv",
+          "published": "2026-10-23T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "69db6da64752b091a77c1831df4d4ba4d0c995c5410d2d54878866c01bf82400",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Proposes and demonstrates a method to entangle spectrally distinct solid-state emitters, addressing a major fabrication bottleneck in quantum hardware scalability.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Entangling different solid state emitters using photons"
+    },
+    {
+      "id": "ba56e9fca7d3d79",
+      "title": "Measuring the Communication Overhead and Token Costs of Artificial Intelligence Agent Protocols",
+      "original_title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+      "url": "https://arxiv.org/abs/2610.30151",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-10-23T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Pranav Varshney"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.30151",
+      "event_key": "ai_agent_handshake_benchmark",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Communication between automated software assistants starts with an initial connection process where agents locate each other, learn capabilities, and set up sessions before sharing useful data. Researchers evaluated three major communication frameworks using official software development kits to measure round trips, latency, wire bytes, and token costs under various network conditions. The measurements reveal that round-trip counts dominate communication overhead, while metadata reading consumes significant context window space depending on capability inventory size.",
+      "why": "Quantifying these protocol efficiencies helps developers optimize multi-agent system performance and reduce token waste during initial network handshakes. This empirical benchmark provides concrete data on latency and overhead for emerging agent communication standards.",
+      "technical_details": [
+        "Evaluated protocols include MCP across eras, A2A, and ACP under cold-start, warm-repeat, capability-mismatch, and degraded-metadata scenarios.",
+        "Handshake costs scale with counterpart capability inventory at 24 to 107 tokens per capability."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.30151",
+          "publisher": "arXiv AI",
+          "published": "2026-10-23T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "2f9715184b5f48073752b1f41f8de367b4057493bc5a53276f91c90539fed621",
+          "retrieved_at": "2026-10-23T18:28:39.741946+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Presents an empirical benchmark evaluating handshake protocol overhead in AI agent communication.",
+      "development": "experimental",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Measuring the Communication Overhead and Token Costs of Artificial Intelligence Agent Protocols"
+    }
+  ]
+}

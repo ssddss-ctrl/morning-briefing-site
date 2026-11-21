@@ -1,0 +1,457 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-25",
+  "generated_at": "2026-10-25T13:21:31.802828+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 337,
+      "unique": 326,
+      "substantive": 196,
+      "ai_reviewed": 8,
+      "qualified": 5,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 271,
+      "unique": 265,
+      "substantive": 89,
+      "ai_reviewed": 12,
+      "qualified": 17,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 240,
+      "unique": 236,
+      "substantive": 100,
+      "ai_reviewed": 6,
+      "qualified": 40,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 144,
+      "unique": 133,
+      "substantive": 53,
+      "ai_reviewed": 8,
+      "qualified": 29,
+      "daily_selected": 2,
+      "withheld_repeats": 3,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 4,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "available",
+    "requests": 9,
+    "reserved_input_tokens": 46061,
+    "model_verified": true,
+    "cache_hits": 52,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 7,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 3,
+    "live": 7,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "e7950a7e038ecf6",
+      "title": "Protesters rally in Tel Aviv against Israeli government ahead of general election",
+      "original_title": "Israel: Demonstrators rally against government ahead of election",
+      "url": "https://www.france24.com/en/israel-demonstrators-rally-against-government-ahead-of-election",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-10-25T11:38:01+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/israel-demonstrators-rally-against-government-ahead-of-election",
+      "event_key": "israel_election_protests",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Thousands of demonstrators gathered in Tel Aviv on Friday to protest against the Israeli government ahead of an upcoming vote. The demonstration took place just three days before a national general election. The anti-government mobilization comes as the election is widely regarded as a referendum on Prime Minister Benjamin Netanyahu.",
+      "why": "The large-scale public demonstrations signal heightened political tension as citizens cast ballots in a vote focused on top leadership.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/israel-demonstrators-rally-against-government-ahead-of-election",
+          "publisher": "France 24",
+          "published": "2026-10-25T11:38:01+00:00",
+          "content_type": "public article text",
+          "content_sha256": "4beb51ea32fdcb37f487585d49c77f809598e3aeeacce925559745f790393e29",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on massive anti-government protests in Tel Aviv ahead of the Israeli general election.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Protesters rally in Tel Aviv against Israeli government ahead of general election"
+    },
+    {
+      "id": "1113c3762e0a8fa",
+      "title": "Corporate and startup artificial intelligence projects face rising abandonments and shutdowns",
+      "original_title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-24T19:00:00+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "event_key": "51525a98afaccb2d17d4",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A growing number of standalone artificial intelligence startups and products are shutting down or filing for bankruptcy. Market data indicates that approximately 42 percent of corporate artificial intelligence initiatives are ultimately abandoned by parent organizations. Major technology platforms are increasingly incorporating specialized capabilities directly into their main products, reducing demand for independent tools.",
+      "why": "High operational costs, strong competition, and feature integration by major tech platforms make sustaining standalone hardware and software tools difficult.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-24T19:00:00+00:00",
+          "content_type": "public article text",
+          "content_sha256": "36d4e80ad91afeb064efba069e97a562e0e10ec8e0353950d1b824fac45bf6e7",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Corporate and startup artificial intelligence projects face rising abandonments and shutdowns"
+    },
+    {
+      "id": "6a17ca01b1b3347",
+      "title": "NASA ends long-running Swift space observatory mission as orbit decays",
+      "original_title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+      "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+      "source": "NASA",
+      "category": "Science",
+      "published": "2026-10-23T21:51:19+00:00",
+      "publication_type": "Research organization announcement",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends",
+      "event_key": "0a847ddc04a73dfeb091",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "NASA’s Neil Gehrels Swift Observatory ended its science mission on October 20, 2026, after its orbit dropped below 171 miles above Earth. Atmospheric drag at this low altitude prevents the spacecraft's telescopes from stably pointing at astronomical targets, and re-entry is anticipated within weeks. Launched in 2004 for a planned two-year study of gamma-ray bursts, the satellite operated for nearly 22 years and compiled a 12-terabyte public archive.",
+      "why": "Swift's rapid automated re-pointing enabled the first X-ray afterglow detection of short gamma-ray bursts, confirming that they originate from merging neutron stars.",
+      "technical_details": [
+        "The spacecraft used co-aligned Optical/Ultraviolet and X-ray telescopes to rapidly refine burst positions.",
+        "Its flexible planning system could command ground-driven target-of-opportunity observations in minutes and schedule up to 75 independent targets daily."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "publisher": "NASA",
+          "published": "2026-10-23T21:51:19+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "718605db18a891f99c345fd89084b986d8eb52c9ca59e55a6e75d92dcb430761",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rbHlVa3VMRHlGSVVuU2E2NHpkVTg3QWxNWVFoa25YcW1obExNLWRNQy1sMkVkWFBRb2s5RUJ4RXQ5dE5QRG4zRU9WaS1ERDZSN252aUEzWlNTTkRxRzE3Z2d6eUlLWEEwR1VvUmM4VTJjSUU?oc=5",
+          "publisher": "NASA Science (.gov)",
+          "published": "2026-10-23T21:51:19+00:00"
+        }
+      ],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "NASA ends long-running Swift space observatory mission as orbit decays"
+    },
+    {
+      "id": "803ee1689c906d3",
+      "title": "Federal government halts evidence sharing in fatal Minnesota officer shootings",
+      "original_title": "Trump administration stopped sharing evidence in Good and Pretti killings, Minnesota officials say",
+      "url": "https://www.pbs.org/newshour/nation/trump-administration-stopped-sharing-evidence-in-good-and-pretti-killings-minnesota-officials-say",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-10-23T18:56:29+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Hannah Schoenbaum, Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/nation/trump-administration-stopped-sharing-evidence-in-good-and-pretti-killings-minnesota-officials-say",
+      "event_key": "minnesota_shootings_evidence_sharing",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Minnesota state officials stated in court filings that the federal government paused sharing evidence regarding the fatal shootings of Renee Good and Alex Pretti by federal officers. State prosecutors requested court orders for withheld evidence, including interview recordings, firearms, and the cell phone of the officer who killed Good. Justice Department attorneys argued that internal regulations allow them to withhold information, as no active formal court proceeding was underway when requests were made.",
+      "why": "The halt in evidence sharing deepens jurisdictional disputes between state prosecutors seeking independent investigations and federal authorities asserting jurisdiction over federal officers.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/nation/trump-administration-stopped-sharing-evidence-in-good-and-pretti-killings-minnesota-officials-say",
+          "publisher": "PBS NewsHour",
+          "published": "2026-10-23T18:56:29+00:00",
+          "content_type": "public article text",
+          "content_sha256": "36b93bc72ffee013638e27b34a710825ddc344e601232ded5e410921ee6f3289",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports Minnesota state officials suing federal authorities over withheld evidence regarding fatal shootings by federal officers.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Federal government halts evidence sharing in fatal Minnesota officer shootings"
+    },
+    {
+      "id": "675c3757609183b",
+      "title": "Brazil votes in presidential runoff between Lula da Silva and Flavio Bolsonaro",
+      "original_title": "What to know as Brazilians choose between Lula and Bolsonaro in tense presidential runoff",
+      "url": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-10-25T06:05:34+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE 24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff",
+      "event_key": "brazil_presidential_election_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Brazilians voted in a runoff presidential election between incumbent President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro. The first round concluded with Senator Bolsonaro securing 47 percent of the vote compared to Lula's 45 percent, leading to a closely contested final vote. Lula has focused his platform on resource sharing and labor reforms, while Bolsonaro advocates hard-line crime policies and megaprisons.",
+      "why": "The outcome dictates Brazil's alignment with U.S. foreign policy, economic tariffs, and global environmental initiatives regarding Amazon rainforest protection.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff",
+          "publisher": "France 24",
+          "published": "2026-10-25T06:05:34+00:00",
+          "content_type": "public article text",
+          "content_sha256": "1171c4c469fc43af854f6940c584140f5f0dd40f90add12b1532c50035836abf",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on the presidential election runoff in Brazil between Lula da Silva and Flavio Bolsonaro.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Brazil votes in presidential runoff between Lula da Silva and Flavio Bolsonaro"
+    },
+    {
+      "id": "33b401062d8ac13",
+      "title": "President Trump casts early midterm ballot in Florida",
+      "original_title": "Trump casts his midterm ballot early in Florida",
+      "url": "https://www.thehindu.com/news/international/trump-casts-his-midterm-ballot-early-in-florida/article71621475.ece",
+      "source": "The Hindu",
+      "category": "U.S. News",
+      "published": "2026-10-25T03:54:02+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.thehindu.com/news/international/trump-casts-his-midterm-ballot-early-in-florida/article71621475.ece",
+      "event_key": "946919b6fce2f533d3f9",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "President Donald Trump and First Lady Melania Trump cast their early-voting ballots for the upcoming midterm elections at a polling location in West Palm Beach, Florida. Speaking to reporters after voting, the President stated that he voted a straight Republican ticket and commented on various political races and foreign conflicts.",
+      "why": "The midterm elections serve as a major test for the administration's leadership and control of Congress amid active political campaigns across the country.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.thehindu.com/news/international/trump-casts-his-midterm-ballot-early-in-florida/article71621475.ece",
+          "publisher": "The Hindu",
+          "published": "2026-10-25T03:54:02+00:00",
+          "content_type": "public article text",
+          "content_sha256": "9964fa738a804a8215bfb072d369e980626a50544e6f43ac5b4afd1fec77cd4a",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.pbs.org/newshour/politics/trump-casts-his-midterm-ballot-early-in-florida",
+          "publisher": "PBS NewsHour",
+          "published": "2026-10-24T21:29:15+00:00",
+          "content_type": "public article text",
+          "content_sha256": "888f178800ecc42c7f58b16c14422cc4bd043536eeed98efd6b5a71b83524ce4",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://www.pbs.org/newshour/politics/trump-casts-his-midterm-ballot-early-in-florida",
+          "publisher": "PBS NewsHour",
+          "published": "2026-10-24T21:29:15+00:00"
+        }
+      ],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "President Trump casts early midterm ballot in Florida"
+    },
+    {
+      "id": "ace15578a22ff89",
+      "title": "Palestinians in Gaza face uncertainty amid Israeli elections",
+      "original_title": "‘Gaza’s suffering has become campaign fodder’: Palestinians fear the worst from Israel election",
+      "url": "https://www.theguardian.com/world/2026/oct/25/gaza-suffering-campaign-fodder-palestinians-fear-worst-israel-election",
+      "source": "The Guardian",
+      "category": "Global Affairs",
+      "published": "2026-10-25T06:00:54+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Seham Tantesh in Gaza and Lorenzo Tondo"
+      ],
+      "backfill": false,
+      "story_key": "https://www.theguardian.com/world/2026/oct/25/gaza-suffering-campaign-fodder-palestinians-fear-worst-israel-election",
+      "event_key": "eb45ee5bdce97177c6c6",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "As Israel prepares for elections, Palestinians in Gaza are bracing for the outcome while dealing with severe humanitarian conditions and ongoing military strikes. Political rivals Gadi Eisenkot and Benjamin Netanyahu have both vowed to end Hamas rule, while the broader humanitarian crisis in the territory remains largely absent from the campaign discourse.",
+      "why": "The electoral outcome in Israel directly shapes the future and security of displaced Palestinians surviving in the heavily damaged enclave.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.theguardian.com/world/2026/oct/25/gaza-suffering-campaign-fodder-palestinians-fear-worst-israel-election",
+          "publisher": "The Guardian",
+          "published": "2026-10-25T06:00:54+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "4c538cab3310c16db510e4b1f04cf22b76038d81d03e993cbc451803db05829b",
+          "retrieved_at": "2026-10-25T13:14:38.803830+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Palestinians in Gaza face uncertainty amid Israeli elections"
+    }
+  ]
+}

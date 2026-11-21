@@ -1,0 +1,1 @@
+Narration: Kokoro am_michael. Kokoro 82M: Apache-2.0, https://huggingface.co/hexgrad/Kokoro-82M . Synthesized using kokoro-onnx (MIT), https://github.com/thewh1teagle/kokoro-onnx . Models, runtime binaries and credentials are not distributed. Summaries are AI-assisted; check linked original reporting.

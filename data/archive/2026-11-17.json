@@ -1,0 +1,424 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-17",
+  "generated_at": "2026-11-17T17:48:34.285998+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 585,
+      "unique": 549,
+      "substantive": 410,
+      "ai_reviewed": 12,
+      "qualified": 4,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 350,
+      "unique": 346,
+      "substantive": 200,
+      "ai_reviewed": 12,
+      "qualified": 9,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 200,
+      "unique": 195,
+      "substantive": 98,
+      "ai_reviewed": 11,
+      "qualified": 54,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 148,
+      "unique": 137,
+      "substantive": 64,
+      "ai_reviewed": 13,
+      "qualified": 38,
+      "daily_selected": 1,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 3,
+  "sources_checked": 54,
+  "sources_failed": 1,
+  "ai": {
+    "status": "available",
+    "requests": 8,
+    "reserved_input_tokens": 36889,
+    "model_verified": true,
+    "cache_hits": 36,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 5,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 5,
+    "live": 5,
+    "cached": 0
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "ea5b6e0c3557ba5",
+      "title": "New scanning tunneling microscopy method achieves mechanical control of surface reactions",
+      "original_title": "Inverted-Mode Scanning Tunneling Microscopy for Atomically Precise Fabrication",
+      "url": "https://doi.org/10.1021/acsnano.6c15885",
+      "source": "ACS Nano",
+      "category": "Science",
+      "published": "2026-11-16T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Eduardo Barrera",
+        "Bheeshmon Thanabalasingam",
+        "Rafik Addou",
+        "Zehra Ahmed",
+        "Damian G. Allis",
+        "Aly Asani",
+        "Jeremy Barton",
+        "Tomass Bernots",
+        "Brandon T. Blue",
+        "Adam Bottomley",
+        "Doreen Cheng",
+        "Byoung Choi",
+        "Megan Cowie",
+        "Chris Deimert",
+        "Michael Drew",
+        "Mathieu Durand",
+        "Tyler Enright",
+        "James Fan",
+        "Robert A. Freitas",
+        "Alan Godfrey",
+        "Ryan Groome",
+        "Si Yue Guo",
+        "Sheldon Haird",
+        "Aru Hill",
+        "Taleana R. Huff",
+        "Christian J. Imperiale",
+        "Alex Inayeh",
+        "Jerry Jeyachandra",
+        "Mark Jobes",
+        "Matthew Kennedy",
+        "Robert J. Kirby",
+        "Mykhaylo Krykunov",
+        "Sam Lilak",
+        "David Lister",
+        "Oliver MacLean",
+        "Adam Maahs",
+        "Cameron J. Mackie",
+        "Oliver MacLean",
+        "Michael Marshall",
+        "Terry McCallum",
+        "Ralph C. Merkle",
+        "Mathieu Morin",
+        "Jonathan Myall",
+        "A. Ofitserov",
+        "Sheena Ou",
+        "Ryan Plumadore",
+        "Adam Powell",
+        "Max Prokopenko",
+        "Henry Rodriguez",
+        "Samantha Rohe",
+        "Luis Sandoval",
+        "Marc Savoie",
+        "Khalil Sayed-Akhmad",
+        "Benjamin Scheffel",
+        "Tait Takatani",
+        "D. Alexander Therien",
+        "Finley Van Barr",
+        "Dušan Vobornik",
+        "Janice Wong",
+        "Reid Wotton",
+        "Ryan Yamachika",
+        "Cristina Yu",
+        "Marco Taucer"
+      ],
+      "doi": "https://doi.org/10.1021/acsnano.6c15885",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1021/acsnano.6c15885",
+      "event_key": "inverted_mode_stm_fabrication",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers introduced an inverted-mode scanning tunneling microscopy technique that enables precise mechanical manipulation of chemical reactions at atomic scales. By placing tailored molecules on a silicon surface, the researchers imaged the extended apex of an annealed probe to inspect its structural configuration. Using an alkynyl-terminated molecule, the team demonstrated zero-volt hydrogen abstraction from the probe tip, followed by site-selective substitution and removal of iodine atoms.",
+      "why": "This capability solves probe-structure characterization challenges in scanning tunneling microscopy, advancing sequential site-selective chemistry for atomically precise device manufacturing.",
+      "technical_details": [
+        "The method positions probe and surface reactants with subangstrom precision to achieve site-selective chemical abstraction or donation across the tunnel junction."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1021/acsnano.6c15885",
+          "publisher": "ACS Nano",
+          "published": "2026-11-16T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "aa8768256bd9693c2d5ea36b0e6629b4830199d50281b4c6ebec4b4d1bbc7a5d",
+          "retrieved_at": "2026-11-17T17:41:20.794009+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7117960727"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://doi.org/10.1021/acsnano.6c15885",
+          "publisher": "ACS Nano",
+          "published": "2026-11-16T00:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstration of inverted-mode STM enabling mechanically controlled atomic-scale chemical reactions for site-selective fabrication on Si surfaces.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "New scanning tunneling microscopy method achieves mechanical control of surface reactions"
+    },
+    {
+      "id": "154faea479114be",
+      "title": "Sam Altman says artificial intelligence industry will withstand Nvidia leadership change",
+      "original_title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-11-16T18:11:10+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
+      "event_key": "jensen-huang-resignation-nvidia",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "OpenAI chief executive Sam Altman stated that the artificial intelligence sector will remain resilient following the resignation of Nvidia head Jensen Huang. Altman noted that strong underlying demand and revenue growth will sustain the market despite Huang's foundational contributions. His remarks come amidst public calls by tech executives for Huang's reinstatement and concerns over Nvidia's extensive financial backing for hardware infrastructure.",
+      "why": "Nvidia has provided significant financial guarantees for major artificial intelligence infrastructure, including a $105 billion commitment to back OpenAI data center facilities.",
+      "technical_details": [
+        "Nvidia committed to providing guarantees up to $105 billion to back an OpenAI data center project in Ohio as part of broader financing structures.",
+        "Altman confirmed he expects financial market trust in Nvidia's corporate commitments to endure."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-16T18:11:10+00:00",
+          "content_type": "public article text",
+          "content_sha256": "382c981e7947d55e7355e775be963bd8fabde8d831379e218a68489bf32c6156",
+          "retrieved_at": "2026-11-17T17:41:20.794009+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Nvidia CEO Jensen Huang resigned following an admitted affair, prompting public remarks from OpenAI CEO Sam Altman on industry impacts.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Sam Altman says artificial intelligence industry will withstand Nvidia leadership change"
+    },
+    {
+      "id": "69e0c853ed92c1d",
+      "title": "White House orders executive agencies to clear congressional testimony in advance",
+      "original_title": "Read the full White House memo requiring agencies to get approval before testifying in front of Congress",
+      "url": "https://www.pbs.org/newshour/politics/read-the-full-white-house-memo-requiring-agencies-to-get-approval-before-testifying-in-front-of-congress",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-11-16T21:00:32+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Liz Landers"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/politics/read-the-full-white-house-memo-requiring-agencies-to-get-approval-before-testifying-in-front-of-congress",
+      "event_key": "white_house_congressional_testimony_memo",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "White House Counsel Will Scharf issued a legal memorandum requiring federal agencies to obtain White House approval before testifying before congressional committees. The directive instructs agencies to clear both legal and legislative affairs review ahead of any congressional appearances. The White House stated the process is intended to filter out politically motivated oversight while fulfilling legitimate requests as congressional leadership shifts.",
+      "why": "The policy establishes central White House control over agency responses to congressional subpoenas and document demands ahead of promised investigations by incoming leaders.",
+      "technical_details": [
+        "The memorandum applies to all federal executive departments and agencies facing oversight requests from incoming committee leaders."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/politics/read-the-full-white-house-memo-requiring-agencies-to-get-approval-before-testifying-in-front-of-congress",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-16T21:00:32+00:00",
+          "content_type": "public article text",
+          "content_sha256": "0deca78632b8bb8bfff0ea9a959a9ca2978c4a4db38db830cfbd18f9691abfd3",
+          "retrieved_at": "2026-11-17T17:41:20.794009+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "White House memo directs all executive agencies to obtain White House legal/legislative approval before testifying to congressional committees.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "White House orders executive agencies to clear congressional testimony in advance"
+    },
+    {
+      "id": "25d706a2abbee56",
+      "title": "Student-led movement enters Serbian parliament after defeating ruling party",
+      "original_title": "Election-winning student movement enters Serbia’s new parliament",
+      "url": "https://www.aljazeera.com/news/2026/11/17/election-winning-student-movement-enters-serbias-new-parliament?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-11-17T16:13:48+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/17/election-winning-student-movement-enters-serbias-new-parliament?traffic_source=rss",
+      "event_key": "serbia-election-parliament",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Serbia's newly elected parliament convened in Belgrade following an election that ended President Aleksandar Vucic and his Serbian Progressive Party's dominance. The grassroots Student List group won 140 seats in the 250-member assembly, establishing a parliamentary majority. The session initiated a 90-day constitutional window to form a new government; failure to vote in a cabinet by the deadline will trigger snap elections.",
+      "why": "The shift marks a major political transition in Serbia as the new leadership attempts to rebuild state institutions and restore ties with the European Union.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/17/election-winning-student-movement-enters-serbias-new-parliament?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-17T16:13:48+00:00",
+          "content_type": "public article text",
+          "content_sha256": "7ae2298d676fe036b46e03a539ec8212b156b07fc183002f075d2e2138d0b584",
+          "retrieved_at": "2026-11-17T17:41:20.794009+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "A student-led grassroots movement won 140 seats in Serbia's parliament following the October 25 vote, removing President Vucic and his party from power.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Student-led movement enters Serbian parliament after defeating ruling party"
+    },
+    {
+      "id": "6ee92fc5d9733c8",
+      "title": "Layered materials maintain opposing magnetic order well above room temperature",
+      "original_title": "Robust Antiferromagnetic Ordering above 500 K in a Family of Bilayer van der Waals Materials",
+      "url": "https://arxiv.org/abs/2611.20133",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-17T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Tengda Rong, Linxin Wu, Xingke Fu, Anqi Huang, Feiran Shen, Zixian Dong, Jianwei Huang, Hao Li, Benyuan Cheng, Lunhua He, Long Jiang, Kun Cao, Zhen Chen, Meng Wang, Xiang Chen"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.20133",
+      "event_key": "sr3fe2o5x2_high_temp_afm",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers synthesized single crystals of a two-dimensional layered material family that maintains ordered, opposing magnetic moments above room temperature. Using neutron scattering and magnetization measurements, the team identified the magnetic structure and recorded a transition temperature of approximately 580 Kelvin for a fluorine-containing variant. Calculations indicate that strong local interactions within the double-layer building blocks stabilize the magnetic order even down to single-layer limits.",
+      "why": "Maintaining high-temperature magnetic order in thin layered materials is critical for developing ultrathin computer memory and low-power magnetic devices.",
+      "technical_details": [
+        "The semiconducting oxyhalide family consists of Sr3Fe2O5X2, where X stands for fluorine, chlorine, or bromine.",
+        "The highest transition temperature was measured in Sr3Fe2O5F2 at approximately 580 K."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.20133",
+          "publisher": "arXiv",
+          "published": "2026-11-17T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "78a5f2fc6d3461447fb36c7c5e22bb4c7a20aab54f90371e8fdb50a0bb17e975",
+          "retrieved_at": "2026-11-17T17:41:20.794009+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://arxiv.org/abs/2611.20133",
+          "publisher": "arXiv",
+          "published": "2026-11-17T05:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates robust novel 2D bilayer van der Waals oxyhalide materials (Sr3Fe2O5X2) retaining high-temperature (>500 K) antiferromagnetic ordering, addressing a major bottleneck for 2D spintronics.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Layered materials maintain opposing magnetic order well above room temperature"
+    }
+  ]
+}

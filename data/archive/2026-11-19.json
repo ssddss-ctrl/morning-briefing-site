@@ -1,0 +1,594 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-11-19",
+  "generated_at": "2026-11-20T01:00:14.224894+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 554,
+      "unique": 530,
+      "substantive": 395,
+      "ai_reviewed": 12,
+      "qualified": 4,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 347,
+      "unique": 343,
+      "substantive": 197,
+      "ai_reviewed": 12,
+      "qualified": 14,
+      "daily_selected": 2,
+      "withheld_repeats": 1,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 208,
+      "unique": 201,
+      "substantive": 93,
+      "ai_reviewed": 12,
+      "qualified": 46,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 151,
+      "unique": 137,
+      "substantive": 62,
+      "ai_reviewed": 12,
+      "qualified": 31,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 5,
+  "sources_checked": 54,
+  "sources_failed": 1,
+  "ai": {
+    "status": "available",
+    "requests": 8,
+    "reserved_input_tokens": 31590,
+    "model_verified": true,
+    "cache_hits": 56,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 9,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 1,
+    "live": 8,
+    "cached": 1
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "2b59e269d8c063b",
+      "title": "Leaders of US, China, and Russia hold first three-way summit",
+      "original_title": "3 takeaways from Trump, Xi and Putin's historic summit",
+      "url": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-11-19T22:58:31+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Elaine Kurtenbach, Associated Press",
+        "Kanis Leung, Associated Press",
+        "Aamer Madhani, Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit",
+      "event_key": "trump_xi_putin_shenzhen_summit",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "United States President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin met in Shenzhen for the first trilateral summit among the three nations. A joint peace declaration released after the talks advocated United Nations reform, increased oil supplies, reduced nuclear risks, and immunity from prosecution for state officials. However, post-meeting readouts reflected more symbolism than substance, leaving critical conflicts in Ukraine and Iran unresolved without specific agreements.",
+      "why": "The talks signaled shifting diplomatic dynamics among the three major powers without delivering concrete breakthroughs on ongoing international conflicts.",
+      "technical_details": [
+        "The leaders agreed that state officials should have immunity from prosecution, formally opposing what they described as jurisdiction abuse by the International Criminal Court."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-19T22:58:31+00:00",
+          "content_type": "public article text",
+          "content_sha256": "41021bba8582b3972991bd4ba999b8ed2d80fd3791f4265a7e187dd056c489f5",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        },
+        {
+          "id": "S2",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375122/power-plays-verbal-displays-xi-trump-putin-talk-historic-apec-summit-explained",
+          "publisher": "South China Morning Post",
+          "published": "2026-11-19T15:13:57+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "1d75c6393c7b44ff077f7a009c839e266d5a30a6a4555c674fe7171c401f31c1",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Historic first trilateral sit-down between leaders of the US, China, and Russia at APEC in Shenzhen, discussing regional conflicts including Ukraine.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Multiple retrieved sources; assess agreement in the explanation.",
+      "display_title": "Leaders of US, China, and Russia hold first three-way summit"
+    },
+    {
+      "id": "5fa44b78b27b2e0",
+      "title": "Researchers assemble sulfur vacancies to tailor quantum states in thin semiconductors",
+      "original_title": "Atomic-scale assembly of sulfur vacancy complexes for tailored in-gap states in monolayer WS$_{2}$",
+      "url": "https://arxiv.org/abs/2611.24754",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-19T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Daniel Jansen, Guangyao Miao, Jan-Heinrich Keienburg, Jeison Fischer, Thomas Michely, Hannu-Pekka Komsa, Wouter Jolie"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.24754",
+      "event_key": "stm_sulfur_vacancy_assembly_ws2",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers used a scanning tunneling microscope tip to assemble sulfur vacancies into specific geometric complexes within a tungsten disulfide monolayer. By combining spectroscopic measurements with theoretical modeling, the team showed that the geometry, underlying symmetry, and spin-orbit coupling govern the resulting hybridized electronic states. The authors characterized two specific defect configurations as viable candidates for single-photon emitters.",
+      "why": "Deterministic assembly of atomic defects provides a method to tailor quantum states within the semiconductor band gap for potential quantum sensing and photonics.",
+      "technical_details": [
+        "Spectroscopic analysis and density functional theory demonstrated how point group symmetries and spin-orbit coupling alter the hybridized in-gap states.",
+        "Creating these atomic-scale defect complexes addresses existing challenges in chemically identifying and deterministically controlling quasi-isolated quantum systems in 2D materials."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.24754",
+          "publisher": "arXiv",
+          "published": "2026-11-19T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "04d86390602c2a47c1f5b273c70adb3ae131cc53348268894db364a4b3bf8f91",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Deterministic STM-tip assembly of sulfur vacancy complexes in monolayer WS2 to engineer single-photon emitting states.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers assemble sulfur vacancies to tailor quantum states in thin semiconductors"
+    },
+    {
+      "id": "33cfa85305a18f7",
+      "title": "Graph AI system reduces hardware downtime across datacenter clusters",
+      "original_title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "url": "https://arxiv.org/abs/2611.23398",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-11-19T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Yuanlin Wen, Elan Markowitz, Zubo Gu, Sami Abu-El-Haija, Bryan Perozzi, Mikhail Galkin, Ali Parviz, Aayush Gupta, Venkata Chivukula, Griffin Hadfield, Aravind Akella, Daniel J. Frame, Vahab Mirrokni, Amin Vahdat"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.23398",
+      "event_key": "google_hardware_dx_deployment",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Engineers introduced HardwareDx, a graph foundation model system deployed at production scale across Google datacenters to automate hardware diagnostics. The system allows a single model architecture to identify faults across diverse computing platforms, speeding up machine maintenance. Production evaluations showed hardware downtime dropped by 18.3% on graphics processing units and 16.1% on tensor processing units.",
+      "why": "Automated diagnostic models reduce operational downtime in hyperscale computing clusters, curbing financial losses caused by interrupted artificial intelligence training workloads.",
+      "technical_details": [
+        "The graph model framework cut hardware quality assurance time by 28.3% for GPUs and 25.1% for TPUs during onboarding."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.23398",
+          "publisher": "arXiv AI",
+          "published": "2026-11-19T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "c1bc8451c690cc861612bceeef8b6d8fbdf7daba1867fc7388654beba170a78e",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports real-world production deployment at Google of a graph foundation model system that reduced datacenter GPU/TPU downtime and accelerated hardware QA.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Graph AI system reduces hardware downtime across datacenter clusters"
+    },
+    {
+      "id": "12e6d09993c93d2",
+      "title": "World Court rules against Myanmar, finding security claims do not preclude genocide",
+      "original_title": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
+      "url": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice",
+      "source": "France 24",
+      "category": "Global Affairs",
+      "published": "2026-11-19T15:54:42+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "FRANCE24"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice",
+      "event_key": "icj_myanmar_genocide_ruling",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The International Court of Justice issued a ruling on Myanmar regarding the treatment of the Rohingya population, rejecting the state's justification that its military operations were counterterrorism. Human rights lawyer Reed Brody characterized the ruling as a landmark decision that assessed evidence of genocidal intent. Brody stated that the existence of an armed conflict or security objective does not exclude genocidal intent under international law.",
+      "why": "The legal precedent could influence other ongoing and future genocide proceedings before international tribunals, including South Africa's case against Israel.",
+      "technical_details": [
+        "The case against Myanmar was originally brought before the International Court of Justice by the Gambia."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice",
+          "publisher": "France 24",
+          "published": "2026-11-19T15:54:42+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "9514d3d8fd0b7baff87babe983248bbdcfb6ec43ba5630d3c470d1d0236c56d0",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "ICJ ruling on Myanmar genocide rejecting counterterrorism defenses, establishing precedents for international law.",
+      "development": "news",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "World Court rules against Myanmar, finding security claims do not preclude genocide"
+    },
+    {
+      "id": "63c75321ea3c838",
+      "title": "Ukrainian soldiers fight Russian forces inside a narrow Soviet-era gas pipeline",
+      "original_title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "Global Affairs",
+      "published": "2026-11-18T17:00:40+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+      "event_key": "ukraine_gas_pipeline_warfare",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ukrainian forces have been living and fighting Russian troops inside an old Soviet gas pipeline in the Kharkiv region for seven months. According to the BBC, the pipeline has a diameter of just over one meter, forcing soldiers to crawl through it near Kupyansk. Troops use the underground conduit for protection against aerial drones that heavily saturate the frontline.",
+      "why": "The underground combat highlights how intense drone saturation above the front lines is preventing surface advances and pushing tactical battles subterranean.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC News",
+          "published": "2026-11-18T17:00:40+00:00",
+          "content_type": "public article text",
+          "content_sha256": "2b5a92f114e22715f77494545e3d462fa1585af21b23cc7d17e70ecdd2eed7f9",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Firsthand reporting on subterranean warfare inside an old Soviet gas pipeline in Ukraine to evade drone saturation.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Ukrainian soldiers fight Russian forces inside a narrow Soviet-era gas pipeline"
+    },
+    {
+      "id": "2c1f744915febaa",
+      "title": "US intelligence official attributes recent technological outages to routine system maintenance",
+      "original_title": "WATCH: Intelligence official pressed to explain cause of National Security Agency outage",
+      "url": "https://www.pbs.org/newshour/politics/watch-intelligence-official-pressed-to-explain-cause-of-national-security-agency-outage",
+      "source": "PBS NewsHour",
+      "category": "U.S. News",
+      "published": "2026-11-18T18:29:47+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Associated Press"
+      ],
+      "backfill": false,
+      "story_key": "https://www.pbs.org/newshour/politics/watch-intelligence-official-pressed-to-explain-cause-of-national-security-agency-outage",
+      "event_key": "gov_tech_outages_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Recent computer system disruptions affecting government networks, airlines, and financial sectors are unrelated to foreign state-sponsored cyberattacks. The Trump administration's director of national intelligence testified that the technical failures stemmed from routine system upgrades and maintenance efforts. The testimony aimed to reassure the public following a series of widespread IT glitches.",
+      "why": "Understanding the root causes of major technical outages helps clarify vulnerabilities in critical public and private infrastructure networks. It provides official context on federal evaluations of widespread digital service disruptions.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.pbs.org/newshour/politics/watch-intelligence-official-pressed-to-explain-cause-of-national-security-agency-outage",
+          "publisher": "PBS NewsHour",
+          "published": "2026-11-18T18:29:47+00:00",
+          "content_type": "public article text",
+          "content_sha256": "8572f1320254ae72878f7fe2c9dd89ea42d6e7521cd3d874da138508b976ac14",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "DNI Jay Clayton testified that recent infrastructure and government technical outages were due to maintenance rather than cyberattacks.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US intelligence official attributes recent technological outages to routine system maintenance"
+    },
+    {
+      "id": "5e54025428255a1",
+      "title": "Automated AI agent designs customized low-precision recipes for large language models",
+      "original_title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+      "url": "https://arxiv.org/abs/2611.23388",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-11-19T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Xingyang Li, Tianlang Zhao, Song Han, Ligeng Zhu"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.23388",
+      "event_key": "qda_llm_quantization_agent",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Researchers developed QDA, an automated agent system that searches for and customizes post-training quantization recipes for large language models. Designing model compression recipes typically requires extensive manual engineering and tens of GPU-hours per evaluation. QDA evaluates candidates within minutes using output divergence on hidden reasoning traces, testing promising candidates with long text generations to avoid failure modes like loops.",
+      "why": "Automated quantization reduces engineering labor and improves reasoning accuracy on compressed models without adding inference overhead on standard serving kernels.",
+      "technical_details": [
+        "Across four reasoning models, QDA improved accuracy over top public recipes by 0.9, 1.4, and 2.2 percentage points at W4A16, W4A8, and W3A16 precisions using 64 GPU-hours.",
+        "On the 320-billion-parameter GLM-5.3-Flash model at NVFP4 W4A4, it recovered 98.3% of FP8 accuracy compared to 96.9% for the vendor checkpoint."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.23388",
+          "publisher": "arXiv AI",
+          "published": "2026-11-19T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "ee61e0c5cc2dc8aaea35ae06ce6130bd5dc7331cf0d24b7af700ec696b0c87b1",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Presents an automated agent framework to discover post-training quantization recipes across models, reporting accuracy recoveries on benchmarks.",
+      "development": "experimental",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Automated AI agent designs customized low-precision recipes for large language models"
+    },
+    {
+      "id": "df6aedb12e6264e",
+      "title": "Researchers observe room-temperature intrinsic antiferroelectricity in layered material flakes",
+      "original_title": "Observation of room-temperature intrinsic antiferroelectricity in van der Waals NbOCl2",
+      "url": "https://arxiv.org/abs/2611.24092",
+      "source": "arXiv",
+      "category": "Science",
+      "published": "2026-11-19T05:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "JinKai Huo, Xingyu Chen, Gaolei Zhao, Xuan Chen, Yuchen Meng, Xu Han, Juhe Liu, Egor Kolesov, Konstantin Kozadaev, Alexei Tolstik, Andrei Zheltkovich, Andrey Novitsky, Shenghuang Lin, Changsen Sun, Dawei Li"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2611.24092",
+      "event_key": "room_temp_antiferroelectric_nbocl2",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "A study reports the discovery of room-temperature intrinsic antiferroelectricity in the layered material niobium oxide dichloride. Antiferroelectric materials exhibit alternating internal electric dipoles that cancel out overall, making them exceptionally rare in two-dimensional sheets. By tracking optical frequency doubling, researchers observed distinct stripe patterns in crystal flakes, demonstrating that the material can reversibly switch to a ferroelectric state.",
+      "why": "Reversible electrical switching at room temperature offers a viable material platform for electric-field-programmable nonlinear optical devices and future low-power electronic computing.",
+      "technical_details": [
+        "Second-harmonic generation mapping revealed stripe-like distributions caused by the coexistence of centrosymmetric antiferroelectric and non-centrosymmetric ferroelectric phases.",
+        "An ultralow electric field of around 20 kilovolts per centimeter triggered a reversible second-harmonic optical response.",
+        "Strain-mediated phase transitions were also achieved by coupling the flakes with one-dimensional silver nanowires."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2611.24092",
+          "publisher": "arXiv",
+          "published": "2026-11-19T05:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "3af67d16faa622578f9f44c4c6b2d6fcca3d201105d1f937c65e48ca08a95531",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [
+        {
+          "url": "https://arxiv.org/abs/2611.24092",
+          "publisher": "arXiv",
+          "published": "2026-11-19T05:00:00+00:00"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.24092",
+          "publisher": "arXiv",
+          "published": "2026-11-19T05:00:00+00:00"
+        }
+      ],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Experimental demonstration of room-temperature intrinsic antiferroelectricity and electric-field-induced phase switching in 2D NbOCl2.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Researchers observe room-temperature intrinsic antiferroelectricity in layered material flakes"
+    },
+    {
+      "id": "9ef1892789bcb58",
+      "title": "US Senate Republicans defeat measure aimed at curbing presidential war powers over Iran",
+      "original_title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
+      "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Global Affairs",
+      "published": "2026-11-19T20:30:54+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
+      "event_key": "us_senate_iran_war_powers_vote",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "According to Al Jazeera, United States Senate Republicans voted 51 to 48 to block a resolution requiring President Donald Trump to halt military action against Iran or seek congressional approval. The measure had passed the House of Representatives earlier in the year under the 1973 War Powers Resolution. Voting fell largely along party lines, though three Republicans supported the measure while one Democrat voted against it.",
+      "why": "The vote blocks another congressional attempt to restrict unilateral military engagements with Iran, though the resolution itself lacked the force of law.",
+      "technical_details": [
+        "Three Republicans—Susan Collins, Lisa Murkowski, and Rand Paul—voted in favor, while Democrat John Fetterman joined the majority to vote against it.",
+        "The House of Representatives had previously passed the resolution in September by a 220 to 204 margin."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "published": "2026-11-19T20:30:54+00:00",
+          "content_type": "public article text",
+          "content_sha256": "84dcaa7a064cf3a1a280f4339996135e2ebdbeca1d949fb2f53ee39861b359d6",
+          "retrieved_at": "2026-11-20T00:50:27.951767+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "The US Senate rejected a war powers resolution regarding military action against Iran in a 51-48 party-line vote, demonstrating ongoing foreign policy tensions.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "public_article_retrieved",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "US Senate Republicans defeat measure aimed at curbing presidential war powers over Iran"
+    }
+  ]
+}

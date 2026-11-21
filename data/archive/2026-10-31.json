@@ -1,0 +1,550 @@
+{
+  "schema_version": 3,
+  "app_version": "0.7",
+  "briefing_date": "2026-10-31",
+  "generated_at": "2026-10-31T23:34:58.663398+00:00",
+  "category_availability": {
+    "Science": {
+      "discovered": 338,
+      "unique": 328,
+      "substantive": 188,
+      "ai_reviewed": 16,
+      "qualified": 7,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "AI": {
+      "discovered": 302,
+      "unique": 298,
+      "substantive": 121,
+      "ai_reviewed": 16,
+      "qualified": 9,
+      "daily_selected": 3,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "Global Affairs": {
+      "discovered": 209,
+      "unique": 204,
+      "substantive": 101,
+      "ai_reviewed": 15,
+      "qualified": 37,
+      "daily_selected": 2,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    },
+    "U.S. News": {
+      "discovered": 146,
+      "unique": 132,
+      "substantive": 62,
+      "ai_reviewed": 15,
+      "qualified": 28,
+      "daily_selected": 1,
+      "withheld_repeats": 0,
+      "explanation": "Meaningful available developments represented."
+    }
+  },
+  "reading_minutes": 5,
+  "sources_checked": 54,
+  "sources_failed": 0,
+  "ai": {
+    "status": "network_temporarily_unavailable",
+    "requests": 6,
+    "reserved_input_tokens": 29902,
+    "model_verified": true,
+    "cache_hits": 86,
+    "run_request_limit": 10,
+    "daily_request_limit": 40,
+    "budget_timezone": "America/Detroit",
+    "daily_successful": 8,
+    "daily_pending": 0,
+    "initial_selection": 10,
+    "withheld_pending": 2,
+    "live": 4,
+    "cached": 4
+  },
+  "limitations": [],
+  "items": [
+    {
+      "id": "d7071fddfb26952",
+      "title": "Molecular contact layer advances electrically assisted room-temperature perovskite lasers",
+      "original_title": "A multifunctional self-assembled monolayer for perovskite lasing diodes",
+      "url": "https://doi.org/10.21203/rs.3.rs-11400196/v1",
+      "source": "Research Square",
+      "category": "Science",
+      "published": "2026-10-30T00:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "day",
+      "authors": [
+        "Chuanjiang Qin",
+        "Wei Yuan",
+        "Wenping Wu",
+        "Nobuhiro Takeishi",
+        "Atula S. D. Sandanayaka",
+        "Wei Zhou",
+        "Binhe Li",
+        "Helong Zhu",
+        "Dezhong Zhang",
+        "Pengcheng Li",
+        "LIxiang Wang",
+        "千波矢 安達",
+        "Ifor D. W. Samuel"
+      ],
+      "doi": "https://doi.org/10.21203/rs.3.rs-11400196/v1",
+      "backfill": false,
+      "story_key": "https://doi.org/10.21203/rs.3.rs-11400196/v1",
+      "event_key": "perovskite_lasing_diode_sam",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Integrating electrical injection and optical gain in perovskite thin films is typically limited by non-radiative recombination and optical losses from standard charge-transport layers. Researchers developed an ultrathin self-assembled molecular contact called RS-3 to serve as a multifunctional hole-transport layer. The layer reduced buried-interface losses and preserved cavity structure, enabling room-temperature, current-assisted lasing under synchronized optical-electrical co-injection.",
+      "why": "The design helps bridge the gap toward electrically driven perovskite laser diodes by lowering lasing thresholds under co-injection.",
+      "technical_details": [
+        "Under pulsed optical pumping, the device lased near 550 nm with a 28 μJ cm⁻² threshold.",
+        "Co-injecting pulsed current up to 1.30 kA cm⁻² lowered the threshold to 19 μJ cm⁻² and narrowed the minimum linewidth to 0.25 nm."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.21203/rs.3.rs-11400196/v1",
+          "publisher": "Research Square",
+          "published": "2026-10-30T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "77bc999706bd3ea37ad750a0cdcb97311bf8752c64567541df8d06ac217d909c",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7224302968"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Presents a multifunctional self-assembled monolayer (RS-3) for perovskite lasing diodes achieving current-assisted lasing under synchronized co-injection, fitting materials and nanophotonics interests.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Molecular contact layer advances electrically assisted room-temperature perovskite lasers"
+    },
+    {
+      "id": "049c645175c244a",
+      "title": "Fiber-tip stacked superconducting nanowires enable polarization-resolved photon detection",
+      "original_title": "Fiber‐Integrated Stacking Superconducting Nanowire Single‐Photon Detectors With Orthogonal Polarization Sensitivity and Coincidence Detection",
+      "url": "https://doi.org/10.1002/lpor.72137",
+      "source": "Laser & Photonics Review",
+      "category": "Science",
+      "published": "2026-10-30T00:00:00+00:00",
+      "publication_type": "Research publication · review status unverified",
+      "publication_date_precision": "day",
+      "authors": [
+        "Fan Yang",
+        "Zhen Liu",
+        "Yang‐Hui Huang",
+        "Ma‐Lin Zhong",
+        "Jie Deng",
+        "Yu Nie",
+        "Nai‐Tao Liu",
+        "Sai‐Ying Ru",
+        "Zhen‐Guo Li",
+        "Long Wang",
+        "Yao‐Yao Pan",
+        "Chang‐Wei Sun",
+        "Xuecou Tu",
+        "Labao Zhang",
+        "Xiaoqing Jia",
+        "Lin Kang",
+        "Qingyuan Zhao",
+        "Jian Chen",
+        "Pei‐Heng Wu"
+      ],
+      "doi": "https://doi.org/10.1002/lpor.72137",
+      "backfill": false,
+      "story_key": "https://doi.org/10.1002/lpor.72137",
+      "event_key": "fiber_integrated_snspd",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Optical fibers generally present challenges for scaling on-chip quantum detectors across multiple dimensions. Researchers addressed this by transferring two superconducting nanowire single-photon detector membranes directly onto a fiber facet in orthogonal orientations. The stacked configuration allows simultaneous polarization sensitivity and coincidence detection directly within the fiber without needing bulky external optics.",
+      "why": "The compact architecture expands multi-dimensional quantum photon detection directly inside fiber-optic networks, aiding integrated quantum circuits.",
+      "technical_details": [
+        "Top and bottom layers exhibited 49.6% and 42.4% system detection efficiency at 1550 nm, with polarization extinction ratios of 3.94 and 4.37.",
+        "Combining signals achieved 57.9%–60.7% detection efficiency across 1480–1640 nm, while individual layer readouts yielded an 86 ps coincidence timing jitter."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://doi.org/10.1002/lpor.72137",
+          "publisher": "Laser & Photonics Review",
+          "published": "2026-10-30T00:00:00+00:00",
+          "content_type": "research abstract (OpenAlex metadata)",
+          "content_sha256": "fe9a32934cdfb622af367024b264f51e170b9bad1d0b723616199befd9fdd550",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "day",
+          "metadata_url": "https://openalex.org/W7224832657"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Demonstrates fiber-integrated dual-layer SNSPDs with orthogonal polarization and coincidence detection, highly relevant to quantum photonics.",
+      "development": "experimental",
+      "importance": 4,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Fiber-tip stacked superconducting nanowires enable polarization-resolved photon detection"
+    },
+    {
+      "id": "6771e448c6e9b52",
+      "title": "Nvidia negotiates debt guarantee for Nscale's multi-billion-dollar data center",
+      "original_title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "published": "2026-10-31T01:20:05+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "backfill": false,
+      "story_key": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+      "event_key": "nvidia_nscale_data_center_financing",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Nvidia is reportedly in discussions to guarantee billions of dollars in debt financing for cloud provider Nscale's planned West Virginia data center. The project is intended to host Anthropic, which signed a $44.6 billion contract for the first phase. Under the proposed structure, Nvidia would assume temporary control of the facility and locate new tenants if Nscale defaults on construction loans.",
+      "why": "The guarantee illustrates the financial arrangements semiconductor suppliers are exploring to sustain capital-intensive computing infrastructure as investor skepticism grows.",
+      "technical_details": [
+        "Anthropic's agreement covers an initial 460-megawatt building designed for Nvidia's next-generation Vera Rubin chips, with a second $45 billion phase under discussion.",
+        "The Information reports Nvidia has provided roughly $170 billion in investments and credit support across neocloud and customer infrastructure."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "publisher": "TechCrunch",
+          "published": "2026-10-31T01:20:05+00:00",
+          "content_type": "public article text",
+          "content_sha256": "5c5ea80ef87ae03980681987b7ef30db19b9321ddd2c9fccaa8ddbc980bf5583",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Reports on Nvidia weighing debt financing for a massive AI data center infrastructure project, highly relevant to AI hardware ecosystems.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Nvidia negotiates debt guarantee for Nscale's multi-billion-dollar data center"
+    },
+    {
+      "id": "cdab704693639f7",
+      "title": "Beijing Criticizes US Rule Barring Device Testing in China",
+      "original_title": "Beijing blasts US ban on device testing in China, warns of supply chain disruptions",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372816/beijing-blasts-us-ban-device-testing-china-warns-supply-chain-disruptions",
+      "source": "South China Morning Post",
+      "category": "Global Affairs",
+      "published": "2026-10-31T06:01:12+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Holly Chik",
+        "Holly Chik"
+      ],
+      "backfill": false,
+      "story_key": "https://www.scmp.com/news/china/diplomacy/article/3372816/beijing-blasts-us-ban-device-testing-china-warns-supply-chain-disruptions",
+      "event_key": "us_china_fcc_testing_ban",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "China's Ministry of Commerce expressed firm opposition to a decision by the US Federal Communications Commission to prohibit electronic device testing within China by the year 2028. Beijing stated that the measure harms national interests and undermines bilateral economic relations. Furthermore, the ministry warned that the policy risks disrupting global industrial and supply chains. The reaction highlights ongoing technological decoupling efforts and regulatory friction between the two nations.",
+      "why": "Restrictions on cross-border compliance testing can create significant logistical hurdles and compliance restructuring for international electronics and telecommunications supply chains.",
+      "technical_details": [
+        "The measure specifically targets telecommunications and electronic device testing facilities located inside China."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3372816/beijing-blasts-us-ban-device-testing-china-warns-supply-chain-disruptions",
+          "publisher": "South China Morning Post",
+          "published": "2026-10-31T06:01:12+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "a38e085a416e6ad4ab34f6bca295aa87edd31121a73d14d22474698f7c302cb0",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "China criticizes FCC ban on device testing in China, directly impacting semiconductor and electronics supply chains.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Beijing Criticizes US Rule Barring Device Testing in China"
+    },
+    {
+      "id": "5306db3de7b95fb",
+      "title": "Trump administration pushes stricter voting rules and verification systems ahead of midterms",
+      "original_title": "'Atmosphere of fear': Trump moves to curtail voting rights ahead of the midterms",
+      "url": "https://www.france24.com/en/americas/20261031-united-states-atmosphere-of-fear-trump-moves-to-curtail-voting-rights-ahead-of-the-midterms",
+      "source": "France 24",
+      "category": "U.S. News",
+      "published": "2026-10-31T09:40:54+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Kal BERJIKIAN"
+      ],
+      "backfill": false,
+      "story_key": "https://www.france24.com/en/americas/20261031-united-states-atmosphere-of-fear-trump-moves-to-curtail-voting-rights-ahead-of-the-midterms",
+      "event_key": "us_midterms_2026",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "Ahead of the 2026 midterm elections, the Trump administration has pursued various efforts to alter voting procedures and scrutinize voter rolls. Proposals such as the SAVE Act would require documentary proof of US citizenship with exact name matching, which critics note could disenfranchise millions of Americans lacking such documents. Additionally, the administration has expanded federal databases to verify voter eligibility and brought charges against individuals accused of voting or registering as noncitizens.",
+      "why": "These voting restrictions and verification initiatives have created widespread uncertainty and concern among voters and advocacy groups regarding potential disenfranchisement ahead of crucial congressional elections.",
+      "technical_details": [],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.france24.com/en/americas/20261031-united-states-atmosphere-of-fear-trump-moves-to-curtail-voting-rights-ahead-of-the-midterms",
+          "publisher": "France 24",
+          "published": "2026-10-31T09:40:54+00:00",
+          "content_type": "public article text",
+          "content_sha256": "b355ed1c1a8e88683a3e757421abbf275cd8409abf556630cd6cc41bcbd1297d",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Discusses US midterm elections and voting rights, moderately relevant for domestic policy coverage.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Trump administration pushes stricter voting rules and verification systems ahead of midterms"
+    },
+    {
+      "id": "ab564905b098112",
+      "title": "Interactive requirements gathering improves functional accuracy in AI code synthesis",
+      "original_title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+      "url": "https://arxiv.org/abs/2610.37830",
+      "source": "arXiv AI",
+      "category": "AI",
+      "published": "2026-10-31T04:00:00+00:00",
+      "publication_type": "Preprint · not peer reviewed",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Abhinav Goel, Agostino Capponi, Alfio Gliozzo, Chaitya Shah"
+      ],
+      "backfill": false,
+      "story_key": "https://arxiv.org/abs/2610.37830",
+      "event_key": "ai_smart_contract_synthesis",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "AI agents can generate running code from natural language, but functional drift presents severe risks in immutable smart contracts. A study found standard AI evaluators often overlook critical discrepancies between generated code and intended behavior. To mitigate this, researchers designed an elicitation-first framework where the agent prompts clients with structured clarifying questions and checks contracts against independent executable models before writing code.",
+      "why": "Pre-generation elicitation prevents costly functional errors in autonomous programming where post-deployment patching is impossible or tends to introduce new bugs.",
+      "technical_details": [
+        "Evaluation involved transaction-replay comparison across 600 benchmark tasks against independently generated executable reference keys.",
+        "Automated downstream security patches were found to frequently break previously intended functionality across three separate foundation models."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "live",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arxiv.org/abs/2610.37830",
+          "publisher": "arXiv AI",
+          "published": "2026-10-31T04:00:00+00:00",
+          "content_type": "abstract",
+          "content_sha256": "ad7515867fa6a42ced0b42df36b7fa62bb0e756f4d1cc602b8ec999b80ee7509",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "Evaluates agentic smart contract synthesis and where intent gets lost during AI code generation, relevant to AI capabilities.",
+      "development": "simulation",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Interactive requirements gathering improves functional accuracy in AI code synthesis"
+    },
+    {
+      "id": "4291a62d33bd779",
+      "title": "India criticizes global energy disruptions and sanctions at G20 meeting",
+      "original_title": "India slams global energy disruptions through sanctions, chokepoints",
+      "url": "https://www.thehindu.com/news/national/india-slams-global-energy-disruptions-through-sanctions-chokepoints/article71648072.ece",
+      "source": "The Hindu",
+      "category": "Global Affairs",
+      "published": "2026-10-31T01:33:55+00:00",
+      "publication_type": "News reporting",
+      "publication_date_precision": "timestamp",
+      "authors": [],
+      "backfill": false,
+      "story_key": "https://www.thehindu.com/news/national/india-slams-global-energy-disruptions-through-sanctions-chokepoints/article71648072.ece",
+      "event_key": "18f0a200dfe0efc951f8",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "External Affairs Minister S. Jaishankar criticized global energy market disruptions caused by sanctions and chokepoints during the G20 Foreign Ministers' Meeting in Atlanta. He argued that deliberate attacks on energy infrastructure and selective carve-outs are a calculated strategy that holds prices hostage, disproportionately affecting low-income countries. Mr. Jaishankar also proposed a critical minerals circularity initiative and emphasized the need for reliable supplies of clean cooking fuel, green hydrogen, and advanced energy storage.",
+      "why": "These ongoing global energy market disruptions directly affect international trade stability and energy security, which are vital components of the broader global economy and industrial supply chains.",
+      "technical_details": [
+        "The discussions included proposals for small modular reactors, green hydrogen, biofuels, and a G20 Critical Minerals Circularity Initiative spanning exploration to recycling."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.thehindu.com/news/national/india-slams-global-energy-disruptions-through-sanctions-chokepoints/article71648072.ece",
+          "publisher": "The Hindu",
+          "published": "2026-10-31T01:33:55+00:00",
+          "content_type": "public article text",
+          "content_sha256": "cdb696bd5885d64b6ea6bb4b855895de1a28bf80da93ab544c7a72a0d1a1b21d",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "Provisional content-based assessment",
+      "content_status": "cached_article",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "India criticizes global energy disruptions and sanctions at G20 meeting"
+    },
+    {
+      "id": "283ebb56f708819",
+      "title": "Department of Justice cracks down on AI-assisted student loan fraud",
+      "original_title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "published": "2026-10-30T16:53:49+00:00",
+      "publication_type": "Technology journalism",
+      "publication_date_precision": "timestamp",
+      "authors": [
+        "Ashley Belanger"
+      ],
+      "backfill": false,
+      "story_key": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans",
+      "event_key": "ghost_students_ai_fraud",
+      "continuity": "New",
+      "continuity_note": "Not included in the recent archived briefings.",
+      "summary": "The United States Department of Justice charged five individuals in a federal crackdown targeting fraudsters who use stolen identities to pose as college students and collect student loans. The large-scale operation utilized artificial intelligence and data analysis to help flag fraudulent activities, leading to the seizure of more than $750,000 in cryptocurrency from a network linked to Kenyan nationals.",
+      "why": "This federal enforcement action highlights emerging challenges in securing financial systems against automated, identity-based fraud exploiting educational assistance programs.",
+      "technical_details": [
+        "Assistant Attorney General Colin M. McDonald noted that new fraud-detection measures implemented by the administration aided in uncovering the scheme and executing the international cryptocurrency seizure."
+      ],
+      "ai_summary": true,
+      "summary_status": "ai_grounded",
+      "summary_provenance": {
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "prompt_version": "grounded-brief-v05",
+        "origin": "cache",
+        "evidence_source_ids": [
+          "S1"
+        ]
+      },
+      "daily": true,
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+          "publisher": "Ars Technica",
+          "published": "2026-10-30T16:53:49+00:00",
+          "content_type": "feed excerpt",
+          "content_sha256": "88c01cd69eec828aeb1a00f87eb93446921a8f6fa4aeed00d92f4a9012fcda3a",
+          "retrieved_at": "2026-10-31T23:28:23.741187+00:00",
+          "date_precision": "timestamp"
+        }
+      ],
+      "related_reports": [],
+      "selection_method": "AI editorial assessment",
+      "selection_reason": "DOJ charges individuals in a fraud scheme utilizing AI for student loan identity theft, relevant to AI application consequences.",
+      "development": "news",
+      "importance": 3,
+      "content_status": "substantive_feed_or_abstract",
+      "corroboration": "Single substantive source; independent corroboration not established.",
+      "display_title": "Department of Justice cracks down on AI-assisted student loan fraud"
+    }
+  ]
+}
